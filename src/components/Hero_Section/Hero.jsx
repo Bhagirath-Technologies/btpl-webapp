@@ -9,14 +9,16 @@ import 'swiper/css/navigation';
 // import required modules
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import { Link } from 'react-router-dom';
-
+const swiperStyles = {
+    height: '100%',
+  };
 export default function App() {
     return (
         <>
             {/* <!-- Banner START --> */}
             <div class="tiny-slider dots-white dots-bordered dots-end arrow-bordered arrow-large arrow-round arrow-start-bottom arrow-md-none">
                 <div class="tiny-slider-inner h-500 h-sm-700 h-xl-900" data-autoplay="true" data-autoplaytime="7000" data-gutter="0" data-arrow="true" data-dots="true" data-items="1">
-                    <Swiper
+                    <Swiper style={swiperStyles}
                         spaceBetween={30}
                         centeredSlides={true}
                         autoplay={{
