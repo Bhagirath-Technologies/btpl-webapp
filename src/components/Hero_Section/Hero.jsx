@@ -8,6 +8,7 @@ import 'swiper/css/navigation';
 // import './styles.css';
 // import required modules
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import { Link } from 'react-router-dom';
 
 export default function App() {
     return (
@@ -43,7 +44,7 @@ export default function App() {
                                                 <h5 class="animate__animated animate__fadeInUp animate__delay-1s text-white mb-1 mb-md-4">Branding, design and digital based</h5>
                                                 <h2 class="display-1 text-white-stroke text-primary-shadow d-block animate__animated animate__fadeInUp animate__delay-2s">Agency</h2>
                                                 <p class="animate__animated animate__fadeInUp animate__delay-3s lead text-white">We're digital creative agency. We help our customers better manage their web presence in order to achieve greater success online.</p>
-                                                <div class="animate__animated animate__fadeInUp mt-4 animate__delay-4s"><a href="#" class="btn btn-line text-white">How it works</a></div>
+                                                <div class="animate__animated animate__fadeInUp mt-4 animate__delay-4s"><Link to="#" class="btn btn-line text-white">How it works</Link></div>
                                             </div>
                                         </div>
                                     </div>
@@ -65,7 +66,7 @@ export default function App() {
                                                 <h5 class="animate__animated animate__fadeInUp animate__delay-1s text-white mt-2 my-md-4">Folio digital Agency</h5>
                                                 <h2 class="animate__animated animate__fadeInUp animate__delay-2s display-4 fw-bold text-white"><span class="text-white-stroke text-primary-shadow d-block">Creating Real</span>Business Value</h2>
                                                 <p class="animate__animated animate__fadeInUp animate__delay-3s lead text-white d-none d-sm-block">We transform your perception into an excellent website</p>
-                                                <div class="animate__animated animate__fadeInUp animate__delay-4s mt-3"><a href="#" class="btn btn-primary">Discuss a Project</a></div>
+                                                <div class="animate__animated animate__fadeInUp animate__delay-4s mt-3"><Link to="#" class="btn btn-primary">Discuss a Project</Link></div>
                                             </div>
                                         </div>
                                     </div>
