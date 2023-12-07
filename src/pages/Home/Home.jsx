@@ -93,7 +93,7 @@ const Home = () => {
                         </div>
 
                         {/* <!-- Search button close START --> */}
-                        <Link class="position-fixed top-0 end-0 m-3 m-md-5 btn btn-white btn-round zoom-hover" data-bs-toggle="collapse" to="javascript:void(0)" data-bs-target="#search-open" aria-expanded="true">
+                        <Link class="position-fixed top-0 end-0 m-3 m-md-5 btn btn-white btn-round zoom-hover" data-bs-toggle="collapse" to="#" data-bs-target="#search-open" aria-expanded="true">
                             <i class="fas fa-times p-0"></i>
                         </Link>
                         {/* <!-- Search button close END --> */}
@@ -558,7 +558,7 @@ Header START --> */}
                         <div class="nav flex-nowrap align-items-center">
                             {/* <!-- Nav Search Opener--> */}
                             <div class="nav-item">
-                                <Link class="nav-link ms-2" data-bs-toggle="collapse" to="javascript:void(0)" data-bs-target="#search-open">
+                                <Link class="nav-link ms-2" data-bs-toggle="collapse" to="#" data-bs-target="#search-open">
                                     <i class="bi bi-search display-9 "> </i>
                                 </Link>
                             </div>
@@ -891,7 +891,7 @@ Portfolio START --> */}
                                             <Link to="#" class="card card-metro">
                                                 {/* <!-- Card Image --> */}
                                                 <div class="card-image">
-                                                    <img src="assets/images/portfolio/01.jpg" alt="card image" />
+                                                    <img src="assets/images/portfolio/01.jpg" alt="" />
                                                 </div>
                                                 {/* <!-- Card Overlay --> */}
                                                 <div class="card-img-overlay d-flex flex-column">
@@ -910,7 +910,7 @@ Portfolio START --> */}
                                             <Link to="#" class="card card-metro">
                                                 {/* <!-- Card Image --> */}
                                                 <div class="card-image">
-                                                    <img src="assets/images/portfolio/02.jpg" alt="card image" />
+                                                    <img src="assets/images/portfolio/02.jpg" alt="" />
                                                 </div>
                                                 {/* <!-- Card Overlay --> */}
                                                 <div class="card-img-overlay d-flex flex-column">
@@ -929,7 +929,7 @@ Portfolio START --> */}
                                             <Link to="#" class="card card-metro">
                                                 {/* <!-- Card Image --> */}
                                                 <div class="card-image">
-                                                    <img src="assets/images/portfolio/03.jpg" alt="card image" />
+                                                    <img src="assets/images/portfolio/03.jpg" alt="" />
                                                 </div>
                                                 {/* <!-- Card Overlay --> */}
                                                 <div class="card-img-overlay d-flex flex-column">
@@ -948,7 +948,7 @@ Portfolio START --> */}
                                             <Link to="#" class="card card-metro">
                                                 {/* <!-- Card Image --> */}
                                                 <div class="card-image">
-                                                    <img src="assets/images/portfolio/04.jpg" alt="card image" />
+                                                    <img src="assets/images/portfolio/04.jpg" alt="" />
                                                 </div>
                                                 {/* <!-- Card Overlay --> */}
                                                 <div class="card-img-overlay d-flex flex-column">
@@ -967,7 +967,7 @@ Portfolio START --> */}
                                             <Link to="#" class="card card-metro">
                                                 {/* <!-- Card Image --> */}
                                                 <div class="card-image">
-                                                    <img src="assets/images/portfolio/05.jpg" alt="card image" />
+                                                    <img src="assets/images/portfolio/05.jpg" alt="" />
                                                 </div>
                                                 {/* <!-- Card Overlay --> */}
                                                 <div class="card-img-overlay d-flex flex-column">
@@ -986,7 +986,7 @@ Portfolio START --> */}
                                             <Link to="#" class="card card-metro">
                                                 {/* <!-- Card Image --> */}
                                                 <div class="card-image">
-                                                    <img src="assets/images/portfolio/06.jpg" alt="card image" />
+                                                    <img src="assets/images/portfolio/06.jpg" alt="" />
                                                 </div>
                                                 {/* <!-- Card Overlay --> */}
                                                 <div class="card-img-overlay d-flex flex-column">
@@ -1005,7 +1005,7 @@ Portfolio START --> */}
                                             <Link to="#" class="card card-metro">
                                                 {/* <!-- Card Image --> */}
                                                 <div class="card-image">
-                                                    <img src="assets/images/portfolio/07.jpg" alt="card image" />
+                                                    <img src="assets/images/portfolio/07.jpg" alt="" />
                                                 </div>
                                                 {/* <!-- Card Overlay --> */}
                                                 <div class="card-img-overlay d-flex flex-column">
