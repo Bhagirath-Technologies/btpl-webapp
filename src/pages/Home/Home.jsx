@@ -150,8 +150,7 @@ const Home = () => {
             </div>
             {/* <!-- Login Popup END --> */}
 
-            {/* <!-- =======================
-Header START --> */}
+            {/* <!-- Header START --> */}
             <header class="navbar-transparent navbar-sticky-bg-dark navbar-sticky">
 
                 {/* <!-- Navbar top START --> */}
