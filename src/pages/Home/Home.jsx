@@ -713,44 +713,45 @@ const Home = () => {
                             </div>
                         </div>
                         <div class="row d-flex">
-                            <div className="col-xxl-5 col-xl-5 col-lg-5 col-12"></div>
+                            <div className="col-xxl-5 col-xl-5 col-lg-5 col-12">
+                            </div>
                             <div className="col-xxl-7 col-xl-7 col-lg-7 col-12 d-flex">
                                 {/* <!-- Service Item 1--> */}
-                            <div class="col-12 col-lg-4 mb-5 mb-lg-0">
-                                <h2 class="display-1 text-dark-stroke text-hover-fill text-primary-shadow">W</h2>
-                                <h5 class="mb-4">Web Development</h5>
-                                <div class="list-group list-group-borderless list-unstyled">
-                                    <Link to="#" class="list-group-item bg-transparent">Web Development</Link>
-                                    <Link to="#" class="list-group-item bg-transparent">Front-end Development</Link>
-                                    <Link to="#" class="list-group-item bg-transparent">Back-end Development</Link>
-                                    <Link to="#" class="list-group-item bg-transparent">Apps & Game</Link>
-                                    <Link to="#" class="list-group-item bg-transparent">E-commerce</Link>
+                                <div class="col-12 col-lg-4 mb-5 mb-lg-0">
+                                    <h2 class="display-1 text-dark-stroke text-hover-fill text-primary-shadow">W</h2>
+                                    <h5 class="mb-4">Web Development</h5>
+                                    <div class="list-group list-group-borderless list-unstyled">
+                                        <Link to="#" class="list-group-item bg-transparent">Web Development</Link>
+                                        <Link to="#" class="list-group-item bg-transparent">Front-end Development</Link>
+                                        <Link to="#" class="list-group-item bg-transparent">Back-end Development</Link>
+                                        <Link to="#" class="list-group-item bg-transparent">Apps & Game</Link>
+                                        <Link to="#" class="list-group-item bg-transparent">E-commerce</Link>
+                                    </div>
                                 </div>
-                            </div>
-                            {/* <!-- Service Item 2--> */}
-                            <div class="col-12 col-lg-4 mb-5 mb-lg-0">
-                                <h2 class="display-1 text-dark-stroke text-hover-fill text-primary-shadow">E</h2>
-                                <h5 class="mb-4">E-commerce & Graphics</h5>
-                                <div class="list-group list-group-borderless list-unstyled">
-                                    <Link to="#" class="list-group-item bg-transparent">E-Commerce platforms</Link>
-                                    <Link to="#" class="list-group-item bg-transparent">Apps & mobile</Link>
-                                    <Link to="#" class="list-group-item bg-transparent">User Experience</Link>
-                                    <Link to="#" class="list-group-item bg-transparent">Motion Design</Link>
-                                    <Link to="#" class="list-group-item bg-transparent">Interface Design</Link>
+                                {/* <!-- Service Item 2--> */}
+                                <div class="col-12 col-lg-4 mb-5 mb-lg-0">
+                                    <h2 class="display-1 text-dark-stroke text-hover-fill text-primary-shadow">E</h2>
+                                    <h5 class="mb-4">E-commerce & Graphics</h5>
+                                    <div class="list-group list-group-borderless list-unstyled">
+                                        <Link to="#" class="list-group-item bg-transparent">E-Commerce platforms</Link>
+                                        <Link to="#" class="list-group-item bg-transparent">Apps & mobile</Link>
+                                        <Link to="#" class="list-group-item bg-transparent">User Experience</Link>
+                                        <Link to="#" class="list-group-item bg-transparent">Motion Design</Link>
+                                        <Link to="#" class="list-group-item bg-transparent">Interface Design</Link>
+                                    </div>
                                 </div>
-                            </div>
-                            {/* <!-- Service Item 3--> */}
-                            <div class="col-12 col-lg-4 mb-5 mb-lg-0">
-                                <h2 class="display-1 text-dark-stroke text-hover-fill text-primary-shadow">B</h2>
-                                <h5 class="mb-4">Branding</h5>
-                                <div class="list-group list-group-borderless list-unstyled">
-                                    <Link to="#" class="list-group-item bg-transparent">Brand Identity</Link>
-                                    <Link to="#" class="list-group-item bg-transparent">Art Direction</Link>
-                                    <Link to="#" class="list-group-item bg-transparent">Visual Design</Link>
-                                    <Link to="#" class="list-group-item bg-transparent">Illustration & Iconography</Link>
-                                    <Link to="#" class="list-group-item bg-transparent">Content / Video</Link>
+                                {/* <!-- Service Item 3--> */}
+                                <div class="col-12 col-lg-4 mb-5 mb-lg-0">
+                                    <h2 class="display-1 text-dark-stroke text-hover-fill text-primary-shadow">B</h2>
+                                    <h5 class="mb-4">Branding</h5>
+                                    <div class="list-group list-group-borderless list-unstyled">
+                                        <Link to="#" class="list-group-item bg-transparent">Brand Identity</Link>
+                                        <Link to="#" class="list-group-item bg-transparent">Art Direction</Link>
+                                        <Link to="#" class="list-group-item bg-transparent">Visual Design</Link>
+                                        <Link to="#" class="list-group-item bg-transparent">Illustration & Iconography</Link>
+                                        <Link to="#" class="list-group-item bg-transparent">Content / Video</Link>
+                                    </div>
                                 </div>
-                            </div>
                             </div>
                         </div>
                         {/* <!-- row END --> */}
