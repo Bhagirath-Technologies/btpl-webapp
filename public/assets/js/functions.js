@@ -808,127 +808,127 @@ e.init();
 
 /*****  START: COLOR SWITCHER AND RTL BUTTON SNIPPET  *****/
 
-var rtlBtn = document.createElement('a');
-rtlBtn.classList.add("rtlswitcher");
-rtlBtn.setAttribute('href',"https://folio.webestica.com/rtl");
-rtlBtn.setAttribute('target', '_blank');
-rtlBtn.innerHTML = "<i class='bi bi-toggle2-off'></i> <span>Switch to RTL</span> ";
+// var rtlBtn = document.createElement('a');
+// rtlBtn.classList.add("rtlswitcher");
+// rtlBtn.setAttribute('href',"https://folio.webestica.com/rtl");
+// rtlBtn.setAttribute('target', '_blank');
+// rtlBtn.innerHTML = "<i class='bi bi-toggle2-off'></i> <span>Switch to RTL</span> ";
 
-var ColorSwitcher = (function() {
+// var ColorSwitcher = (function() {
     
-    function initColorSwitcher(colorSheets) {
-        var tempCon, colorSwitcher, controlBtn, colorSwitchs, linkHolderHtml, linkHolder;
+//     function initColorSwitcher(colorSheets) {
+//         var tempCon, colorSwitcher, controlBtn, colorSwitchs, linkHolderHtml, linkHolder;
 
-        if (Object.prototype.toString.call(colorSheets) !== "[object Array]") {
-            return;
-        }
+//         if (Object.prototype.toString.call(colorSheets) !== "[object Array]") {
+//             return;
+//         }
 
-        tempCon = document.createDocumentFragment();
+//         tempCon = document.createDocumentFragment();
         
-        colorSwitcher = document.createElement("div");
-        colorSwitcher.classList.add("ColorSwitcher");
+//         colorSwitcher = document.createElement("div");
+//         colorSwitcher.classList.add("ColorSwitcher");
 
-        var colorHead = document.createElement("h6");
-        var colorText = document.createElement("p");
-        colorHead.innerHTML = "Color Switcher";
+//         var colorHead = document.createElement("h6");
+//         var colorText = document.createElement("p");
+//         colorHead.innerHTML = "Color Switcher";
         // colorText.innerHTML = "Select from options below to check template with color variations.";
-        colorText.innerHTML = "Click on any color from the palette to see live color scheme change in demo.";
-        colorSwitcher.appendChild(colorHead);
-        colorSwitcher.appendChild(colorText);
+//         colorText.innerHTML = "Click on any color from the palette to see live color scheme change in demo.";
+//         colorSwitcher.appendChild(colorHead);
+//         colorSwitcher.appendChild(colorText);
 
-        controlBtn = document.createElement("button");
-        controlBtn.classList.add("ColorSwitcher__control");
+//         controlBtn = document.createElement("button");
+//         controlBtn.classList.add("ColorSwitcher__control");
 
-        colorSwitchs = document.createElement("div");
-        colorSwitchs.classList.add("ColorSwitcher__switchs");
+//         colorSwitchs = document.createElement("div");
+//         colorSwitchs.classList.add("ColorSwitcher__switchs");
 
-        linkHolderHtml = document.createElement("link");
-        linkHolderHtml.rel = "stylesheet";
-        linkHolderHtml.id = "ColorSwitcherLinkHolder";
-        document.head.appendChild(linkHolderHtml);
+//         linkHolderHtml = document.createElement("link");
+//         linkHolderHtml.rel = "stylesheet";
+//         linkHolderHtml.id = "ColorSwitcherLinkHolder";
+//         document.head.appendChild(linkHolderHtml);
 
-        linkHolder = document.getElementById("ColorSwitcherLinkHolder");
+//         linkHolder = document.getElementById("ColorSwitcherLinkHolder");
 
-        colorSheets.forEach(function(colorSheet, index) {
-            var colorSwitch;
+//         colorSheets.forEach(function(colorSheet, index) {
+//             var colorSwitch;
 
-            if (colorSheet.color && colorSheet.title && colorSheet.href) {
-                colorSwitch = document.createElement("button");
+//             if (colorSheet.color && colorSheet.title && colorSheet.href) {
+//                 colorSwitch = document.createElement("button");
 
-                colorSwitch.classList.add("ColorSwitcher__switch")
-                colorSwitch.title = colorSheet.title;
-                colorSwitch.dataset.index = index;
-                colorSwitch.style.backgroundColor = colorSheet.color;
+//                 colorSwitch.classList.add("ColorSwitcher__switch")
+//                 colorSwitch.title = colorSheet.title;
+//                 colorSwitch.dataset.index = index;
+//                 colorSwitch.style.backgroundColor = colorSheet.color;
                 
-                colorSwitchs.appendChild(colorSwitch);
-            }
-        });
+//                 colorSwitchs.appendChild(colorSwitch);
+//             }
+//         });
 
-        colorSwitchs.addEventListener("click", function(event) {
-            var index;
+//         colorSwitchs.addEventListener("click", function(event) {
+//             var index;
 
-            if (event.target.nodeName !== "BUTTON") {
-                return;
-            }
+//             if (event.target.nodeName !== "BUTTON") {
+//                 return;
+//             }
 
-            index = event.target.dataset.index;
-            linkHolder.href = colorSheets[index].href
+//             index = event.target.dataset.index;
+//             linkHolder.href = colorSheets[index].href
 
-            return false;
-        });
+//             return false;
+//         });
 
-        controlBtn.addEventListener("click", function(event) {
-            event.target.parentElement.classList.toggle("ColorSwitcher--open");
+//         controlBtn.addEventListener("click", function(event) {
+//             event.target.parentElement.classList.toggle("ColorSwitcher--open");
 
-            return false;
-        });
+//             return false;
+//         });
 
-        colorSwitcher.appendChild(controlBtn);
-        colorSwitcher.appendChild(colorSwitchs);
-        tempCon.appendChild(colorSwitcher);
-        tempCon.appendChild(rtlBtn);
-        document.body.appendChild(tempCon);
-    }
+//         colorSwitcher.appendChild(controlBtn);
+//         colorSwitcher.appendChild(colorSwitchs);
+//         tempCon.appendChild(colorSwitcher);
+//         tempCon.appendChild(rtlBtn);
+//         document.body.appendChild(tempCon);
+//     }
 
-    return {
-        init: initColorSwitcher
-    };
-})();
+//     return {
+//         init: initColorSwitcher
+//     };
+// })();
 
- var colorSheets = [
-    {
-        color: "#3d6dff",
-        title: "Switch to blue",
-        href: "assets/css/colors/blue.css"
-    },
-    {
-        color: "#ed692f",
-        title: "Switch to orange",
-        href: "assets/css/colors/orange.css"
-    },
-    {
-        color: "#930693",
-        title: "Switch to purple",
-        href: "assets/css/colors/purple.css"
-    },
-    {
-        color: "#be914b",
-        title: "Switch to brown",
-        href: "assets/css/colors/brown.css"
-    },
-    {
-        color: "#509151",
-        title: "Switch to green",
-        href: "assets/css/colors/green.css"
-    },
-    {
-        color: "#dab600",
-        title: "Switch to yellow",
-        href: "assets/css/colors/yellow.css"
-    }
+//  var colorSheets = [
+//     {
+//         color: "#3d6dff",
+//         title: "Switch to blue",
+//         href: "assets/css/colors/blue.css"
+//     },
+//     {
+//         color: "#ed692f",
+//         title: "Switch to orange",
+//         href: "assets/css/colors/orange.css"
+//     },
+//     {
+//         color: "#930693",
+//         title: "Switch to purple",
+//         href: "assets/css/colors/purple.css"
+//     },
+//     {
+//         color: "#be914b",
+//         title: "Switch to brown",
+//         href: "assets/css/colors/brown.css"
+//     },
+//     {
+//         color: "#509151",
+//         title: "Switch to green",
+//         href: "assets/css/colors/green.css"
+//     },
+//     {
+//         color: "#dab600",
+//         title: "Switch to yellow",
+//         href: "assets/css/colors/yellow.css"
+//     }
     
-    ];
+//     ];
 
-ColorSwitcher.init(colorSheets);
+// ColorSwitcher.init(colorSheets);
 
 /*****  END: COLOR SWITCHER AND RTL BUTTON SNIPPET  *****/
