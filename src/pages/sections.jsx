@@ -3,9 +3,7 @@ import React from 'react'
 const sections = () => {
     return (
         <>
-           
-
-            {/* <!-- =======================Features START --> */}
+            {/* <!-- ================Features START============== --> */}
             <section class="bg-dark position-relative pattern-overlay-5 mx-xl-3 mx-xxxl-9 rounded">
                 <div class="container">
                     <div class="row">
@@ -46,11 +44,9 @@ const sections = () => {
                     {/* <!-- row END --> */}
                 </div>
             </section>
-            {/* <!-- =======================
-Features END --> */}
+            {/* <!-- ================Features END =============== --> */}
 
-            {/* <!-- =======================
-Testimonials START --> */}
+            {/* <!-- ================Testimonials START =========--> */}
             <section class="p-0">
                 <div class="container">
                     <div class="row position-relative">
@@ -62,7 +58,6 @@ Testimonials START --> */}
                         <div class="col-md-10 mx-auto text-center pb-7">
                             <div class="tiny-slider arrow-md-none arrow-bordered arrow-large arrow-round">
                                 <div class="tiny-slider-inner" data-gutter="0" data-edge="50" data-autoplay="false" data-arrow="true" data-dots="false" data-items="1">
-
                                     {/* <!-- Testimonial item --> */}
                                     <div class="item px-3 px-md-6">
                                         <div class="position-absolute top-50 start-50 translate-middle display-1 text-body z-index-n9 opacity-1"><i class="fas fa-quote-left"></i></div>
@@ -71,7 +66,6 @@ Testimonials START --> */}
                                         <h6 class="mb-0 mt-3">Adam Ross</h6>
                                         <span class="small">Software Developer</span>
                                     </div>
-
                                     {/* <!-- Testimonial item --> */}
                                     <div class="item px-3 px-md-6">
                                         <div class="position-absolute top-50 start-50 translate-middle display-1 text-body z-index-n9 opacity-1"><i class="fas fa-quote-left"></i></div>
@@ -80,7 +74,6 @@ Testimonials START --> */}
                                         <h6 class="mb-0 mt-3">Allen Smith</h6>
                                         <span class="small">Founder and CEO</span>
                                     </div>
-
                                     {/* <!-- Testimonial item --> */}
                                     <div class="item px-3 px-md-6">
                                         <div class="position-absolute top-50 start-50 translate-middle display-1 text-body z-index-n9 opacity-1"><i class="fas fa-quote-left"></i></div>
@@ -89,7 +82,6 @@ Testimonials START --> */}
                                         <h6 class="mb-0 mt-3">Jessica Mores</h6>
                                         <span class="small">Human Resource</span>
                                     </div>
-
                                 </div>
                             </div>
                         </div>
@@ -97,11 +89,9 @@ Testimonials START --> */}
                     {/* <!-- row END --> */}
                 </div>
             </section>
-            {/* <!-- =======================
-Testimonials END --> */}
+            {/* <!-- ================Testimonials END ============--> */}
 
-            {/* <!-- =======================
-Portfolio START --> */}
+            {/* <!-- ===================Portfolio START ===========--> */}
             <section class="pt-4">
                 <div class="container">
                     {/* <!-- Title --> */}
@@ -259,11 +249,9 @@ Portfolio START --> */}
                     {/* <!-- row END --> */}
                 </div>
             </section>
-            {/* <!-- =======================
-Portfolio END --> */}
+            {/* <!-- ===================Portfolio END =============--> */}
 
-            {/* <!-- =======================
-Steps START --> */}
+            {/* <!-- ===================Steps START ===============--> */}
             <section>
                 <div class="container">
                     <div class="row">
@@ -303,11 +291,9 @@ Steps START --> */}
                     </div>
                 </div>
             </section>
-            {/* <!-- =======================
-Steps END --> */}
+            {/* <!-- ================== Steps END =================--> */}
 
-            {/* <!-- =======================
-Clients START --> */}
+            {/* <!-- ================= Clients START =============--> */}
             <section class="pt-0">
                 <div class="container">
                     <div class="row">
@@ -391,11 +377,9 @@ Clients START --> */}
                     {/* <!-- row END --> */}
                 </div>
             </section>
-            {/* <!-- =======================
-Clients END --> */}
+            {/* <!-- ================= Clients END ===============--> */}
 
-            {/* <!-- =======================
-Action box START --> */}
+            {/* <!-- ================= Action box START =============--> */}
             <section class="pt-0 position-relative">
                 {/* <!-- Shape Decoration START --> */}
                 <figure class="position-absolute start-0 bottom-0 ms-n6 mb-n4 z-index-9 d-none d-lg-block">
@@ -456,11 +440,9 @@ Action box START --> */}
                             !-- row END --> */}
                 </div>
             </section>
-            {/* <!-- =======================
-Action box END -->
+            {/* <!-- =================  Action box END  ===============-->
 
-                <!-- =======================
-Newsletter START--> */}
+                <!-- ================== Newsletter START ==============--> */}
             <section class="bg-dark position-relative bg-dark-overlay-4">
                 <div class="container">
                     <div class="row justify-content-between">
@@ -482,13 +464,11 @@ Newsletter START--> */}
                     {/* <!-- row END --> */}
                 </div>
             </section>
-            {/* <!-- =======================
-Newsletter END--> */}
+            {/* <!-- ================== Newsletter END ================--> */}
 
             <footer class="bg-dark footer-sticky pt-6">
                 <div class="container">
                     <div class="row">
-
                         {/* <!-- Footer Widget 1 --> */}
                         <div class="col-md-6 col-lg-3 mb-5">
                             <h3 class="text-white">Folio<span class="text-primary">.</span></h3>
@@ -502,7 +482,6 @@ Newsletter END--> */}
                                 </div>
                             </div>
                         </div>
-
                         {/* <!-- Footer Widget 2 --> */}
                         <div class="col-md-6 col-lg-3 mb-5">
                             <h5 class="mb-4 text-white">Our offices</h5>
@@ -515,7 +494,6 @@ Newsletter END--> */}
                             <address class="mb-0">2492 Centennial NW, Acworth, GA, 30102</address>
                             <p>Call: <Link to="#" class="text-body"><u>(678) 324-1251</u> (Toll-free)</Link> </p>
                         </div>
-
                         {/* <!-- Footer Widget 3 --> */}
                         <div class="col-md-6 col-lg-3 mb-5">
                             <h5 class="mb-4 text-white">Useful links</h5>
@@ -558,7 +536,6 @@ Newsletter END--> */}
                     </div>
                     {/* <!-- Divider --> */}
                     <div class="divider-light opacity-1"></div>
-
                     {/* <!-- Footer copyright START --> */}
                     <div class="row align-items-center justify-content-md-between py-4">
                         <div class="col-md-6">
@@ -576,21 +553,16 @@ Newsletter END--> */}
                     {/* <!-- Footer copyright END --> */}
                 </div>
             </footer>
-            {/* <!-- =======================
-Footer END --> */}
-
+            {/* <!-- ================= Footer END ============ --> */}
             {/* <!-- Custom cursor --> */}
             <div class="cursor-dot-outline"></div>
             <div class="cursor-dot"></div>
-
             {/* <!-- Back to top --> */}
             <div class="back-top">
                 <div class="scroll-line"></div>
                 <span class="scoll-text">Go Up</span>
             </div>
-
         </>
     )
 }
-
 export default sections;
