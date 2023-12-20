@@ -212,7 +212,7 @@ const Home = () => {
                     <div class="container">
                         {/* <!-- Logo START --> */}
                         <Link class="navbar-brand" to="/">
-                           <img src='../assets/images/logos/Bhagirath Technologies Logo White.png' width="110px"/>
+                           <img src='../assets/images/logos/Bhagirath Technologies Logo White.png' alt="logo" width="110px"/>
                         </Link>
                         {/* <!-- Logo END --> */}
 
