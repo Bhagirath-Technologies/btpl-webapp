@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Hero from '../../components/Hero_Section/Hero';
+import ServiceCard from '../../components/Hero_Section/ServiceCards';
+import './home.css';
 const Home = () => {
     return (
         <>
@@ -212,7 +214,7 @@ const Home = () => {
                     <div class="container">
                         {/* <!-- Logo START --> */}
                         <Link class="navbar-brand" to="/">
-                           <img src='../assets/images/logos/Bhagirath Technologies Logo White.png' alt="logo" width="110px"/>
+                            <img src='../assets/images/logos/Bhagirath Technologies Logo White.png' alt="logo" width="110px" />
                         </Link>
                         {/* <!-- Logo END --> */}
 
@@ -709,7 +711,8 @@ const Home = () => {
                             </div>
                         </div>
                         <div class="row d-flex">
-                            <div className="col-xxl-5 col-xl-5 col-lg-5 col-12">
+                            <div className="col-xxl-5 col-xl-5 col-lg-5 col-12 pe-5 pb-5">
+                                <ServiceCard/>
                             </div>
                             <div className="col-xxl-7 col-xl-7 col-lg-7 col-12 d-flex">
                                 {/* <!-- Service Item 1--> */}
