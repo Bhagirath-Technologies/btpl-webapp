@@ -748,7 +748,7 @@ const Home = () => {
                                         <Link to="#" class="list-group-item bg-transparent">Art Direction</Link>
                                         <Link to="#" class="list-group-item bg-transparent">Visual Design</Link>
                                         <Link to="#" class="list-group-item bg-transparent">Illustration & Iconography</Link>
-                                        <Link to="#" class="list-group-item bg-transparent">Content / Video</Link>
+                                        <Link to="#" class="list-group-item bg-transparent">Content / Video Editing</Link>
                                     </div>
                                 </div>
                             </div>
