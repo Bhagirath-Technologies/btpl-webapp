@@ -21,7 +21,7 @@ const serviceData = [
         id:"2",
         reviews:"25",
         title: "Digital Marketing",
-        image: "https://img.freepik.com/free-photo/person-front-computer-working-html_23-2150040428.jpg?w=1060&t=st=1703148317~exp=1703148917~hmac=78f60c8485d8072d88a2cb077cd347732717fbf6c3e829d946d812fb6eaa0fce",
+        image: "./assets/images/home/services_cards/website-design2.jpg",
         icon: "../assets/images/icons/Agro Commodities/rice.webp",
         discount:"25%",
         desc: [
@@ -38,8 +38,62 @@ const serviceData = [
       {
         id:"3",
         reviews:"25",
-        title: "Digital Marketing",
-        image: "https://img.freepik.com/free-photo/person-front-computer-working-html_23-2150040428.jpg?w=1060&t=st=1703148317~exp=1703148917~hmac=78f60c8485d8072d88a2cb077cd347732717fbf6c3e829d946d812fb6eaa0fce",
+        title: "Software Development",
+        image: "./assets/images/home/services_cards/website-design3.jpg",
+        icon: "../assets/images/icons/Agro Commodities/rice.webp",
+        discount:"25%",
+        desc: [
+            "100% Leads",
+            "Guranted Digital Presence",
+          ],
+        properties: [
+          "Trusted By 250+ Clients",
+          "100% Full Service Assistance",
+          "15+ TOOLS & RESOURCES",
+        ],
+        link:"#",
+      },
+      {
+        id:"4",
+        reviews:"25",
+        title: "Web Development",
+        image: "./assets/images/home/services_cards/website-design4.png",
+        icon: "../assets/images/icons/Agro Commodities/rice.webp",
+        discount:"25%",
+        desc: [
+            "100% Leads",
+            "Guranted Digital Presence",
+          ],
+        properties: [
+          "Trusted By 250+ Clients",
+          "100% Full Service Assistance",
+          "15+ TOOLS & RESOURCES",
+        ],
+        link:"#",
+      },
+      {
+        id:"5",
+        reviews:"25",
+        title: "SEO",
+        image: "./assets/images/home/services_cards/social media marketing.png",
+        icon: "../assets/images/icons/Agro Commodities/rice.webp",
+        discount:"25%",
+        desc: [
+            "100% Leads",
+            "Guranted Digital Presence",
+          ],
+        properties: [
+          "Trusted By 250+ Clients",
+          "100% Full Service Assistance",
+          "15+ TOOLS & RESOURCES",
+        ],
+        link:"#",
+      },
+      {
+        id:"6",
+        reviews:"25",
+        title: "Graphics Design",
+        image: "./assets/images/home/services_cards/graphics-design.png",
         icon: "../assets/images/icons/Agro Commodities/rice.webp",
         discount:"25%",
         desc: [

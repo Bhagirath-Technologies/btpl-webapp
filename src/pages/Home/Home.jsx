@@ -716,7 +716,7 @@ const Home = () => {
                             <div className="col-xxl-5 col-xl-5 col-lg-5 col-12 pe-5 pb-5">
                                 <ServiceCard serviceDetail={serviceDetail}/>
                             </div>
-                            <div className="col-xxl-7 col-xl-7 col-lg-7 col-12 d-flex">
+                            <div className="col-xxl-7 col-xl-7 col-lg-7 col-12 row mobile_center">
                                 {/* <!-- Service Item 1--> */}
                                 <div class="col-12 col-lg-4 mb-5 mb-lg-0">
                                     <h2 class="display-1 text-dark-stroke text-hover-fill text-primary-shadow">W</h2>
