@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Hero from '../../components/Hero_Section/Hero';
 import ServiceCard from '../../components/Hero_Section/ServiceCards';
+import serviceData from '../../data/ServiceCarddata';
 import './home.css';
 const Home = () => {
+    const [serviceDetail,setServiceDetail]=useState(serviceData);
     return (
         <>
             {/* <!-- Pre loader --> */}
@@ -712,7 +714,7 @@ const Home = () => {
                         </div>
                         <div class="row d-flex">
                             <div className="col-xxl-5 col-xl-5 col-lg-5 col-12 pe-5 pb-5">
-                                <ServiceCard/>
+                                <ServiceCard serviceDetail={serviceDetail}/>
                             </div>
                             <div className="col-xxl-7 col-xl-7 col-lg-7 col-12 d-flex">
                                 {/* <!-- Service Item 1--> */}
@@ -764,6 +766,48 @@ const Home = () => {
                 </section>
                 {/* <!-- =======================Service END======================
              --> */}
+                         {/* <!-- ================Features START============== --> */}
+            <section class="bg-dark position-relative pattern-overlay-5 mx-xl-3 mx-xxxl-9 rounded">
+                <div class="container">
+                    <div class="row">
+                        {/* <!-- Title --> */}
+                        <div class="col-md-5 mb-5">
+                            <h2 class="display-5 text-white-stroke">Our every day business</h2>
+                            <p>Building a strong brand. Distinctive, recognizable and consistent. Effective communication campaigns that activate your target group.</p>
+                        </div>
+                        <div class="col-md-7 mb-5">
+                            <div class="row">
+                                {/* <!-- Feature item --> */}
+                                <div class="col-sm-6 mb-5">
+                                    <i class="display-6 text-primary bi bi-laptop"></i>
+                                    <h5 class="text-white my-3">Digital Development</h5>
+                                    <p class="text-secondary">Smart use of data & technology for the automation of your business.</p>
+                                </div>
+                                {/* <!-- Feature item --> */}
+                                <div class="col-sm-6 mb-5">
+                                    <i class="display-6 text-primary bi bi-bar-chart-line"></i>
+                                    <h5 class="text-white my-3">Online Marketing</h5>
+                                    <p class="text-secondary">The right mix of resources for achieving your online goals.</p>
+                                </div>
+                                {/* <!-- Feature item --> */}
+                                <div class="col-sm-6 mb-5 mb-sm-0">
+                                    <i class="display-6 text-primary bi bi-shop"></i>
+                                    <h5 class="text-white my-3">E-Commerce Solution</h5>
+                                    <p class="text-secondary m-0">A scalable web shop for online sales of your product or service.</p>
+                                </div>
+                                {/* <!-- Feature item --> */}
+                                <div class="col-sm-6">
+                                    <i class="display-6 text-primary bi bi-envelope-open"></i>
+                                    <h5 class="text-white my-3">E-mail Campaigns</h5>
+                                    <p class="text-secondary m-0">Effective communication campaigns that activate your target group.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {/* <!-- row END --> */}
+                </div>
+            </section>
+            {/* <!-- ================Features END =============== --> */}
             </main>
 
 

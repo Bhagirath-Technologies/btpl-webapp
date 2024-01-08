@@ -1,3 +1,18 @@
+/* overwriting css */
+.swiper-3d .swiper-slide-shadow {
+  background: rgba(255, 255, 255, 1);
+}
+.swiper-cards .swiper-slide{
+  overflow: visible;
+}
+.swiper-pagination-bullet-active{
+  background: #1d3b6a;
+}
+@media screen and (min-width:1200px) {
+  .ServiceCard{
+    width: 340px !important;
+    }
+}
 .ServiceCard{
 width: 400px;
 }
@@ -94,6 +109,12 @@ width: 400px;
   .rbt-card .rbt-card-body .rbt-meta {
     display: flex;
   }
+  .rbt-meta li {
+    list-style: none;
+  }
+  .rbt-meta li i {
+    padding-right: 5px;
+  }
   /* .rbt-meta {
     margin: -7px;
   } */
@@ -102,6 +123,11 @@ width: 400px;
     align-items: center;
     margin-right: 6px;
   }
+  .rbt-review .rating i {
+    font-size: 13px;
+    color: #FF9747;
+    transition: .3s;
+}
   .rating-count{
     padding-left: 12px;
   }
@@ -138,7 +164,7 @@ width: 400px;
       background-image: linear-gradient(to right,#1D3B6A,#1d3b6ab4,#1d3b6ab4,#1D3B6A);
   }
   .rbt-btn {
-      padding: 0 26px;
+      padding: 0 16px;
       background: var(--color-primary);
       height: 60px;
       line-height: 60px;

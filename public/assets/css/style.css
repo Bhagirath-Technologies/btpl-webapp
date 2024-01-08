@@ -35,14 +35,15 @@
   --bs-danger: #dc3545;
   --bs-light: #f7f8f9;
   --bs-dark: #19191c;
-  --bs-primary-rgb: 234, 17, 12;
+  /* --bs-primary-rgb: 234, 17, 12; */
+  --bs-primary-rgb: 21;
   --bs-secondary-rgb: 208, 212, 217;
   --bs-success-rgb: 40, 167, 69;
   --bs-info-rgb: 23, 162, 184;
   --bs-warning-rgb: 255, 193, 7;
   --bs-danger-rgb: 220, 53, 69;
   --bs-light-rgb: 247, 248, 249;
-  --bs-dark-rgb: 25, 25, 28;
+  --bs-dark-rgb: 29,59,106;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 161, 161, 168;
