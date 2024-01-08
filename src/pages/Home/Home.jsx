@@ -5,7 +5,7 @@ import ServiceCard from '../../components/Hero_Section/ServiceCards';
 import serviceData from '../../data/ServiceCarddata';
 import './home.css';
 const Home = () => {
-    const [serviceDetail,setServiceDetail]=useState(serviceData);
+    const [serviceDetail]=useState(serviceData);
     return (
         <>
             {/* <!-- Pre loader --> */}
