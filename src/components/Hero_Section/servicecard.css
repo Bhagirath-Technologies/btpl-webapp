@@ -8,9 +8,10 @@
 .swiper-pagination-bullet-active{
   background: #1d3b6a;
 }
-@media screen and (min-width:1200px) {
+
+@media screen and (max-width:1200px) {
   .ServiceCard{
-    width: 340px !important;
+    width: 330px !important;
     }
 }
 .ServiceCard{
