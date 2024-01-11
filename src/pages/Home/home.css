@@ -4,3 +4,27 @@
     }
 
 }
+.hula_hoop{
+    animation: hulamove 5s linear infinite;
+}
+.dotted_circle1{
+ animation: circleone 10s linear infinite;
+}
+.dotted_circle2{
+ animation: circletwo 8s linear infinite;
+}
+@keyframes hulamove {
+    0%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes circleone {
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes circletwo {
+    0%{
+        transform: rotate(360deg);
+    }
+}
