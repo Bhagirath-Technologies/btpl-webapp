@@ -83,12 +83,3 @@ export default function App() {
         </>
     );
 }
-
-
-
-{/* <!-- ================Testimonials START =========--> */ }
-
-
-
-
-{/* <!-- ================Testimonials END ============--> */ }
