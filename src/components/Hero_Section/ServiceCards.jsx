@@ -19,6 +19,7 @@ export default function App({serviceDetail}) {
         effect={"cards"}
         grabCursor={true}
         autoplay={true}
+        loop={true}
         modules={[EffectCards,Pagination]}
         className="ServiceCard"
         pagination={{
