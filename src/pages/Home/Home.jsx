@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Hero from '../../components/Hero_Section/Hero';
+import Clientportfolio from '../../components/Hero_Section/Clientportfolio';
 import ServiceCard from '../../components/Hero_Section/ServiceCards';
 import serviceData from '../../data/ServiceCarddata';
 import './home.css';
@@ -795,6 +796,7 @@ const Home = () => {
                     </div>
                 </section>
                 {/* <!-- ================Features END =============== --> */}
+                <Clientportfolio/>
             </main>
 
 
