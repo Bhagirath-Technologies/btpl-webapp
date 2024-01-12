@@ -8,7 +8,6 @@ import 'swiper/css/navigation';
 // import './styles.css';
 // import required modules
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
-import { Link } from 'react-router-dom';
 const swiperStyles = {
     height: '100%',
 };
