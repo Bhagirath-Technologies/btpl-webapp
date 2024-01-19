@@ -3,10 +3,13 @@ import { Link } from 'react-router-dom';
 import Hero from '../../components/Hero_Section/Hero';
 import Clientportfolio from '../../components/Hero_Section/Clientportfolio';
 import ServiceCard from '../../components/Hero_Section/ServiceCards';
+import OurPortlio from '../../components/Hero_Section/Ourportfolio';
 import serviceData from '../../data/ServiceCarddata';
+import OurPortfolioData from '../../data/OurPortfoliodata';
 import './home.css';
 const Home = () => {
     const [serviceDetail] = useState(serviceData);
+    const [portfolioDetail] = useState(OurPortfolioData);
     return (
         <>
             {/* <!-- Pre loader --> */}
@@ -692,7 +695,6 @@ const Home = () => {
                         <img src='./assets/images/icons/hula-hoop.png' width="100px" alt='icon' />
                     </figure>
                     {/* <!-- Shape Decoration END --> */}
-
                     <div class="container position-relative">
                         <div class="row">
                             <div class="col-lg-8 mb-5">
@@ -744,7 +746,6 @@ const Home = () => {
                             </div>
                         </div>
                         {/* <!-- row END --> */}
-
                         <div class="row d-flex justify-content-end">
                             <div class="col-lg-9">
                                 <Link to="#" class="btn btn-line text-dark mt-4">View all services</Link>
@@ -752,15 +753,14 @@ const Home = () => {
                         </div>
                     </div>
                 </section>
-                {/* <!-- =======================Service END======================
-             --> */}
+                {/* <!-- =======================Service END====================== --> */}
                 {/* <!-- ================Features START============== --> */}
                 <section class="bg-dark position-relative pattern-overlay-5 mx-xl-3 mx-xxxl-9 rounded">
                     <div class="container">
                         <div class="row">
                             {/* <!-- Title --> */}
                             <div class="col-md-5 mb-5">
-                                <h2 class="display-5 text-white-stroke">Our every day business</h2>
+                                <h2 class="display-4 text-white-stroke">Our every day business</h2>
                                 <p>Building a strong brand. Distinctive, recognizable and consistent. Effective communication campaigns that activate your target group.</p>
                             </div>
                             <div class="col-md-7 mb-5">
@@ -797,6 +797,7 @@ const Home = () => {
                 </section>
                 {/* <!-- ================Features END =============== --> */}
                 <Clientportfolio/>
+                <OurPortlio/>
             </main>
 
 

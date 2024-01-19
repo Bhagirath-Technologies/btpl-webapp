@@ -66,7 +66,7 @@ export default function App() {
                                         <div class="col-md-8 justify-content-center align-self-center align-items-start">
                                             <div class="slider-content text-start">
                                                 <h5 class="animate__animated animate__fadeInUp animate__delay-1s text-white mt-2 my-md-4" data-aos="fade-up" data-aos-duration="5000">Bhagirath Technologies</h5>
-                                                <h2 class="animate__animated animate__fadeInUp animate__delay-2s display-4 fw-bold text-white" data-aos="fade-up" data-aos-duration="6000"><span class="text-white-stroke text-primary-shadow d-block">Creating Real</span>Business Value</h2>
+                                                <h2 class="animate__animated animate__fadeInUp animate__delay-2s display-3 text-white" data-aos="fade-up" data-aos-duration="6000"><span class="text-white-stroke text-primary-shadow d-block">Creating Real</span>Business Value</h2>
                                                 <p class="animate__animated animate__fadeInUp animate__delay-3s lead text-white d-none d-sm-block" data-aos="fade-up" data-aos-duration="7000">We transform your perception into an excellent website</p>
                                                 <div class="animate__animated animate__fadeInUp animate__delay-4s mt-3" data-aos="fade-up" data-aos-duration="8000"><Link to="#" class="btn btn-primary">Discuss a Project</Link></div>
                                             </div>

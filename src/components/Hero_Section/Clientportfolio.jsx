@@ -1,12 +1,8 @@
 import React from 'react';
-// Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
-// Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-// import './styles.css';
-// import required modules
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 const swiperStyles = {
     height: '100%',
@@ -14,14 +10,13 @@ const swiperStyles = {
 export default function App() {
     return (
         <>
-
             {/* <!-- Banner START --> */}
             <section class="p-0">
                 <div class="container">
                     <div class="row position-relative text-center pb-7">
                           {/* <!-- Title --> */}
                           <div class="col-sm-8 mb-3 mx-auto text-center pt-7">
-                                <h2 class="display-5 mb-5 text-dark-stroke">Testimonials</h2>
+                                <h2 class="display-4 mb-5 text-dark-stroke">Testimonials</h2>
                             </div>
                         <Swiper style={swiperStyles}
                             spaceBetween={30}
@@ -35,7 +30,7 @@ export default function App() {
                             }}
                             navigation={false}
                             modules={[Autoplay, Pagination, Navigation]}
-                            className="mySwiper pb-7"
+                            className="mySwiper pb-5"
                         >
                             {/* <!-- Testimonials --> */}
                             <div class="col-md-10 mx-auto text-center pb-10">
