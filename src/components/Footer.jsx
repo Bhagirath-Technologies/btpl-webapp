@@ -38,7 +38,7 @@ const Footer = () => {
                                         </div>
                                     </div>
                                     <div class="text_in">
-                                        <a class="icon_in" href="#">
+                                        <Link class="icon_in" to="#">
                                             <div class="layer_in">
                                                 <span></span>
                                                 <span></span>
@@ -59,7 +59,7 @@ const Footer = () => {
                                                 </span>
                                             </div>
                                             <div class="text_in">Instagram</div>
-                                        </a>
+                                        </Link>
                                     </div>
                                 </div>
                                 {/* animated social icons instagram ends */}
@@ -78,7 +78,7 @@ const Footer = () => {
                                         </div>
                                     </div>
                                     <div class="text_fb">
-                                        <a class="icon_fb" href="#">
+                                        <Link class="icon_fb" to="#">
                                             <div class="layer_fb">
                                                 <span></span>
                                                 <span></span>
@@ -114,7 +114,7 @@ const Footer = () => {
                                                 </span>
                                             </div>
                                             <div class="text_fb">Facebook</div>
-                                        </a>
+                                        </Link>
                                     </div>
                                 </div>
 
@@ -134,7 +134,7 @@ const Footer = () => {
                                         </div>
                                     </div>
                                     <div class="text_ln">
-                                        <a class="icon_ln" href="https://freecodez.com/">
+                                        <Link class="icon_ln" to="#">
                                             <div class="layer_ln">
                                                 <span></span>
                                                 <span></span>
@@ -149,7 +149,7 @@ const Footer = () => {
                                                 </span>
                                             </div>
                                             <div class="text_ln">LinkedIn</div>
-                                        </a>
+                                        </Link>
                                     </div>
                                 </div>
 
