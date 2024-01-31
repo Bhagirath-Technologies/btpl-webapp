@@ -6,7 +6,8 @@ import Clientportfolio from '../../components/Hero_Section/Clientportfolio';
 import ServiceCard from '../../components/Hero_Section/ServiceCards';
 import OurPortlio from '../../components/Hero_Section/Ourportfolio';
 import serviceData from '../../data/ServiceCarddata';
-import OurPortfolioData from '../../data/OurPortfoliodata';
+// import OurPortfolioData from '../../data/OurPortfoliodata'; 
+
 import './home.css';
 const Home = () => {
     const [serviceDetail] = useState(serviceData);
@@ -24,6 +25,10 @@ const Home = () => {
                 backgroundPosition: 'center left',
                 backgroundSize: 'cover'
             }}>
+
+
+
+                
                 <div class="offcanvas-header">
                     <Link class="ms-auto btn btn-primary btn-round zoom-hover" data-bs-dismiss="offcanvas" aria-label="Close">
                         <i class="fas fa-times p-0"></i>

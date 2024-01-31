@@ -126,6 +126,7 @@ const Footer = () => {
                                             <div class="user_ln">
                                                 <div class="img_ln">Ln</div>
                                                 <div class="details_ln">
+                                                    
                                                     <div class="name_ln">User</div>
                                                     <div class="username_ln">@bhagirath_tech</div>
                                                 </div>
