@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Hero from '../../components/Hero_Section/Hero';
+import Footer from '../../components/Footer';
 import Clientportfolio from '../../components/Hero_Section/Clientportfolio';
 import ServiceCard from '../../components/Hero_Section/ServiceCards';
 import OurPortlio from '../../components/Hero_Section/Ourportfolio';
@@ -97,7 +98,7 @@ const Home = () => {
                                 </button>
                             </form>
                             {/* <!-- Search form END --> */}
-                            <p class="small mt-2 mb-0">e.g. Template, Bootstrap, WordPress theme </p>
+                            <p class="small mt-2 mb-0">e.g. Websites , Web-Apps , Digital Marketing ,Graphic Designing services </p>
                         </div>
 
                         {/* <!-- Search button close START --> */}
@@ -491,10 +492,10 @@ const Home = () => {
                                                 <div class="col-12 mt-3">
                                                     <div class="bg-dark p-5 pb-4 w-100 pattern-overlay-1">
                                                         <div class="row d-md-flex justify-content-center">
-                                                            <h5 class="col-md-4 text-white mb-4">Discover Folio - It's easier than you might think.</h5>
+                                                            <h5 class="col-md-4 text-white mb-4">Discover with us - It's easier than you might think.</h5>
                                                             <p class="col-md-3 text-white">Start right away to create your dream website hassle free. Grab yours now.</p>
                                                             <div class="col-md-3 text-md-end">
-                                                                <Link class="btn btn-line btn-primary" target="_blank" to="https://themes.getbootstrap.com/store/webestica/">Purchase Folio!</Link>
+                                                                <Link class="btn btn-line btn-primary" target="_blank" to="#">Reach Us</Link>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -525,7 +526,7 @@ const Home = () => {
                                                 <div class="d-flex mb-2">
                                                     <i class="display-8 mt-n1 me-3 text-primary fa-fw bi bi-book-half"></i>
                                                     <div>
-                                                        <h6 class="my-0">Folio Doc</h6>
+                                                        <h6 class="my-0">Our Doc</h6>
                                                         <p class="small text-body d-none d-md-block">General instruction about theme and support</p>
                                                         <Link class="dropdown-item px-0" to="docs/index.html">Introduction</Link>
                                                         <Link class="dropdown-item px-0" to="docs/index.html">Directory structure</Link>
@@ -798,6 +799,7 @@ const Home = () => {
                 {/* <!-- ================Features END =============== --> */}
                 <Clientportfolio/>
                 <OurPortlio/>
+                <Footer/>
             </main>
 
 
