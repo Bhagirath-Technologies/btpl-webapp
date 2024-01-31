@@ -10,7 +10,7 @@ import OurPortfolioData from '../../data/OurPortfoliodata';
 import './home.css';
 const Home = () => {
     const [serviceDetail] = useState(serviceData);
-    const [portfolioDetail] = useState(OurPortfolioData);
+    // const [portfolioDetail] = useState(OurPortfolioData);
     return (
         <>
             {/* <!-- Pre loader --> */}
