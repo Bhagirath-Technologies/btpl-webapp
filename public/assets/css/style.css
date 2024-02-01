@@ -26012,9 +26012,16 @@ button.text-primary-hover:hover {
 
 /*# sourceMappingURL=style.css.map */
 
-.fill-warning {
+/* .fill-warning {
   fill: #002ea2 !important;
-}
+} */
 .fill-info {
   fill: #17a2b8 !important;
 }
+.fill-warning {
+  fill: #f7c32e !important;
+}
+.fill-orange {
+  fill: #fd7e14 !important;
+}
+
