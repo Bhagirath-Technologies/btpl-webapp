@@ -250,7 +250,7 @@ const Footer = () => {
                     {/* <!-- Footer copyright START --> */}
                     <div class="row align-items-center justify-content-md-between py-4">
                         <div class="col-md-6">
-                            <div class="text-center text-md-start">©2022 <Link to="#" target="_blank">Bhagirath Technologies</Link>. All rights reserved
+                            <div class="text-center text-md-start">©2024 <Link to="#" target="_blank"><b className='text-white'>Bhagirath Technologies Pvt Lmt.</b></Link>. All rights reserved
                             </div>
                         </div>
                         <div class="col-md-6">
