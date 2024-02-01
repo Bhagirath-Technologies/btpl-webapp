@@ -21,7 +21,7 @@ const Footer = () => {
                                     <Link to="#" class="list-group-item text-white bg-transparent">Tg</Link>
                                 </div>
                             </div>
-                            <div className="d-flex justify-content-between">
+                            <div className="d-flex justify-content-between pt_sm_icons">
                                 {/* animated social icons instagram starts */}
                                 <div class="tooltip_container_in d-flex">
                                     <div class="tooltip_in">

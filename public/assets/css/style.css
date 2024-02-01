@@ -24386,6 +24386,9 @@ small,
   .tooltip_container_in:hover .tooltip_in {
     left: 5.8rem;
   }
+  .pt_sm_icons{
+    padding-top: 1.1rem;
+  }
 }
 .icon_in {
   text-decoration: none;
