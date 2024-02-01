@@ -26011,3 +26011,10 @@ button.text-primary-hover:hover {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+.fill-warning {
+  fill: #002ea2 !important;
+}
+.fill-info {
+  fill: #17a2b8 !important;
+}
