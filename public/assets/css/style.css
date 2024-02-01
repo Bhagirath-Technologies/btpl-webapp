@@ -24377,7 +24377,7 @@ small,
 }
 
 .tooltip_container_in:hover .tooltip_in {
-  top: -150px;
+  top: -145px;
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
@@ -24565,7 +24565,7 @@ small,
 }
 
 .tooltip_container_fb:hover .tooltip_fb {
-  top: -150px;
+  top: -145px;
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
@@ -24737,7 +24737,7 @@ small,
 }
 
 .tooltip_container_ln:hover .tooltip_ln {
-  top: -150px;
+  top: -145px;
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
@@ -24865,6 +24865,13 @@ small,
 }
 
 /* css for ln icon ends */
+.layer_tele span.fa-telegram-plane {
+  font-size: 32px;
+  line-height: 60px;
+  text-align: center;
+  fill: #1da1f2;
+  background: white;
+}
 /* footer animated social icons css ends */
 
 .featured-label {

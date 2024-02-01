@@ -12,12 +12,13 @@ const Footer = () => {
                             <img src='../assets/images/logos/Bhagirath Technologies Logo White.png' alt='logo' width="110px" />
                             {/* <h3 class="text-white">Logo<span class="text-primary">.</span></h3> */}
                             <p>Lorem ipsum dolor sit amet.</p>
-                            <div class="d-flex me-auto">
+                            <div class="d-flex me-auto align-items-center">
                                 <h6 class="mt-2 me-4 text-white">Follow on:</h6>
                                 <div class="list-group-inline list-unstyled text-primary-hover">
                                     <Link to="#" class="list-group-item text-white bg-transparent">In</Link>
                                     <Link to="#" class="list-group-item text-white bg-transparent">Fb</Link>
                                     <Link to="#" class="list-group-item text-white bg-transparent">Ln</Link>
+                                    <Link to="#" class="list-group-item text-white bg-transparent">Tg</Link>
                                 </div>
                             </div>
                             <div className="d-flex justify-content-between">
@@ -153,7 +154,42 @@ const Footer = () => {
                                         </Link>
                                     </div>
                                 </div>
-
+                                {/* animated social icons linkedin ends */}
+                                {/* animated social icons linkedin starts */}
+                                <div class="tooltip_container_ln">
+                                    <div class="tooltip_ln">
+                                        <div class="profile_ln">
+                                            <div class="user_ln">
+                                                <div class="img_ln">Tg</div>
+                                                <div class="details_ln">
+                                                    
+                                                    <div class="name_ln">User</div>
+                                                    <div class="username_ln">@bhagirath_tech</div>
+                                                </div>
+                                            </div>
+                                            <div class="about_ln">10k+ Connections</div>
+                                        </div>
+                                    </div>
+                                    <div class="text_ln">
+                                        <Link class="icon_ln" to="#">
+                                            <div class="layer_ln layer_tele">
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                                <span class="fab fa-telegram-plane">
+                                                    <svg viewBox="0 0 448 512" height="1em">
+                                                        {/* <path
+                                                            d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"
+                                                        ></path> */}
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                            <div class="text_ln">Telegram</div>
+                                        </Link>
+                                    </div>
+                                </div>
+                                {/* animated social icons linkedin ends */}
                                 {/* animated social icons ends */}
                             </div>
                         </div>
