@@ -844,7 +844,7 @@ const Home = () => {
 						</div>
 						{/* <!-- Content and input --> */}
 						<div class="col-lg-3 text-center text-lg-end z-index-9">
-							<a href="#" class="btn btn-warning mb-0">Get a free trial</a>
+							<Link to="#" class="btn btn-warning mb-0">Get in touch Now !</Link>
 						</div>
 					</div>
 				</div>
