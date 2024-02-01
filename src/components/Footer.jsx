@@ -156,7 +156,7 @@ const Footer = () => {
                                 </div>
                                 {/* animated social icons linkedin ends */}
                                 {/* animated social icons linkedin starts */}
-                                <div class="tooltip_container_ln">
+                                <div class="tooltip_container_ln sm_tele">
                                     <div class="tooltip_ln">
                                         <div class="profile_ln">
                                             <div class="user_ln">

@@ -24382,7 +24382,11 @@ small,
   visibility: visible;
   pointer-events: auto;
 }
-
+@media only screen and (min-width:320px) and (max-width:768px){
+  .tooltip_container_in:hover .tooltip_in {
+    left: 5.8rem;
+  }
+}
 .icon_in {
   text-decoration: none;
   color: #fff;
