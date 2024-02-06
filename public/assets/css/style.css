@@ -38,7 +38,7 @@
   --bs-light: #f7f8f9;
   --bs-dark: #19191c;
   /* --bs-primary-rgb: 234, 17, 12; */
-  --bs-primary-rgb: 21;
+  /* --bs-primary-rgb: 29,59,106; */
   --bs-secondary-rgb: 208, 212, 217;
   --bs-success-rgb: 40, 167, 69;
   --bs-info-rgb: 23, 162, 184;
@@ -26024,4 +26024,6 @@ button.text-primary-hover:hover {
 .fill-orange {
   fill: #fd7e14 !important;
 }
-
+.bg_blue{
+  background-color: var(--bs-primary);
+}
