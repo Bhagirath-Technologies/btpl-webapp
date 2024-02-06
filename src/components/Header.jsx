@@ -1,27 +1,34 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React, { useState, useEffect } from 'react';
+import { Link,useLocation } from 'react-router-dom';
 
-const Header = ({ isHome }) => {
+const Header = () => {
+    const location = useLocation();
+    const [isHome, setIsHome] = useState(location.pathname === '/');
+
+    useEffect(() => {
+        setIsHome(location.pathname === '/');
+    }, [location.pathname]);
+
     const headerStyle = {
         background: isHome ? 'transparent' : '#1d3b6a',
         position: isHome ? 'absolute' : 'relative',
         // add other styles as needed
-      };
+    };
     return (
         <>
 
             {/* <!-- Offcanvas end START --> */}
-            <div  class="offcanvas offcanvas-end bg-dark" tabindex="-1" id="offcanvasEnd" aria-labelledby="offcanvasEnd" style={{
+            <div class="offcanvas offcanvas-end bg-dark" tabindex="-1" id="offcanvasEnd" aria-labelledby="offcanvasEnd" style={{
                 backgroundImage: 'url("assets/images/bg/pattern/03.png")',
                 backgroundPosition: 'center left',
                 backgroundSize: 'cover'
             }}>
-                <div  class="offcanvas-header">
+                <div class="offcanvas-header">
                     <Link class="ms-auto btn btn-primary btn-round zoom-hover" data-bs-dismiss="offcanvas" aria-label="Close">
                         <i class="fas fa-times p-0"></i>
                     </Link>
                 </div>
-                <div  class="offcanvas-body vh-lg-100 d-flex align-items-start flex-column px-5 px-md-6">
+                <div class="offcanvas-body vh-lg-100 d-flex align-items-start flex-column px-5 px-md-6">
                     {/* <!-- Offcanvas inner START --> */}
                     <ul class="nav dropdown-toggle-start-icon d-block flex-column mb-5">
                         <li class="nav-item display-6 h5 position-relative">
@@ -431,15 +438,15 @@ const Header = ({ isHome }) => {
                                             <div class="row g-0 flex-fill">
                                                 <div class="col-sm-6 col-lg-3">
                                                     <ul class="list-unstyled">
-                                                        <li> <Link class="dropdown-item" to="elements-accordion.html"><i class="far fa-plus-square fa-fw me-2"></i>Accordion</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="elements-action-box.html"><i class="fas fa-paperclip fa-fw me-2"></i>Action box</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="elements-alerts.html"><i class="fas fa-exclamation-triangle fa-fw me-2"></i>Alerts</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="elements-animation.html"><i class="fas fa-radiation-alt fa-fw me-2"></i>Animation</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="elements-avatar.html"><i class="far fa-user fa-fw me-2"></i>Avatar</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="elements-blockquote.html"><i class="fas fa-quote-right fa-fw me-2"></i>Blockquote</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="elements-breadcrumbs.html"><i class="fas fa-angle-right fa-fw me-2"></i>breadcrumbs</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="elements-buttons.html"><i class="fas fa-link fa-fw me-2"></i>Buttons</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="elements-cards.html"><i class="far fa-window-restore fa-fw me-2"></i>Cards</Link> </li>
+                                                        <li> <Link class="dropdown-item" to="/rental"><i class="far fa-plus-square fa-fw me-2"></i>Accordion</Link> </li>
+                                                        <li> <Link class="dropdown-item" to="/rental"><i class="fas fa-paperclip fa-fw me-2"></i>Action box</Link> </li>
+                                                        <li> <Link class="dropdown-item" to="/rental"><i class="fas fa-exclamation-triangle fa-fw me-2"></i>Alerts</Link> </li>
+                                                        <li> <Link class="dropdown-item" to="/rental"><i class="fas fa-radiation-alt fa-fw me-2"></i>Animation</Link> </li>
+                                                        <li> <Link class="dropdown-item" to="/rental"><i class="far fa-user fa-fw me-2"></i>Avatar</Link> </li>
+                                                        <li> <Link class="dropdown-item" to="/rental"><i class="fas fa-quote-right fa-fw me-2"></i>Blockquote</Link> </li>
+                                                        <li> <Link class="dropdown-item" to="/rental"><i class="fas fa-angle-right fa-fw me-2"></i>breadcrumbs</Link> </li>
+                                                        <li> <Link class="dropdown-item" to="/rental"><i class="fas fa-link fa-fw me-2"></i>Buttons</Link> </li>
+                                                        <li> <Link class="dropdown-item" to="/rental"><i class="far fa-window-restore fa-fw me-2"></i>Cards</Link> </li>
                                                     </ul>
                                                 </div>
                                                 <div class="col-sm-6 col-lg-3">
