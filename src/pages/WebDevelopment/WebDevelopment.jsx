@@ -1,18 +1,18 @@
 import React, { useState } from 'react';
 import {Link} from 'react-router-dom';
 import CommonCard from '../../components/CommonCard';
-import rentalData from '../../data/RentalServicedata';
+import webData from '../../data/WebServicedata';
 
-const Rental = () => {
-	const [rentalService] = useState(rentalData);
+const WebDevelopment = () => {
+	const [webService] = useState(webData);
 	return (
 		<>
 			<section>
 				<div class="container">
 					<div class="row d-flex justify-content-lg-between">
 						<div class="col-12">
-							<h1 class="display-4 text-dark-stroke text-primary-shadow">Rental Services</h1>
-							<p class="lead">Get hire you laptop, desktop , IT assets Now !</p>
+							<h1 class="display-4 text-dark-stroke text-primary-shadow">Our Services</h1>
+							<p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet.!</p>
 						</div>
 					</div>
 				</div>
@@ -23,7 +23,8 @@ const Rental = () => {
 				<div class="container-fluid px-lg-4">
 					<div class="row">
 						{/* <!-- Card item START --> */}
-						<CommonCard commonData={rentalService}/>
+                        
+						<CommonCard commonData={webService}/>
 						<div class="col-sm-6 col-md-4 col-lg-3 col-xxl-2">
 							<div class="card">
 								<div class="position-relative">
@@ -51,4 +52,4 @@ const Rental = () => {
 	)
 }
 
-export default Rental;
+export default WebDevelopment;

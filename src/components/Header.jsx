@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Link,useLocation } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 const Header = () => {
     const location = useLocation();
@@ -235,135 +235,35 @@ const Header = () => {
 
                                 {/* <!-- Menu item 1 Demos --> */}
                                 <li class="nav-item dropdown">
-                                    <Link class="nav-link dropdown-toggle" to="#" id="demosMenu" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Home</Link>
-                                    <div class="dropdown-menu pb-3 pb-lg-0" aria-labelledby="demosMenu">
-                                        <div class="d-block d-sm-flex">
-                                            <ul class="list-unstyled w-100 pe-0 pe-lg-5">
-                                                <li class="dropdown-header">Agency Demos</li>
-                                                <li> <Link class="dropdown-item" to="index.html">Classic Default</Link> </li>
-                                                <li> <Link class="dropdown-item" to="index-2.html">Agency classic</Link> </li>
-                                                <li> <Link class="dropdown-item" to="index-3.html">Agency Trendy<span class="badge bg-danger ms-2">Hot</span></Link> </li>
-                                                <li> <Link class="dropdown-item" to="index-4.html">Agency Modern</Link> </li>
-                                                <li> <Link class="dropdown-item" to="index-5.html">Studio showcase</Link> </li>
-                                            </ul>
-                                            <ul class="list-unstyled w-100 pe-0 pe-lg-5">
-                                                <li class="dropdown-header mt-3 mt-sm-0">Portfolio Demos</li>
-                                                <li> <Link class="dropdown-item" to="index-6.html">Creative agency</Link> </li>
-                                                <li> <Link class="dropdown-item" to="index-7.html">Digital studio</Link> </li>
-                                                <li> <Link class="dropdown-item" to="index-8.html">Portfolio showcase</Link> </li>
-                                                <li> <Link class="dropdown-item" to="index-9.html">Corporate </Link> </li>
-                                                <li> <Link class="dropdown-item" to="index-10.html">Personal Portfolio</Link> </li>
-                                            </ul>
-                                        </div>
-                                        {/* <!-- Nav action box --> */}
-                                        <div class="w-100 mt-4 d-none d-lg-flex">
-                                            <div class="text-center bg-primary-multiply position-relative overflow-hidden px-3 py-5 w-100">
-                                                <h4 class="mb-0 text-white">Get free quote today!</h4>
-                                                <p class=" text-white">For quick response and more details, Feel free to contact us</p>
-                                                <Link class="btn btn-white btn-sm" target="_blank" to="landing/index.htm">Contact Us</Link>
-                                                <img class="bg-primary-multiply position-absolute top-50 start-50 translate-middle z-index-n9 w-100" src="assets/images/bg/03.jpg" alt="" />
-                                            </div>
-                                        </div>
-                                    </div>
+                                    <Link class="nav-link" to="#">Home</Link>
                                 </li>
 
                                 {/* <!-- Menu item 2 Pages --> */}
                                 <li class="nav-item dropdown">
                                     <Link class="nav-link dropdown-toggle" to="#" id="pagesMenu" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About Us</Link>
                                     <ul class="dropdown-menu" aria-labelledby="pagesMenu">
-                                        {/* <!-- About menu --> */}
-                                        <li class="dropdown-submenu dropend">
-                                            <Link class="dropdown-item dropdown-toggle" to="#">About</Link>
-                                            <ul class="dropdown-menu" data-bs-popper="none">
-                                                <li> <Link class="dropdown-item" to="about.html">About Classic</Link></li>
-                                                <li> <Link class="dropdown-item" to="about-advance.html">About advance</Link></li>
-                                                <li> <Link class="dropdown-item" to="about-agency.html">About agency</Link></li>
-                                                <li> <Link class="dropdown-item" to="approach.html">Approach</Link></li>
-                                                <li> <Link class="dropdown-item" to="mission-and-vision.html">Mission and vision</Link></li>
-                                                <li> <Link class="dropdown-item" to="history.html">history</Link></li>
-                                                <li> <Link class="dropdown-item" to="testimonials.html">Testimonials</Link></li>
-                                                <li> <Link class="dropdown-item" to="why-choose-us.html">Why choose us</Link></li>
-                                                <li> <Link class="dropdown-item" to="team.html">team</Link></li>
-                                                <li> <Link class="dropdown-item" to="careers.html">careers</Link></li>
-                                                <li> <Link class="dropdown-item" to="careers-single.html">careers single</Link></li>
-                                            </ul>
-                                        </li>
-                                        {/* <!-- Hero sections menu --> */}
-                                        <li class="dropdown-submenu dropend">
-                                            <Link class="dropdown-item dropdown-toggle" to="#">Hero sections<span class="badge bg-danger ms-2">New</span></Link>
-                                            <ul class="dropdown-menu" data-bs-popper="none">
-                                                <li><Link class="dropdown-item" to="hero-01.html">Hero form</Link></li>
-                                                <li><Link class="dropdown-item" to="hero-02.html">Big title & video</Link></li>
-                                                <li><Link class="dropdown-item" to="hero-03.html">Split banner</Link></li>
-                                                <li><Link class="dropdown-item" to="hero-04.html">Video & company info</Link></li>
-                                                <li><Link class="dropdown-item" to="hero-05.html">Vector graphics</Link></li>
-                                                <li><Link class="dropdown-item" to="hero-06.html">Typography intro</Link></li>
-                                                <li><Link class="dropdown-item" to="hero-07.html">Overlap text</Link></li>
-                                                <li><Link class="dropdown-item" to="hero-08.html">Device mockup</Link></li>
-                                                <li><Link class="dropdown-item" to="hero-09.html">Split overlay</Link></li>
-                                                <li><Link class="dropdown-item" to="hero-10.html">Showcase typography</Link></li>
-                                            </ul>
-                                        </li>
-                                        <li> <Link class="dropdown-item" to="service.html">service</Link></li>
-                                        <li> <Link class="dropdown-item" to="service-detail.html">Service detail</Link></li>
                                         {/* <!-- Blog menu --> */}
                                         <li class="dropdown-submenu dropend">
-                                            <Link class="dropdown-item dropdown-toggle" to="#">Blog<span class="badge bg-success ms-2">2 new post</span></Link>
-                                            <ul class="dropdown-menu" data-bs-popper="none">
-                                                <li><Link class="dropdown-item" to="blog-classic-3-col.html">Blog classic 3 col</Link></li>
-                                                <li><Link class="dropdown-item" to="blog-metro-3-col.html">Blog metro 3 col</Link></li>
-                                                <li><Link class="dropdown-item" to="blog-minimal.html">Blog minimal <span class="badge bg-success ms-2">2 new post</span></Link></li>
-                                                <li><Link class="dropdown-item" to="blog-text-reveal.html">Blog text reveal</Link></li>
+                                            <Link class="dropdown-item" to="#">Blog<span class="badge bg-success ms-2">2 new post</span></Link>
+                                            {/* <ul class="dropdown-menu" data-bs-popper="none">
+                                                <li><Link class="dropdown-item" to="blog-classic-3-col.html">Latest Blogs</Link></li>
+                                                <li><Link class="dropdown-item" to="blog-minimal.html">Rental<span class="badge bg-success ms-2">2 new post</span></Link></li>
                                                 <li class="dropdown-divider"></li>
                                                 <li><Link class="dropdown-item" to="blog-detail.html">Blog detail</Link></li>
-                                                <li><Link class="dropdown-item" to="blog-detail-minimal.html">Blog detail minimal</Link></li>
-                                            </ul>
+                                            </ul> */}
                                         </li>
-                                        {/* <!-- About menu --> */}
+
+                                        <li> <Link class="dropdown-item" to="service.html">Portfolio</Link></li>
+                                        {/* <!-- Hero sections menu --> */}
                                         <li class="dropdown-submenu dropend">
-                                            <Link class="dropdown-item dropdown-toggle" to="#">Contact</Link>
+                                            <Link class="dropdown-item" to="#">Pricing<span class="badge bg-danger ms-2">New</span></Link>
                                             <ul class="dropdown-menu" data-bs-popper="none">
-                                                <li> <Link class="dropdown-item" to="contact.html">contact</Link></li>
-                                                <li> <Link class="dropdown-item" to="contact-2.html">contact 2</Link></li>
-                                                <li> <Link class="dropdown-item" to="contact-3.html">Contact 3</Link></li>
+                                                <li><Link class="dropdown-item" to="hero-01.html">Web Development</Link></li>
+                                                <li><Link class="dropdown-item" to="hero-02.html">Online Marketing</Link></li>
+
                                             </ul>
                                         </li>
-                                        <li class="dropdown-submenu dropend">
-                                            <Link class="dropdown-item dropdown-toggle" to="#">Authentication</Link>
-                                            <ul class="dropdown-menu" data-bs-popper="none">
-                                                <li> <Link class="dropdown-item" to="sign-in.html">Sign in</Link> </li>
-                                                <li> <Link class="dropdown-item" to="sign-up.html">Sign up</Link> </li>
-                                                <li> <Link class="dropdown-item" to="password-recovery.html">Password recovery</Link> </li>
-                                            </ul>
-                                        </li>
-                                        <li> <Link class="dropdown-item" to="pricing.html">pricing</Link></li>
-                                        <li> <Link class="dropdown-item" to="faq.html">faq</Link></li>
-                                        <li> <Link class="dropdown-item" to="404.html">Error 404</Link></li>
-                                        <li> <Link class="dropdown-item" to="maintenance-mode.html">maintenance mode</Link></li>
-                                        {/* <!-- Dropdown menu levels --> */}
-                                        <li class="dropdown-divider"></li>
-                                        <li class="dropdown-submenu dropend">
-                                            <Link class="dropdown-item dropdown-toggle" to="#">Dropdown levels</Link>
-                                            <ul class="dropdown-menu dropdown-menu-start" data-bs-popper="none">
-                                                <li class="dropdown-submenu dropend">
-                                                    <Link class="dropdown-item dropdown-toggle" to="#">Dropdown (end)</Link>
-                                                    <ul class="dropdown-menu" data-bs-popper="none">
-                                                        <li> <Link class="dropdown-item" to="#">Dropdown item</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="#">Dropdown item</Link> </li>
-                                                    </ul>
-                                                </li>
-                                                <li> <Link class="dropdown-item" to="#">Dropdown item</Link> </li>
-                                                <li class="dropdown-submenu dropstart">
-                                                    <Link class="dropdown-item dropdown-toggle" to="#">Dropdown (start)</Link>
-                                                    {/* <!-- dropdown menu open left --> */}
-                                                    <ul class="dropdown-menu dropdown-menu-end" data-bs-popper="none">
-                                                        <li> <Link class="dropdown-item" to="#">Dropdown item</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="#">Dropdown item</Link> </li>
-                                                    </ul>
-                                                </li>
-                                                <li> <Link class="dropdown-item" to="#">Dropdown item</Link> </li>
-                                            </ul>
-                                        </li>
+                                        <li> <Link class="dropdown-item" to="faq.html">faqs</Link></li>
                                     </ul>
                                 </li>
 
@@ -375,57 +275,52 @@ const Header = () => {
                                             <div class="row g-0 flex-fill">
                                                 <div class="col-sm-6 col-lg-3">
                                                     <ul class="list-unstyled mb-4 mb-lg-0">
-                                                        <li class="dropdown-header">Portfolio Classics</li>
-                                                        <li> <Link class="dropdown-item" to="portfolio-classic-grid-3-col.html">Portfolio Classic grid 3 col</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="portfolio-classic-grid-4-col.html">Portfolio Classic grid 4 col</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="portfolio-classic-grid-6-col-fullwidth.html">Portfolio Classic grid 6 col</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="portfolio-classic-masonry-3-col.html">Portfolio Classic Masonry 3 col</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="portfolio-classic-masonry-4-col.html">Portfolio Classic Masonry 4 col</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="portfolio-classic-masonry-6-col-fullwidth.html">Portfolio Classic Masonry 6 col</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="portfolio-metro-grid-3-col.html">Portfolio Metro grid 3 col</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="portfolio-metro-grid-4-col.html">Portfolio Metro grid 4 col</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="portfolio-metro-grid-filter.html">Portfolio Metro grid filter</Link> </li>
+                                                        <li class="dropdown-header">Web Development</li>
+                                                        <li> <Link class="dropdown-item" to="/services">Website Design</Link> </li>
+                                                        <li> <Link class="dropdown-item" to="portfolio-classic-grid-4-col.html">Web Applications</Link> </li>
+                                                        <li> <Link class="dropdown-item" to="portfolio-classic-grid-6-col-fullwidth.html">Custom Software Development</Link> </li>
+                                                        <li> <Link class="dropdown-item" to="portfolio-classic-masonry-3-col.html">E-Commerce Application</Link> </li>
                                                     </ul>
                                                 </div>
                                                 <div class="col-sm-6 col-lg-3">
                                                     <ul class="list-unstyled mb-4 mb-lg-0">
-                                                        <li class="dropdown-header">Portfolio Advance</li>
-                                                        <li> <Link class="dropdown-item" to="portfolio-overlap.html">Portfolio Overlap</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="portfolio-overlap-reveal.html">Portfolio Overlap reveal</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="portfolio-overlap-tilt.html">Portfolio Overlap Tilt</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="portfolio-broken-grid.html">Portfolio broken grid</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="portfolio-text-reveal.html">Portfolio text reveal <span class="badge bg-danger ms-2">Trendy</span></Link> </li>
-                                                        <li> <Link class="dropdown-item" to="portfolio-full-width-dark.html">Portfolio full dark</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="portfolio-grid-uneven.html">Portfolio Uneven</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="portfolio-slider.html">Portfolio Slider</Link> </li>
+                                                        <li class="dropdown-header">Graphics & E-commerce</li>
+                                                        <li> <Link class="dropdown-item" to="portfolio-overlap.html">Logo Designing</Link> </li>
+                                                        <li> <Link class="dropdown-item" to="portfolio-overlap-reveal.html">Banner Poster Designs</Link> </li>
+                                                        <li> <Link class="dropdown-item" to="portfolio-overlap-tilt.html">Print Media<span class="badge bg-danger ms-2">Trendy</span></Link> </li>
+                                                        <li> <Link class="dropdown-item" to="portfolio-broken-grid.html">Figma Designs</Link> </li>
                                                     </ul>
                                                 </div>
                                                 <div class="col-sm-6 col-lg-3">
                                                     <ul class="list-unstyled mb-4 mb-lg-0">
-                                                        <li class="dropdown-header">Portfolio Detail pages</li>
-                                                        <li> <Link class="dropdown-item" to="portfolio-detail-1.html">Portfolio detail 01</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="portfolio-detail-2.html">Portfolio detail 02</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="portfolio-case-study-1.html">Portfolio case study 01</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="portfolio-case-study-2.html">Portfolio case study 02</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="portfolio-case-study-3.html">Portfolio case study 03</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="portfolio-case-study-4.html">Portfolio case study 04</Link> </li>
+                                                        <li class="dropdown-header">Online Marketing</li>
+                                                        <li> <Link class="dropdown-item" to="portfolio-detail-1.html">Digital Marketing</Link> </li>
+                                                        <li> <Link class="dropdown-item" to="portfolio-detail-2.html">Social Media Handeling</Link> </li>
+                                                        <li> <Link class="dropdown-item" to="portfolio-case-study-1.html">Google Ads</Link> </li>
+                                                        <li> <Link class="dropdown-item" to="portfolio-case-study-2.html">Content Writing</Link> </li>
                                                     </ul>
                                                 </div>
                                                 <div class="col-sm-6 col-lg-3">
                                                     <ul class="list-unstyled">
-                                                        <li class="dropdown-header">Portfolio hover & Element</li>
-                                                        <li> <Link class="dropdown-item" to="portfolio-classic-grid-3-col.html">Hover: Classic</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="portfolio-overlap-tilt.html">Hover: Tilt Animation</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="portfolio-grayscale.html">Hover: Grayscale</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="portfolio-color-overlay.html">Hover: Color Overlay</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="portfolio-text-reveal.html">Hover: Text reveal</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="portfolio-hover-inside.html">Hover: Card inside</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="portfolio-appear.html">Scroll: Appear Animation</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="portfolio-overlap-reveal.html">Scroll: Reveal Animation</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="elements-pagination.html">Pagination Styles</Link> </li>
+                                                        <li class="dropdown-header">Branding</li>
+                                                        <li> <Link class="dropdown-item" to="portfolio-classic-grid-3-col.html">Brand Identity</Link> </li>
+                                                        <li> <Link class="dropdown-item" to="portfolio-overlap-tilt.html">Art Direction</Link> </li>
+                                                        <li> <Link class="dropdown-item" to="portfolio-grayscale.html">Visual Design</Link> </li>
+                                                        <li> <Link class="dropdown-item" to="portfolio-color-overlay.html">Illustration & Iconography</Link> </li>
                                                     </ul>
                                                 </div>
                                             </div>
+                                            <div class="col-12 mt-3">
+                                                    <div class="bg-dark p-5 pb-4 w-100 pattern-overlay-2">
+                                                        <div class="row d-md-flex justify-content-center">
+                                                            <h5 class="col-md-4 text-white mb-4">Discover with us - It's easier than you might think.</h5>
+                                                            <p class="col-md-3 text-white">Start right away to create your dream website hassle free. Grab yours now.</p>
+                                                            <div class="col-md-3 text-md-end">
+                                                                <Link class="btn btn-line btn-primary btn-border" target="_blank" to="#">Reach Us</Link>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                         </div>
                                     </div>
                                 </li>
@@ -438,54 +333,54 @@ const Header = () => {
                                             <div class="row g-0 flex-fill">
                                                 <div class="col-sm-6 col-lg-3">
                                                     <ul class="list-unstyled">
-                                                        <li> <Link class="dropdown-item" to="/rental"><i class="far fa-plus-square fa-fw me-2"></i>Accordion</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="/rental"><i class="fas fa-paperclip fa-fw me-2"></i>Action box</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="/rental"><i class="fas fa-exclamation-triangle fa-fw me-2"></i>Alerts</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="/rental"><i class="fas fa-radiation-alt fa-fw me-2"></i>Animation</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="/rental"><i class="far fa-user fa-fw me-2"></i>Avatar</Link> </li>
+                                                        <li> <Link class="dropdown-item" to="/rental"><i class="fas fa-laptop fa-fw me-2"></i>MacBook</Link> </li>
+                                                        <li> <Link class="dropdown-item" to="/rental"><i class="fas fa-desktop fa-fw me-2"></i>Desktop</Link> </li>
+                                                        <li> <Link class="dropdown-item" to="/rental"><i class="fas fa-screwdriver fa-fw me-2"></i>Pendrive</Link> </li>
+                                                        <li> <Link class="dropdown-item" to="/rental"><i class="fas fa-keyboard fa-fw me-2"></i>Keyboard</Link> </li>
+                                                        {/* <li> <Link class="dropdown-item" to="/rental"><i class="far fa-user fa-fw me-2"></i>Avatar</Link> </li>
                                                         <li> <Link class="dropdown-item" to="/rental"><i class="fas fa-quote-right fa-fw me-2"></i>Blockquote</Link> </li>
                                                         <li> <Link class="dropdown-item" to="/rental"><i class="fas fa-angle-right fa-fw me-2"></i>breadcrumbs</Link> </li>
                                                         <li> <Link class="dropdown-item" to="/rental"><i class="fas fa-link fa-fw me-2"></i>Buttons</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="/rental"><i class="far fa-window-restore fa-fw me-2"></i>Cards</Link> </li>
+                                                        <li> <Link class="dropdown-item" to="/rental"><i class="far fa-window-restore fa-fw me-2"></i>Cards</Link> </li> */}
                                                     </ul>
                                                 </div>
                                                 <div class="col-sm-6 col-lg-3">
                                                     <ul class="list-unstyled">
-                                                        <li> <Link class="dropdown-item" to="elements-clients.html"><i class="fas fa-user-tie fa-fw me-2"></i>Clients</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="elements-counter.html"><i class="fas fa-sort-numeric-up-alt fa-fw me-2"></i>Counter</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="elements-decorations.html"><i class="fas fa-spray-can fa-fw me-2"></i>decorations</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="elements-divider.html"><i class="fas fa-cut fa-fw me-2"></i>Divider</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="elements-feature-box.html"><i class="fas fa-newspaper fa-fw me-2"></i>Feature box</Link> </li>
+                                                        <li> <Link class="dropdown-item" to="elements-clients.html"><i class="fas fa-laptop-code fa-fw me-2"></i>MacBook Air</Link> </li>
+                                                        <li> <Link class="dropdown-item" to="elements-counter.html"><i class="fas fa-hdd fa-fw me-2"></i>CPUs</Link> </li>
+                                                        <li> <Link class="dropdown-item" to="elements-decorations.html"><i class="fal fa-hdd fa-fw me-2"></i>HDD Desktop</Link> </li>
+                                                        <li> <Link class="dropdown-item" to="elements-divider.html"><i class="fas fa-mouse fa-fw me-2"></i>Mouse</Link> </li>
+                                                        {/* <li> <Link class="dropdown-item" to="elements-feature-box.html"><i class="fas fa-newspaper fa-fw me-2"></i>Feature box</Link> </li>
                                                         <li> <Link class="dropdown-item" to="elements-forms.html"><i class="far fa-clipboard fa-fw me-2"></i>Forms</Link> </li>
                                                         <li> <Link class="dropdown-item" to="elements-forms-layout.html"><i class="fab fa-wpforms fa-fw me-2"></i>Forms layout</Link> </li>
                                                         <li> <Link class="dropdown-item" to="elements-google-map.html"><i class="fas fa-map fa-fw me-2"></i>Google Map</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="elements-list-group.html"><i class="fas fa-list fa-fw me-2"></i>list group</Link> </li>
+                                                        <li> <Link class="dropdown-item" to="elements-list-group.html"><i class="fas fa-list fa-fw me-2"></i>list group</Link> </li> */}
                                                     </ul>
                                                 </div>
                                                 <div class="col-sm-6 col-lg-3">
                                                     <ul class="list-unstyled">
-                                                        <li> <Link class="dropdown-item" to="elements-modals.html"><i class="fas fa-search-plus fa-fw me-2"></i>Modals popup</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="elements-offcanvas.html"><i class="fas fa-bars fa-fw me-2"></i>Offcanvas menus</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="elements-pagination.html"><i class="fas fa-ellipsis-h fa-fw me-2"></i>Pagination</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="elements-preloader.html"><i class="fas fa-spinner fa-spin fa-fw me-2"></i>Pre loaders</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="elements-process.html"><i class="fas fa-tasks fa-fw me-2"></i>Process (Work Step)</Link> </li>
+                                                        <li> <Link class="dropdown-item" to="elements-modals.html"><i class="fas fa-laptop fa-fw me-2"></i>Hp Laptops</Link> </li>
+                                                        <li> <Link class="dropdown-item" to="elements-offcanvas.html"><i class="fas fa-camera fa-fw me-2"></i>Camera</Link> </li>
+                                                        <li> <Link class="dropdown-item" to="elements-pagination.html"><i class="far fa-hdd fa-fw me-2"></i>HDD Laptops</Link> </li>
+                                                        <li> <Link class="dropdown-item" to="elements-preloader.html"><i class="fas fa-spinner fa-spin fa-fw me-2"></i>IT Assets</Link> </li>
+                                                        {/* <li> <Link class="dropdown-item" to="elements-process.html"><i class="fas fa-tasks fa-fw me-2"></i>Process (Work Step)</Link> </li>
                                                         <li> <Link class="dropdown-item" to="elements-progress.html"><i class="fas fa-grip-lines fa-fw me-2"></i>progress bar</Link> </li>
                                                         <li> <Link class="dropdown-item" to="elements-social-icons.html"><i class="fas fa-share-alt fa-fw me-2"></i>social icons</Link> </li>
                                                         <li> <Link class="dropdown-item" to="elements-tables.html"><i class="fas fa-table fa-fw me-2"></i>Tables</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="elements-tabs.html"><i class="fas fa-toggle-on fa-fw me-2"></i>Tabs and Navs</Link> </li>
+                                                        <li> <Link class="dropdown-item" to="elements-tabs.html"><i class="fas fa-toggle-on fa-fw me-2"></i>Tabs and Navs</Link> </li> */}
                                                     </ul>
                                                 </div>
                                                 <div class="col-sm-6 col-lg-3">
                                                     <ul class="list-unstyled">
-                                                        <li> <Link class="dropdown-item" to="elements-typing-headlines.html"><i class="fas fa-i-cursor blink-animation fa-fw me-2"></i>Typing headlines</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="elements-typography.html"><i class="fas fa-font fa-fw me-2"></i>Typography</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="elements-video.html"><i class="fas fa-file-video fa-fw me-2"></i>Video</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="elements-video-background.html"><i class="fas fa-photo-video fa-fw me-2"></i>Video background</Link> </li>
-                                                        <li class="dropdown-divider"></li>
+                                                        <li> <Link class="dropdown-item" to="elements-typing-headlines.html"><i class="fas fa-i-cursor blink-animation fa-fw me-2"></i>Laptops</Link> </li>
+                                                        <li> <Link class="dropdown-item" to="elements-typography.html"><i class="fas fa-video fa-fw me-2"></i>IP Cameras</Link> </li>
+                                                        <li> <Link class="dropdown-item" to="elements-video.html"><i class="fas fa-sim-card fa-fw me-2"></i>SSD</Link> </li>
+                                                        <li> <Link class="dropdown-item" to="elements-video-background.html"><i class="fas fa-print fa-fw me-2"></i>Printer</Link> </li>
+                                                        {/* <li class="dropdown-divider"></li>
                                                         <li class="dropdown-header mb-0">Plugins</li>
                                                         <li> <Link class="dropdown-item" to="elements-glightbox.html"><i class="fas fa-expand fa-fw me-2"></i>GLightbox popup</Link> </li>
                                                         <li> <Link class="dropdown-item" to="elements-isotope.html"><i class="fas fa-sliders-h fa-fw me-2"></i>Isotope (Filters & Masonry)</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="elements-tiny-slider.html"><i class="far fa-arrow-alt-circle-right fa-fw me-2"></i>Tiny slider</Link> </li>
+                                                        <li> <Link class="dropdown-item" to="elements-tiny-slider.html"><i class="far fa-arrow-alt-circle-right fa-fw me-2"></i>Tiny slider</Link> </li> */}
                                                     </ul>
                                                 </div>
                                                 <div class="col-12 mt-3">
@@ -494,7 +389,7 @@ const Header = () => {
                                                             <h5 class="col-md-4 text-white mb-4">Discover with us - It's easier than you might think.</h5>
                                                             <p class="col-md-3 text-white">Start right away to create your dream website hassle free. Grab yours now.</p>
                                                             <div class="col-md-3 text-md-end">
-                                                                <Link class="btn btn-line btn-primary" target="_blank" to="#">Reach Us</Link>
+                                                                <Link class="btn btn-line btn-primary btn-border" target="_blank" to="#">Reach Us</Link>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -537,17 +432,6 @@ const Header = () => {
                                                 </div>
                                             </div>
                                         </li>
-                                        <li class="bg-light pt-3">
-                                            <Link class="dropdown-item ps-4" to="https://getbootstrap.com/docs" target="_blank">
-                                                <div class="d-flex">
-                                                    <i class="display-8 mt-n2 me-3 text-primary fa-fw bi bi-bootstrap"></i>
-                                                    <div>
-                                                        <h6 class="my-0">Bootstrap Doc<i class="fas fa-external-link-square-alt text-body ms-2"></i></h6>
-                                                        <p class="small text-body d-none d-md-block">Checkout Bootstrap official Doc</p>
-                                                    </div>
-                                                </div>
-                                            </Link>
-                                        </li>
                                     </ul>
                                 </li>
 
@@ -572,7 +456,7 @@ const Header = () => {
                             {/* <!-- Nav side Opener --> */}
                             <div class="nav-item">
                                 <Link class="nav-link pe-0" data-bs-toggle="offcanvas" to="#offcanvasEnd" role="button" aria-controls="offcanvasEnd">
-                                    <i class="bi bi-text-right rtl-flip display-8" data-bs-target="#offcanvasEnd"></i>
+                                    <i class="bi bi-menu-button-wide rtl-flip display-8" data-bs-target="#offcanvasEnd"></i>
                                 </Link>
                             </div>
                         </div>
