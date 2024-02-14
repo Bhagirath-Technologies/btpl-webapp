@@ -22,7 +22,7 @@ const Rental = () => {
 				<div class="container-fluid px-lg-4">
 					<div class="row">
 						{/* <!-- Card item START --> */}
-						<CommonCard commonData={rentalService} />
+						<CommonCard services={rentalService} />
 						{/* <!-- Card item END --> */}
 					</div>
 				</div>
