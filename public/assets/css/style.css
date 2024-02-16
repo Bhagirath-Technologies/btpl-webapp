@@ -22472,8 +22472,8 @@ header.navbar-sticky-on .navbar-brand .navbar-brand-item {
 }
 
 .navbar-brand {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .navbar-brand .navbar-brand-item {
@@ -25611,7 +25611,7 @@ button.text-primary-hover {
 
 a.text-primary-hover:hover,
 button.text-primary-hover:hover {
-  color: var(--bs-primary) !important;
+  color: var(--bs-secondary) !important;
 }
 
 .text-primary-hover li {

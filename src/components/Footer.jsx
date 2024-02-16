@@ -9,7 +9,7 @@ const Footer = () => {
                     <div class="row">
                         {/* <!-- Footer Widget 1 --> */}
                         <div class="col-md-6 col-lg-3 mb-5">
-                            <img src='../assets/images/logos/Bhagirath Technologies Logo White.png' alt='logo' width="110px" />
+                            <img src='../assets/images/logos/Bhagirath Technologies Logo White.svg' alt='logo' width="110px" />
                             {/* <h3 class="text-white">Logo<span class="text-primary">.</span></h3> */}
                             <p>Lorem ipsum dolor sit amet.</p>
                             <div class="d-flex me-auto align-items-center">
@@ -28,7 +28,8 @@ const Footer = () => {
                                         <div class="profile_in">
                                             <div class="user_in">
                                                 <div class="img_in">
-                                                    <img src='../assets/images/logos/Bhagirath Technologies Logo White.png' alt='logo' width="40px" />
+                                                    {/* <img src='../assets/images/logos/Bhagirath Technologies Logo White.svg' alt='logo' width="40px" /> */}
+                                                    In
                                                 </div>
                                                 <div class="details_in">
                                                     <div class="name_in">Btpl</div>

@@ -31,6 +31,30 @@ const webData = [
     image: "./assets/images/services/4.webp",
     class: "col-sm-6 col-md-4 col-lg-4 col-xxl-4",
   },
+  {
+    id: "5",
+    type: 'services',
+    title: "Social Media Marketing",
+    desc: "Guranted Digital Presence",
+    image: "./assets/images/services/4.webp",
+    class: "col-sm-6 col-md-4 col-lg-4 col-xxl-4",
+  },
+  {
+    id: "6",
+    type: 'services',
+    title: "Social Media Marketing",
+    desc: "Guranted Digital Presence",
+    image: "./assets/images/services/4.webp",
+    class: "col-sm-6 col-md-4 col-lg-4 col-xxl-4",
+  },
+  {
+    id: "7",
+    type: 'services',
+    title: "Social Media Marketing",
+    desc: "Guranted Digital Presence",
+    image: "./assets/images/services/4.webp",
+    class: "col-sm-6 col-md-4 col-lg-4 col-xxl-4",
+  },
 ];
 
 export default webData;

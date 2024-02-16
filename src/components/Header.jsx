@@ -170,10 +170,10 @@ const Header = () => {
                                 {/* <!-- Top info --> */}
                                 <ul class="nav justify-content-center justify-content-md-start">
                                     <li class="nav-item me-3" data-bs-toggle="tooltip" data-bs-animation="false" data-bs-placement="bottom" title="Sunday CLOSED">
-                                        <span class="text-white"><i class="far fa-clock me-2"></i>Visit time: Mon-Sat 9:00-19:00</span>
+                                        <span class="text-white"><i class="far fa-clock me-2"></i>Visit time: Mon-Fri 9:00-06:00</span>
                                     </li>
                                     <li class="nav-item">
-                                        <Link class="navbar-link text-white text-primary-hover" to="#"><i class="fas fa-headset me-2"></i>Call us now: +135-869-328</Link>
+                                        <Link class="navbar-link text-white text-primary-hover" to="#"><i class="fas fa-headset me-2"></i>Call us now:+918982301484</Link>
                                     </li>
                                 </ul>
                             </div>
@@ -219,8 +219,8 @@ const Header = () => {
                 <nav class="navbar navbar-dark navbar-expand-lg">
                     <div class="container">
                         {/* <!-- Logo START --> */}
-                        <Link class="navbar-brand" to="/">
-                            <img src='../assets/images/logos/Bhagirath Technologies Logo White.png' alt="logo" width="110px" />
+                        <Link class="navbar-brand " to="/">
+                            <img src='../assets/images/logos/Bhagirath Technologies Logo White.svg' alt="logo" width="110px" />
                         </Link>
                         {/* <!-- Logo END --> */}
 
