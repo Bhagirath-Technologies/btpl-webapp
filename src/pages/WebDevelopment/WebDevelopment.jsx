@@ -90,6 +90,7 @@ const WebDevelopment = () => {
 
   const handlePageChange = (pageNumber) => {
     setCurrentPage(pageNumber);
+    window.scrollTo(0, 0); // Scroll to top of the page
   };
 
   return (
