@@ -1,6 +1,6 @@
 // ServiceDetail.jsx
 import React from 'react';
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 
 const ServiceDetail = ({ data }) => {
   const { id } = useParams();
@@ -20,8 +20,8 @@ const ServiceDetail = ({ data }) => {
             <div class="col-md-8">
               <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
-                  <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                  <li class="breadcrumb-item"><a href={`/${service.type}`}>{`${service.type}`}</a></li>
+                  <li class="breadcrumb-item"><Link to="/">Home</Link></li>
+                  <li class="breadcrumb-item"><Link to={`/${service.type}`}>{`${service.type}`}</Link></li>
                   <li class="breadcrumb-item active">{service.title}</li>
                 </ol>
               </nav>
@@ -60,7 +60,7 @@ const ServiceDetail = ({ data }) => {
                   </ul>
                 </div>
               </div>
-              <a href="#" class="btn btn-dark btn-line mt-4">Book Now</a>
+              <Link to="#" class="btn btn-dark btn-line mt-4">Book Now</Link>
             </div>
           </div>
           {/* <!-- Row END --> */}
