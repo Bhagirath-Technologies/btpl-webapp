@@ -137,7 +137,9 @@ const CommonCard = ({ services, currentPage, itemsPerPage }) => {
     const startIndex = (currentPage - 1) * itemsPerPage;
     const endIndex = currentPage * itemsPerPage;
     const currentServices = services.slice(startIndex, endIndex);
-
+    const handlePageTop = () => {
+        window.scrollTo(0, 0); // Scroll to top of the page
+      };
     return (
         <>
             {currentServices.map(service => (
@@ -146,7 +148,7 @@ const CommonCard = ({ services, currentPage, itemsPerPage }) => {
                         <div className="position-relative">
                             <img className="card-img-top rounded" src={service.image} alt={service.title} />
                             <div className="position-absolute top-50 start-50 translate-middle card-element-hover p-0">
-                                <Link to={`/${service.type}/${service.id}`} className="btn btn-white btn-sm btn-line">Read More</Link>
+                                <Link onClick={() => handlePageTop()} to={`/${service.type}/${service.id}`} className="btn btn-white btn-sm btn-line">Read More</Link>
                             </div>
                         </div>
                         <div className="card-body px-0 mt-n5 position-relative zindex-9">
