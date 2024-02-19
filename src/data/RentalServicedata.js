@@ -4,7 +4,7 @@ const rentalData = [
     type:'rental',
     title: "Mac Book",
     desc: "CORE i7 laptop (12th Gen)",
-    image: "./assets/images/IT Assets/1.webp",
+    image: "../assets/images/IT Assets/1.webp",
     class: "col-sm-6 col-md-4 col-lg-3 col-xxl-2",
   },
   {
@@ -12,7 +12,7 @@ const rentalData = [
     type:'rental',
     title: "Desk Top",
     desc: "CORE i5 laptop (11th Gen)",
-    image: "./assets/images/IT Assets/2.webp",
+    image: "../assets/images/IT Assets/2.webp",
     class: "col-sm-6 col-md-4 col-lg-3 col-xxl-2",
 
   },
@@ -21,7 +21,7 @@ const rentalData = [
     type:'rental',
     title: "Central Processing Units",
     desc: "Customised Units",
-    image: "./assets/images/IT Assets/3.webp",
+    image: "../assets/images/IT Assets/3.webp",
     class: "col-sm-6 col-md-4 col-lg-3 col-xxl-2",
 
   },
@@ -30,7 +30,7 @@ const rentalData = [
     type:'rental',
     title: "Hewlett Packard hp",
     desc: "CORE i3 laptop (12th Gen)",
-    image: "./assets/images/IT Assets/4.webp",
+    image: "../assets/images/IT Assets/4.webp",
     class: "col-sm-6 col-md-4 col-lg-3 col-xxl-2",
 
   },
@@ -39,7 +39,7 @@ const rentalData = [
     type:'rental',
     title: "Processors",
     desc: "CORE i3 laptop (12th Gen)",
-    image: "./assets/images/IT Assets/5.webp",
+    image: "../assets/images/IT Assets/5.webp",
     class: "col-sm-6 col-md-4 col-lg-3 col-xxl-2",
 
   },
@@ -48,7 +48,7 @@ const rentalData = [
     type:'rental',
     title: "Hewlett Packard hp",
     desc: "CORE i3 laptop (12th Gen)",
-    image: "./assets/images/IT Assets/6.webp",
+    image: "../assets/images/IT Assets/6.webp",
     class: "col-sm-6 col-md-4 col-lg-3 col-xxl-2",
 
   },
@@ -57,7 +57,7 @@ const rentalData = [
     type:'rental',
     title: "LED Screens & Panels",
     desc: "CORE i3 laptop (12th Gen)",
-    image: "./assets/images/IT Assets/7.webp",
+    image: "../assets/images/IT Assets/7.webp",
     class: "col-sm-6 col-md-4 col-lg-3 col-xxl-2",
 
   },
@@ -66,7 +66,7 @@ const rentalData = [
     type:'rental',
     title: "All IT Assets",
     desc: "CORE i3 laptop (12th Gen)",
-    image: "./assets/images/IT Assets/8.webp",
+    image: "../assets/images/IT Assets/8.webp",
     class: "col-sm-6 col-md-4 col-lg-3 col-xxl-2",
 
   },
@@ -75,7 +75,7 @@ const rentalData = [
     type:'rental',
     title: "Panels",
     desc: "CORE i3 laptop (12th Gen)",
-    image: "./assets/images/IT Assets/9.webp",
+    image: "../assets/images/IT Assets/9.webp",
     class: "col-sm-6 col-md-4 col-lg-3 col-xxl-2",
 
   },
@@ -84,7 +84,7 @@ const rentalData = [
     type:'rental',
     title: "Desktops",
     desc: "CORE i3 laptop (12th Gen)",
-    image: "./assets/images/IT Assets/10.webp",
+    image: "../assets/images/IT Assets/10.webp",
     class: "col-sm-6 col-md-4 col-lg-3 col-xxl-2",
 
   },
@@ -93,7 +93,7 @@ const rentalData = [
     type:'rental',
     title: "Hewlett Packard hp",
     desc: "CORE i3 laptop (12th Gen)",
-    image: "./assets/images/IT Assets/11.webp",
+    image: "../assets/images/IT Assets/11.webp",
     class: "col-sm-6 col-md-4 col-lg-3 col-xxl-2",
 
   },
@@ -102,7 +102,7 @@ const rentalData = [
     type:'rental',
     title: "Presentaion Screens",
     desc: "CORE i3 laptop (12th Gen)",
-    image: "./assets/images/IT Assets/12.webp",
+    image: "../assets/images/IT Assets/12.webp",
     class: "col-sm-6 col-md-4 col-lg-3 col-xxl-2",
 
   },

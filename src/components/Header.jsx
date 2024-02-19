@@ -32,23 +32,8 @@ const Header = () => {
                     {/* <!-- Offcanvas inner START --> */}
                     <ul class="nav dropdown-toggle-start-icon d-block flex-column mb-5">
                         <li class="nav-item display-6 h5 position-relative">
-                            <Link to="index.html" class="nav-link text-white-stroke d-block">Home</Link>
+                            <Link to="/" class="nav-link text-white-stroke d-block">Home</Link>
                             {/* <!-- Offcanvas dropdown START --> */}
-                            <Link class="dropdown-toggle collapsed" data-bs-toggle="collapse" to="#home-dropdown-collapse" role="button" aria-expanded="false" aria-controls="home-dropdown-collapse"></Link>
-                            <li class="collapse" id="home-dropdown-collapse">
-                                <ul class="nav flex-column w-100 pb-4 pe-0 pe-lg-5">
-                                    <li class="nav-item"> <Link class="nav-link text-body" to="index.html">Classic Default</Link> </li>
-                                    <li class="nav-item"> <Link class="nav-link text-body" to="index-2.html">Agency classic</Link> </li>
-                                    <li class="nav-item"> <Link class="nav-link text-body" to="index-3.html">Agency Trendy<span class="badge bg-danger ms-2">Hot</span></Link> </li>
-                                    <li class="nav-item"> <Link class="nav-link text-body" to="index-4.html">Agency Modern</Link> </li>
-                                    <li class="nav-item"> <Link class="nav-link text-body" to="index-5.html">Studio showcase</Link> </li>
-                                    <li class="nav-item"> <Link class="nav-link text-body" to="index-6.html">Creative agency</Link> </li>
-                                    <li class="nav-item"> <Link class="nav-link text-body" to="index-7.html">Digital studio</Link> </li>
-                                    <li class="nav-item"> <Link class="nav-link text-body" to="index-8.html">Portfolio showcase</Link> </li>
-                                    <li class="nav-item"> <Link class="nav-link text-body" to="index-9.html">Corporate </Link> </li>
-                                    <li class="nav-item"> <Link class="nav-link text-body" to="index-10.html">Personal Portfolio</Link> </li>
-                                </ul>
-                            </li>
                             {/* <!-- Offcanvas dropdown END --> */}
                             <li class="nav-item display-6 h5">
                                 <Link class="nav-link text-white-stroke" to="#">About</Link>
@@ -235,7 +220,7 @@ const Header = () => {
 
                                 {/* <!-- Menu item 1 Demos --> */}
                                 <li class="nav-item dropdown">
-                                    <Link class="nav-link" to="#">Home</Link>
+                                    <Link class="nav-link" to="/">Home</Link>
                                 </li>
 
                                 {/* <!-- Menu item 2 Pages --> */}
@@ -277,27 +262,27 @@ const Header = () => {
                                                     <ul class="list-unstyled mb-4 mb-lg-0">
                                                         <li class="dropdown-header">Web Development</li>
                                                         <li> <Link class="dropdown-item" to="/services">Website Design</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="portfolio-classic-grid-4-col.html">Web Applications</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="portfolio-classic-grid-6-col-fullwidth.html">Custom Software Development</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="portfolio-classic-masonry-3-col.html">E-Commerce Application</Link> </li>
+                                                        <li> <Link class="dropdown-item" to="/services">Web Applications</Link> </li>
+                                                        <li> <Link class="dropdown-item" to="/services">Custom Software Development</Link> </li>
+                                                        <li> <Link class="dropdown-item" to="/services">E-Commerce Application</Link> </li>
                                                     </ul>
                                                 </div>
                                                 <div class="col-sm-6 col-lg-3">
                                                     <ul class="list-unstyled mb-4 mb-lg-0">
                                                         <li class="dropdown-header">Graphics & E-commerce</li>
-                                                        <li> <Link class="dropdown-item" to="portfolio-overlap.html">Logo Designing</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="portfolio-overlap-reveal.html">Banner Poster Designs</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="portfolio-overlap-tilt.html">Print Media<span class="badge bg-danger ms-2">Trendy</span></Link> </li>
-                                                        <li> <Link class="dropdown-item" to="portfolio-broken-grid.html">Figma Designs</Link> </li>
+                                                        <li> <Link class="dropdown-item" to="/services">Logo Designing</Link> </li>
+                                                        <li> <Link class="dropdown-item" to="/services">Banner Poster Designs</Link> </li>
+                                                        <li> <Link class="dropdown-item" to="/services">Print Media<span class="badge bg-danger ms-2">Trendy</span></Link> </li>
+                                                        <li> <Link class="dropdown-item" to="/services">Figma Designs</Link> </li>
                                                     </ul>
                                                 </div>
                                                 <div class="col-sm-6 col-lg-3">
                                                     <ul class="list-unstyled mb-4 mb-lg-0">
                                                         <li class="dropdown-header">Online Marketing</li>
-                                                        <li> <Link class="dropdown-item" to="portfolio-detail-1.html">Digital Marketing</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="portfolio-detail-2.html">Social Media Handeling</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="portfolio-case-study-1.html">Google Ads</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="portfolio-case-study-2.html">Content Writing</Link> </li>
+                                                        <li> <Link class="dropdown-item" to="/services">Digital Marketing</Link> </li>
+                                                        <li> <Link class="dropdown-item" to="/services">Social Media Handeling</Link> </li>
+                                                        <li> <Link class="dropdown-item" to="/services">Google Ads Campaign</Link> </li>
+                                                        <li> <Link class="dropdown-item" to="/services">Content Writing</Link> </li>
                                                     </ul>
                                                 </div>
                                                 <div class="col-sm-6 col-lg-3">
@@ -362,7 +347,7 @@ const Header = () => {
                                                         <li> <Link class="dropdown-item" to="elements-modals.html"><i class="fas fa-laptop fa-fw me-2"></i>Hp Laptops</Link> </li>
                                                         <li> <Link class="dropdown-item" to="elements-offcanvas.html"><i class="fas fa-camera fa-fw me-2"></i>Camera</Link> </li>
                                                         <li> <Link class="dropdown-item" to="elements-pagination.html"><i class="far fa-hdd fa-fw me-2"></i>HDD Laptops</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="elements-preloader.html"><i class="fas fa-spinner fa-spin fa-fw me-2"></i>IT Assets</Link> </li>
+                                                        <li> <Link class="dropdown-item" to="elements-preloader.html"><i class="fas fa-spinner fa-spin fa-fw me-2"></i>IT Peripheral</Link> </li>
                                                         {/* <li> <Link class="dropdown-item" to="elements-process.html"><i class="fas fa-tasks fa-fw me-2"></i>Process (Work Step)</Link> </li>
                                                         <li> <Link class="dropdown-item" to="elements-progress.html"><i class="fas fa-grip-lines fa-fw me-2"></i>progress bar</Link> </li>
                                                         <li> <Link class="dropdown-item" to="elements-social-icons.html"><i class="fas fa-share-alt fa-fw me-2"></i>social icons</Link> </li>
@@ -375,7 +360,7 @@ const Header = () => {
                                                         <li> <Link class="dropdown-item" to="elements-typing-headlines.html"><i class="fas fa-i-cursor blink-animation fa-fw me-2"></i>Laptops</Link> </li>
                                                         <li> <Link class="dropdown-item" to="elements-typography.html"><i class="fas fa-video fa-fw me-2"></i>IP Cameras</Link> </li>
                                                         <li> <Link class="dropdown-item" to="elements-video.html"><i class="fas fa-sim-card fa-fw me-2"></i>SSD</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="elements-video-background.html"><i class="fas fa-print fa-fw me-2"></i>Printer</Link> </li>
+                                                        <li> <Link class="dropdown-item" to="elements-video-background.html"><i class="fas fa-print fa-fw me-2"></i>Printers</Link> </li>
                                                         {/* <li class="dropdown-divider"></li>
                                                         <li class="dropdown-header mb-0">Plugins</li>
                                                         <li> <Link class="dropdown-item" to="elements-glightbox.html"><i class="fas fa-expand fa-fw me-2"></i>GLightbox popup</Link> </li>
