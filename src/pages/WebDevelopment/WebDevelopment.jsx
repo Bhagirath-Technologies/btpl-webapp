@@ -85,8 +85,8 @@ import webData from '../../data/WebServicedata';
 
 const WebDevelopment = () => {
   const [currentPage, setCurrentPage] = useState(1);
-  const itemsPerPage = 6; // Number of items to display per page
-  const totalPages = 5;
+  const itemsPerPage = 4; // Number of items to display per page
+  const totalPages = 4;
 
   const handlePageChange = (pageNumber) => {
     setCurrentPage(pageNumber);
@@ -101,7 +101,7 @@ const WebDevelopment = () => {
           <div className="row d-flex justify-content-lg-between">
             <div className="col-12">
               <h1 className="display-4 text-dark-stroke text-primary-shadow">Our Services</h1>
-              <p className="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet.!</p>
+              <p className="lead"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet.!</p>
             </div>
           </div>
         </div>

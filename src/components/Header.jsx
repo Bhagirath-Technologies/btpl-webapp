@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation  } from 'react-router-dom';
+import {HashLink} from 'react-router-hash-link';
 
 const Header = () => {
     const location = useLocation();
@@ -219,7 +220,7 @@ const Header = () => {
                             <ul class="navbar-nav navbar-nav-scroll navbar-nav-scroll mx-auto">
 
                                 {/* <!-- Menu item 1 Demos --> */}
-                                <li class="nav-item dropdown">
+                                <li class="nav-item dropdown" >
                                     <Link class="nav-link" to="/">Home</Link>
                                 </li>
 
@@ -261,37 +262,37 @@ const Header = () => {
                                                 <div class="col-sm-6 col-lg-3">
                                                     <ul class="list-unstyled mb-4 mb-lg-0">
                                                         <li class="dropdown-header">Web Development</li>
-                                                        <li> <Link class="dropdown-item" to="/services">Website Design</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="/services">Web Applications</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="/services">Custom Software Development</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="/services">E-Commerce Application</Link> </li>
+                                                        <li > <HashLink class="dropdown-item" to="/services/1">Website Design</HashLink> </li>
+                                                        <li> <Link class="dropdown-item" to="/services/2">Web Applications</Link> </li>
+                                                        <li> <Link class="dropdown-item" to="/services/3">Custom Software Development</Link> </li>
+                                                        <li> <Link class="dropdown-item" to="/services/4">E-Commerce Application</Link> </li>
                                                     </ul>
                                                 </div>
                                                 <div class="col-sm-6 col-lg-3">
                                                     <ul class="list-unstyled mb-4 mb-lg-0">
                                                         <li class="dropdown-header">Graphics & E-commerce</li>
-                                                        <li> <Link class="dropdown-item" to="/services">Logo Designing</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="/services">Banner Poster Designs</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="/services">Print Media<span class="badge bg-danger ms-2">Trendy</span></Link> </li>
-                                                        <li> <Link class="dropdown-item" to="/services">Figma Designs</Link> </li>
+                                                        <li> <Link class="dropdown-item" to="/services/5">Logo Designing</Link> </li>
+                                                        <li> <Link class="dropdown-item" to="/services/6">Banner Poster Designs</Link> </li>
+                                                        <li> <Link class="dropdown-item" to="/services/7">Print Media<span class="badge bg-danger ms-2">Trendy</span></Link> </li>
+                                                        <li> <Link class="dropdown-item" to="/services/8">Figma Designs</Link> </li>
                                                     </ul>
                                                 </div>
                                                 <div class="col-sm-6 col-lg-3">
                                                     <ul class="list-unstyled mb-4 mb-lg-0">
                                                         <li class="dropdown-header">Online Marketing</li>
-                                                        <li> <Link class="dropdown-item" to="/services">Digital Marketing</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="/services">Social Media Handeling</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="/services">Google Ads Campaign</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="/services">Content Writing</Link> </li>
+                                                        <li> <Link class="dropdown-item" to="/services/9">Digital Marketing</Link> </li>
+                                                        <li> <Link class="dropdown-item" to="/services/10">Social Media Handeling</Link> </li>
+                                                        <li> <Link class="dropdown-item" to="/services/11">Google Ads Campaign</Link> </li>
+                                                        <li> <Link class="dropdown-item" to="/services/12">Content Writing</Link> </li>
                                                     </ul>
                                                 </div>
                                                 <div class="col-sm-6 col-lg-3">
                                                     <ul class="list-unstyled">
                                                         <li class="dropdown-header">Branding</li>
-                                                        <li> <Link class="dropdown-item" to="portfolio-classic-grid-3-col.html">Brand Identity</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="portfolio-overlap-tilt.html">Art Direction</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="portfolio-grayscale.html">Visual Design</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="portfolio-color-overlay.html">Illustration & Iconography</Link> </li>
+                                                        <li> <Link class="dropdown-item" to="/services/13">Brand Identity</Link> </li>
+                                                        <li> <Link class="dropdown-item" to="/services/14">Art Direction</Link> </li>
+                                                        <li> <Link class="dropdown-item" to="/services/15">Visual Design</Link> </li>
+                                                        <li> <Link class="dropdown-item" to="/services/12">Illustration & Iconography</Link> </li>
                                                     </ul>
                                                 </div>
                                             </div>

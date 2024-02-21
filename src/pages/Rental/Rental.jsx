@@ -41,7 +41,7 @@ import rentalData from '../../data/RentalServicedata';
 const Rental = () => {
 	const [currentPage, setCurrentPage] = useState(1);
 	const itemsPerPage = 6; // Number of items to display per page
-	const totalPages = 5;
+	const totalPages = 4;
 
 	const handlePageChange = (pageNumber) => {
 		setCurrentPage(pageNumber);
