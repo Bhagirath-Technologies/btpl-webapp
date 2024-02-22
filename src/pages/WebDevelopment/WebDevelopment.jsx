@@ -83,6 +83,8 @@ import React, { useState } from 'react';
 import CommonCard from '../../components/CommonCard';
 import webData from '../../data/WebServicedata';
 import AnimatedFigures from '../../components/AnimatedFigures';
+import { Link } from 'react-router-dom';
+
 
 const WebDevelopment = () => {
   const [currentPage, setCurrentPage] = useState(1);
@@ -92,7 +94,8 @@ const WebDevelopment = () => {
   const handlePageChange = (pageNumber) => {
     setCurrentPage(pageNumber);
     if (window.innerWidth >= 320 && window.innerWidth <= 767) {
-      window.scrollBy(0, -1200); // Scroll to top of the page
+      window.scrollBy(0, -1200);
+      // Scroll to top of the page
     }
   };
 
