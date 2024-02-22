@@ -262,37 +262,37 @@ const Header = () => {
                                                 <div class="col-sm-6 col-lg-3">
                                                     <ul class="list-unstyled mb-4 mb-lg-0">
                                                         <li class="dropdown-header">Web Development</li>
-                                                        <li > <HashLink class="dropdown-item" to="/services/1">Website Design</HashLink> </li>
-                                                        <li> <Link class="dropdown-item" to="/services/2">Web Applications</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="/services/3">Custom Software Development</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="/services/4">E-Commerce Application</Link> </li>
+                                                        <li > <HashLink class="dropdown-item" to="/services/1#service_detail">Website Design</HashLink> </li>
+                                                        <li> <HashLink class="dropdown-item" to="/services/2#service_detail">Web Applications</HashLink> </li>
+                                                        <li> <HashLink class="dropdown-item" to="/services/3#service_detail">Custom Software Development</HashLink> </li>
+                                                        <li> <HashLink class="dropdown-item" to="/services/4#service_detail">E-Commerce Application</HashLink> </li>
                                                     </ul>
                                                 </div>
                                                 <div class="col-sm-6 col-lg-3">
                                                     <ul class="list-unstyled mb-4 mb-lg-0">
                                                         <li class="dropdown-header">Graphics & E-commerce</li>
-                                                        <li> <Link class="dropdown-item" to="/services/5">Logo Designing</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="/services/6">Banner Poster Designs</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="/services/7">Print Media<span class="badge bg-danger ms-2">Trendy</span></Link> </li>
-                                                        <li> <Link class="dropdown-item" to="/services/8">Figma Designs</Link> </li>
+                                                        <li> <HashLink class="dropdown-item" to="/services/5#service_detail">Logo Designing</HashLink> </li>
+                                                        <li> <HashLink class="dropdown-item" to="/services/6#service_detail">Banner Poster Designs</HashLink> </li>
+                                                        <li> <HashLink class="dropdown-item" to="/services/7#service_detail">Print Media<span class="badge bg-danger ms-2">Trendy</span></HashLink> </li>
+                                                        <li> <HashLink class="dropdown-item" to="/services/8#service_detail">Figma Designs</HashLink> </li>
                                                     </ul>
                                                 </div>
                                                 <div class="col-sm-6 col-lg-3">
                                                     <ul class="list-unstyled mb-4 mb-lg-0">
                                                         <li class="dropdown-header">Online Marketing</li>
-                                                        <li> <Link class="dropdown-item" to="/services/9">Digital Marketing</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="/services/10">Social Media Handeling</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="/services/11">Google Ads Campaign</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="/services/12">Content Writing</Link> </li>
+                                                        <li> <HashLink class="dropdown-item" to="/services/9#service_detail">Digital Marketing</HashLink> </li>
+                                                        <li> <HashLink class="dropdown-item" to="/services/10#service_detail">Social Media Handeling</HashLink> </li>
+                                                        <li> <HashLink class="dropdown-item" to="/services/11#service_detail">Google Ads Campaign</HashLink> </li>
+                                                        <li> <HashLink class="dropdown-item" to="/services/12#service_detail">Content Writing</HashLink> </li>
                                                     </ul>
                                                 </div>
                                                 <div class="col-sm-6 col-lg-3">
                                                     <ul class="list-unstyled">
                                                         <li class="dropdown-header">Branding</li>
-                                                        <li> <Link class="dropdown-item" to="/services/13">Brand Identity</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="/services/14">Art Direction</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="/services/15">Visual Design</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="/services/12">Illustration & Iconography</Link> </li>
+                                                        <li> <HashLink class="dropdown-item" to="/services/13#service_detail">Brand Identity</HashLink> </li>
+                                                        <li> <HashLink class="dropdown-item" to="/services/14#service_detail">Art Direction</HashLink> </li>
+                                                        <li> <HashLink class="dropdown-item" to="/services/15#service_detail">Visual Design</HashLink> </li>
+                                                        <li> <HashLink class="dropdown-item" to="/services/12#service_detail">Illustration & Iconography</HashLink> </li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -302,7 +302,7 @@ const Header = () => {
                                                             <h5 class="col-md-4 text-white mb-4">Discover with us - It's easier than you might think.</h5>
                                                             <p class="col-md-3 text-white">Start right away to create your dream website hassle free. Grab yours now.</p>
                                                             <div class="col-md-3 text-md-end">
-                                                                <Link class="btn btn-line btn-primary btn-border" target="_blank" to="#">Reach Us</Link>
+                                                                <HashLink class="btn btn-line btn-success" to="/services#all_services">View All</HashLink>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -375,7 +375,7 @@ const Header = () => {
                                                             <h5 class="col-md-4 text-white mb-4">Discover with us - It's easier than you might think.</h5>
                                                             <p class="col-md-3 text-white">Start right away to create your dream website hassle free. Grab yours now.</p>
                                                             <div class="col-md-3 text-md-end">
-                                                                <Link class="btn btn-line btn-primary btn-border" target="_blank" to="#">Reach Us</Link>
+                                                                <HashLink class="btn btn-line btn-success" to="/rental">View All</HashLink>
                                                             </div>
                                                         </div>
                                                     </div>

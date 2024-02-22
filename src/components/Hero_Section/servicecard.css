@@ -56,7 +56,7 @@ width: 400px;
   }
   .rbt-badge-3 {
     position: absolute;
-    bottom: 23px;
+    bottom: -52px;
     right: 20px;
     height: 60px;
     width: 60px;
@@ -68,15 +68,20 @@ width: 400px;
     z-index: 1;
     background: transparent !important;
   }
+  @media only screen and (min-width:320px) and (max-width:768px){
+    .rbt-badge-3 {
+      bottom: -46px;
+    }
+  }
   .rbt-badge-3::before {
     content: "";
     width: 100%;
     height: 100%;
     position: absolute;
-    background: url(https://img.freepik.com/premium-vector/abstract-decorative-elements-labeled-with-elements_351457-360.jpg?w=740);
+    /* background-image: url("..assets/images/icons/badge.svg"); */
     background-size: cover;
     background-position: center center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat !important;
     left: 0;
     top: 0;
     z-index: -1;

@@ -144,7 +144,7 @@ const CommonCard = ({ services, currentPage, itemsPerPage }) => {
         <>
             {currentServices.map(service => (
                 <div className={service.class} key={service.id}>
-                    <div className="card aos aos-init aos-animate" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                    <div className="card aos aos-init aos-animate" data-aos="fade-up" data-aos-delay={service.data_aos_delay} data-aos-duration="1000" data-aos-easing="ease-in-out">
                         <div className="position-relative">
                             <img className="card-img-top rounded" src={service.image} alt={service.title} />
                             <div className="position-absolute top-50 start-50 translate-middle card-element-hover p-0">
