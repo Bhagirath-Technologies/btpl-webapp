@@ -82,8 +82,10 @@
 import React, { useState } from 'react';
 import CommonCard from '../../components/CommonCard';
 import webData from '../../data/WebServicedata';
+import { serviceItems } from '../../data/WebServicedata';
 import AnimatedFigures from '../../components/AnimatedFigures';
 import { Link } from 'react-router-dom';
+import ServiceItem from '../../components/ServiceItem';
 
 
 const WebDevelopment = () => {
@@ -114,6 +116,7 @@ const WebDevelopment = () => {
           </div>
           <div id='all_services' class="row p-5">
             {/* <!-- Service item --> */}
+            <ServiceItem serviceItem={serviceItems}/>
             <div class="col-md-6 col-lg-4">
               <div class="mb-6">
                 <span class="text-primary display-6"><i class="bi bi-vector-pen"></i></span>

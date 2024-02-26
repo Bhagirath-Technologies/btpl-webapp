@@ -7,20 +7,20 @@
 // 	return (
 // 		<>
 // 			<section>
-// 				<div class="container">
-// 					<div class="row d-flex justify-content-lg-between">
-// 						<div class="col-12">
-// 							<h1 class="display-4 text-dark-stroke text-primary-shadow">Rental Services</h1>
-// 							<p class="lead">Get hire you laptop, desktop , IT assets Now !</p>
+// 				<div className="container">
+// 					<div className="row d-flex justify-content-lg-between">
+// 						<div className="col-12">
+// 							<h1 className="display-4 text-dark-stroke text-primary-shadow">Rental Services</h1>
+// 							<p className="lead">Get hire you laptop, desktop , IT assets Now !</p>
 // 						</div>
 // 					</div>
 // 				</div>
 // 			</section>
 
 // 			{/* Rental portfolio starts of products */}
-// 			<section class="pt-0">
-// 				<div class="container-fluid px-lg-4">
-// 					<div class="row">
+// 			<section className="pt-0">
+// 				<div className="container-fluid px-lg-4">
+// 					<div className="row">
 // 						{/* <!-- Card item START --> */}
 // 						<CommonCard services={rentalService} />
 // 						{/* <!-- Card item END --> */}
@@ -52,19 +52,19 @@ const Rental = () => {
 		<>
 			{/* Your existing code */}
 			<section>
-				<div class="container">
-					<div class="row d-flex justify-content-lg-between">
-						<div class="col-12">
-							<h1 class="display-4 text-dark-stroke text-primary-shadow">Rental Services</h1>
-							<p class="lead">Get hire you laptop, desktop , IT assets Now !</p>
+				<div className="container">
+					<div className="row d-flex justify-content-lg-between">
+						<div className="col-12">
+							<h1 className="display-4 text-dark-stroke text-primary-shadow">Rental Services</h1>
+							<p className="lead">Get hire you laptop, desktop , IT assets Now !</p>
 						</div>
 					</div>
 				</div>
 			</section>
 
-			<section class="pt-0">
-				<div class="container-fluid px-lg-4">
-					<div class="row">
+			<section className="pt-0">
+				<div className="container-fluid px-lg-4">
+					<div className="row">
 						{/* Pass the currentPage and itemsPerPage props to CommonCard */}
 						<CommonCard services={rentalData} currentPage={currentPage} itemsPerPage={itemsPerPage} />
 					</div>
@@ -73,10 +73,10 @@ const Rental = () => {
 
 			{/* Pagination */}
 			<nav>
-				<ul class="pagination justify-content-center">
+				<ul className="pagination justify-content-center">
 					{Array.from({ length: totalPages }).map((_, index) => (
-						<li key={index} class={`page-item ${currentPage === index + 1 ? 'active' : ''}`}>
-							<button class="page-link" onClick={() => handlePageChange(index + 1)}>
+						<li key={index} className={`page-item ${currentPage === index + 1 ? 'active' : ''}`}>
+							<button className="page-link" onClick={() => handlePageChange(index + 1)}>
 								{index + 1}
 							</button>
 						</li>
