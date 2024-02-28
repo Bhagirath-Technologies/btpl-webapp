@@ -37,6 +37,9 @@
 import React, { useState } from 'react';
 import CommonCard from '../../components/CommonCard';
 import rentalData from '../../data/RentalServicedata';
+import AnimatedFigures from '../../components/AnimatedFigures';
+import ServiceItem from '../../components/ServiceItem';
+import { rentalItems } from '../../data/RentalServicedata';
 
 const Rental = () => {
 	const [currentPage, setCurrentPage] = useState(1);
@@ -51,13 +54,18 @@ const Rental = () => {
 	return (
 		<>
 			{/* Your existing code */}
-			<section>
+			<section className='pattern-overlay-7'>
+				<AnimatedFigures />
 				<div className="container">
 					<div className="row d-flex justify-content-lg-between">
 						<div className="col-12">
 							<h1 className="display-4 text-dark-stroke text-primary-shadow">Rental Services</h1>
 							<p className="lead">Get hire you laptop, desktop , IT assets Now !</p>
 						</div>
+					</div>
+					<div class="row p-5">
+						{/* <!-- Service item --> */}
+						<ServiceItem serviceItem={rentalItems} />
 					</div>
 				</div>
 			</section>

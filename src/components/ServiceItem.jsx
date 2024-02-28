@@ -3,6 +3,9 @@ import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 
 const ServiceItem = ({ serviceItem }) => {
+  const handlePageTop = () => {
+    window.scrollTo(0, 0); // Scroll to top of the page
+  };
   return (
     <>
       {serviceItem.map((item) => (
@@ -23,16 +26,16 @@ const ServiceItem = ({ serviceItem }) => {
             </h4>
             <p>{item.desc}</p>
             <div class="list-group list-group-borderless list-unstyled">
-              <HashLink to={item.links[0]} class="list-group-item bg-transparent">
+              <HashLink onClick={() => handlePageTop()} to={item.links[0]} class="list-group-item bg-transparent">
                 {item.properties[0]}
               </HashLink>
-              <HashLink to={item.links[1]} class="list-group-item bg-transparent">
+              <HashLink onClick={() => handlePageTop()} to={item.links[1]} class="list-group-item bg-transparent">
                 {item.properties[1]}
               </HashLink>
-              <HashLink to={item.links[2]} class="list-group-item bg-transparent">
+              <HashLink onClick={() => handlePageTop()} to={item.links[2]} class="list-group-item bg-transparent">
                 {item.properties[2]}
               </HashLink>
-              <HashLink to={item.links[3]} class="list-group-item bg-transparent">
+              <HashLink onClick={() => handlePageTop()} to={item.links[3]} class="list-group-item bg-transparent">
                 {item.properties[3]}
               </HashLink>
             </div>

@@ -48,7 +48,7 @@ import webData from "./data/WebServicedata"; // Import your data
 import ServiceDetail from './components/ServiceDetail';
 import Home from './pages/Home/Home';
 import Rental from './pages/Rental/Rental';
-import WebDevelopment from './pages/WebDevelopment/WebDevelopment';
+import WebDevelopment from './pages/Services/WebDevelopment';
 
 function App() {
   return (

@@ -22512,8 +22512,8 @@ header.navbar-sticky-on .navbar-brand .navbar-brand-item {
 }
 
 .navbar-brand {
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 1px;
+  padding-bottom: 1px;
 }
 
 .navbar-brand .navbar-brand-item {

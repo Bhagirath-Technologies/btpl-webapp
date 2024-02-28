@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { Link, useLocation  } from 'react-router-dom';
-import {HashLink} from 'react-router-hash-link';
+import { Link, useLocation } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 const Header = () => {
     const location = useLocation();
@@ -297,16 +297,16 @@ const Header = () => {
                                                 </div>
                                             </div>
                                             <div class="col-12 mt-3">
-                                                    <div class="bg-dark p-5 pb-4 w-100 pattern-overlay-2">
-                                                        <div class="row d-md-flex justify-content-center">
-                                                            <h5 class="col-md-4 text-white mb-4">Discover with us - It's easier than you might think.</h5>
-                                                            <p class="col-md-3 text-white">Start right away to create your dream website hassle free. Grab yours now.</p>
-                                                            <div class="col-md-3 text-md-end">
-                                                                <HashLink class="btn btn-line btn-success" to="/services#all_services">View All</HashLink>
-                                                            </div>
+                                                <div class="bg-dark p-5 pb-4 w-100 pattern-overlay-2">
+                                                    <div class="row d-md-flex justify-content-center">
+                                                        <h5 class="col-md-4 text-white mb-4">Discover with us - It's easier than you might think.</h5>
+                                                        <p class="col-md-3 text-white">Start right away to create your dream website hassle free. Grab yours now.</p>
+                                                        <div class="col-md-3 text-md-end">
+                                                            <HashLink class="btn btn-line btn-success" to="/services#all_services">View All</HashLink>
                                                         </div>
                                                     </div>
                                                 </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </li>
@@ -319,6 +319,7 @@ const Header = () => {
                                             <div class="row g-0 flex-fill">
                                                 <div class="col-sm-6 col-lg-3">
                                                     <ul class="list-unstyled">
+                                                        <li class="dropdown-header">Laptops</li>
                                                         <li> <Link class="dropdown-item" to="/rental"><i class="fas fa-laptop fa-fw me-2"></i>MacBook</Link> </li>
                                                         <li> <Link class="dropdown-item" to="/rental"><i class="fas fa-desktop fa-fw me-2"></i>Desktop</Link> </li>
                                                         <li> <Link class="dropdown-item" to="/rental"><i class="fas fa-screwdriver fa-fw me-2"></i>Pendrive</Link> </li>
@@ -332,6 +333,7 @@ const Header = () => {
                                                 </div>
                                                 <div class="col-sm-6 col-lg-3">
                                                     <ul class="list-unstyled">
+                                                        <li class="dropdown-header">Desktops</li>
                                                         <li> <Link class="dropdown-item" to="elements-clients.html"><i class="fas fa-laptop-code fa-fw me-2"></i>MacBook Air</Link> </li>
                                                         <li> <Link class="dropdown-item" to="elements-counter.html"><i class="fas fa-hdd fa-fw me-2"></i>CPUs</Link> </li>
                                                         <li> <Link class="dropdown-item" to="elements-decorations.html"><i class="fal fa-hdd fa-fw me-2"></i>HDD Desktop</Link> </li>
@@ -345,6 +347,7 @@ const Header = () => {
                                                 </div>
                                                 <div class="col-sm-6 col-lg-3">
                                                     <ul class="list-unstyled">
+                                                        <li class="dropdown-header">Peripherals</li>
                                                         <li> <Link class="dropdown-item" to="elements-modals.html"><i class="fas fa-laptop fa-fw me-2"></i>Hp Laptops</Link> </li>
                                                         <li> <Link class="dropdown-item" to="elements-offcanvas.html"><i class="fas fa-camera fa-fw me-2"></i>Camera</Link> </li>
                                                         <li> <Link class="dropdown-item" to="elements-pagination.html"><i class="far fa-hdd fa-fw me-2"></i>HDD Laptops</Link> </li>
@@ -358,6 +361,7 @@ const Header = () => {
                                                 </div>
                                                 <div class="col-sm-6 col-lg-3">
                                                     <ul class="list-unstyled">
+                                                        <li class="dropdown-header">Printers & Scanners</li>
                                                         <li> <Link class="dropdown-item" to="elements-typing-headlines.html"><i class="fas fa-i-cursor blink-animation fa-fw me-2"></i>Laptops</Link> </li>
                                                         <li> <Link class="dropdown-item" to="elements-typography.html"><i class="fas fa-video fa-fw me-2"></i>IP Cameras</Link> </li>
                                                         <li> <Link class="dropdown-item" to="elements-video.html"><i class="fas fa-sim-card fa-fw me-2"></i>SSD</Link> </li>

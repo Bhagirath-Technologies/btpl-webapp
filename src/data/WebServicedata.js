@@ -14,7 +14,7 @@ const webData = [
     type: "services",
     title: "Web Applications",
     desc: "Guranted Digital Presence",
-    image: "../assets/images/services/2.webp",
+    image: "../assets/images/services/2.png",
     class: "col-sm-6 col-md-4 col-lg-3 col-xxl-3",
     hashlinks: "service_detail",
     data_aos_delay: "600",
@@ -157,7 +157,7 @@ export const serviceItems = [
       "E-Commerce Solution",
     ],
     links: [
-      "/services/1#service_detail",
+      "/services/1",
       "/services/2",
       "/services/3",
       "/services/4",
@@ -184,7 +184,7 @@ export const serviceItems = [
     title: "Print Media",
     desc: "lorem ipsum dolor sit emt consector ipsum dolor sit emt consector.",
     hashlinks: "service_detail",
-    properties: ["Print Media Trending"],
+    properties: ["Print Media (Trending)"],
     links: [
       "/services/7",
     ],
@@ -217,7 +217,7 @@ export const serviceItems = [
     hashlinks: "service_detail",
     properties: ["Google Ads Campaign"],
     links: [
-      "/services/11#service_detail",
+      "/services/11",
     ],
     data_aos_delay: "900",
   },
@@ -234,10 +234,10 @@ export const serviceItems = [
       "Illustration & Iconography",
     ],
     links: [
-      "/services/12",
       "/services/13",
       "/services/14",
-      "/services/4",
+      "/services/15",
+      "/services/16",
     ],
     data_aos_delay: "900",
   },
