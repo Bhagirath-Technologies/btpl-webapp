@@ -320,10 +320,10 @@ const Header = () => {
                                                 <div class="col-sm-6 col-lg-3">
                                                     <ul class="list-unstyled">
                                                         <li class="dropdown-header">Laptops</li>
-                                                        <li> <Link class="dropdown-item" to="/rental"><i class="fas fa-laptop fa-fw me-2"></i>MacBook</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="/rental"><i class="fas fa-desktop fa-fw me-2"></i>Desktop</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="/rental"><i class="fas fa-screwdriver fa-fw me-2"></i>Pendrive</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="/rental"><i class="fas fa-keyboard fa-fw me-2"></i>Keyboard</Link> </li>
+                                                        <li> <Link class="dropdown-item" to="/rental/1"><i class="bi bi-laptop fa-fw me-2"></i>MacBook</Link> </li>
+                                                        <li> <Link class="dropdown-item" to="/rental/2"><i class="fas fa-laptop fa-fw me-2"></i>MacBook Air</Link> </li>
+                                                        <li> <Link class="dropdown-item" to="/rental/6"><i class="bi bi-laptop-fill fa-fw me-2"></i>Hp Laptops</Link> </li>
+                                                        <li> <Link class="dropdown-item" to="/rental/11"><i class="fas fa-laptop-code blink-animation fa-fw me-2"></i>Other Laptops</Link> </li>
                                                         {/* <li> <Link class="dropdown-item" to="/rental"><i class="far fa-user fa-fw me-2"></i>Avatar</Link> </li>
                                                         <li> <Link class="dropdown-item" to="/rental"><i class="fas fa-quote-right fa-fw me-2"></i>Blockquote</Link> </li>
                                                         <li> <Link class="dropdown-item" to="/rental"><i class="fas fa-angle-right fa-fw me-2"></i>breadcrumbs</Link> </li>
@@ -334,10 +334,10 @@ const Header = () => {
                                                 <div class="col-sm-6 col-lg-3">
                                                     <ul class="list-unstyled">
                                                         <li class="dropdown-header">Desktops</li>
-                                                        <li> <Link class="dropdown-item" to="elements-clients.html"><i class="fas fa-laptop-code fa-fw me-2"></i>MacBook Air</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="elements-counter.html"><i class="fas fa-hdd fa-fw me-2"></i>CPUs</Link> </li>
+                                                        <li> <Link class="dropdown-item" to="/rental/10"><i class="fas fa-desktop fa-fw me-2"></i>Computers</Link> </li>
+                                                        <li> <Link class="dropdown-item" to="/rental/2"><i class="bi bi-pc-display-horizontal fa-fw me-2"></i>Desktop</Link> </li>
+                                                        <li> <Link class="dropdown-item" to="elements-clients.html"><i class="bi bi-pc-display fa-fw me-2"></i>Gaming Computers</Link> </li>
                                                         <li> <Link class="dropdown-item" to="elements-decorations.html"><i class="fal fa-hdd fa-fw me-2"></i>HDD Desktop</Link> </li>
-                                                        <li> <Link class="dropdown-item" to="elements-divider.html"><i class="fas fa-mouse fa-fw me-2"></i>Mouse</Link> </li>
                                                         {/* <li> <Link class="dropdown-item" to="elements-feature-box.html"><i class="fas fa-newspaper fa-fw me-2"></i>Feature box</Link> </li>
                                                         <li> <Link class="dropdown-item" to="elements-forms.html"><i class="far fa-clipboard fa-fw me-2"></i>Forms</Link> </li>
                                                         <li> <Link class="dropdown-item" to="elements-forms-layout.html"><i class="fab fa-wpforms fa-fw me-2"></i>Forms layout</Link> </li>
@@ -348,7 +348,10 @@ const Header = () => {
                                                 <div class="col-sm-6 col-lg-3">
                                                     <ul class="list-unstyled">
                                                         <li class="dropdown-header">Peripherals</li>
-                                                        <li> <Link class="dropdown-item" to="elements-modals.html"><i class="fas fa-laptop fa-fw me-2"></i>Hp Laptops</Link> </li>
+                                                        <li> <Link class="dropdown-item" to="elements-modals.html"><i class="bi bi-webcam-fill fa-fw me-2"></i>IP Cameras</Link> </li>
+                                                        <li> <Link class="dropdown-item" to="/rental/3"><i class="fas fa-hdd fa-fw me-2"></i>CPUs</Link> </li>
+                                                        <li> <Link class="dropdown-item" to="/rental"><i class="fas fa-keyboard fa-fw me-2"></i>Keyboard</Link> </li>
+                                                        <li> <Link class="dropdown-item" to="elements-divider.html"><i class="fas fa-mouse fa-fw me-2"></i>Mouse</Link> </li>
                                                         <li> <Link class="dropdown-item" to="elements-offcanvas.html"><i class="fas fa-camera fa-fw me-2"></i>Camera</Link> </li>
                                                         <li> <Link class="dropdown-item" to="elements-pagination.html"><i class="far fa-hdd fa-fw me-2"></i>HDD Laptops</Link> </li>
                                                         <li> <Link class="dropdown-item" to="elements-preloader.html"><i class="fas fa-spinner fa-spin fa-fw me-2"></i>IT Peripheral</Link> </li>
@@ -361,7 +364,12 @@ const Header = () => {
                                                 </div>
                                                 <div class="col-sm-6 col-lg-3">
                                                     <ul class="list-unstyled">
-                                                        <li class="dropdown-header">Printers & Scanners</li>
+                                                        <li class="dropdown-header">Printers & Screens</li>
+                                                        <li> <Link class="dropdown-item" to="elements-video-background.html"><i class="fas fa-print fa-fw me-2"></i>Printers</Link> </li>
+                                                        <li> <Link class="dropdown-item" to="elements-video-background.html"><i class="bi bi-printer-fill fa-fw me-2"></i>Scanners</Link> </li>
+                                                        <li> <Link class="dropdown-item" to="elements-video.html"><i class="fas fa-tv fa-fw me-2"></i>LED Screens</Link> </li>
+                                                        <li> <Link class="dropdown-item" to="elements-video.html"><i class="bi bi-tv-fill fa-fw me-2"></i>Panel Screens</Link> </li>
+
                                                         <li> <Link class="dropdown-item" to="elements-typing-headlines.html"><i class="fas fa-i-cursor blink-animation fa-fw me-2"></i>Laptops</Link> </li>
                                                         <li> <Link class="dropdown-item" to="elements-typography.html"><i class="fas fa-video fa-fw me-2"></i>IP Cameras</Link> </li>
                                                         <li> <Link class="dropdown-item" to="elements-video.html"><i class="fas fa-sim-card fa-fw me-2"></i>SSD</Link> </li>

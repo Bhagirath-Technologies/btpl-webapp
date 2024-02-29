@@ -82,7 +82,7 @@ const rentalData = [
   {
     id: "10",
     type: 'rental',
-    title: "Desktops",
+    title: "Computers",
     desc: "CORE i3 laptop (12th Gen)",
     image: "../assets/images/IT Assets/10.webp",
     class: "col-sm-6 col-md-4 col-lg-3 col-xxl-2",
@@ -167,9 +167,10 @@ export const rentalItems = [
     desc: "lorem ipsum dolor sit emt consector ipsum dolor sit emt consector.",
     hashlinks: "service_detail",
     properties: [
-      "Digital Marketing",
-      "Social Media Handeling",
-      "Content Writing",
+      "Printers",
+      "Scanners",
+      "LED Screens",
+      "Panel Screens",
     ],
     links: [
       "/services/9",
@@ -184,7 +185,10 @@ export const rentalItems = [
     title: "Other Accessories",
     desc: "lorem ipsum dolor sit emt consector ipsum dolor sit emt consector.",
     hashlinks: "service_detail",
-    properties: ["Google Ads Campaign"],
+    properties: ["Cables",
+    "Processors",
+    "Pendrives",
+    "SSD/HDD",],
     links: [
       "/services/11",
     ],
@@ -197,10 +201,8 @@ export const rentalItems = [
     desc: "lorem ipsum dolor sit emt consector ipsum dolor sit emt consector.",
     hashlinks: "service_detail",
     properties: [
-      "Brand Identity",
-      "Art Direction",
-      "Visual Design",
-      "Illustration & Iconography",
+      "Modem",
+      "Router",
     ],
     links: [
       "/services/13",
