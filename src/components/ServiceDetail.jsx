@@ -25,13 +25,13 @@ const ServiceDetail = ({ data }) => {
                   <li className="breadcrumb-item active">{service.title}</li>
                 </ol>
               </nav>
-              <h2 className="display-6">{service.title}</h2>
+              <h2  className="display-6">{service.title}</h2>
               <p  className="lead">{service.desc}</p>
             </div>
           </div>
           {/* <!-- Row END --> */}
         </div>
-      </section>
+      </section >
 
       <section id={service.hashlinks} className="pt-0">
         <div className="container">
