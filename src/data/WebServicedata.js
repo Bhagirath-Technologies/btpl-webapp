@@ -14,7 +14,7 @@ const webData = [
     type: "services",
     title: "Web Applications",
     desc: "Guranted Digital Presence",
-    image: "../assets/images/services/2.png",
+    image: "../assets/images/services/2.webp",
     class: "col-sm-6 col-md-4 col-lg-3 col-xxl-3",
     hashlinks: "service_detail",
     data_aos_delay: "600",
