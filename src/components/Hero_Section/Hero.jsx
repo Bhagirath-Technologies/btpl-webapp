@@ -11,7 +11,7 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import { Link } from 'react-router-dom';
 const swiperStyles = {
     height: '100%',
-  };
+};
 export default function App() {
     return (
         <>
@@ -43,9 +43,18 @@ export default function App() {
                                     <div className="row d-flex h-100">
                                         <div className="col-md-8 justify-content-center align-self-center align-items-start">
                                             <div className="slider-content text-start">
-                                                <h5 className="animate__animated animate__fadeInUp animate__delay-1s text-white mb-1 mb-md-4" data-aos="fade-up" data-aos-duration="1000">Branding, design ,develop and digital based</h5>
-                                                <h2 className="display-1 text-white-stroke text-primary-shadow d-block animate__animated animate__fadeInUp animate__delay-2s" data-aos="fade-up" data-aos-duration="2000" >Agency</h2>
-                                                <p className="animate__animated animate__fadeInUp animate__delay-3s lead text-white" data-aos="fade-up" data-aos-duration="3000">We're Information Technology Company. We help our customers better manage their web presence in order to achieve greater success online.</p>
+                                                <h3 className="animate__animated animate__fadeInUp animate__delay-3s text-white mb-1 mb-md-4" data-aos="fade-up" data-aos-duration="1000">Global IT Solutions</h3>
+                                                {/* <h2 className="display-1 text-white-stroke text-primary-shadow d-block animate__animated animate__fadeInUp animate__delay-2s" data-aos="fade-up" data-aos-duration="2000" >Agency</h2> */}
+                                                <h2 className="animate__animated animate__fadeInUp animate__delay-3s display-3 text-white-stroke text-primary-shadow" data-aos="fade-up" data-aos-duration="2000">
+                                                    <span className="text-white-stroke text-primary-shadow">B</span><span className="text-white">eyond</span>
+                                                    <span className="text-white-stroke text-primary-shadow"> T</span>
+                                                    <span className="text-white">he</span>
+                                                    <span className="text-white-stroke text-primary-shadow ">   P</span>
+                                                    <span className="text-white">ossible</span>
+                                                    <span className="text-white-stroke text-primary-shadow"> L</span>
+                                                    <span className="text-white">imits</span>
+                                                </h2>
+                                                <p className="animate__animated animate__fadeInUp animate__delay-3s lead text-white" data-aos="fade-up" data-aos-duration="3000">In the world of technology, artificial intelligence, business, and beyond. BTPL serves as a guiding principle for those who dare to dream big and strive for greatness.</p>
                                                 <div className="animate__animated animate__fadeInUp mt-4 animate__delay-4s" data-aos="fade-up" data-aos-duration="3500"><Link to="#" className="btn btn-line text-white">How it works</Link></div>
                                             </div>
                                         </div>

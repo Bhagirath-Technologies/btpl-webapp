@@ -47,8 +47,8 @@ const Home = () => {
                     <div className="container position-relative">
                         <div className="row">
                             <div className="col-lg-8 mb-5">
-                                <h2 className="display-5">Redefine your business strategy</h2>
-                                <p>We are an insight and behavior-driven creative marketing agency. A Full Service Digital Creative Agency Specializing in: Video Production, Web Design, Branding, Brand Strategy</p>
+                                <h2 className="display-5">Transform your business strategy</h2>
+                                <p>We're an innovative company beyond the possible limits powered by consumer insights and behavior. Our focus areas include video editing, web designing, and web development. From crafting compelling visuals to enhancing user experiences online, we're dedicated to bringing your ideas to life with impactful creativity. we specialize in Digital Marketing, Graphic Design, Software Development, and Web Hosting to provide comprehensive solutions for your business needs. With our expertise across diverse domains, we ensure every aspect of your digital presence is optimized for success</p>
                             </div>
                         </div>
                         <div className="row d-flex">
@@ -97,7 +97,7 @@ const Home = () => {
                         {/* <!-- row END --> */}
                         <div className="row d-flex justify-content-end">
                             <div className="col-lg-9">
-                                <Link to="#" className="btn btn-line text-dark mt-4">View all services</Link>
+                                <Link to="/services" className="btn btn-line text-dark mt-4">View all services</Link>
                             </div>
                         </div>
                     </div>
@@ -109,34 +109,35 @@ const Home = () => {
                         <div className="row">
                             {/* <!-- Title --> */}
                             <div className="col-md-5 mb-5">
-                                <h2 className="display-4 text-white-stroke">Our every day business</h2>
-                                <p>Building a strong brand. Distinctive, recognizable and consistent. Effective communication campaigns that activate your target group.</p>
+                                <h2 className="display-4 text-white-stroke">We Modulates business needs</h2>
+                                <p>Harnessing the power of digital technologies and strategic marketing techniques, we propel your business forward with our comprehensive suite of services. From Email Marketing and CRM Development to CMS Development and Lead Generation, we ensure every aspect of your online presence is optimized for success. Our expertise in Search Engine Marketing and Pay-Per-Click advertising drives targeted traffic to your platform, maximizing your visibility and conversions.
+                                    With Agile Software Development methodologies and API Development, we create dynamic, scalable solutions tailored to your unique requirements. Moreover, our Rental Services streamline operations, providing cost-effective solutions for your business needs.  </p>
                             </div>
                             <div className="col-md-7 mb-5">
                                 <div className="row">
                                     {/* <!-- Feature item --> */}
                                     <div className="col-sm-6 mb-5">
-                                        <i className="display-6 text-primary bi bi-laptop"></i>
+                                        <i className="display-6 text-primary fab fa-react"></i>
                                         <h5 className="text-white my-3">Digital Development</h5>
-                                        <p className="text-secondary">Smart use of data & technology for the automation of your business.</p>
+                                        <p className="text-secondary">Digital development involves leveraging technology and digital tools to innovate, solve problems, and achieve desired outcomes in various domains, including business, education.</p>
                                     </div>
                                     {/* <!-- Feature item --> */}
                                     <div className="col-sm-6 mb-5">
                                         <i className="display-6 text-primary bi bi-bar-chart-line"></i>
-                                        <h5 className="text-white my-3">Online Marketing</h5>
-                                        <p className="text-secondary">The right mix of resources for achieving your online goals.</p>
+                                        <h5 className="text-white my-3"><Link className='text-white' to="/rental"></Link>Online Marketing</h5>
+                                        <p className="text-secondary">Online marketing offers businesses and organizations the opportunity to reach a global audience, target specific demographics, track results in real-time, and adjust strategies accordingly to maximize ROI.</p>
                                     </div>
                                     {/* <!-- Feature item --> */}
                                     <div className="col-sm-6 mb-5 mb-sm-0">
-                                        <i className="display-6 text-primary bi bi-shop"></i>
-                                        <h5 className="text-white my-3">E-Commerce Solution</h5>
-                                        <p className="text-secondary m-0">A scalable web shop for online sales of your product or service.</p>
+                                        <i className="display-6 text-primary bi bi-laptop"></i>
+                                        <h5 className="text-white my-3"><Link className='text-white' to="/rental">Rental Solutions</Link></h5>
+                                        <p className="text-secondary m-0">Rental solutions provide flexibility, cost-effectiveness, and convenience for individuals and businesses seeking access to peripherals without the burden of ownership or long-term commitments.</p>
                                     </div>
                                     {/* <!-- Feature item --> */}
                                     <div className="col-sm-6">
-                                        <i className="display-6 text-primary bi bi-envelope-open"></i>
-                                        <h5 className="text-white my-3">E-mail Campaigns</h5>
-                                        <p className="text-secondary m-0">Effective communication campaigns that activate your target group.</p>
+                                        <i className="display-6 text-primary bi bi-r-circle"></i>
+                                        <h5 className="text-white my-3"><Link className='text-white' to="/services">Brand Identity</Link></h5>
+                                        <p className="text-secondary m-0">Brand identity is a strong essential for creating brand recognition, building customer loyalty. It helps establish a consistent and memorable brand presence across all touchpoints.</p>
                                     </div>
                                 </div>
                             </div>

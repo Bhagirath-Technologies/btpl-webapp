@@ -139,6 +139,26 @@ const webData = [
     hashlinks: "service_detail",
     data_aos_delay: "600",
   },
+  {
+    id: "15",
+    type: "services",
+    title: "Visual Design",
+    desc: "Guranted Digital Presence",
+    image: "../assets/images/services/15.webp",
+    class: "col-sm-6 col-md-4 col-lg-3 col-xxl-3",
+    hashlinks: "service_detail",
+    data_aos_delay: "900",
+  },
+  {
+    id: "16",
+    type: "services",
+    title: "Illustration & Iconography",
+    desc: "Guranted Digital Presence",
+    image: "../assets/images/services/16.webp",
+    class: "col-sm-6 col-md-4 col-lg-3 col-xxl-3",
+    hashlinks: "service_detail",
+    data_aos_delay: "1200",
+  },
 ];
 
 export default webData;
