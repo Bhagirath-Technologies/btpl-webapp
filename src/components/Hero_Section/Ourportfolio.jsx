@@ -61,14 +61,14 @@ export default function App() {
                                                 <Link to="#" className="card card-metro">
                                                     {/* <!-- Card Image --> */}
                                                     <div className="card-image">
-                                                        <img src="assets/images/portfolio/01.jpg" alt="" />
+                                                        <img src="assets/images/portfolio/01.webp" alt="" />
                                                     </div>
                                                     {/* <!-- Card Overlay --> */}
                                                     <div className="card-img-overlay d-flex flex-column">
                                                         <img className="w-40" src="assets/images/clients/light/01.svg" alt="" />
                                                         <div className="mt-auto card-text">
-                                                            <h5 className="text-white">The missing link in e-Mobility</h5>
-                                                            <p className="small text-white mb-0 text-truncate">What hasn’t been a great fit in e-mobility until now.</p>
+                                                            <h5 className="text-white">Bhagirath BVM Grand (HK)</h5>
+                                                            <p className="small text-white mb-0 text-truncate">At Bhagirath BVM Grand (HK) Limited, we are the catalysts of global trade, a company that thrives on connecting the world through commerce.</p>
                                                         </div>
                                                     </div>
                                                 </Link>
@@ -81,7 +81,7 @@ export default function App() {
                                                 <Link to="#" className="card card-metro">
                                                     {/* <!-- Card Image --> */}
                                                     <div className="card-image">
-                                                        <img src="assets/images/portfolio/02.jpg" alt="" />
+                                                        <img src="assets/images/portfolio/02.webp" alt="" />
                                                     </div>
                                                     {/* <!-- Card Overlay --> */}
                                                     <div className="card-img-overlay d-flex flex-column">
