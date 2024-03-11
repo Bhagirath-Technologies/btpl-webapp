@@ -20,6 +20,9 @@ export default function App({ serviceDetail }) {
         }}
       >
         {serviceDetail.map((services) => {
+           const scrollToTop = () => {
+            window.scrollTo(0, 0); // Scroll to top of the page
+          };
           return (
             <>
               <SwiperSlide key={services.id}>
@@ -114,7 +117,7 @@ export default function App({ serviceDetail }) {
                             </Link>
                           </button>
                         </div>
-                        <Link className="rbt-btn-link" to="#">
+                        <Link className="rbt-btn-link" to={services.link} onClick={() => scrollToTop()}>
                           View Details<i className="fas fa-arrow-right ps-1"></i>
                         </Link>
                       </div>

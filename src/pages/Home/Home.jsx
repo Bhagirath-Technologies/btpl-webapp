@@ -11,6 +11,9 @@ import './home.css';
 import AnimatedFigures from '../../components/AnimatedFigures';
 const Home = () => {
     const [serviceDetail] = useState(serviceData);
+    const scrollToTop = () => {
+		window.scrollTo(0, 0); // Scroll to top of the page
+	};
     // const [portfolioDetail] = useState(OurPortfolioData);
     return (
         <>
@@ -61,11 +64,11 @@ const Home = () => {
                                     <h2 className="display-1 text-dark-stroke text-hover-fill text-primary-shadow">W</h2>
                                     <h5 className="mb-4">Web Development</h5>
                                     <div className="list-group list-group-borderless list-unstyled">
-                                        <Link to="#" className="list-group-item bg-transparent">Web Development</Link>
-                                        <Link to="#" className="list-group-item bg-transparent">Front-end Development</Link>
-                                        <Link to="#" className="list-group-item bg-transparent">Back-end Development</Link>
-                                        <Link to="#" className="list-group-item bg-transparent">Apps & Game</Link>
-                                        <Link to="#" className="list-group-item bg-transparent">E-commerce</Link>
+                                        <Link to="services/1" className="list-group-item bg-transparent" onClick={() => scrollToTop()}>Web Development Services</Link>
+                                        <Link to="services/1" className="list-group-item bg-transparent" onClick={() => scrollToTop()}>Front-end Services</Link>
+                                        <Link to="services/3" className="list-group-item bg-transparent" onClick={() => scrollToTop()}>Game Development Design</Link>
+                                        <Link to="services/1" className="list-group-item bg-transparent" onClick={() => scrollToTop()}>Back-end Solutions</Link>
+                                        <Link to="services/2" className="list-group-item bg-transparent" onClick={() => scrollToTop()}>App Development</Link>
                                     </div>
                                 </div>
                                 {/* <!-- Service Item 2--> */}
@@ -73,11 +76,11 @@ const Home = () => {
                                     <h2 className="display-1 text-dark-stroke text-hover-fill text-primary-shadow">E</h2>
                                     <h5 className="mb-4">E-commerce & Graphics</h5>
                                     <div className="list-group list-group-borderless list-unstyled">
-                                        <Link to="#" className="list-group-item bg-transparent">E-Commerce platforms</Link>
-                                        <Link to="#" className="list-group-item bg-transparent">Apps & mobile</Link>
-                                        <Link to="#" className="list-group-item bg-transparent">User Experience</Link>
-                                        <Link to="#" className="list-group-item bg-transparent">Motion Design</Link>
-                                        <Link to="#" className="list-group-item bg-transparent">Interface Design</Link>
+                                        <Link to="services/4" className="list-group-item bg-transparent" onClick={() => scrollToTop()}>Online Platforms</Link>
+                                        <Link to="services/3" className="list-group-item bg-transparent" onClick={() => scrollToTop()}>Mobile App Development</Link>
+                                        <Link to="services/8" className="list-group-item bg-transparent" onClick={() => scrollToTop()}>UX/UI Solution</Link>
+                                        <Link to="services/14" className="list-group-item bg-transparent" onClick={() => scrollToTop()}>Animated User Interface</Link>
+                                        <Link to="services/8" className="list-group-item bg-transparent" onClick={() => scrollToTop()}>Interactive Motion Graphic</Link>
                                     </div>
                                 </div>
                                 {/* <!-- Service Item 3--> */}
@@ -85,11 +88,11 @@ const Home = () => {
                                     <h2 className="display-1 text-dark-stroke text-hover-fill text-primary-shadow">B</h2>
                                     <h5 className="mb-4">Branding</h5>
                                     <div className="list-group list-group-borderless list-unstyled">
-                                        <Link to="#" className="list-group-item bg-transparent">Brand Identity</Link>
-                                        <Link to="#" className="list-group-item bg-transparent">Art Direction</Link>
-                                        <Link to="#" className="list-group-item bg-transparent">Visual Design</Link>
-                                        <Link to="#" className="list-group-item bg-transparent">Illustration & Iconography</Link>
-                                        <Link to="#" className="list-group-item bg-transparent">Content / Video Editing</Link>
+                                        <Link to="services/13" className="list-group-item bg-transparent" onClick={() => scrollToTop()}>Branding Identity</Link>
+                                        <Link to="services/7" className="list-group-item bg-transparent" onClick={() => scrollToTop()}>Mockup Design</Link>
+                                        <Link to="services/15" className="list-group-item bg-transparent" onClick={() => scrollToTop()}>Visual Design</Link>
+                                        <Link to="services/15" className="list-group-item bg-transparent" onClick={() => scrollToTop()}>Illustration and Icons Design</Link>
+                                        <Link to="services/12" className="list-group-item bg-transparent" onClick={() => scrollToTop()}>Content and Video Editing</Link>
                                     </div>
                                 </div>
                             </div>
@@ -118,25 +121,25 @@ const Home = () => {
                                     {/* <!-- Feature item --> */}
                                     <div className="col-sm-6 mb-5">
                                         <i className="display-6 text-primary fab fa-react"></i>
-                                        <h5 className="text-white my-3">Digital Development</h5>
+                                        <h5 className="text-white my-3"><Link className='text-white' to="/services" onClick={() => scrollToTop()}>Digital Development</Link></h5>
                                         <p className="text-secondary">Digital development involves leveraging technology and digital tools to innovate, solve problems, and achieve desired outcomes in various domains, including business, education.</p>
                                     </div>
                                     {/* <!-- Feature item --> */}
                                     <div className="col-sm-6 mb-5">
                                         <i className="display-6 text-primary bi bi-bar-chart-line"></i>
-                                        <h5 className="text-white my-3"><Link className='text-white' to="/rental"></Link>Online Marketing</h5>
+                                        <h5 className="text-white my-3"><Link className='text-white' to="/services/9" onClick={() => scrollToTop()}>Online Marketing</Link></h5>
                                         <p className="text-secondary">Online marketing offers businesses and organizations the opportunity to reach a global audience, target specific demographics, track results in real-time, and adjust strategies accordingly to maximize ROI.</p>
                                     </div>
                                     {/* <!-- Feature item --> */}
                                     <div className="col-sm-6 mb-5 mb-sm-0">
                                         <i className="display-6 text-primary bi bi-laptop"></i>
-                                        <h5 className="text-white my-3"><Link className='text-white' to="/rental">Rental Solutions</Link></h5>
+                                        <h5 className="text-white my-3"><Link className='text-white' to="/rental" onClick={() => scrollToTop()}>Rental Solutions</Link></h5>
                                         <p className="text-secondary m-0">Rental solutions provide flexibility, cost-effectiveness, and convenience for individuals and businesses seeking access to peripherals without the burden of ownership or long-term commitments.</p>
                                     </div>
                                     {/* <!-- Feature item --> */}
                                     <div className="col-sm-6">
                                         <i className="display-6 text-primary bi bi-r-circle"></i>
-                                        <h5 className="text-white my-3"><Link className='text-white' to="/services">Brand Identity</Link></h5>
+                                        <h5 className="text-white my-3"><Link className='text-white' to="/services/13" onClick={() => scrollToTop()}>Brand Identity</Link></h5>
                                         <p className="text-secondary m-0">Brand identity is a strong essential for creating brand recognition, building customer loyalty. It helps establish a consistent and memorable brand presence across all touchpoints.</p>
                                     </div>
                                 </div>
@@ -183,8 +186,8 @@ const Home = () => {
                                         </div>
                                         {/* <!-- Title --> */}
                                         <div className="col-lg-6 text-center">
-                                            <span className="h6 fw-light">Reach out to us</span>
-                                            <h3 className="mb-0 mt-2">Exclusive Responsive Website and Web Apps are waiting for you.</h3>
+                                            <span className="h3">Reach out to us</span>
+                                            <h6 className="mb-0 mt-2 fw-light">At Bhagirath Technologies, our priority is ensuring client satisfaction. We welcome you to engage with us through various channels, including phone calls, emails, or our interactive online platform. We're here to assist you with inquiries, technical issues, or any other assistance you require. Our dedicated team is committed to meeting your needs and ensuring a seamless experience with our services.</h6>
                                         </div>
                                         {/* <!-- Content and input --> */}
                                         <div className="col-lg-3 text-center text-lg-end z-index-9">

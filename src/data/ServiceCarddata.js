@@ -16,7 +16,7 @@ const serviceData = [
           "100% Full Service Assistance",
           "18+ TOOLS & RESOURCES",
         ],
-        link:"#",
+        link:"services/1",
       },
       {
         id:"2",
@@ -35,7 +35,7 @@ const serviceData = [
           "100% Full Service Assistance",
           "15+ TOOLS & RESOURCES",
         ],
-        link:"#",
+        link:"services/9",
       },
       {
         id:"3",
@@ -54,7 +54,7 @@ const serviceData = [
           "100% Full Service Assistance",
           "15+ TOOLS & RESOURCES",
         ],
-        link:"#",
+        link:"services/3",
       },
       {
         id:"4",
@@ -73,7 +73,7 @@ const serviceData = [
           "100% Full Service Assistance",
           "15+ TOOLS & RESOURCES",
         ],
-        link:"#",
+        link:"services/8",
       },
       {
         id:"5",
@@ -92,7 +92,7 @@ const serviceData = [
           "100% Full Service Assistance",
           "15+ TOOLS & RESOURCES",
         ],
-        link:"#",
+        link:"services/7",
       },
       {
         id:"6",
@@ -111,7 +111,7 @@ const serviceData = [
           "100% Full Service Assistance",
           "15+ TOOLS & RESOURCES",
         ],
-        link:"#",
+        link:"services/8",
       },
     ];
 

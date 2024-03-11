@@ -66,8 +66,8 @@ const Header = () => {
           </Link>
         </li>
         <li class="nav-item display-6 h5">
-          <Link class="nav-link text-white-stroke" to="#" onClick={() => { setOpenMenu(false); document.querySelector('.offcanvas-backdrop').classList.remove('show'); }}>
-          Our Journal
+          <Link class="nav-link text-white-stroke" to="/rental" onClick={() => { setOpenMenu(false); document.querySelector('.offcanvas-backdrop').classList.remove('show'); }}>
+          Rentals
         </Link>
       </li>
       <li class="nav-item display-6 h5">
@@ -630,7 +630,7 @@ const Header = () => {
                         {" "}
                         <HashLink
                           class="dropdown-item"
-                          to="/services/12#service_detail"
+                          to="/services/16#service_detail"
                         >
                           Illustration & Iconography
                         </HashLink>{" "}
@@ -835,7 +835,7 @@ const Header = () => {
                         <div class="col-md-3 text-md-end">
                           <HashLink
                             class="btn btn-line btn-success"
-                            to="/rental"
+                            to="/rental#all_peripherials"
                           >
                             View All
                           </HashLink>

@@ -9,9 +9,9 @@ const Footer = () => {
                     <div class="row">
                         {/* <!-- Footer Widget 1 --> */}
                         <div class="col-md-6 col-lg-3 mb-5">
-                            <img src='../assets/images/logos/Bhagirath Technologies Logo White.svg' alt='logo' width="110px" />
+                            <img src='../assets/images/logos/Bhagirath Technologies Logo White.svg' alt='logo' width="100px" />
                             {/* <h3 class="text-white">Logo<span class="text-primary">.</span></h3> */}
-                            <p>Lorem ipsum dolor sit amet.</p>
+                            <p>Bhagirath Technologies Pvt Ltd Your partner for innovative IT solutions.</p>
                             <div class="d-flex me-auto align-items-center">
                                 <h6 class="mt-2 me-4 text-white">Follow on:</h6>
                                 <div class="list-group-inline list-unstyled text-primary-hover">
@@ -32,11 +32,11 @@ const Footer = () => {
                                                     In
                                                 </div>
                                                 <div class="details_in">
-                                                    <div class="name_in">Btpl</div>
-                                                    <div class="username_in">bhagirath_tech</div>
+                                                    <div class="name_in">BTPL</div>
+                                                    <div class="username_in">bhagirath_tec..</div>
                                                 </div>
                                             </div>
-                                            <div class="about_in">10m+ Followers</div>
+                                            <div class="about_in">10K+ Followers</div>
                                         </div>
                                     </div>
                                     <div class="text_in">
@@ -72,11 +72,11 @@ const Footer = () => {
                                             <div class="user_fb">
                                                 <div class="img_fb">Fb</div>
                                                 <div class="details_fb">
-                                                    <div class="name_fb">User</div>
-                                                    <div class="username_fb">@fab_bhagirath</div>
+                                                    <div class="name_fb">BTPL</div>
+                                                    <div class="username_fb">bhagirathtechnologies</div>
                                                 </div>
                                             </div>
-                                            <div class="about_fb">50k+ Friends</div>
+                                            <div class="about_fb">25k+ Friends</div>
                                         </div>
                                     </div>
                                     <div class="text_fb">
@@ -129,8 +129,8 @@ const Footer = () => {
                                                 <div class="img_ln">Ln</div>
                                                 <div class="details_ln">
                                                     
-                                                    <div class="name_ln">User</div>
-                                                    <div class="username_ln">@bhagirath_tech</div>
+                                                    <div class="name_ln">BTPL</div>
+                                                    <div class="username_ln">Bhagirath Technologies</div>
                                                 </div>
                                             </div>
                                             <div class="about_ln">5k+ Connections</div>
@@ -198,13 +198,13 @@ const Footer = () => {
                         <div class="col-md-6 col-lg-3 mb-5">
                             <h5 class="mb-4 text-white">Our offices</h5>
                             {/* <!-- Address 1 --> */}
-                            <p class="text-white mb-2">lorem ipsum dolor sit emit</p>
-                            <address class="mb-0">750 Sing Sing Rd, Horseheads, NY, 14845</address>
-                            <p>Call: <Link to="#" class="text-body"><u>469-537-2410</u> (Toll-free)</Link> </p>
+                            <p class="text-white mb-2">Bhopal, Madhya Pradesh</p>
+                            <address class="mb-0">Flat No 202, Esteem Homes, Plot No 65-A, Indrapuri, Bhopal, Madhaya Pradesh, Pincode - 462023</address>
+                            <p>Call: <Link to="tel:+918982301484" class="text-body"><u> +91-8982301484</u></Link> </p>
                             {/* <!-- Address 2 --> */}
-                            <p class="text-white mb-2">Mumbai, India</p>
-                            <address class="mb-0">2492 Centennial NW, Acworth, GA, 30102</address>
-                            <p>Call: <Link to="#" class="text-body"><u>(678) 324-1251</u> (Toll-free)</Link> </p>
+                            <p class="text-white mb-2">Noida, Uttar Pradesh</p>
+                            <address class="mb-0">Office No.8, 1st Floor, A-43, Sector-2, Near-Sector-15 Metro Station, Noida, Uttar Pradesh, Pincode - 201301</address>
+                            <p>Call: <Link to="tel:+919625965251" class="text-body"><u>91-9625965251</u></Link> </p>
                         </div>
                         {/* <!-- Footer Widget 3 --> */}
                         <div class="col-md-6 col-lg-3 mb-5">
