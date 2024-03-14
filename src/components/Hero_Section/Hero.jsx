@@ -35,7 +35,7 @@ export default function App() {
                         <SwiperSlide>
                             {/* <!-- Slide 1 START --> */}
                             <div className="h-100 bg-dark-overlay-4 bg-dark" style={{
-                                backgroundImage: 'url("assets/images/bg/01.jpg")',
+                                backgroundImage: 'url("assets/images/bg/01.webp")',
                                 backgroundPosition: 'center center',
                                 backgroundSize: 'cover'
                             }}>
@@ -66,7 +66,7 @@ export default function App() {
                         <SwiperSlide>
                             {/* <!-- Slide 2 START --> */}
                             <div className="h-100 bg-dark-overlay-4 bg-white" style={{
-                                backgroundImage: 'url("assets/images/bg/02.jpg")',
+                                backgroundImage: 'url("assets/images/bg/02.webp")',
                                 backgroundPosition: 'center center',
                                 backgroundSize: 'cover'
                             }}>

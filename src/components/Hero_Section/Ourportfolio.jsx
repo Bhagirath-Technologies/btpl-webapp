@@ -139,7 +139,7 @@ export default function App() {
                           <div className="card-img-overlay d-flex flex-column">
                             <img
                               className="w-20"
-                              src="assets/images/clients/light/13.png"
+                              src="assets/images/clients/light/13.svg"
                               alt=""
                             />
                             <div className="mt-auto card-text">
@@ -216,13 +216,13 @@ export default function App() {
                         <Link to="#" className="card card-metro">
                           {/* <!-- Card Image --> */}
                           <div className="card-image">
-                            <img src="assets/images/portfolio/06.jpg" alt="" />
+                            <img src="assets/images/portfolio/06.webp" alt="" />
                           </div>
                           {/* <!-- Card Overlay --> */}
                           <div className="card-img-overlay d-flex flex-column">
                             <img
-                              className="w-40"
-                              src="assets/images/clients/light/06.svg"
+                              className="w-25"
+                              src="assets/images/clients/light/12.svg"
                               alt=""
                             />
                             <div className="mt-auto card-text">
@@ -245,13 +245,13 @@ export default function App() {
                         <Link to="#" className="card card-metro">
                           {/* <!-- Card Image --> */}
                           <div className="card-image">
-                            <img src="assets/images/portfolio/07.jpg" alt="" />
+                            <img src="assets/images/portfolio/07.webp" alt="" />
                           </div>
                           {/* <!-- Card Overlay --> */}
                           <div className="card-img-overlay d-flex flex-column">
                             <img
-                              className="w-40"
-                              src="assets/images/clients/light/07.svg"
+                              className="w-25"
+                              src="assets/images/clients/light/12.svg"
                               alt=""
                             />
                             <div className="mt-auto card-text">

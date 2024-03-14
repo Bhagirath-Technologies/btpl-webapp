@@ -29,11 +29,11 @@ const Footer = () => {
                                             <div class="user_in">
                                                 <div class="img_in">
                                                     {/* <img src='../assets/images/logos/Bhagirath Technologies Logo White.svg' alt='logo' width="40px" /> */}
-                                                    In
+                                                    <Link className='text-white' to="https://www.instagram.com/bhagirath_technologies/" target='_blank'>In</Link>
                                                 </div>
                                                 <div class="details_in">
-                                                    <div class="name_in">BTPL</div>
-                                                    <div class="username_in">bhagirath_tec..</div>
+                                                    <div class="name_in"><Link className='text-white' to="https://www.instagram.com/bhagirath_technologies/" target='_blank'>BTPL</Link></div>
+                                                    <div class="username_in"><Link className='text-white' to="https://www.instagram.com/bhagirath_technologies/" target='_blank'>bhagirath_technologies</Link></div>
                                                 </div>
                                             </div>
                                             <div class="about_in">10K+ Followers</div>
@@ -70,10 +70,10 @@ const Footer = () => {
                                     <div class="tooltip_fb">
                                         <div class="profile_fb">
                                             <div class="user_fb">
-                                                <div class="img_fb">Fb</div>
+                                                <div class="img_fb"><Link className='text-muted' to="https://www.facebook.com/bhagirathtechnologies/" target='_blank'>Fb</Link></div>
                                                 <div class="details_fb">
-                                                    <div class="name_fb">BTPL</div>
-                                                    <div class="username_fb">bhagirathtechnologies</div>
+                                                    <div class="name_fb"><Link className='text-white' to="https://www.facebook.com/bhagirathtechnologies/" target='_blank'>BTPL</Link></div>
+                                                    <div class="username_fb"><Link className='text-white' to="https://www.facebook.com/bhagirathtechnologies/" target='_blank'>bhagirathtechnologies</Link></div>
                                                 </div>
                                             </div>
                                             <div class="about_fb">25k+ Friends</div>
@@ -161,11 +161,11 @@ const Footer = () => {
                                     <div class="tooltip_ln">
                                         <div class="profile_ln">
                                             <div class="user_ln">
-                                                <div class="img_ln">Tg</div>
+                                                <div class="img_ln"><Link className='text-muted' to="https://t.me/bhagirathtechnologies" target='_blank'>Tg</Link></div>
                                                 <div class="details_ln">
                                                     
-                                                    <div class="name_ln">User</div>
-                                                    <div class="username_ln">@bhagirath_tech</div>
+                                                    <div class="name_ln"><Link className='text-white' to="https://t.me/bhagirathtechnologies" target='_blank'>BTPL</Link></div>
+                                                    <div class="username_ln"><Link className='text-white' to="https://t.me/bhagirathtechnologies" target='_blank'>Bhagirath Technologies</Link></div>
                                                 </div>
                                             </div>
                                             <div class="about_ln">10k+ Connections</div>

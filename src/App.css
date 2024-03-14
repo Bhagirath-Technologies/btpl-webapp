@@ -24418,7 +24418,7 @@ small,
 .tooltip_in {
   position: absolute;
   top: 0;
-  left: 50%;
+  left: 110%;
   transform: translateX(-50%);
   padding: 10px;
   opacity: 0;
@@ -24439,7 +24439,7 @@ small,
 
 @media only screen and (min-width:320px) and (max-width:768px) {
   .tooltip_container_in:hover .tooltip_in {
-    left: 5.8rem;
+    left: 8rem;
   }
 
   .pt_sm_icons {
@@ -24795,7 +24795,11 @@ small,
     inset -5px -5px 15px rgba(255, 255, 255, 0.1),
     5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.1);
 }
-
+@media only screen and (min-width:320px) and (max-width:768px) {
+  .tooltip_ln {
+    left: -5rem;
+  }
+}
 .profile_ln {
   background: #2a2b2f;
   border-radius: 10px 15px;

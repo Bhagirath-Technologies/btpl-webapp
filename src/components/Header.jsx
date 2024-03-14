@@ -642,12 +642,10 @@ const Header = () => {
                   <div class="bg-dark p-5 pb-4 w-100 pattern-overlay-2">
                     <div class="row d-md-flex justify-content-center">
                       <h5 class="col-md-4 text-white mb-4">
-                        Discover with us - It's easier than you might
-                        think.
+                      Explore our Digital Era 
                       </h5>
                       <p class="col-md-3 text-white">
-                        Start right away to create your dream website
-                        hassle free. Grab yours now.
+                      Embark on the journey to your dream website hassle-free. Explore our offerings today!
                       </p>
                       <div class="col-md-3 text-md-end">
                         <HashLink
@@ -825,12 +823,10 @@ const Header = () => {
                     <div class="bg-dark p-5 pb-4 w-100 pattern-overlay-1">
                       <div class="row d-md-flex justify-content-center">
                         <h5 class="col-md-4 text-white mb-4">
-                          Discover with us - It's easier than you might
-                          think.
+                        Innovate and Create with TechHub
                         </h5>
                         <p class="col-md-3 text-white">
-                          Start right away to create your dream website
-                          hassle free. Grab yours now.
+                        Initiate your creative potential with TechHub. Secure your dream today and build effortlessly!
                         </p>
                         <div class="col-md-3 text-md-end">
                           <HashLink

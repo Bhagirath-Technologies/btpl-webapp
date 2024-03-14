@@ -306,7 +306,6 @@ const webData = [
       "Create custom icons and vector illustrations to enhance brand identity.",
       "Providing illustrations for various purposes, including logos, websites, and marketing materials.",
       "Attention to detail and creativity to ensure visually appealing and impactful designs.",
-      
     ],
     image: "../assets/images/services/16.webp",
     class: "col-sm-6 col-md-4 col-lg-3 col-xxl-3",
