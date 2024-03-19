@@ -7,7 +7,7 @@ const ServiceDetail = ({ data }) => {
 
   // Find the service with the matching id
   const service = data.find((service) => service.id === id);
-  console.log(service);
+  // console.log(service);
 
   if (!service) {
     return <div>Service not found</div>;
@@ -92,78 +92,38 @@ const ServiceDetail = ({ data }) => {
         </div>
       </section>
       {/* tools section starts */}
-       {/* Conditional rendering of tools section for web services */}
-       {service.type === 'services' && (
+      {/* Conditional rendering of tools section for web services */}
+      {service.type === "services" && (
         <section class="pt-0">
-        <div class="container">
-          <div class="row">
-            {/* <!-- Title --> */}
-            <div class="col-lg-4">
-              <h2 class="display-6 mb-3">Technologies We Use...</h2>
-              <p>
-                Rooms oh fully taken by worse do. Points afraid but may end law
-                lasted. Was out laughter raptures returned outweigh.
-              </p>
-            </div>
-            {/* <!-- Clients logos --> */}
-            <div class="col-lg-8">
-              <div class="row">
-                {/* <!-- Logo item --> */}
-                <div class="col-6 col-sm-4 col-lg-3">
-                  <div class="mb-4 p-4 grayscale bg-light-overlay-dotted text-center">
-                    <img src="../assets/images/clients/colored/website-design/1.svg" alt="" />
-                  </div>
-                </div>
-                {/* <!-- Logo item --> */}
-                <div class="col-6 col-sm-4 col-lg-3">
-                  <div class="mb-4 p-4 grayscale bg-light-overlay-dotted text-center">
-                    <img src="../assets/images/clients/colored/website-design/2.svg" alt="" />
-                  </div>
-                </div>
-                {/* <!-- Logo item --> */}
-                <div class="col-6 col-sm-4 col-lg-3">
-                  <div class="mb-4 p-4 grayscale bg-light-overlay-dotted text-center">
-                    <img src="../assets/images/clients/colored/website-design/3.svg" alt="" />
-                  </div>
-                </div>
-                {/* <!-- Logo item --> */}
-                <div class="col-6 col-sm-4 col-lg-3">
-                  <div class="mb-4 p-4 grayscale bg-light-overlay-dotted text-center">
-                    <img src="../assets/images/clients/colored/website-design/4.svg" alt="" />
-                  </div>
-                </div>
-                {/* <!-- Logo item --> */}
-                <div class="col-6 col-sm-4 col-lg-3">
-                  <div class="mb-4 p-4 grayscale bg-light-overlay-dotted text-center">
-                    <img src="../assets/images/clients/colored/website-design/5.svg" alt="" />
-                  </div>
-                </div>
-                {/* <!-- Logo item --> */}
-                <div class="col-6 col-sm-4 col-lg-3">
-                  <div class="mb-4 p-4 grayscale bg-light-overlay-dotted text-center">
-                    <img src="../assets/images/clients/colored/website-design/6.svg" alt="" />
-                  </div>
-                </div>
-                {/* <!-- Logo item --> */}
-                <div class="col-6 col-sm-4 col-lg-3">
-                  <div class="mb-4 p-4 grayscale bg-light-overlay-dotted text-center">
-                    <img src="../assets/images/clients/colored/website-design/7.svg" alt="" />
-                  </div>
-                </div>
-                {/* <!-- Logo item --> */}
-                <div class="col-6 col-sm-4 col-lg-3">
-                  <div class="mb-4 p-4 grayscale bg-light-overlay-dotted text-center">
-                    <img src="../assets/images/clients/colored/website-design/8.svg" alt="" />
-                  </div>
+          <div class="container">
+            <div class="row">
+              {/* <!-- Title --> */}
+              <div class="col-lg-4">
+                <h2 class="display-6 mb-3">Technologies We Use...</h2>
+                <p>
+                  Rooms oh fully taken by worse do. Points afraid but may end
+                  law lasted. Was out laughter raptures returned outweigh.
+                </p>
+              </div>
+              {/* <!-- Clients logos --> */}
+              <div class="col-lg-8">
+                <div class="row">
+                  {/* <!-- Logo item --> */}
+                  {service.icons.map((icon, index) => (
+                    <div class="col-6 col-sm-4 col-lg-3">
+                      <div class="mb-4 p-4 grayscale bg-light-overlay-dotted text-center">
+                        <img key={index} src={icon} alt={`Icon ${index}`} />
+                      </div>
+                    </div>
+                  ))}
                 </div>
               </div>
             </div>
+            {/* <!-- row END --> */}
           </div>
-          {/* <!-- row END --> */}
-        </div>
-      </section>
+        </section>
       )}
-     
+
       {/* tools section ends */}
     </>
   );
