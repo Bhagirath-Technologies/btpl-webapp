@@ -227,11 +227,10 @@ export default function App() {
                             />
                             <div className="mt-auto card-text">
                               <h5 className="text-white">
-                                The blossoming fashion label{" "}
+                              Web Design Development
                               </h5>
                               <p className="small text-white mb-0 text-truncate">
-                                These were the attributes that moodley had to
-                                convey.
+                              We craft stunning website designs tailored specifically to your needs.
                               </p>
                             </div>
                           </div>
@@ -256,11 +255,10 @@ export default function App() {
                             />
                             <div className="mt-auto card-text">
                               <h5 className="text-white">
-                                Life's hard in the mountains
+                              Custom Software Development
                               </h5>
                               <p className="small text-white mb-0 text-truncate">
-                                Ten wineries with strong personalities,
-                                individual stories and multi-faceted wines
+                              We undertake your Custom Software Development project
                               </p>
                             </div>
                           </div>

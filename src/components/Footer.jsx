@@ -222,7 +222,7 @@ const Footer = () => {
                                 <div class="col-6">
                                     <ul class="nav flex-column text-primary-hover">
                                         <li class="nav-item"><Link class="nav-link pt-0" to="#">About</Link></li>
-                                        <li class="nav-item"><Link class="nav-link" to="#">Career <span class="badge bg-danger ms-2">2 Job</span></Link></li>
+                                        <li class="nav-item"><Link class="nav-link" target='_blank' to="https://bhagirathtechnologies.zohorecruit.in/careers">Career <span class="badge bg-danger ms-2">2 Job</span></Link></li>
                                         <li class="nav-item"><Link class="nav-link" to="#">Work</Link></li>
                                         <li class="nav-item"><Link class="nav-link" to="#">News</Link></li>
                                         <li class="nav-item"><Link class="nav-link" to="#">Contact</Link></li>

@@ -17,6 +17,13 @@ const Header = () => {
     position: isHome ? "absolute" : "relative",
     // add other styles as needed
   };
+  const handleMenuClick = () => {
+    setOpenMenu2(false);
+    const dropdownMenu = document.querySelector('.navbar-expand-lg .navbar-nav .dropdown:hover > .dropdown-menu');
+    if (dropdownMenu) {
+      dropdownMenu.style.cssText = 'visibility: hidden;';
+    }
+  };
   return (
     <>
       {/* <!-- Offcanvas end START --> */}
@@ -549,13 +556,7 @@ const Header = () => {
                               <HashLink
                                 class="dropdown-item"
                                 to="/services/1"
-                                onClick={() => {
-                                  setOpenMenu2(false);
-                                  document.querySelector('.navbar-expand-lg .navbar-nav .dropdown:hover>.dropdown-menu').style.visibility = "hidden";
-                                  // document
-                                  // .querySelector(".navbar-expand-lg .navbar-nav .dropdown:hover>.dropdown-menu")
-                                  // .classList.remove("dropdown-menu.[visibility]");
-                                }}
+                                onClick={handleMenuClick}
                               >
                                 Website Design
                               </HashLink>{" "}
@@ -565,10 +566,7 @@ const Header = () => {
                               <HashLink
                                 class="dropdown-item"
                                 to="/services/2"
-                                onClick={() => {
-                                  setOpenMenu2(false);
-                                  document.querySelector('.navbar-expand-lg .navbar-nav .dropdown:hover>.dropdown-menu').style.visibility = "hidden";
-                                }}
+                                onClick={handleMenuClick}
                               >
                                 Web Applications
                               </HashLink>{" "}
@@ -578,10 +576,7 @@ const Header = () => {
                               <HashLink
                                 class="dropdown-item"
                                 to="/services/3"
-                                  onClick={() => {
-                                  setOpenMenu2(false);
-                                  document.querySelector('.navbar-expand-lg .navbar-nav .dropdown:hover>.dropdown-menu').style.visibility = "hidden";
-                                }}
+                                onClick={handleMenuClick}
                               >
                                 Custom Software Development
                               </HashLink>{" "}
@@ -591,10 +586,7 @@ const Header = () => {
                               <HashLink
                                 class="dropdown-item"
                                 to="/services/4"
-                                  onClick={() => {
-                                  setOpenMenu2(false);
-                                  document.querySelector('.navbar-expand-lg .navbar-nav .dropdown:hover>.dropdown-menu').style.visibility = "hidden";
-                                }}
+                                onClick={handleMenuClick}
                               >
                                 E-Commerce Application
                               </HashLink>{" "}
@@ -611,10 +603,7 @@ const Header = () => {
                               <HashLink
                                 class="dropdown-item"
                                 to="/services/5"
-                                  onClick={() => {
-                                  setOpenMenu2(false);
-                                  document.querySelector('.navbar-expand-lg .navbar-nav .dropdown:hover>.dropdown-menu').style.visibility = "hidden";
-                                }}
+                                onClick={handleMenuClick}
                               >
                                 Logo Designing
                               </HashLink>{" "}
@@ -624,10 +613,7 @@ const Header = () => {
                               <HashLink
                                 class="dropdown-item"
                                 to="/services/6"
-                                  onClick={() => {
-                                  setOpenMenu2(false);
-                                  document.querySelector('.navbar-expand-lg .navbar-nav .dropdown:hover>.dropdown-menu').style.visibility = "hidden";
-                                }}
+                                onClick={handleMenuClick}
                               >
                                 Banner Poster Designs
                               </HashLink>{" "}
@@ -637,10 +623,7 @@ const Header = () => {
                               <HashLink
                                 class="dropdown-item"
                                 to="/services/7"
-                                  onClick={() => {
-                                  setOpenMenu2(false);
-                                  document.querySelector('.navbar-expand-lg .navbar-nav .dropdown:hover>.dropdown-menu').style.visibility = "hidden";
-                                }}
+                                onClick={handleMenuClick}
                               >
                                 Print Media
                                 <span class="badge bg-danger ms-2">Trendy</span>
@@ -651,10 +634,7 @@ const Header = () => {
                               <HashLink
                                 class="dropdown-item"
                                 to="/services/8"
-                                  onClick={() => {
-                                  setOpenMenu2(false);
-                                  document.querySelector('.navbar-expand-lg .navbar-nav .dropdown:hover>.dropdown-menu').style.visibility = "hidden";
-                                }}
+                                onClick={handleMenuClick}
                               >
                                 Figma Designs
                               </HashLink>{" "}
@@ -669,10 +649,7 @@ const Header = () => {
                               <HashLink
                                 class="dropdown-item"
                                 to="/services/9"
-                                  onClick={() => {
-                                  setOpenMenu2(false);
-                                  document.querySelector('.navbar-expand-lg .navbar-nav .dropdown:hover>.dropdown-menu').style.visibility = "hidden";
-                                }}
+                                onClick={handleMenuClick}
                               >
                                 Digital Marketing
                               </HashLink>{" "}
@@ -682,10 +659,7 @@ const Header = () => {
                               <HashLink
                                 class="dropdown-item"
                                 to="/services/10"
-                                  onClick={() => {
-                                  setOpenMenu2(false);
-                                  document.querySelector('.navbar-expand-lg .navbar-nav .dropdown:hover>.dropdown-menu').style.visibility = "hidden";
-                                }}
+                                onClick={handleMenuClick}
                               >
                                 Social Media Handeling
                               </HashLink>{" "}
@@ -695,10 +669,7 @@ const Header = () => {
                               <HashLink
                                 class="dropdown-item"
                                 to="/services/11"
-                                  onClick={() => {
-                                  setOpenMenu2(false);
-                                  document.querySelector('.navbar-expand-lg .navbar-nav .dropdown:hover>.dropdown-menu').style.visibility = "hidden";
-                                }}
+                                onClick={handleMenuClick}
                               >
                                 Google Ads Campaign
                               </HashLink>{" "}
@@ -708,10 +679,7 @@ const Header = () => {
                               <HashLink
                                 class="dropdown-item"
                                 to="/services/12"
-                                  onClick={() => {
-                                  setOpenMenu2(false);
-                                  document.querySelector('.navbar-expand-lg .navbar-nav .dropdown:hover>.dropdown-menu').style.visibility = "hidden";
-                                }}
+                                onClick={handleMenuClick}
                               >
                                 Content Writing
                               </HashLink>{" "}
@@ -726,10 +694,7 @@ const Header = () => {
                               <HashLink
                                 class="dropdown-item"
                                 to="/services/13"
-                                  onClick={() => {
-                                  setOpenMenu2(false);
-                                  document.querySelector('.navbar-expand-lg .navbar-nav .dropdown:hover>.dropdown-menu').style.visibility = "hidden";
-                                }}
+                                onClick={handleMenuClick}
                               >
                                 Brand Identity
                               </HashLink>{" "}
@@ -739,10 +704,7 @@ const Header = () => {
                               <HashLink
                                 class="dropdown-item"
                                 to="/services/14"
-                                  onClick={() => {
-                                  setOpenMenu2(false);
-                                  document.querySelector('.navbar-expand-lg .navbar-nav .dropdown:hover>.dropdown-menu').style.visibility = "hidden";
-                                }}
+                                onClick={handleMenuClick}
                               >
                                 Art Direction
                               </HashLink>{" "}
@@ -752,10 +714,7 @@ const Header = () => {
                               <HashLink
                                 class="dropdown-item"
                                 to="/services/15"
-                                  onClick={() => {
-                                  setOpenMenu2(false);
-                                  document.querySelector('.navbar-expand-lg .navbar-nav .dropdown:hover>.dropdown-menu').style.visibility = "hidden";
-                                }}
+                                onClick={handleMenuClick}
                               >
                                 Visual Design
                               </HashLink>{" "}
@@ -765,10 +724,7 @@ const Header = () => {
                               <HashLink
                                 class="dropdown-item"
                                 to="/services/16"
-                                  onClick={() => {
-                                  setOpenMenu2(false);
-                                  document.querySelector('.navbar-expand-lg .navbar-nav .dropdown:hover>.dropdown-menu').style.visibility = "hidden";
-                                }}
+                                onClick={handleMenuClick}
                               >
                                 Illustration & Iconography
                               </HashLink>{" "}
@@ -790,10 +746,7 @@ const Header = () => {
                               <HashLink
                                 class="btn btn-line btn-success"
                                 to="/services"
-                                onClick={() => {
-                                  setOpenMenu2(false);
-                                  document.querySelector('.navbar-expand-lg .navbar-nav .dropdown:hover > .dropdown-menu').style.cssText = 'visibility: hidden; transition: 0.5s ease-in-out;';
-                                }}
+                                onClick={handleMenuClick}
                               >
                                 View All
                               </HashLink>
@@ -814,6 +767,9 @@ const Header = () => {
                     data-bs-toggle="dropdown"
                     aria-haspopup="true"
                     aria-expanded="false"
+                    onMouseOver={() => {
+                      document.querySelector('.navbar-expand-lg .navbar-nav .dropdown:hover>.dropdown-menu').style.visibility = "visible";
+                    }}
                   >
                     Rental <span class="badge bg-danger">New</span>
                   </Link>
@@ -825,27 +781,27 @@ const Header = () => {
                             <li class="dropdown-header">Laptops</li>
                             <li>
                               {" "}
-                              <Link class="dropdown-item" to="/rental/1">
+                              <Link class="dropdown-item" to="/rental/1" onClick={handleMenuClick}>
                                 <i class="bi bi-laptop fa-fw me-2"></i>MacBook
                               </Link>{" "}
                             </li>
                             <li>
                               {" "}
-                              <Link class="dropdown-item" to="/rental/2">
+                              <Link class="dropdown-item" to="/rental/2" onClick={handleMenuClick} >  
                                 <i class="fas fa-laptop fa-fw me-2"></i>MacBook
                                 Air
                               </Link>{" "}
                             </li>
                             <li>
                               {" "}
-                              <Link class="dropdown-item" to="/rental/3">
+                              <Link class="dropdown-item" to="/rental/3" onClick={handleMenuClick} >  
                                 <i class="bi bi-laptop-fill fa-fw me-2"></i>Hp
                                 Laptops
                               </Link>{" "}
                             </li>
                             <li>
                               {" "}
-                              <Link class="dropdown-item" to="/rental/4">
+                              <Link class="dropdown-item" to="/rental/4" onClick={handleMenuClick} >  
                                 <i class="fas fa-laptop-code blink-animation fa-fw me-2"></i>
                                 Other Laptops
                               </Link>{" "}
@@ -857,21 +813,21 @@ const Header = () => {
                             <li class="dropdown-header">Desktops</li>
                             <li>
                               {" "}
-                              <Link class="dropdown-item" to="/rental/5">
+                              <Link class="dropdown-item" to="/rental/5" onClick={handleMenuClick} >  
                                 <i class="fas fa-desktop fa-fw me-2"></i>
                                 Computers
                               </Link>{" "}
                             </li>
                             <li>
                               {" "}
-                              <Link class="dropdown-item" to="/rental/6">
+                              <Link class="dropdown-item" to="/rental/6" onClick={handleMenuClick} >  
                                 <i class="bi bi-pc-display-horizontal fa-fw me-2"></i>
                                 Desktop
                               </Link>{" "}
                             </li>
                             <li>
                               {" "}
-                              <Link class="dropdown-item" to="/rental/7">
+                              <Link class="dropdown-item" to="/rental/7" onClick={handleMenuClick} >  
                                 <i class="bi bi-pc-display fa-fw me-2"></i>
                                 Gaming Computers
                               </Link>{" "}
@@ -883,26 +839,26 @@ const Header = () => {
                             <li class="dropdown-header">Peripherals</li>
                             <li>
                               {" "}
-                              <Link class="dropdown-item" to="/rental/8">
+                              <Link class="dropdown-item" to="/rental/8" onClick={handleMenuClick} >  
                                 <i class="fas fa-hdd fa-fw me-2"></i>CPUs
                               </Link>{" "}
                             </li>
                             <li>
                               {" "}
-                              <Link class="dropdown-item" to="/rental/9">
+                              <Link class="dropdown-item" to="/rental/9" onClick={handleMenuClick} >  
                                 <i class="fas fa-keyboard fa-fw me-2"></i>
                                 Keyboard
                               </Link>{" "}
                             </li>
                             <li>
                               {" "}
-                              <Link class="dropdown-item" to="/rental/10">
+                              <Link class="dropdown-item" to="/rental/10" onClick={handleMenuClick}>
                                 <i class="fas fa-mouse fa-fw me-2"></i>Mouse
                               </Link>{" "}
                             </li>
                             <li>
                               {" "}
-                              <Link class="dropdown-item" to="/rental/11">
+                              <Link class="dropdown-item" to="/rental/11" onClick={handleMenuClick} >
                                 <i class="bi bi-webcam-fill fa-fw me-2"></i>IP
                                 Cameras
                               </Link>{" "}
@@ -914,26 +870,26 @@ const Header = () => {
                             <li class="dropdown-header">Printers & Screens</li>
                             <li>
                               {" "}
-                              <Link class="dropdown-item" to="/rental/12">
+                              <Link class="dropdown-item" to="/rental/12" onClick={handleMenuClick} >
                                 <i class="fas fa-print fa-fw me-2"></i>Printers
                               </Link>{" "}
                             </li>
                             <li>
                               {" "}
-                              <Link class="dropdown-item" to="/rental/13">
+                              <Link class="dropdown-item" to="/rental/13" onClick={handleMenuClick} >
                                 <i class="bi bi-printer-fill fa-fw me-2"></i>
                                 Scanners
                               </Link>{" "}
                             </li>
                             <li>
                               {" "}
-                              <Link class="dropdown-item" to="/rental/14">
+                              <Link class="dropdown-item" to="/rental/14" onClick={handleMenuClick} >
                                 <i class="fas fa-tv fa-fw me-2"></i>LED Screens
                               </Link>{" "}
                             </li>
                             <li>
                               {" "}
-                              <Link class="dropdown-item" to="/rental/15">
+                              <Link class="dropdown-item" to="/rental/15" onClick={handleMenuClick} >
                                 <i class="bi bi-tv-fill fa-fw me-2"></i>Panel
                                 Screens
                               </Link>{" "}
@@ -953,7 +909,8 @@ const Header = () => {
                               <div class="col-md-3 text-md-end">
                                 <HashLink
                                   class="btn btn-line btn-success"
-                                  to="/rental#all_peripherials"
+                                  to="/rental"
+                                  onClick={handleMenuClick}
                                 >
                                   View All
                                 </HashLink>
