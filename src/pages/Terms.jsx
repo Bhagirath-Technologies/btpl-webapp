@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "react-router-dom";
 
 const Terms = () => {
   return (
@@ -8,21 +9,18 @@ const Terms = () => {
           <div class="row">
             <div class="col-12">
               {/* <!-- Title --> */}
-              <h1 class="text-white-stroke display-5">
-              Terms and Conditions
-              </h1>
+              <h1 class="text-white-stroke display-5">Terms and Conditions</h1>
               <p class="lead">
-              By accessing and using this site, you agree to the following terms and conditions:
+                By accessing and using this site, you agree to the following
+                terms and conditions:
               </p>
               {/* <!-- Breadcrumb --> */}
               <nav class="d-flex justify-content-center">
                 <ol class="breadcrumb breadcrumb-dark">
                   <li class="breadcrumb-item">
-                    <a href="index.html">Home</a>
+                    <Link to="index.html">Home</Link>
                   </li>
-                  <li class="breadcrumb-item active">
-                  Terms and Conditions
-                  </li>
+                  <li class="breadcrumb-item active">Terms and Conditions</li>
                 </ol>
               </nav>
             </div>
@@ -343,7 +341,7 @@ const Terms = () => {
                 </div>
                 <div>
                   <h6>
-                    <a href="tel:+918982301484">+918982301484</a>
+                    <Link to="tel:+918982301484">+918982301484</Link>
                   </h6>
                   <p>
                     Call us on above number to get quick solution.{" "}
@@ -362,7 +360,7 @@ const Terms = () => {
                 </div>
                 <div>
                   <h6>
-                    <a href="#">Raise Ticket</a>
+                    <Link to="#">Raise Ticket</Link>
                   </h6>
                   <p>
                     If you have technical questions, chat live with developers
@@ -378,7 +376,7 @@ const Terms = () => {
                 </div>
                 <div>
                   <h6>
-                    <a href="#">info@bhagirathtechnologies.com</a>
+                    <Link to="#">info@bhagirathtechnologies.com</Link>
                   </h6>
                   <p>
                     For general queries and questions including partnership
@@ -394,7 +392,7 @@ const Terms = () => {
                 </div>
                 <div>
                   <h6>
-                    <a href="#">bhagirathtechnologies.com</a>
+                    <Link to="#">bhagirathtechnologies.com</Link>
                   </h6>
                   <p>
                     Careers &amp; Press related queries please email us at above
