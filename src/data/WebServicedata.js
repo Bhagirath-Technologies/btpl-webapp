@@ -173,6 +173,8 @@ const webData = [
       "../assets/images/icons/Banner & Poster Design/4.svg",
       "../assets/images/icons/Banner & Poster Design/5.svg",
       "../assets/images/icons/Banner & Poster Design/6.svg",
+      "../assets/images/icons/Banner & Poster Design/7.svg",
+      "../assets/images/icons/Banner & Poster Design/8.svg",
     ],
     class: "col-sm-6 col-md-4 col-lg-3 col-xxl-3",
     hashlinks: "service_detail",

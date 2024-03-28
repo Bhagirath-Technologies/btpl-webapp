@@ -49,6 +49,7 @@ import ServiceDetail from './components/ServiceDetail';
 import Home from './pages/Home/Home';
 import Rental from './pages/Rental/Rental';
 import WebDevelopment from './pages/Services/WebDevelopment';
+import Terms from './pages/Terms';
 
 function App() {
   return (
@@ -61,6 +62,8 @@ function App() {
           <Route path="/services" element={<WebDevelopment />} />
           <Route path="/rental/:id" element={<ServiceDetail data={rentalData} />} />
           <Route path="/services/:id" element={<ServiceDetail data={webData} />} />
+          <Route path="/terms" element={<Terms />} />
+
         </Routes>
       </Suspense>
       <Footer />

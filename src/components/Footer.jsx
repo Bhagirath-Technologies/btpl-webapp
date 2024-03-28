@@ -249,16 +249,16 @@ const Footer = () => {
                     {/* <!-- Divider --> */}
                     <div class="divider-light opacity-1"></div>
                     {/* <!-- Footer copyright START --> */}
-                    <div class="row align-items-center justify-content-md-between py-4">
+                    <div class="row align-items-center justify-content-md-between py-2">
                         <div class="col-md-6">
-                            <div class="text-center text-md-start">©2024 <Link to="#" target="_blank"><b className='text-white'>Bhagirath Technologies Pvt Lmt.</b></Link>. All rights reserved
+                            <div class="text-center text-md-start fs-6">©2024 <Link to="#" target="_blank"><b className='text-white'>Bhagirath Technologies Pvt Lmt.</b></Link>. All rights reserved
                             </div>
                         </div>
                         <div class="col-md-6">
                             <ul class="nav justify-content-center justify-content-md-end mt-3 mt-md-0">
-                                <li class="nav-item"><Link class="nav-link text-body text-primary-hover" to="#">Terms</Link></li>
-                                <li class="nav-item"><Link class="nav-link text-body text-primary-hover" to="#">Privacy</Link></li>
-                                <li class="nav-item"><Link class="nav-link text-body text-primary-hover pe-0" to="#">Cookies</Link></li>
+                                <li class="nav-item"><Link class="nav-link text-body text-primary-hover fs-7" to="/terms">Terms</Link></li>
+                                <li class="nav-item"><Link class="nav-link text-body text-primary-hover fs-7" to="/policy">Privacy</Link></li>
+                                <li class="nav-item"><Link class="nav-link text-body text-primary-hover fs-7 pe-0" to="#">Cookies</Link></li>
                             </ul>
                         </div>
                     </div>
