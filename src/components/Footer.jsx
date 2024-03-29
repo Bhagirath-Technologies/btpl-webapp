@@ -14,12 +14,12 @@ const Footer = () => {
                             <p>Bhagirath Technologies Pvt Ltd Your partner for innovative IT solutions.</p>
                             <div class="d-flex me-auto align-items-center">
                                 <h6 class="mt-2 me-4 text-white">Follow on:</h6>
-                                <div class="list-group-inline list-unstyled text-primary-hover">
+                                {/* <div class="list-group-inline list-unstyled text-primary-hover">
                                     <Link to="#" class="list-group-item text-white bg-transparent">In</Link>
                                     <Link to="#" class="list-group-item text-white bg-transparent">Fb</Link>
                                     <Link to="#" class="list-group-item text-white bg-transparent">Ln</Link>
                                     <Link to="#" class="list-group-item text-white bg-transparent">Tg</Link>
-                                </div>
+                                </div> */}
                             </div>
                             <div className="d-flex justify-content-between pt_sm_icons">
                                 {/* animated social icons instagram starts */}
@@ -212,20 +212,16 @@ const Footer = () => {
                             <div class="row">
                                 <div class="col-6">
                                     <ul class="nav flex-column text-primary-hover">
-                                        <li class="nav-item"><Link class="nav-link pt-0" to="#">Our Work</Link></li>
-                                        <li class="nav-item"><Link class="nav-link" to="#">Develop</Link></li>
-                                        <li class="nav-item"><Link class="nav-link" to="#">Builder</Link></li>
-                                        <li class="nav-item"><Link class="nav-link" to="#">Market</Link></li>
-                                        <li class="nav-item"><Link class="nav-link" to="#">Support</Link></li>
+                                        <li class="nav-item"><Link class="nav-link pt-0" to="/">Home</Link></li>
+                                        <li class="nav-item"><Link class="nav-link" to="/about">About</Link></li>
+                                        <li class="nav-item"><Link class="nav-link" to="/services">Services</Link></li>
+                                        <li class="nav-item"><Link class="nav-link" to="/rental">Rentals</Link></li>
                                     </ul>
                                 </div>
                                 <div class="col-6">
                                     <ul class="nav flex-column text-primary-hover">
-                                        <li class="nav-item"><Link class="nav-link pt-0" to="#">About</Link></li>
                                         <li class="nav-item"><Link class="nav-link" target='_blank' to="https://bhagirathtechnologies.zohorecruit.in/careers">Career <span class="badge bg-danger ms-2">2 Job</span></Link></li>
-                                        <li class="nav-item"><Link class="nav-link" to="#">Work</Link></li>
-                                        <li class="nav-item"><Link class="nav-link" to="#">News</Link></li>
-                                        <li class="nav-item"><Link class="nav-link" to="#">Contact</Link></li>
+                                        <li class="nav-item"><Link class="nav-link" to="/contact">Contact</Link></li>
                                     </ul>
                                 </div>
                             </div>

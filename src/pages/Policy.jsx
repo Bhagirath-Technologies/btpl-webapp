@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from 'react-router-dom';
-const Terms = () => {
+const Policy = () => {
   return (
     <>
       <section class="bg-dark pattern-overlay-1 position-relative text-center">
@@ -8,10 +8,11 @@ const Terms = () => {
           <div class="row">
             <div class="col-12">
               {/* <!-- Title --> */}
-              <h1 class="text-white-stroke display-5">Terms and Conditions</h1>
+              <h1 class="text-white-stroke display-5">Privacy and Policy</h1>
               <p class="lead">
-                By accessing and using this site, you agree to the following
-                terms and conditions:
+              Bhagirath Technology Private Limited (BTPL) is an IT services, consulting, and business solutions organization. We offer a comprehensive range of consulting-led, cognitive-powered services and solutions through our unique Location Independent Agile™ delivery model. As part of our operations, BTPL handles sensitive information, including personal data, which is vital to our business interests and those of our clients.
+Our Security Vision is to ensure the reliability, resilience, and immunity of BTPL in the face of constant changes, accidents, attacks, and failures. This Security Policy reaffirms our commitment to safeguard all the information and assets entrusted to us, fostering an efficient, safe, and secure working environment for BTPL and its clients.
+
               </p>
               {/* <!-- Breadcrumb --> */}
               <nav class="d-flex justify-content-center">
@@ -19,7 +20,7 @@ const Terms = () => {
                   <li class="breadcrumb-item">
                     <Link to="/">Home</Link>
                   </li>
-                  <li class="breadcrumb-item active">Terms and Conditions</li>
+                  <li class="breadcrumb-item active">Privacy and Policy</li>
                 </ol>
               </nav>
             </div>
@@ -45,7 +46,7 @@ const Terms = () => {
                       aria-expanded="true"
                       aria-controls="collapse-1"
                     >
-                      All content on this site...
+                      Protect information and assets...
                     </button>
                   </h5>
                   <div
@@ -56,8 +57,7 @@ const Terms = () => {
                     style={{}}
                   >
                     <div class="accordion-body">
-                    All content on this site, including text and images, is the property of Bhagirath Technology Private Limited (BTPL), unless otherwise stated.
-                    </div>
+                    Protect information and assets against unauthorized access by implementing robust security controls covering physical, logical, and personnel security.                    </div>
                   </div>
                 </div>
                 <div class="accordion-item">
@@ -70,7 +70,7 @@ const Terms = () => {
                       aria-expanded="false"
                       aria-controls="collapse-2"
                     >
-                       No part of this site may be copied...
+                       Ensure compliance with legal...
                     </button>
                   </h5>
                   <div
@@ -80,8 +80,7 @@ const Terms = () => {
                     data-bs-parent="#accordiongeneralfaq"
                   >
                     <div class="accordion-body">
-                    No part of this site may be copied, reproduced, republished, uploaded, posted, transmitted, or distributed without prior written consent from BTPL.
-                    </div>
+                    Ensure compliance with legal, statutory, and regulatory requirements across our global operations.                    </div>
                   </div>
                 </div>
                 <div class="accordion-item">
@@ -94,7 +93,7 @@ const Terms = () => {
                       aria-expanded="false"
                       aria-controls="collapse-3"
                     >
-                      The information provided on this site...
+                      Maintain business continuity aligned...
                     </button>
                   </h5>
                   <div
@@ -104,8 +103,7 @@ const Terms = () => {
                     data-bs-parent="#accordiongeneralfaq"
                   >
                     <div class="accordion-body">
-                    The information provided on this site is for informational purposes only and does not create a business relationship between you and BTPL.
-                    </div>
+                    Maintain business continuity aligned with our stakeholders' requirements and obligations.                    </div>
                   </div>
                 </div>
                 <div class="accordion-item">
@@ -118,7 +116,7 @@ const Terms = () => {
                       aria-expanded="false"
                       aria-controls="collapse-4"
                     >
-                      Links on this site may lead...
+                      Embed security responsibilities...
                     </button>
                   </h5>
                   <div
@@ -128,8 +126,7 @@ const Terms = () => {
                     data-bs-parent="#accordiongeneralfaq"
                   >
                     <div class="accordion-body">
-                    Links on this site may lead to services or sites not operated by BTPL, and we take no responsibility for such sites or services.
-                    </div>
+                    Embed security responsibilities across various departments and individuals to uphold this Policy.                    </div>
                   </div>
                 </div>
                 <div class="accordion-item">
@@ -142,7 +139,7 @@ const Terms = () => {
                       aria-expanded="false"
                       aria-controls="collapse-5"
                     >
-                      This site and its contents...
+                      Foster security awareness...
                     </button>
                   </h5>
                   <div
@@ -152,8 +149,7 @@ const Terms = () => {
                     data-bs-parent="#accordiongeneralfaq"
                   >
                     <div class="accordion-body">
-                    This site and its contents are provided "as is," and BTPL makes no representation or warranty of any kind.
-                    </div>
+                    Foster security awareness and competence among all associates to fulfill their responsibilities effectively.                    </div>
                   </div>
                 </div>
                 <div class="accordion-item">
@@ -166,7 +162,7 @@ const Terms = () => {
                       aria-expanded="false"
                       aria-controls="collapse-6"
                     >
-                      BTPL disclaims all express...
+                      Establish channels for associates...
                     </button>
                   </h5>
                   <div
@@ -176,8 +172,7 @@ const Terms = () => {
                     data-bs-parent="#accordiongeneralfaq"
                   >
                     <div class="accordion-body">
-                    BTPL disclaims all express and implied warranties, including merchantability, fitness for a particular purpose, and non-infringement.
-                    </div>
+                    Establish channels for associates and stakeholders to report security weaknesses, violations, or service disruptions.                    </div>
                   </div>
                 </div>
               </div>
@@ -196,7 +191,7 @@ const Terms = () => {
                       aria-expanded="false"
                       aria-controls="collapse-10"
                     >
-                      In no event will BTPL...
+                      Implement a robust response...
                     </button>
                   </h5>
                   <div
@@ -206,8 +201,7 @@ const Terms = () => {
                     data-bs-parent="#accordionmemberfaq"
                   >
                     <div class="accordion-body">
-                    In no event will BTPL or its third-party service providers be liable for any damages arising out of or in connection with this site.
-                    </div>
+                    Implement a robust response framework to address security incidents promptly and effectively.                    </div>
                   </div>
                 </div>
                 <div class="accordion-item">
@@ -220,7 +214,7 @@ const Terms = () => {
                       aria-expanded="false"
                       aria-controls="collapse-11"
                     >
-                      This site is governed by the laws...
+                      Govern security performance...
                     </button>
                   </h5>
                   <div
@@ -231,8 +225,7 @@ const Terms = () => {
                   >
                     <div class="accordion-body">
                       <p>
-                      This site is governed by the laws of the State of Illinois, USA, and any legal action or proceeding relating to this site shall be subject to these laws.
-                      </p>
+                      Govern security performance against defined targets and objectives, facilitating continuous improvements.                      </p>
                      
                     </div>
                   </div>
@@ -247,7 +240,7 @@ const Terms = () => {
                       aria-expanded="false"
                       aria-controls="collapse-12"
                     >
-                      You are responsible for complying...
+                      This Policy will be supported by...
                     </button>
                   </h5>
                   <div
@@ -257,8 +250,7 @@ const Terms = () => {
                     data-bs-parent="#accordionmemberfaq"
                   >
                     <div class="accordion-body">
-                    You are responsible for complying with the laws of the jurisdiction from which you access this site.
-                    </div>
+                    This Policy will be supported by Standards, Procedures, and Guidelines constituting our Security Management System. It will be accessible to all stakeholders contributing to the implementation and enforcement of these security norms. The Security Management System will undergo periodic reviews to ensure its ongoing relevance and applicability to our operations and evolving stakeholder expectations.                    </div>
                   </div>
                 </div>
                 <div class="accordion-item">
@@ -271,7 +263,7 @@ const Terms = () => {
                       aria-expanded="false"
                       aria-controls="collapse-13"
                     >
-                      Any information submitted...
+                      This Policy extends to...
                     </button>
                   </h5>
                   <div
@@ -281,8 +273,7 @@ const Terms = () => {
                     data-bs-parent="#accordionmemberfaq"
                   >
                     <div class="accordion-body">
-                    Any information submitted through this site is deemed non-confidential and non-proprietary, and you agree that BTPL may use such information freely.
-                    </div>
+                    This Policy extends to BTPL globally and its wholly-owned subsidiaries across all regions. It applies to all our associates, business partners, and external parties with access to our infrastructure, IT systems, and information resources. Consequences for violations or contraventions of this Policy will apply equally to all BTPL associates, subsidiaries, and external parties.                    </div>
                   </div>
                 </div>
               </div>
@@ -368,4 +359,4 @@ const Terms = () => {
   );
 };
 
-export default Terms;
+export default Policy;

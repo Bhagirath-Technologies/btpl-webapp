@@ -92,7 +92,7 @@ const Header = () => {
               <li class="nav-item display-6 h5">
                 <Link
                   class="nav-link text-white-stroke"
-                  to="#"
+                  to="/about"
                   onClick={() => {
                     setOpenMenu(false);
                     document
@@ -103,7 +103,7 @@ const Header = () => {
                   About
                 </Link>
               </li>
-              <li class="nav-item display-6 h5">
+              {/* <li class="nav-item display-6 h5">
                 <Link
                   class="nav-link text-white-stroke"
                   to="#"
@@ -116,7 +116,7 @@ const Header = () => {
                 >
                   Work
                 </Link>
-              </li>
+              </li> */}
               <li class="nav-item display-6 h5">
                 <Link
                   class="nav-link text-white-stroke"
@@ -148,7 +148,7 @@ const Header = () => {
               <li class="nav-item display-6 h5">
                 <Link
                   class="nav-link text-white-stroke"
-                  to="#"
+                  to="/contact"
                   onClick={() => {
                     setOpenMenu(false);
                     document
@@ -415,7 +415,7 @@ const Header = () => {
                 <ul class="nav ms-3">
                   <li class="nav-item">
                     <Link
-                      to="contact.html"
+                      to="/contact"
                       class="nav-link text-white text-primary-hover"
                     >
                       Contact
@@ -437,22 +437,22 @@ const Header = () => {
                 <ul class="list-unstyled d-flex">
                   <li>
                     {" "}
-                    <Link class="text-white text-primary-hover px-2" to="#">
+                    <Link class="text-white text-primary-hover px-2" to="https://www.facebook.com/bhagirathtechnologies/">
                       <i class="fab fa-facebook-f"></i>
                     </Link>{" "}
                   </li>
                   <li>
                     {" "}
-                    <Link class="text-white text-primary-hover px-2" to="#">
+                    <Link class="text-white text-primary-hover px-2" to="https://www.instagram.com/bhagirath_technologies/">
                       <i class="fab fa-instagram"></i>
                     </Link>{" "}
                   </li>
-                  <li>
+                  {/* <li>
                     {" "}
                     <Link class="text-white text-primary-hover ps-2" to="#">
                       <i class="fab fa-twitter"></i>
                     </Link>{" "}
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
@@ -507,7 +507,7 @@ const Header = () => {
                 </li>
 
                 {/* <!-- Menu item 2 Pages --> */}
-                <li class="nav-item dropdown">
+                {/* <li class="nav-item dropdown">
                   <Link
                     class="nav-link dropdown-toggle"
                     to="#"
@@ -519,7 +519,6 @@ const Header = () => {
                     About Us
                   </Link>
                   <ul class="dropdown-menu" aria-labelledby="pagesMenu">
-                    {/* <!-- Blog menu --> */}
                     <li class="dropdown-submenu dropend">
                       <Link class="dropdown-item" to="#">
                         Blog
@@ -533,24 +532,10 @@ const Header = () => {
                         Portfolio
                       </Link>
                     </li>
-                    {/* <!-- Hero sections menu --> */}
                     <li class="dropdown-submenu dropend">
                       <Link class="dropdown-item" to="#">
                         Pricing<span class="badge bg-danger ms-2">New</span>
                       </Link>
-                      {/* <ul class="dropdown-menu" data-bs-popper="none">
-                        <li>
-                          <Link class="dropdown-item" to="hero-01.html"
-                          >
-                            Web Development
-                          </Link>
-                        </li>
-                        <li>
-                          <Link class="dropdown-item" to="hero-02.html">
-                            Online Marketing
-                          </Link>
-                        </li>
-                      </ul> */}
                     </li>
                     <li>
                       {" "}
@@ -559,7 +544,7 @@ const Header = () => {
                       </Link>
                     </li>
                   </ul>
-                </li>
+                </li> */}
 
                 {/* <!-- Menu item 3 Portfolio --> */}
                 <li class="nav-item dropdown dropdown-fullwidth">
@@ -1069,12 +1054,12 @@ const Header = () => {
                           <div>
                             <h6 class="my-0">Our Doc</h6>
                             <p class="small text-body d-none d-md-block">
-                              General instruction about theme and support
+                              {/* General instruction about theme and support */}
                             </p>
-                            <Link class="dropdown-item px-0" to="#">
+                            <Link class="dropdown-item px-0" to="/terms">
                               Terms & Condition
                             </Link>
-                            <Link class="dropdown-item px-0" to="#">
+                            <Link class="dropdown-item px-0" to="/policy">
                               Privacy & Policy
                             </Link>
                             {/* <Link
@@ -1111,7 +1096,7 @@ const Header = () => {
                 {/* <!-- Menu item 6 link--> */}
                 <li class="nav-item">
                   {" "}
-                  <Link class="nav-link" to="contact.html">
+                  <Link class="nav-link" to="/contact">
                     Contact
                   </Link>
                 </li>
