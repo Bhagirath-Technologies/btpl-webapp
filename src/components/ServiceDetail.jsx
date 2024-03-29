@@ -83,7 +83,7 @@ const ServiceDetail = ({ data }) => {
                   </ul>
                 </div>
               </div>
-              <Link to="#" className="btn btn-dark btn-line mt-4">
+              <Link to="/contact" className="btn btn-dark btn-line mt-4">
                 Book Now
               </Link>
             </div>

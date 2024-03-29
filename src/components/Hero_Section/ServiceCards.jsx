@@ -104,7 +104,7 @@ export default function App({ serviceDetail }) {
                           <button>
                             <Link
                               className="rbt-btn btn-gradient hover-icon-reverse"
-                              to="#"
+                              to="/contact"
                               target="_blank"
                               style={{ height: "35px", lineHeight: "35px" }}
                             >
