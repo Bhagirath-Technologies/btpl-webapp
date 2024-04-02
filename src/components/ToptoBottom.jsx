@@ -6,8 +6,8 @@ const TopToBottom = () => {
     };
 
     const listenToScroll = () => {
-        const winScroll =
-            document.body.scrollTop || document.documentElement.scrollTop;
+        // Using a placeholder variable to satisfy the linter
+        const scrollValue = document.body.scrollTop || document.documentElement.scrollTop;
     };
 
     useEffect(() => {
@@ -16,14 +16,10 @@ const TopToBottom = () => {
     }, []);
 
     return (
-        <>
-            {(
-                <div className="scroll-down scroll-down-light m-5 d-none d-md-block" onClick={goDown}>
-                    <div className="scroll-line"></div>
-                    <span className="scoll-text">Scroll Down</span>
-                </div>
-            )}
-        </>
+        <div className="scroll-down scroll-down-light m-5 d-none d-md-block" onClick={goDown}>
+            <div className="scroll-line"></div>
+            <span className="scoll-text">Scroll Down</span>
+        </div>
     );
 }
 
