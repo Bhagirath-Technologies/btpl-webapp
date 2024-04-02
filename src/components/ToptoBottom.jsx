@@ -6,8 +6,8 @@ const TopToBottom = () => {
     };
 
     const listenToScroll = () => {
-        // Assigning scroll value to an underscore variable to indicate it's intentionally unused
-        const _ = document.body.scrollTop || document.documentElement.scrollTop;
+        // Directly returning the scroll value expression
+        return document.body.scrollTop || document.documentElement.scrollTop;
     };
 
     useEffect(() => {
