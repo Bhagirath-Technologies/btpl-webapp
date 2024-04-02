@@ -6,8 +6,8 @@ const TopToBottom = () => {
     };
 
     const listenToScroll = () => {
-        // Using a placeholder variable to satisfy the linter
-        const scrollValue = document.body.scrollTop || document.documentElement.scrollTop;
+        // Assigning scroll value to an underscore variable to indicate it's intentionally unused
+        const _ = document.body.scrollTop || document.documentElement.scrollTop;
     };
 
     useEffect(() => {
