@@ -180,7 +180,7 @@ const Header = () => {
             >
               info@bhagirathtechnologies.com
             </Link>
-            <Link to="#" class="font-heading text-white text-primary-hover">
+            <Link to="tel:+918982301484" class="font-heading text-white text-primary-hover">
               +91 8982301484
             </Link>
           </div>
@@ -241,7 +241,7 @@ const Header = () => {
       {/* <!-- Search END --> */}
 
       {/* <!-- Login Popup START --> */}
-      <div class="modal fade" id="topbarlogin">
+      {/* <div class="modal fade" id="topbarlogin">
         <div class="modal-dialog modal-dialog-centered">
           <div class="modal-content">
             <div class="modal-header bg-primary pattern-overlay-7">
@@ -260,9 +260,9 @@ const Header = () => {
             </div>
             <div class="modal-body">
               <div class="w-100 p-3">
-                {/* <!-- Form START --> */}
+                
                 <form>
-                  {/* <!-- Email --> */}
+                  
                   <div class="mb-3">
                     <label class="form-label" for="exampleInputEmail1">
                       Email address
@@ -274,7 +274,7 @@ const Header = () => {
                       placeholder="E-mail"
                     />
                   </div>
-                  {/* <!-- Password --> */}
+                  
                   <div class="mb-3">
                     <label class="form-label" for="exampleInputPassword1">
                       Password
@@ -286,7 +286,7 @@ const Header = () => {
                       placeholder="*********"
                     />
                   </div>
-                  {/* <!-- Checkbox --> */}
+                  
                   <div class="mb-3 form-check">
                     <input
                       type="checkbox"
@@ -297,7 +297,7 @@ const Header = () => {
                       keep me signed in
                     </label>
                   </div>
-                  {/* <!-- Button --> */}
+                 
                   <div class="row align-items-center">
                     <div class="col-sm-4">
                       <button type="submit" class="btn btn-dark btn-line">
@@ -312,12 +312,12 @@ const Header = () => {
                     </div>
                   </div>
                 </form>
-                {/* <!-- Form END --> */}
+               
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* <!-- Login Popup END --> */}
 
       {/* <!-- Header START --> */}
@@ -348,7 +348,7 @@ const Header = () => {
                   <li class="nav-item">
                     <Link
                       class="navbar-link text-white text-primary-hover"
-                      to="#"
+                      to="tel:+918982301484"
                     >
                       <i class="fas fa-headset me-2"></i>Call us
                       now:+918982301484
@@ -421,7 +421,7 @@ const Header = () => {
                       Contact
                     </Link>
                   </li>
-                  <li class="nav-item">
+                  {/* <li class="nav-item">
                     <Link
                       to="#"
                       class="nav-link text-white text-primary-hover"
@@ -430,20 +430,20 @@ const Header = () => {
                     >
                       <i class="far fa-user me-2"></i>Login
                     </Link>
-                  </li>
+                  </li> */}
                 </ul>
 
                 {/* <!-- Top social --> */}
                 <ul class="list-unstyled d-flex">
                   <li>
                     {" "}
-                    <Link class="text-white text-primary-hover px-2" to="https://www.facebook.com/bhagirathtechnologies/">
+                    <Link class="text-white text-primary-hover px-2" to="https://www.facebook.com/bhagirathtechnologies/" target="_blank">
                       <i class="fab fa-facebook-f"></i>
                     </Link>{" "}
                   </li>
                   <li>
                     {" "}
-                    <Link class="text-white text-primary-hover px-2" to="https://www.instagram.com/bhagirath_technologies/">
+                    <Link class="text-white text-primary-hover px-2" to="https://www.instagram.com/bhagirath_technologies/" target="_blank">
                       <i class="fab fa-instagram"></i>
                     </Link>{" "}
                   </li>
@@ -1061,6 +1061,9 @@ const Header = () => {
                             </Link>
                             <Link class="dropdown-item px-0" to="/policy">
                               Privacy & Policy
+                            </Link>
+                            <Link class="dropdown-item px-0" to="/cookies">
+                            Cookies
                             </Link>
                             {/* <Link
                               class="dropdown-item px-0"

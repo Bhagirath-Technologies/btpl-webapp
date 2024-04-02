@@ -99,7 +99,7 @@ const ServiceDetail = ({ data }) => {
             <div class="row">
               {/* <!-- Title --> */}
               <div class="col-lg-4">
-                <h2 class="display-6 mb-3">Technologies We Use...</h2>
+                <h2 class="display-6 mb-3">Tools & Technologies We Use...</h2>
                 <p>
                   Rooms oh fully taken by worse do. Points afraid but may end
                   law lasted. Was out laughter raptures returned outweigh.

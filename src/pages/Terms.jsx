@@ -3,23 +3,23 @@ import { Link } from 'react-router-dom';
 const Terms = () => {
   return (
     <>
-      <section class="bg-dark pattern-overlay-1 position-relative text-center">
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
+      <section className="bg-dark pattern-overlay-1 position-relative text-center">
+        <div className="container">
+          <div className="row">
+            <div className="col-12">
               {/* <!-- Title --> */}
-              <h1 class="text-white-stroke display-5">Terms and Conditions</h1>
-              <p class="lead">
+              <h1 className="text-white-stroke display-5">Terms and Conditions</h1>
+              <p className="lead">
                 By accessing and using this site, you agree to the following
                 terms and conditions:
               </p>
               {/* <!-- Breadcrumb --> */}
-              <nav class="d-flex justify-content-center">
-                <ol class="breadcrumb breadcrumb-dark">
-                  <li class="breadcrumb-item">
+              <nav className="d-flex justify-content-center">
+                <ol className="breadcrumb breadcrumb-dark">
+                  <li className="breadcrumb-item">
                     <Link to="/">Home</Link>
                   </li>
-                  <li class="breadcrumb-item active">Terms and Conditions</li>
+                  <li className="breadcrumb-item active">Terms and Conditions</li>
                 </ol>
               </nav>
             </div>
@@ -27,18 +27,18 @@ const Terms = () => {
         </div>
       </section>
 
-      <section class="pb-3">
-        <div class="container">
-          <div class="row justify-content-between">
+      <section className="pb-3">
+        <div className="container">
+          <div className="row justify-content-between">
             {/* <!-- Left START --> */}
-            <div class="col-md-8 col-lg-7 mb-5">
+            <div className="col-md-8 col-lg-7 mb-5">
               {/* <!-- General FAQ START --> */}
-              <h3 class="mb-4">Please Read Carefully</h3>
-              <div class="accordion accordion-icon" id="accordiongeneralfaq">
-                <div class="accordion-item">
-                  <h5 class="accordion-header" id="heading-1">
+              <h3 className="mb-4">Please Read Carefully</h3>
+              <div className="accordion accordion-icon" id="accordiongeneralfaq">
+                <div className="accordion-item">
+                  <h5 className="accordion-header" id="heading-1">
                     <button
-                      class="accordion-button fw-bold"
+                      className="accordion-button fw-bold"
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#collapse-1"
@@ -50,20 +50,20 @@ const Terms = () => {
                   </h5>
                   <div
                     id="collapse-1"
-                    class="accordion-collapse collapse show"
+                    className="accordion-collapse collapse show"
                     aria-labelledby="heading-1"
                     data-bs-parent="#accordiongeneralfaq"
                     style={{}}
                   >
-                    <div class="accordion-body">
+                    <div className="accordion-body">
                     All content on this site, including text and images, is the property of Bhagirath Technology Private Limited (BTPL), unless otherwise stated.
                     </div>
                   </div>
                 </div>
-                <div class="accordion-item">
-                  <h5 class="accordion-header" id="heading-2">
+                <div className="accordion-item">
+                  <h5 className="accordion-header" id="heading-2">
                     <button
-                      class="accordion-button fw-bold collapsed"
+                      className="accordion-button fw-bold collapsed"
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#collapse-2"
@@ -75,19 +75,19 @@ const Terms = () => {
                   </h5>
                   <div
                     id="collapse-2"
-                    class="accordion-collapse collapse"
+                    className="accordion-collapse collapse"
                     aria-labelledby="heading-2"
                     data-bs-parent="#accordiongeneralfaq"
                   >
-                    <div class="accordion-body">
+                    <div className="accordion-body">
                     No part of this site may be copied, reproduced, republished, uploaded, posted, transmitted, or distributed without prior written consent from BTPL.
                     </div>
                   </div>
                 </div>
-                <div class="accordion-item">
-                  <h5 class="accordion-header" id="heading-3">
+                <div className="accordion-item">
+                  <h5 className="accordion-header" id="heading-3">
                     <button
-                      class="accordion-button fw-bold collapsed"
+                      className="accordion-button fw-bold collapsed"
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#collapse-3"
@@ -99,19 +99,19 @@ const Terms = () => {
                   </h5>
                   <div
                     id="collapse-3"
-                    class="accordion-collapse collapse"
+                    className="accordion-collapse collapse"
                     aria-labelledby="heading-3"
                     data-bs-parent="#accordiongeneralfaq"
                   >
-                    <div class="accordion-body">
+                    <div className="accordion-body">
                     The information provided on this site is for informational purposes only and does not create a business relationship between you and BTPL.
                     </div>
                   </div>
                 </div>
-                <div class="accordion-item">
-                  <h5 class="accordion-header" id="heading-4">
+                <div className="accordion-item">
+                  <h5 className="accordion-header" id="heading-4">
                     <button
-                      class="accordion-button fw-bold collapsed"
+                      className="accordion-button fw-bold collapsed"
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#collapse-4"
@@ -123,19 +123,19 @@ const Terms = () => {
                   </h5>
                   <div
                     id="collapse-4"
-                    class="accordion-collapse collapse"
+                    className="accordion-collapse collapse"
                     aria-labelledby="heading-4"
                     data-bs-parent="#accordiongeneralfaq"
                   >
-                    <div class="accordion-body">
+                    <div className="accordion-body">
                     Links on this site may lead to services or sites not operated by BTPL, and we take no responsibility for such sites or services.
                     </div>
                   </div>
                 </div>
-                <div class="accordion-item">
-                  <h5 class="accordion-header" id="heading-5">
+                <div className="accordion-item">
+                  <h5 className="accordion-header" id="heading-5">
                     <button
-                      class="accordion-button fw-bold collapsed"
+                      className="accordion-button fw-bold collapsed"
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#collapse-5"
@@ -147,19 +147,19 @@ const Terms = () => {
                   </h5>
                   <div
                     id="collapse-5"
-                    class="accordion-collapse collapse"
+                    className="accordion-collapse collapse"
                     aria-labelledby="heading-5"
                     data-bs-parent="#accordiongeneralfaq"
                   >
-                    <div class="accordion-body">
+                    <div className="accordion-body">
                     This site and its contents are provided "as is," and BTPL makes no representation or warranty of any kind.
                     </div>
                   </div>
                 </div>
-                <div class="accordion-item">
-                  <h5 class="accordion-header" id="heading-6">
+                <div className="accordion-item">
+                  <h5 className="accordion-header" id="heading-6">
                     <button
-                      class="accordion-button fw-bold collapsed"
+                      className="accordion-button fw-bold collapsed"
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#collapse-6"
@@ -171,11 +171,11 @@ const Terms = () => {
                   </h5>
                   <div
                     id="collapse-6"
-                    class="accordion-collapse collapse"
+                    className="accordion-collapse collapse"
                     aria-labelledby="heading-6"
                     data-bs-parent="#accordiongeneralfaq"
                   >
-                    <div class="accordion-body">
+                    <div className="accordion-body">
                     BTPL disclaims all express and implied warranties, including merchantability, fitness for a particular purpose, and non-infringement.
                     </div>
                   </div>
@@ -184,12 +184,12 @@ const Terms = () => {
               {/* <!-- General FAQ END --> */}
 
               {/* <!-- Membership and trials START --> */}
-              <h3 class="mb-4 mt-5">Also read this below</h3>
-              <div class="accordion accordion-icon" id="accordionmemberfaq">
-                <div class="accordion-item">
-                  <h5 class="accordion-header" id="heading-10">
+              <h3 className="mb-4 mt-5">Also read this below</h3>
+              <div className="accordion accordion-icon" id="accordionmemberfaq">
+                <div className="accordion-item">
+                  <h5 className="accordion-header" id="heading-10">
                     <button
-                      class="accordion-button fw-bold collapsed"
+                      className="accordion-button fw-bold collapsed"
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#collapse-10"
@@ -201,19 +201,19 @@ const Terms = () => {
                   </h5>
                   <div
                     id="collapse-10"
-                    class="accordion-collapse collapse"
+                    className="accordion-collapse collapse"
                     aria-labelledby="heading-10"
                     data-bs-parent="#accordionmemberfaq"
                   >
-                    <div class="accordion-body">
+                    <div className="accordion-body">
                     In no event will BTPL or its third-party service providers be liable for any damages arising out of or in connection with this site.
                     </div>
                   </div>
                 </div>
-                <div class="accordion-item">
-                  <h5 class="accordion-header" id="heading-11">
+                <div className="accordion-item">
+                  <h5 className="accordion-header" id="heading-11">
                     <button
-                      class="accordion-button fw-bold collapsed"
+                      className="accordion-button fw-bold collapsed"
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#collapse-11"
@@ -225,11 +225,11 @@ const Terms = () => {
                   </h5>
                   <div
                     id="collapse-11"
-                    class="accordion-collapse collapse"
+                    className="accordion-collapse collapse"
                     aria-labelledby="heading-11"
                     data-bs-parent="#accordionmemberfaq"
                   >
-                    <div class="accordion-body">
+                    <div className="accordion-body">
                       <p>
                       This site is governed by the laws of the State of Illinois, USA, and any legal action or proceeding relating to this site shall be subject to these laws.
                       </p>
@@ -237,10 +237,10 @@ const Terms = () => {
                     </div>
                   </div>
                 </div>
-                <div class="accordion-item">
-                  <h5 class="accordion-header" id="heading-12">
+                <div className="accordion-item">
+                  <h5 className="accordion-header" id="heading-12">
                     <button
-                      class="accordion-button fw-bold collapsed"
+                      className="accordion-button fw-bold collapsed"
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#collapse-12"
@@ -252,19 +252,19 @@ const Terms = () => {
                   </h5>
                   <div
                     id="collapse-12"
-                    class="accordion-collapse collapse"
+                    className="accordion-collapse collapse"
                     aria-labelledby="heading-12"
                     data-bs-parent="#accordionmemberfaq"
                   >
-                    <div class="accordion-body">
+                    <div className="accordion-body">
                     You are responsible for complying with the laws of the jurisdiction from which you access this site.
                     </div>
                   </div>
                 </div>
-                <div class="accordion-item">
-                  <h5 class="accordion-header" id="heading-13">
+                <div className="accordion-item">
+                  <h5 className="accordion-header" id="heading-13">
                     <button
-                      class="accordion-button fw-bold collapsed"
+                      className="accordion-button fw-bold collapsed"
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#collapse-13"
@@ -276,11 +276,11 @@ const Terms = () => {
                   </h5>
                   <div
                     id="collapse-13"
-                    class="accordion-collapse collapse"
+                    className="accordion-collapse collapse"
                     aria-labelledby="heading-13"
                     data-bs-parent="#accordionmemberfaq"
                   >
-                    <div class="accordion-body">
+                    <div className="accordion-body">
                     Any information submitted through this site is deemed non-confidential and non-proprietary, and you agree that BTPL may use such information freely.
                     </div>
                   </div>
@@ -291,12 +291,12 @@ const Terms = () => {
             {/* <!-- Left END --> */}
 
             {/* <!-- Right START --> */}
-            <div class="col-md-4">
-              <h4 class="mb-5">Needed more help and support? Check these</h4>
+            <div className="col-md-4">
+              <h4 className="mb-5">Needed more help and support? Check these</h4>
               {/* <!-- Call --> */}
-              <div class="mb-4 d-flex">
-                <div class="text-primary display-8 me-3">
-                  <i class="bi bi-headset fa-fw"></i>
+              <div className="mb-4 d-flex">
+                <div className="text-primary display-8 me-3">
+                  <i className="bi bi-headset fa-fw"></i>
                 </div>
                 <div>
                   <h6>
@@ -304,8 +304,8 @@ const Terms = () => {
                   </h6>
                   <p>
                     Call us on above number to get quick solution.{" "}
-                    <small class="d-block">
-                      <span class="text-danger">*</span> Additional charges may
+                    <small className="d-block">
+                      <span className="text-danger">*</span> Additional charges may
                       apply
                     </small>
                   </p>
@@ -313,9 +313,9 @@ const Terms = () => {
               </div>
 
               {/* <!-- Skype --> */}
-              <div class="mb-4 d-flex">
-                <div class="text-primary display-8 me-3">
-                  <i class="bi bi-chat-left-text fa-fw"></i>
+              <div className="mb-4 d-flex">
+                <div className="text-primary display-8 me-3">
+                  <i className="bi bi-chat-left-text fa-fw"></i>
                 </div>
                 <div>
                   <h6>
@@ -329,13 +329,13 @@ const Terms = () => {
               </div>
 
               {/* <!-- Email --> */}
-              <div class="mb-4 d-flex">
-                <div class="text-primary display-8 me-3">
-                  <i class="bi bi-envelope fa-fw"></i>
+              <div className="mb-4 d-flex">
+                <div className="text-primary display-8 me-3">
+                  <i className="bi bi-envelope fa-fw"></i>
                 </div>
                 <div>
                   <h6>
-                    <Link to="#">info@bhagirathtechnologies.com</Link>
+                    <Link to="mailto:info@bhagirathtechnologies.com">info@bhagirathtechnologies.com</Link>
                   </h6>
                   <p>
                     For general queries and questions including partnership
@@ -345,9 +345,9 @@ const Terms = () => {
               </div>
 
               {/* <!-- Live chat --> */}
-              <div class="mb-4 d-flex">
-                <div class="text-primary display-8 me-3">
-                  <i class="bi bi-person-plus fa-fw"></i>
+              <div className="mb-4 d-flex">
+                <div className="text-primary display-8 me-3">
+                  <i className="bi bi-person-plus fa-fw"></i>
                 </div>
                 <div>
                   <h6>

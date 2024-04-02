@@ -5,6 +5,7 @@ import Clientportfolio from '../../components/Hero_Section/Clientportfolio';
 import ServiceCard from '../../components/Hero_Section/ServiceCards';
 import OurPortlio from '../../components/Hero_Section/Ourportfolio';
 import serviceData from '../../data/ServiceCarddata';
+import ToptoBottom from '../../components/ToptoBottom';
 // import OurPortfolioData from '../../data/OurPortfoliodata'; 
 
 import './home.css';
@@ -28,16 +29,17 @@ const Home = () => {
                     {/* <!-- Social sites link left --> */}
                     <div className="position-absolute top-50 start-0 translate-middle z-index-9 ms-4 d-none d-xxl-block">
                         <div className="list-group-inline list-unstyled rotate-270">
-                            <Link to="#" className="list-group-item text-white bg-transparent mt-4">Facebook</Link>
-                            <Link to="#" className="list-group-item text-white bg-transparent mt-4">Twitter</Link>
-                            <Link to="#" className="list-group-item text-white bg-transparent mt-4">Dribble</Link>
+                            <Link to="https://pin.it/7DKUwgG4b" target="_blank" className="list-group-item text-white bg-transparent mt-4">Pinterest</Link>
+                            <Link to="https://twitter.com/bhagirathtechno" target="_blank" className="list-group-item text-white bg-transparent mt-4">Twitter</Link>
+                            <Link to="https://www.behance.net/bhagiratechnologies" target="_blank" className="list-group-item text-white bg-transparent mt-4">Behance</Link>
                         </div>
                     </div>
                     {/* <!-- Scoll Down --> */}
-                    <div className="scroll-down scroll-down-light m-5 d-none d-md-block">
+                    <ToptoBottom/>
+                    {/* <div className="scroll-down scroll-down-light m-5 d-none d-md-block">
                         <div className="scroll-line"></div>
                         <span className="scoll-text">Scroll Down</span>
-                    </div>
+                    </div> */}
                     {/* taken hero from here */}
                     <Hero />
                 </section>

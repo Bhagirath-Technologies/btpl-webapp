@@ -129,8 +129,8 @@ const Footer = () => {
                                                 <div class="img_ln">Ln</div>
                                                 <div class="details_ln">
                                                     
-                                                    <div class="name_ln">BTPL</div>
-                                                    <div class="username_ln">Bhagirath Technologies</div>
+                                                    <div class="name_ln"><Link className='text-muted' to="https://in.linkedin.com/company/bhagirath-technologies" target='_blank'>BTPL</Link></div>
+                                                    <div class="username_ln"><Link className='text-muted' to="https://in.linkedin.com/company/bhagirath-technologies" target='_blank'>Bhagirath Technologies</Link></div>
                                                 </div>
                                             </div>
                                             <div class="about_ln">5k+ Connections</div>
@@ -247,14 +247,14 @@ const Footer = () => {
                     {/* <!-- Footer copyright START --> */}
                     <div class="row align-items-center justify-content-md-between py-2">
                         <div class="col-md-6">
-                            <div class="text-center text-md-start fs-6">©2024 <Link to="#" target="_blank"><b className='text-white'>Bhagirath Technologies Pvt Lmt.</b></Link>. All rights reserved
+                            <div class="text-center text-md-start fs-7">©2024 <Link to="#" target="_blank"><b className='text-white'>Bhagirath Technologies Pvt Lmt.</b></Link>. All rights reserved
                             </div>
                         </div>
                         <div class="col-md-6">
                             <ul class="nav justify-content-center justify-content-md-end mt-3 mt-md-0">
                                 <li class="nav-item"><Link class="nav-link text-body text-primary-hover fs-7" to="/terms">Terms</Link></li>
                                 <li class="nav-item"><Link class="nav-link text-body text-primary-hover fs-7" to="/policy">Privacy</Link></li>
-                                <li class="nav-item"><Link class="nav-link text-body text-primary-hover fs-7 pe-0" to="#">Cookies</Link></li>
+                                <li class="nav-item"><Link class="nav-link text-body text-primary-hover fs-7 pe-0" to="/cookies">Cookies</Link></li>
                             </ul>
                         </div>
                     </div>

@@ -56,7 +56,9 @@ const WebDevelopment = lazy(() => import("./pages/Services/WebDevelopment"));
 const Contact = lazy(() => import("./pages/Contact"));
 const Terms = lazy(() => import("./pages/Terms"));
 const Policy = lazy(() => import("./pages/Policy"));
+const Cookies = lazy(() => import("./pages/Cookies"));
 const ServiceDetail = lazy(() => import("./components/ServiceDetail"));
+const BottomtoTop = lazy(() => import("./components/BottomtoTop"));
 
 
 // import ServiceDetail from './components/ServiceDetail';
@@ -81,9 +83,11 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/terms" element={<Terms />} />
           <Route path="/policy" element={<Policy />} />
+          <Route path="/cookies" element={<Cookies />} />
         </Routes>
       </Suspense>
       <Footer />
+      <BottomtoTop/>
     </BrowserRouter>
   );
 }

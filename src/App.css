@@ -11599,7 +11599,7 @@ fieldset:disabled .btn {
   font-size: 0.875rem !important;
 }
 .fs-7 {
-  font-size: 0.7rem !important;
+  font-size: 0.8rem !important;
 }
 .fst-italic {
   font-style: italic !important;
@@ -23807,6 +23807,7 @@ small,
   bottom: 0;
   color: var(--bs-gray-800);
   z-index: 2;
+  cursor: pointer;
 }
 
 .scroll-down.scroll-down-light {
@@ -23880,7 +23881,7 @@ small,
   cursor: pointer;
   position: fixed !important;
   bottom: 0;
-  right: 0;
+  left: 0;
   display: block;
   z-index: 99;
   visibility: hidden;
@@ -25226,6 +25227,7 @@ small,
 }
 
 .bg-light-overlay-dotted {
+  cursor: pointer;
   background-image: radial-gradient(#a1a1a8 10%, transparent 0), radial-gradient(#a1a1a8 10%, transparent 0);
   background-size: 7px 5px;
   background-position: 11px 13px, 0px 6px;
