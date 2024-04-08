@@ -193,7 +193,7 @@ const Home = () => {
                                         </div>
                                         {/* <!-- Content and input --> */}
                                         <div className="col-lg-3 text-center text-lg-end z-index-9">
-                                            <Link to="#" className="btn btn-warning mb-0">Get in touch Now !</Link>
+                                            <Link to="/contact" className="btn btn-warning mb-0">Get in touch Now !</Link>
                                         </div>
                                     </div>
                                 </div>
