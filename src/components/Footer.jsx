@@ -2,6 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
+    const scrollToTop = () => {
+        window.scrollTo(0, 0); // Scroll to top of the page
+      };
     return (
         <>
             <footer class="bg-black footer-sticky pt-6">
@@ -212,16 +215,16 @@ const Footer = () => {
                             <div class="row">
                                 <div class="col-6">
                                     <ul class="nav flex-column text-primary-hover">
-                                        <li class="nav-item"><Link class="nav-link pt-0" to="/">Home</Link></li>
-                                        <li class="nav-item"><Link class="nav-link" to="/about">About</Link></li>
-                                        <li class="nav-item"><Link class="nav-link" to="/services">Services</Link></li>
-                                        <li class="nav-item"><Link class="nav-link" to="/rental">Rentals</Link></li>
+                                        <li class="nav-item"><Link onClick={() => scrollToTop()} class="nav-link pt-0" to="/">Home</Link></li>
+                                        <li class="nav-item"><Link onClick={() => scrollToTop()} class="nav-link" to="/about">About</Link></li>
+                                        <li class="nav-item"><Link onClick={() => scrollToTop()} class="nav-link" to="/services">Services</Link></li>
+                                        <li class="nav-item"><Link onClick={() => scrollToTop()} class="nav-link" to="/rental">Rentals</Link></li>
                                     </ul>
                                 </div>
                                 <div class="col-6">
                                     <ul class="nav flex-column text-primary-hover">
-                                        <li class="nav-item"><Link class="nav-link" target='_blank' to="https://bhagirathtechnologies.zohorecruit.in/careers">Career <span class="badge bg-danger ms-2">2 Job</span></Link></li>
-                                        <li class="nav-item"><Link class="nav-link" to="/contact">Contact</Link></li>
+                                        <li class="nav-item"><Link onClick={() => scrollToTop()} class="nav-link" target='_blank' to="https://bhagirathtechnologies.zohorecruit.in/careers">Career <span class="badge bg-danger ms-2">2 Job</span></Link></li>
+                                        <li class="nav-item"><Link onClick={() => scrollToTop()} class="nav-link" to="/contact">Contact</Link></li>
                                     </ul>
                                 </div>
                             </div>

@@ -59,7 +59,7 @@ const Policy = lazy(() => import("./pages/Policy"));
 const Cookies = lazy(() => import("./pages/Cookies"));
 const ServiceDetail = lazy(() => import("./components/ServiceDetail"));
 const BottomtoTop = lazy(() => import("./components/BottomtoTop"));
-
+// const Ticket = lazy(() => import("./components/Ticket"));
 
 // import ServiceDetail from './components/ServiceDetail';
 // import Home from './pages/Home/Home';
@@ -88,6 +88,8 @@ function App() {
       </Suspense>
       <Footer />
       <BottomtoTop/>
+      {/* <Ticket/> */}
+
     </BrowserRouter>
   );
 }

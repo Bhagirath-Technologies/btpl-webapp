@@ -1030,7 +1030,7 @@ const Header = () => {
                     data-bs-popper="none"
                     aria-labelledby="docMenu"
                   >
-                    <li>
+                    {/* <li>
                       <Link class="dropdown-item ps-4" to="#" target="_blank">
                         <div class="d-flex">
                           <i class="display-8 mt-n1 me-3 text-primary fa-fw bi bi-chat-right-text"></i>
@@ -1046,7 +1046,7 @@ const Header = () => {
                         </div>
                       </Link>
                     </li>
-                    <li class="dropdown-divider"></li>
+                    <li class="dropdown-divider"></li> */}
                     <li>
                       <div class="dropdown-item ps-4">
                         <div class="d-flex mb-2">
@@ -1054,7 +1054,7 @@ const Header = () => {
                           <div>
                             <h6 class="my-0">Our Doc</h6>
                             <p class="small text-body d-none d-md-block">
-                              {/* General instruction about theme and support */}
+                              Read out our all important documents.
                             </p>
                             <Link class="dropdown-item px-0" to="/terms">
                               Terms & Condition
@@ -1122,9 +1122,9 @@ const Header = () => {
               </div> */}
               {/* <!-- Nav Button --> */}
               <div class="nav-item d-none d-xl-block">
-                <Link to="#" class="btn btn-sm btn-primary mb-0 mx-2">
-                  Get Quote!
-                </Link>
+                <a href="assets/broucher/BTPL_Booklet.pdf" download="BTPL_Booklet.pdf" class="btn btn-sm btn-primary mb-0 mx-2">
+                  Get Booklet!
+                </a>
               </div>
               {/* <!-- Nav side Opener --> */}
               <div class="nav-item">

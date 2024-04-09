@@ -111,7 +111,7 @@ const WebDevelopment = () => {
           <div className="row d-flex justify-content-lg-between">
             <div className="col-12">
               <h1 className="display-4 text-dark-stroke text-primary-shadow">Our Services</h1>
-              <p id='all_services' className="lead"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet.!</p>
+              <p id='all_services' className="lead">We specialize in customizing our services to meet your specific requirements, guaranteeing optimal outcomes and your satisfaction. Allow us to take care of your needs with our wealth of expertise and unwavering dedication. With a focus on attention to detail, we ensure every aspect of our service aligns perfectly with your expectations. Rest assured, our team is committed to delivering results that exceed your standards, providing value at every step of the way. Trust us to navigate your needs with precision and care, leaving no stone unturned in pursuit of excellence. Your satisfaction is our top priority, and we spare no effort in ensuring that your experience with us is nothing short of exceptional.</p>
             </div>
           </div>
           <div class="row p-5">

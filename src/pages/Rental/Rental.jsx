@@ -60,7 +60,7 @@ const Rental = () => {
 					<div className="row d-flex justify-content-lg-between">
 						<div className="col-12">
 							<h1 className="display-4 text-dark-stroke text-primary-shadow">Rental Services</h1>
-							<p id='all_peripherials' className="lead">Get hire you laptop, desktop , IT assets Now !</p>
+							<p id='all_peripherials' className="lead">Hire laptops, desktops, and IT assets conveniently to meet your needs today. Access the technology you require effortlessly.</p>
 						</div>
 					</div>
 					<div class="row p-5">
