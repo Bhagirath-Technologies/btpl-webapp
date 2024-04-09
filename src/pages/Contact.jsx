@@ -54,7 +54,7 @@ const About = () => {
                 id="contact-form"
                 name="contactform"
                 method="POST"
-                action="assets/include/contact-action.php"
+                action="https://formspree.io/f/xayrljqr"
               >
                 {/* <!-- Main form --> */}
                 <div className="row">
