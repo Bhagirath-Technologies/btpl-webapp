@@ -1,8 +1,15 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { Link } from 'react-router-dom';
 const About = () => {
   return (
     <>
+      <Helmet>
+        <title>Bhagirath Technologies | About Us</title>
+        <meta name="description"
+          content="Learn about Bhagirath Technologies - our journey, values, and commitment to delivering innovative solutions in software development, digital marketing, and graphic design. Explore our team's expertise and passion for empowering businesses to thrive in the digital world." />
+        <meta name="keywords" content="Bhagirath Technologies, About Us, Our Story, Software Development, Digital Marketing, Graphic Design." />
+      </Helmet>
       <section className="bg-dark pattern-overlay-1 position-relative text-center">
         <div className="container">
           <div className="row">

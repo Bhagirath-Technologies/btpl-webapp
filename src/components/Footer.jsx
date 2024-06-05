@@ -202,7 +202,7 @@ const Footer = () => {
                             <h5 class="mb-4 text-white">Our offices</h5>
                             {/* <!-- Address 1 --> */}
                             <p class="text-white mb-2">Bhopal, Madhya Pradesh</p>
-                            <address class="mb-0">Flat No 202, Esteem Homes, Plot No 65-A, Indrapuri, Bhopal, Madhaya Pradesh, Pincode - 462023</address>
+                            <address class="mb-0">Flat No 202, Esteem Homes, Plot No 65-A, Indrapuri, Bhopal, Madhya Pradesh, Pincode - 462023</address>
                             <p>Call: <Link to="tel:+918982301484" class="text-body"><u> +91-8982301484</u></Link> </p>
                             {/* <!-- Address 2 --> */}
                             <p class="text-white mb-2">Noida, Uttar Pradesh</p>
@@ -223,7 +223,7 @@ const Footer = () => {
                                 </div>
                                 <div class="col-6">
                                     <ul class="nav flex-column text-primary-hover">
-                                        <li class="nav-item"><Link onClick={() => scrollToTop()} class="nav-link" target='_blank' to="https://bhagirathtechnologies.zohorecruit.in/careers">Career <span class="badge bg-danger ms-2">2 Job</span></Link></li>
+                                        <li class="nav-item"><Link onClick={() => scrollToTop()} class="nav-link" target='_blank' to="https://bhagirathtechnologies.zohorecruit.in/careers">Career <span class="badge bg-danger ms-2">5 Job</span></Link></li>
                                         <li class="nav-item"><Link onClick={() => scrollToTop()} class="nav-link" to="/contact">Contact</Link></li>
                                     </ul>
                                 </div>

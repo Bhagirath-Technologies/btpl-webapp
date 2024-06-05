@@ -40,6 +40,7 @@ import rentalData from '../../data/RentalServicedata';
 import AnimatedFigures from '../../components/AnimatedFigures';
 import ServiceItem from '../../components/ServiceItem';
 import { rentalItems } from '../../data/RentalServicedata';
+import { Helmet } from 'react-helmet';
 
 const Rental = () => {
 	const [currentPage, setCurrentPage] = useState(1);
@@ -53,6 +54,12 @@ const Rental = () => {
 
 	return (
 		<>
+			<Helmet>
+				<title>Bhagirath Technologies | Rental | IT Assets and Leasing</title>
+				<meta name="description"
+					content="Discover our rental services at Bhagirath Technologies. Lease a wide range of IT assets including laptops, desktops, and more. Flexible terms and quality assurance are guaranteed." />
+				<meta name="keywords" content="rental services, IT asset leasing, equipment rental, laptop rental, desktop rentalTechnologies, IT leasing services, technology leasing, rental services, hardware rental, Bhagirath" />
+			</Helmet>
 			{/* Your existing code */}
 			<section className='pattern-overlay-7'>
 				<AnimatedFigures />

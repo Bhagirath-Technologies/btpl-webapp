@@ -6,6 +6,7 @@ const webData = [
     desc: "Guranted Digital Presence",
     content:
       "Experienced website designer proficient in website development, specializing in crafting visually appealing and user-friendly online platforms. With expertise in modern design principles and cutting-edge technologies, I create custom websites tailored to client's needs, ensuring optimal functionality and aesthetic appeal.",
+    keywords: "website design, web design, web development, responsive design, UI/UX design, Bhagirath Technologies",
     properties: [
       "Custom Website Design and Technologies.",
       "HTML, CSS, JavaScript, and Web Development Tools.",
@@ -36,6 +37,7 @@ const webData = [
     desc: "Guranted Digital Presence",
     content:
       "Proficient in developing user-friendly and visually captivating web application interfaces with precise attention to detail in design. Focused on delivering seamless user experiences and ensuring optimal functionality across all elements of web application design. Elevating digital interactions through carefully crafted application design tailored for web-based platforms.",
+    keywords: "Web application development, custom web application, web app design, Bhagirath Technologies.",
     properties: [
       "Customised Web Application interface design.",
       "User-friendly and intuitive navigation.",
@@ -45,7 +47,7 @@ const webData = [
       "Focus on enhancing user experience and functionality.",
     ],
     image: "../assets/images/services/2.webp",
-        icons: [
+    icons: [
       "../assets/images/icons/Web Applications Design/1.svg",
       "../assets/images/icons/Web Applications Design/2.svg",
       "../assets/images/icons/Web Applications Design/3.svg",
@@ -66,6 +68,7 @@ const webData = [
     desc: "Guranted Digital Presence",
     content:
       "Specializing in custom development services, we excel in software development, creating tailored solutions to meet your unique needs. Our expertise lies in developing innovative software that optimizes functionality and user satisfaction. Trust us to deliver exceptional solutions crafted to drive your business forward.",
+    keywords: "custom software development, bespoke software, software solutions, Bhagirath Technologies.",
     properties: [
       "Software services to unique business needs.",
       "Expertise in custom software development.",
@@ -75,7 +78,7 @@ const webData = [
       "Drive business growth through custom software solutions.",
     ],
     image: "../assets/images/services/3.webp",
-        icons: [
+    icons: [
       "../assets/images/icons/Custom Software Development/1.svg",
       "../assets/images/icons/Custom Software Development/2.svg",
       "../assets/images/icons/Custom Software Development/3.svg",
@@ -96,6 +99,7 @@ const webData = [
     desc: "Guranted Digital Presence",
     content:
       "Offering customized E-Commerce services to suit various business requirements, we empower enterprises to excel in the digital realm. Rely on our expertise to boost your online presence and foster growth through tailored E-Commerce solutions.",
+    keywords: "e-commerce application development, e-commerce platform, Bhagirath Technologies.",
     properties: [
       "Website development and design tailored.",
       "Inventory management systems.",
@@ -106,7 +110,7 @@ const webData = [
       "Marketing and promotional tools. (eg; discount codes, Email marketing integration).",
     ],
     image: "../assets/images/services/4.webp",
-        icons: [
+    icons: [
       "../assets/images/icons/E-Commerce Solutions/1.svg",
       "../assets/images/icons/E-Commerce Solutions/2.svg",
       "../assets/images/icons/E-Commerce Solutions/3.svg",
@@ -127,6 +131,7 @@ const webData = [
     desc: "Guranted Digital Presence",
     content:
       "Uncover the craftsmanship behind our logo design services, where creativity seamlessly blends with precision in each unique design. Delve into a realm of captivating designs meticulously tailored to enhance your brand's identity and make a memorable impact. Rely on our expertise to materialize your vision with carefully curated logo designs that connect with your audience.",
+    keywords: "logo design, brand identity, logo creation, graphic design, Bhagirath Technologies",
     properties: [
       "Custom logo creation for your brand identity.",
       "Expert designers crafting unique logos.",
@@ -136,7 +141,7 @@ const webData = [
       "Attention to detail to capture your brand essence accurately.",
     ],
     image: "../assets/images/services/5.webp",
-        icons: [
+    icons: [
       "../assets/images/icons/Logo Designs/1.svg",
       "../assets/images/icons/Logo Designs/2.svg",
       "../assets/images/icons/Logo Designs/3.svg",
@@ -157,6 +162,7 @@ const webData = [
     desc: "Guranted Digital Presence",
     content:
       "Discover our wide array of services covering banner and poster designs, where we seamlessly blend creativity and functionality to provide impactful visual solutions. Our team of expert designers focuses on creating captivating designs that are customized to meet your unique requirements. Whether you need a striking banner design to boost your online presence or a compelling poster design to advertise your event or business, we've got you covered.",
+    keywords: "banner design, poster design, graphic design, promotional materials, Bhagirath Technologies",
     properties: [
       "Customized banner and poster design to your specific needs. ",
       "Experienced designers with a keen eye for detail and creativity.",
@@ -166,7 +172,7 @@ const webData = [
       "Versatile formats for easy integration across various platforms and mediums.",
     ],
     image: "../assets/images/services/6.webp",
-        icons: [
+    icons: [
       "../assets/images/icons/Banner & Poster Design/1.svg",
       "../assets/images/icons/Banner & Poster Design/2.svg",
       "../assets/images/icons/Banner & Poster Design/3.svg",
@@ -187,6 +193,7 @@ const webData = [
     desc: "Guranted Digital Presence",
     content:
       "Discover the potential of print media with our tailored services. From captivating brochures to eye-catching banners, memorable business cards, and elegant invitations, we craft materials that make an impact. Our expertise covers striking book covers, attention-grabbing posters, and innovative product packaging. Whether it's impactful signage, customizable calendars, or any print requirement, we're here to bring your vision to life with creativity and precision.",
+    keywords: "print media services, printing solutions, brochures, flyers, business cards, Bhagirath Technologies",
     properties: [
       "Design and production of banners.",
       "Creation of brochures for informational or promotional purposes.",
@@ -196,7 +203,7 @@ const webData = [
       "Innovative product packaging solutions.",
     ],
     image: "../assets/images/services/7.webp",
-        icons: [
+    icons: [
       "../assets/images/icons/Print Media/1.svg",
       "../assets/images/icons/Print Media/2.svg",
       "../assets/images/icons/Print Media/3.svg",
@@ -217,6 +224,7 @@ const webData = [
     desc: "Guranted Digital Presence",
     content:
       "Explore the power of Figma Design, the ultimate platform for seamless web and app design. From crafting stunning websites with Figma's intuitive interface to creating pixel-perfect UI designs, our expertise spans Figma UI Design and beyond. Convert your designs effortlessly with Figma to HTML and CSS integration. Elevate your projects with the industry's leading design tool – Figma",
+    keywords: "Figma design, UI/UX design, interface design, Bhagirath Technologies",
     properties: [
       "UI/UX Design in Figma.",
       "Create, share, and test designs for the website.",
@@ -226,7 +234,7 @@ const webData = [
       "Cloud-Based Website Designing Tool. ",
     ],
     image: "../assets/images/services/8.webp",
-        icons: [
+    icons: [
       "../assets/images/icons/Figma Design/1.svg",
       "../assets/images/icons/Figma Design/2.svg",
       "../assets/images/icons/Figma Design/3.svg",
@@ -243,6 +251,7 @@ const webData = [
     desc: "Guranted Digital Presence",
     content:
       "Step into digital marketing, where strategic online approaches intersect with SEO advertising and Search Engine Marketing tactics. Whether enhancing visibility through SEO marketing or harnessing the potency of SEM, our solutions deliver tangible results, elevating your online footprint.",
+    keywords: "digital marketing, SEO, PPC, social media marketing, email marketing, Bhagirath Technologies",
     properties: [
       "SEO strategies to improve online visibility and ranking.",
       "SEM campaigns for effective ad placement and audience targeting.",
@@ -252,7 +261,7 @@ const webData = [
       "Analytics and reporting to track campaigns and drive continuous improvement.",
     ],
     image: "../assets/images/services/9.webp",
-        icons: [
+    icons: [
       "../assets/images/icons/Digital Marketing/1.svg",
       "../assets/images/icons/Digital Marketing/2.svg",
       "../assets/images/icons/Digital Marketing/3.svg",
@@ -268,10 +277,11 @@ const webData = [
   {
     id: "10",
     type: "services",
-    title: "Social Media Management/Marketing",
+    title: "Social Media Marketing",
     desc: "Guranted Digital Presence",
     content:
       "Immerse yourself in social media marketing, where creative strategies intersect with compelling content creation. With specialized social media advertising and detailed analytics, we enhance your brand's visibility and engagement, guaranteeing tangible outcomes at each stage of your journey.",
+    keywords: "social media marketing, SMM, social media management, social media advertising, Bhagirath Technologies",
     properties: [
       "Social media strategy development.",
       "Engaging in content creation and curation.",
@@ -281,7 +291,7 @@ const webData = [
       "Personalized consulting services for clients.",
     ],
     image: "../assets/images/services/10.webp",
-        icons: [
+    icons: [
       "../assets/images/icons/Social Media Management Marketing/1.svg",
       "../assets/images/icons/Social Media Management Marketing/2.svg",
       "../assets/images/icons/Social Media Management Marketing/3.svg",
@@ -302,6 +312,7 @@ const webData = [
     desc: "Guranted Digital Presence",
     content:
       "Maximize your online visibility and drive targeted traffic with our expert Google Ads campaigns. From strategic AdWords management to cost-effective advertising solutions, we optimize your Adsense presence to boost business advertising and enhance your online reach. Explore our Google Ads services today for impactful search ads that deliver results.",
+    keywords: "Google Ads, PPC, pay-per-click, advertising campaign, Bhagirath Technologies",
     properties: [
       "Tailored Google ads campaign creation and management.",
       "Strategic adword optimization for maximum ROI.",
@@ -310,7 +321,7 @@ const webData = [
       "Google ads services including campaign setup, monitoring, and optimization.",
     ],
     image: "../assets/images/services/11.webp",
-        icons: [
+    icons: [
       "../assets/images/icons/Google Ads Campaigns/1.svg",
       "../assets/images/icons/Google Ads Campaigns/2.svg",
       "../assets/images/icons/Google Ads Campaigns/3.svg",
@@ -327,6 +338,7 @@ const webData = [
     desc: "Guranted Digital Presence",
     content:
       "Elevate your brand's online presence with strategic content marketing solutions. From developing tailored content strategies for LinkedIn and websites to creating engaging digital marketing content, our agency specializes in crafting impactful messages that resonate with your audience. Partner with us for expert content creation services that drive results and boost your brand's visibility across social media platforms.",
+    keywords: "content writing, copywriting, blog writing, article writing, social media content, Bhagirath Technologies",
     properties: [
       "Content marketing strategy development.",
       "Expert content creation services for various platforms.",
@@ -336,7 +348,7 @@ const webData = [
       "Guidance on developing a content strategy aligned with business objectives.",
     ],
     image: "../assets/images/services/12.webp",
-        icons: [
+    icons: [
       "../assets/images/icons/Content Marketing/1.svg",
       "../assets/images/icons/Content Marketing/2.svg",
       "../assets/images/icons/Content Marketing/3.svg",
@@ -357,6 +369,7 @@ const webData = [
     desc: "Guranted Digital Presence",
     content:
       "Building a unique brand identity starts with a thorough brand strategy, ensuring coherence between your branding elements and resonating with your audience. Through strategic brand marketing, we enhance your brand's visibility and solidify its identity in the market.",
+    keywords: "branding services, brand strategy, brand identity, brand messaging, visual design, Bhagirath Technologies",
     properties: [
       "Brand strategy development.",
       "Visual identity design, including logo design and brand aesthetics.",
@@ -366,7 +379,7 @@ const webData = [
       "Brand identity audits and reviews for ongoing improvement.",
     ],
     image: "../assets/images/services/13.webp",
-        icons: [
+    icons: [
       "../assets/images/icons/Brand Identity/1.svg",
       "../assets/images/icons/Brand Identity/2.svg",
       "../assets/images/icons/Brand Identity/3.svg",
@@ -380,10 +393,11 @@ const webData = [
   {
     id: "14",
     type: "services",
-    title: "Art Direction",
+    title: "Mockup Design",
     desc: "Guranted Digital Presence",
     content:
       "Enhance your design process with our expert mockup design services, personalized to bring your vision to life. Our team specializes in creating stunning mockups that showcase your designs with precision and creativity, ensuring a seamless transition from concept to reality.",
+    keywords: "mockup design, website mockup, app mockup, digital product design, Bhagirath Technologies",
     properties: [
       "Customized mockup design solutions tailored to your specific needs.",
       "High-quality mockups that accurately represent your designs and concepts.",
@@ -393,7 +407,7 @@ const webData = [
       "Flexible and collaborative approach to ensure satisfaction with final mockup designs.",
     ],
     image: "../assets/images/services/14.webp",
-        icons: [
+    icons: [
       "../assets/images/icons/Art Direction/1.svg",
       "../assets/images/icons/Art Direction/2.svg",
       "../assets/images/icons/Art Direction/3.svg",
@@ -411,6 +425,7 @@ const webData = [
     desc: "Guranted Digital Presence",
     content:
       "Harness the power of visual design with our comprehensive services, encompassing Adobe Visual Design and AI-driven solutions to elevate your brand's presence. Our team of UX and UI visual designers crafts stunning visual graphic designs and creates seamless visual web designs, ensuring an exceptional user experience across all platforms",
+    keywords: "visual design, web design, app design, branding design, graphic design, Bhagirath Technologies",
     properties: [
       "Visual design solutions tailored to your brand and objectives.",
       "Adobe Visual Design tools for high-quality graphics.",
@@ -420,7 +435,7 @@ const webData = [
       "Specialization in UX and UI design for optimal user experiences.",
     ],
     image: "../assets/images/services/15.webp",
-        icons: [
+    icons: [
       "../assets/images/icons/Visual Design/1.svg",
       "../assets/images/icons/Visual Design/2.svg",
       "../assets/images/icons/Visual Design/3.svg",
@@ -439,6 +454,7 @@ const webData = [
     desc: "Guranted Digital Presence",
     content:
       "Transform your concept into compelling visuals through our Adobe Illustrator-centric illustration and icon design offerings. Our skilled team excels in producing bespoke icons and vector illustrations that invigorate your brand. Covering logo creation to website illustrations, we infuse creativity and accuracy into each endeavor, guaranteeing your visuals captivate and connect with your audience.",
+    keywords: "illustration design, icon design, custom illustrations, custom icons, branding design, Bhagirath Technologies",
     properties: [
       "Customized illustrations and icons designed to your brand and requirements.",
       "Expertise in Adobe Illustrator for high-quality, professional visuals.",
@@ -447,7 +463,7 @@ const webData = [
       "Attention to detail and creativity to ensure visually appealing and impactful designs.",
     ],
     image: "../assets/images/services/16.webp",
-        icons: [
+    icons: [
       "../assets/images/icons/Illustration & Iconography/1.svg",
       "../assets/images/icons/Illustration & Iconography/2.svg",
       "../assets/images/icons/Illustration & Iconography/3.svg",
@@ -510,8 +526,8 @@ export const serviceItems = [
     hashlinks: "service_detail",
     properties: [
       "Digital Marketing",
-      "Social Media Handeling",
-      "Content Writing",
+      "Social Media Marketing",
+      "Content Marketing",
     ],
     links: ["/services/9", "/services/10", "/services/12"],
     data_aos_delay: "900",
@@ -534,7 +550,7 @@ export const serviceItems = [
     hashlinks: "service_detail",
     properties: [
       "Brand Identity",
-      "Art Direction",
+      "Mockup Design",
       "Visual Design",
       "Illustration & Iconography",
     ],

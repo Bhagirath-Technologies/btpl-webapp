@@ -4,8 +4,9 @@ const rentalData = [
     type: "rental",
     title: "Mac Book",
     desc: "CORE i7 laptop (12th Gen)",
-content:"MacBook's latest innovation lineup, the MacBook CORE i7 laptop (12th Gen), a powerful fusion of cutting-edge technology. Designed to meet the demands of modern professionals, this device seamlessly combines the portability of the MacBook Air with the performance of the MacBook Pro. Featuring the latest 12th Gen Core i7 processor, it delivers lightning-fast processing speeds, ensuring smooth multitasking and enhanced productivity. Whether you're tackling intensive tasks or streaming high-definition content, this MacBook offers unparalleled performance and efficiency. Engineered for durability and reliability, this MacBook is built to withstand the rigors of daily use, making it the ultimate choice for those seeking power, performance, and portability in one exceptional device. Elevate your computing experience with the MacBook CORE i7 laptop (12th Gen).",
- properties: [
+    content: "MacBook's latest innovation lineup, the MacBook CORE i7 laptop (12th Gen), a powerful fusion of cutting-edge technology. Designed to meet the demands of modern professionals, this device seamlessly combines the portability of the MacBook Air with the performance of the MacBook Pro. Featuring the latest 12th Gen Core i7 processor, it delivers lightning-fast processing speeds, ensuring smooth multitasking and enhanced productivity. Whether you're tackling intensive tasks or streaming high-definition content, this MacBook offers unparalleled performance and efficiency. Engineered for durability and reliability, this MacBook is built to withstand the rigors of daily use, making it the ultimate choice for those seeking power, performance, and portability in one exceptional device. Elevate your computing experience with the MacBook CORE i7 laptop (12th Gen).",
+    keywords:"MacBook Core i7 12th Gen, laptop rental, MacBook rental, high-performance laptops, rental services, IT rental, laptop leasing, IT solutions, Bhagirath Technologies",
+    properties: [
       "Hardware repairs and upgrades, including RAM and storage.",
       "Swift and efficient software installations and configurations.",
       "Complete virus and malware protection for worry-free usage.",
@@ -22,8 +23,9 @@ content:"MacBook's latest innovation lineup, the MacBook CORE i7 laptop (12th Ge
     type: "rental",
     title: "Mac Book Air",
     desc: "CORE i5 laptop (11th Gen)",
-    content:"MacBook Air CORE i5 laptop (11th Gen), a marvel of Apple engineering that combines the sleekness of the MacBook Air with the powerful performance of the latest 11th Gen Core i5 processor. This cutting-edge device is designed to elevate your computing experience with speeds and unparalleled efficiency. Whether you're a creative professional, a student, or a business user, the MacBook Air CORE i5 delivers seamless multitasking and fluid performance, ensuring you stay productive wherever you go. With its stunning Retina display and immersive audio, every task is brought to life with vibrant clarity and rich detail. Experience the epitome of innovation and style with the MacBook Air laptop (11th Gen), The perfect fusion of power and portability in an iconic Apple design.",
-     properties: [
+    content: "MacBook Air CORE i5 laptop (11th Gen), a marvel of Apple engineering that combines the sleekness of the MacBook Air with the powerful performance of the latest 11th Gen Core i5 processor. This cutting-edge device is designed to elevate your computing experience with speeds and unparalleled efficiency. Whether you're a creative professional, a student, or a business user, the MacBook Air CORE i5 delivers seamless multitasking and fluid performance, ensuring you stay productive wherever you go. With its stunning Retina display and immersive audio, every task is brought to life with vibrant clarity and rich detail. Experience the epitome of innovation and style with the MacBook Air laptop (11th Gen), The perfect fusion of power and portability in an iconic Apple design.",
+    keywords:"MacBook Air, Core i5, 11th Gen, rental, Bhagirath Technologies",
+    properties: [
       "Through diagnostic to MacBook Air Core i5 (11th Gen) specification.",
       "Seamless software installations and configurations to enhance functionality.",
       "Proactive virus and malware protection for device security.",
@@ -39,8 +41,9 @@ content:"MacBook's latest innovation lineup, the MacBook CORE i7 laptop (12th Ge
     type: "rental",
     title: "hp Laptops",
     desc: "Customised Units",
-    content:"Elevate your computing experience with HP laptops. Whether it's the sleek and versatile HP Spectre x360 14, the powerful and immersive HP Omen gaming laptop, or the stylish and adaptable HP Pavilion x360, HP offers a range of options to suit every need. Dive into productivity with the HP EliteBook, designed for professionals seeking performance and security. Experience unparalleled mobility with the ultra-lightweight HP Dragonfly G4, perfect for professionals on the move. Explore the latest innovations with the HP Victus 16, delivering powerful performance and stunning visuals for work and play. With HP, you can count on reliable performance, technology, and stylish designs across the board.",
-     properties: [
+    content: "Elevate your computing experience with HP laptops. Whether it's the sleek and versatile HP Spectre x360 14, the powerful and immersive HP Omen gaming laptop, or the stylish and adaptable HP Pavilion x360, HP offers a range of options to suit every need. Dive into productivity with the HP EliteBook, designed for professionals seeking performance and security. Experience unparalleled mobility with the ultra-lightweight HP Dragonfly G4, perfect for professionals on the move. Explore the latest innovations with the HP Victus 16, delivering powerful performance and stunning visuals for work and play. With HP, you can count on reliable performance, technology, and stylish designs across the board.",
+    keywords:"HP laptops, HP Spectre, HP Envy, HP Pavilion, laptop rental, computing rental",
+    properties: [
       "Comprehensive diagnostics and troubleshooting for all HP laptop models.",
       "Software installation, configuration, and troubleshooting for optimal functionality.",
       "Virus and malware removal to ensure system security.",
@@ -56,8 +59,9 @@ content:"MacBook's latest innovation lineup, the MacBook CORE i7 laptop (12th Ge
     type: "rental",
     title: "Laptop",
     desc: "CORE i3 laptop (12th Gen)",
-    content:"Discover a diverse array of laptops beyond the usual options. Whether you're into gaming or seeking reliability for work or study, there's something for everyone. Choose from HP laptops for sleek design and reliability, Lenovo ThinkPad for professional-grade durability, or Dell laptops for versatile performance. Dive into gaming with Alienware laptops or Lenovo Legion 5 for immersive experiences. Chromebooks offer simplicity and efficiency, while Acer Nitro 5 delivers gaming prowess. Dell XPS 15 and Apple MacBook offer premium experiences, while Asus and Acer Aspire 5 provide budget-friendly options. Samsung laptops offer quality and innovation, catering to various needs and preferences.",
-     properties: [
+    content: "Discover a diverse array of laptops beyond the usual options. Whether you're into gaming or seeking reliability for work or study, there's something for everyone. Choose from HP laptops for sleek design and reliability, Lenovo ThinkPad for professional-grade durability, or Dell laptops for versatile performance. Dive into gaming with Alienware laptops or Lenovo Legion 5 for immersive experiences. Chromebooks offer simplicity and efficiency, while Acer Nitro 5 delivers gaming prowess. Dell XPS 15 and Apple MacBook offer premium experiences, while Asus and Acer Aspire 5 provide budget-friendly options. Samsung laptops offer quality and innovation, catering to various needs and preferences.",
+    keywords:"Core i3, 12th Gen, laptops, rental, computing, Intel, performance.",
+    properties: [
       "Diagnostics and repairs for HP, Lenovo, Dell, Acer, Asus, and Samsung laptops.",
       "Specialized services for gaming laptops such as Alienware, Lenovo Legion 5, and Acer Nitro 5.",
       "Expert support for premium models like Dell XPS 15, Apple MacBook, and Lenovo ThinkPad.",
@@ -73,8 +77,9 @@ content:"MacBook's latest innovation lineup, the MacBook CORE i7 laptop (12th Ge
     type: "rental",
     title: "Computers",
     desc: "CORE i3 (11th Gen)",
-    content:"Examine a diverse selection of computing solutions beyond the ordinary. Whether you're into gaming or need powerful productivity tools, there's something for every need. Explore gaming PCs for immersive experiences, HP computers for reliable performance, and Dell OptiPlex for business-grade efficiency. Dive into compact computing with Mini PCs like Intel NUC, or opt for traditional computers for versatile setups. Enhance your workspace with high-quality monitors, optimizing your viewing experience. Whatever your computing needs, from computers to monitors, HP and Dell computers offer a range of options to suit your lifestyle and requirements.",
-     properties: [
+    content: "Examine a diverse selection of computing solutions beyond the ordinary. Whether you're into gaming or need powerful productivity tools, there's something for every need. Explore gaming PCs for immersive experiences, HP computers for reliable performance, and Dell OptiPlex for business-grade efficiency. Dive into compact computing with Mini PCs like Intel NUC, or opt for traditional computers for versatile setups. Enhance your workspace with high-quality monitors, optimizing your viewing experience. Whatever your computing needs, from computers to monitors, HP and Dell computers offer a range of options to suit your lifestyle and requirements.",
+    keywords:"computers, desktops, laptops, rental, computing, business, personal, performance",
+    properties: [
       "Thorough examination and meticulous repairs for a diverse range of desktops, encompassing gaming PCs, and compact mini PCs.",
       "Enhancing performance through proficient hardware upgrades and replacements, addressing the needs of both HP desktop users.",
       "Software setup, configuration, and resolution of issues, ensuring flawless functionality across all desktop variant requirements.",
@@ -90,8 +95,9 @@ content:"MacBook's latest innovation lineup, the MacBook CORE i7 laptop (12th Ge
     type: "rental",
     title: "Desktop",
     desc: "CORE i5 (10th Gen)",
-    content:"Discover the epitome of computing power with desktops. From HP desktops to Dell XPS desktops, experience unparalleled performance tailored to your needs. Unleash creativity with Mac desktops or delve into immersive gaming with custom gaming PCs and Alienware desktops. Trust in reliability with Lenovo desktops and HP EliteDesk systems. Whether for work or play, desktop PCs offer versatility and power to elevate your computing experience.",
-     properties: [
+    content: "Discover the epitome of computing power with desktops. From HP desktops to Dell XPS desktops, experience unparalleled performance tailored to your needs. Unleash creativity with Mac desktops or delve into immersive gaming with custom gaming PCs and Alienware desktops. Trust in reliability with Lenovo desktops and HP EliteDesk systems. Whether for work or play, desktop PCs offer versatility and power to elevate your computing experience.",
+    keywords:"desktop computers, rental, high-performance, gaming desktops, design desktops, programming desktops, office desktops",
+    properties: [
       "Customized configuration options for HP desktops, Dell desktops, and Lenovo desktops to meet specific computing needs.",
       "Dedicated support for building and optimizing custom gaming PCs, ensuring peak performance and compatibility.",
       "Immersive gaming experiences with Alienware desktops, featuring cutting-edge technology and performance-driven components.",
@@ -107,8 +113,9 @@ content:"MacBook's latest innovation lineup, the MacBook CORE i7 laptop (12th Ge
     type: "rental",
     title: "Gaming Computers",
     desc: "CORE i7 (12th Gen)",
-    content:"Immerse yourself in unparalleled gaming experiences with a range of gaming computers. Whether you're seeking the ultimate customization with a custom gaming PC or the convenience of a prebuilt gaming PC, there's an option for every enthusiast. Explore the power and performance of HP gaming PCs or indulge in cutting-edge technology with Alienware gaming PCs. Compact and portable, mini gaming PCs offer gaming thrills on the go. With options like Apex gaming PCs and Dell gaming PCs, elevate your gameplay to new heights with precision engineering and immersive graphics.",
-     properties: [
+    content: "Immerse yourself in unparalleled gaming experiences with a range of gaming computers. Whether you're seeking the ultimate customization with a custom gaming PC or the convenience of a prebuilt gaming PC, there's an option for every enthusiast. Explore the power and performance of HP gaming PCs or indulge in cutting-edge technology with Alienware gaming PCs. Compact and portable, mini gaming PCs offer gaming thrills on the go. With options like Apex gaming PCs and Dell gaming PCs, elevate your gameplay to new heights with precision engineering and immersive graphics.",
+    keywords:"gaming computers, gaming rigs, gaming PC rental, high-performance gaming, dedicated graphics, immersive gaming",
+    properties: [
       "Advanced warranty and protection plans are available for gaming computers, and providing peace of mind.",
       "Personalized support and assistance for setting up and optimizing gaming setups.",
       "Services for gaming computers, ensuring minimal downtime and maximum gaming enjoyment.",
@@ -124,8 +131,9 @@ content:"MacBook's latest innovation lineup, the MacBook CORE i7 laptop (12th Ge
     type: "rental",
     title: "Central Processing Units",
     desc: "High Performance",
-    content:"Access unparalleled performance with CPUs. Whether you're an enthusiast or a professional, Intel processors and AMD processors offer the best in processing power. Keep temperatures in check with efficient CPU coolers, ensuring optimal performance even during intense gaming sessions. From Intel CPUs to Ryzen CPUs, find the perfect fit for your needs. Dive into the world of gaming with high-performance gaming CPUs, delivering seamless gameplay and immersive experiences. Explore the market for the best CPUs, equipped to handle any task with speed and precision. Elevate your computing experience with a CPU tailored to your needs, whether for gaming, content creation, or everyday tasks.",
-     properties: [
+    content: "Access unparalleled performance with CPUs. Whether you're an enthusiast or a professional, Intel processors and AMD processors offer the best in processing power. Keep temperatures in check with efficient CPU coolers, ensuring optimal performance even during intense gaming sessions. From Intel CPUs to Ryzen CPUs, find the perfect fit for your needs. Dive into the world of gaming with high-performance gaming CPUs, delivering seamless gameplay and immersive experiences. Explore the market for the best CPUs, equipped to handle any task with speed and precision. Elevate your computing experience with a CPU tailored to your needs, whether for gaming, content creation, or everyday tasks.",
+    keywords:"CPUs, central processing units, CPU rental, gaming CPU, workstation CPU, server CPU",
+    properties: [
       "Expert consultations for selecting the best CPU for your requirements.",
       "Installation and optimization of CPU coolers for efficient temperature management.",
       "Comprehensive testing and benchmarking to ensure CPU performance.",
@@ -141,8 +149,9 @@ content:"MacBook's latest innovation lineup, the MacBook CORE i7 laptop (12th Ge
     type: "rental",
     title: "Keyboards",
     desc: "Wireless & Bluetooth",
-    content:"Activate your typing potential with a diverse array of keyboards. Whether you're seeking precision with a mechanical or gaming keyboard, flexibility with a wireless option, or convenience with an iPad or Mac keyboard, we have it all. Elevate your comfort and productivity with ergonomic designs tailored for long hours of use. Explore innovative features such as Bluetooth connectivity, customizable keys, and sleek designs from top brands like Logitech and Apple. From custom keyboards to those designed for specific devices like the iPad Pro or Microsoft Surface, find the perfect keyboard to complement your setup and enhance your typing experience.",
-     properties: [
+    content: "Activate your typing potential with a diverse array of keyboards. Whether you're seeking precision with a mechanical or gaming keyboard, flexibility with a wireless option, or convenience with an iPad or Mac keyboard, we have it all. Elevate your comfort and productivity with ergonomic designs tailored for long hours of use. Explore innovative features such as Bluetooth connectivity, customizable keys, and sleek designs from top brands like Logitech and Apple. From custom keyboards to those designed for specific devices like the iPad Pro or Microsoft Surface, find the perfect keyboard to complement your setup and enhance your typing experience.",
+    keywords:"keyboards, keyboard rental, mechanical keyboard, wireless keyboard",
+    properties: [
       "Dedicated customer support and assistance for all keyboard-related inquiries and issues.",
       "Compatibility testing and guidance for pairing keyboards with various devices.",
       "Wireless keyboard troubleshooting and connectivity optimization.",
@@ -158,8 +167,9 @@ content:"MacBook's latest innovation lineup, the MacBook CORE i7 laptop (12th Ge
     type: "rental",
     title: "Mouse",
     desc: "Wireless & Bluetooth",
-    content:"Enhance your productivity and gaming prowess with an array of mice designed for every need. From Logitech and Apple mice to Razer and Microsoft models, discover precision and comfort at your fingertips. Experience seamless connectivity with wireless and Bluetooth options, while gaming enthusiasts can elevate their gameplay with specialized gaming mice like the Logitech G Pro. Ensure ergonomic support with vertical and ergonomic mouse designs, promoting comfortable extended use. Find the perfect balance of performance and aesthetics with the best wireless and gaming mice available, including the acclaimed Apple Magic Mouse and Logitech wireless mouse. Choose your ideal companion for your computer setup and unlock new levels of efficiency and control.",
-     properties: [
+    content: "Enhance your productivity and gaming prowess with an array of mice designed for every need. From Logitech and Apple mice to Razer and Microsoft models, discover precision and comfort at your fingertips. Experience seamless connectivity with wireless and Bluetooth options, while gaming enthusiasts can elevate their gameplay with specialized gaming mice like the Logitech G Pro. Ensure ergonomic support with vertical and ergonomic mouse designs, promoting comfortable extended use. Find the perfect balance of performance and aesthetics with the best wireless and gaming mice available, including the acclaimed Apple Magic Mouse and Logitech wireless mouse. Choose your ideal companion for your computer setup and unlock new levels of efficiency and control.",
+    keywords:"mouse, mouse rental, wired mouse, wireless mouse, gaming mouse, portable mouse",
+    properties: [
       "DPI settings for precise cursor control and sensitivity adjustment.",
       "Wireless connectivity options, including Bluetooth and 2.4GHz wireless, for flexibility.",
       "Gaming-specific features such as customizable RGB lighting and adjustable weight.",
@@ -175,8 +185,9 @@ content:"MacBook's latest innovation lineup, the MacBook CORE i7 laptop (12th Ge
     type: "rental",
     title: "IP Cameras",
     desc: "High Quality (wide range)",
-    content:"Heighten your security with state-of-the-art IP cameras, offering unparalleled surveillance solutions. Whether you need an IP camera system for indoor monitoring or outdoor protection, we've got you covered. Enjoy the convenience of wireless connectivity with WiFi-enabled IP cameras, providing flexible installation options. Experience crystal-clear video quality and advanced features with the best IP cameras on the market. Power your surveillance system efficiently with PoE IP cameras, minimizing cable clutter and simplifying installation. Safeguard your property and loved ones with reliable and robust IP camera technology, ensuring peace of mind wherever you are.",
-     properties: [
+    content: "Heighten your security with state-of-the-art IP cameras, offering unparalleled surveillance solutions. Whether you need an IP camera system for indoor monitoring or outdoor protection, we've got you covered. Enjoy the convenience of wireless connectivity with WiFi-enabled IP cameras, providing flexible installation options. Experience crystal-clear video quality and advanced features with the best IP cameras on the market. Power your surveillance system efficiently with PoE IP cameras, minimizing cable clutter and simplifying installation. Safeguard your property and loved ones with reliable and robust IP camera technology, ensuring peace of mind wherever you are.",
+    keywords:"IP cameras, surveillance cameras, IP camera rental, outdoor camera, dome camera, bullet camera, PTZ camera",
+    properties: [
       "Specific surveillance needs and property layout.",
       "Remote access and viewing capabilities for monitoring your property from anywhere.",
       "Advanced motion detection technology with customizable alerts to notify.",
@@ -192,8 +203,9 @@ content:"MacBook's latest innovation lineup, the MacBook CORE i7 laptop (12th Ge
     type: "rental",
     title: "Printers",
     desc: "All Variants",
-    content:"Access a world of printing possibilities with our comprehensive range of printers. Whether you're looking for high-quality documents or vibrant sublimation prints, we have the perfect solution for you. From reliable HP printers to innovative Canon models, we offer top-notch printing performance. Choose from versatile options like laser printers, inkjet printers, and DTG printers to suit your specific needs. Enjoy the convenience of wireless printing with our HP Smart printers, or opt for portability with our portable printer selection. Experience professional-quality printing with features like color laser printing and label printing, ensuring your documents and projects stand out. With options like the HP OfficeJet Pro 7740, we have the perfect office printer to streamline your workflow.",
-     properties: [
+    content: "Access a world of printing possibilities with our comprehensive range of printers. Whether you're looking for high-quality documents or vibrant sublimation prints, we have the perfect solution for you. From reliable HP printers to innovative Canon models, we offer top-notch printing performance. Choose from versatile options like laser printers, inkjet printers, and DTG printers to suit your specific needs. Enjoy the convenience of wireless printing with our HP Smart printers, or opt for portability with our portable printer selection. Experience professional-quality printing with features like color laser printing and label printing, ensuring your documents and projects stand out. With options like the HP OfficeJet Pro 7740, we have the perfect office printer to streamline your workflow.",
+    keywords:"printers, printer rental, inkjet printer, laser printer, all-in-one printer, wireless printer",
+    properties: [
       "A dedicated customer support team is available to assist with any printing-related inquiries.",
       "Printing integration for easy access to documents and files.",
       "Secure printing solutions with advanced security features to protect sensitive documents.",
@@ -209,8 +221,9 @@ content:"MacBook's latest innovation lineup, the MacBook CORE i7 laptop (12th Ge
     type: "rental",
     title: "Scanners",
     desc: "All Variants",
-    content:"Experience unparalleled scanning versatility with our comprehensive range of scanners. From 3D scanners to document scanners, we offer solutions for every need. Easily convert your documents into digital formats with our PDF scanners, while our OCR scanners ensure accurate text recognition. Explore portable options like the Epson scanner for on-the-go convenience. Capture intricate details with precision using our 3D laser scanners and slide scanners. With trusted brands like Canon and HP, you can rely on our desktop scanners for professional-quality results. Discover the best scanner for your requirements and streamline your scanning tasks with ease.",
-     properties: [
+    content: "Experience unparalleled scanning versatility with our comprehensive range of scanners. From 3D scanners to document scanners, we offer solutions for every need. Easily convert your documents into digital formats with our PDF scanners, while our OCR scanners ensure accurate text recognition. Explore portable options like the Epson scanner for on-the-go convenience. Capture intricate details with precision using our 3D laser scanners and slide scanners. With trusted brands like Canon and HP, you can rely on our desktop scanners for professional-quality results. Discover the best scanner for your requirements and streamline your scanning tasks with ease.",
+    keywords:"scanners, scanner rental, flatbed scanner, document scanner, photo scanner, portable scanner",
+    properties: [
       "Advanced 3D scanning capabilities for capturing intricate details and dimensions.",
       "PDF scanning for converting physical documents into digital formats.",
       "High-speed document scanning for rapid processing of large volumes of paperwork.",
@@ -226,8 +239,9 @@ content:"MacBook's latest innovation lineup, the MacBook CORE i7 laptop (12th Ge
     type: "rental",
     title: "LED Screens",
     desc: "All Sizes",
-    content:"Discover the brilliance of LED screens, perfect for captivating audiences both indoors and outdoors. With vibrant LED displays, your message comes to life with stunning clarity and brightness. Whether you need to LED screen on rent for an event or purchase one for permanent installation, we offer flexible options to suit your needs. Our outdoor LED screens are built to withstand the elements, ensuring visibility even in bright sunlight. Explore our range of indoor LED screens, available in various sizes and resolutions to fit any space or application. Experience the power of LED technology at competitive prices, delivering exceptional value for your investment.",
-     properties: [
+    content: "Discover the brilliance of LED screens, perfect for captivating audiences both indoors and outdoors. With vibrant LED displays, your message comes to life with stunning clarity and brightness. Whether you need to LED screen on rent for an event or purchase one for permanent installation, we offer flexible options to suit your needs. Our outdoor LED screens are built to withstand the elements, ensuring visibility even in bright sunlight. Explore our range of indoor LED screens, available in various sizes and resolutions to fit any space or application. Experience the power of LED technology at competitive prices, delivering exceptional value for your investment.",
+    keywords:"LED screens, LED screen rental, indoor LED screens, outdoor LED screens, rental panels",
+    properties: [
       "LED screen services tailored to your specific venue size.",
       "LED screen rental services for events, trade shows, and presentations.",
       "Professional setup by experienced technicians for seamless integration.",
@@ -243,8 +257,9 @@ content:"MacBook's latest innovation lineup, the MacBook CORE i7 laptop (12th Ge
     type: "rental",
     title: "Panel Screens",
     desc: "All Sizes",
-    content:"Elevate your wedding décor with our stunning panel screens, adding a touch of elegance and sophistication to your special day. Our decorative screens create a beautiful backdrop for ceremonies, receptions, and photo opportunities, enhancing the ambiance of any venue. Versatile and customizable, our wall screens offer endless design possibilities to suit your unique vision. Whether you need a single panel or multiple wall screen panels, we have the perfect solution for your event. Transform any space into a captivating setting with our exquisite wedding screens, designed to impress and delight your guests. Let our panel screens be the highlight of your wedding, adding charm and style to every moment.",
-     properties: [
+    content: "Elevate your wedding décor with our stunning panel screens, adding a touch of elegance and sophistication to your special day. Our decorative screens create a beautiful backdrop for ceremonies, receptions, and photo opportunities, enhancing the ambiance of any venue. Versatile and customizable, our wall screens offer endless design possibilities to suit your unique vision. Whether you need a single panel or multiple wall screen panels, we have the perfect solution for your event. Transform any space into a captivating setting with our exquisite wedding screens, designed to impress and delight your guests. Let our panel screens be the highlight of your wedding, adding charm and style to every moment.",
+    keywords:"panel screens, panel screen rental, LCD panels, OLED panels, touchscreen panels, digital signage",
+    properties: [
       "Ongoing customer support and technical guidance offered throughout the event planning journey, ensuring seamless execution.",
       "LED screen rental services for events, trade shows, and presentations.",
       "Expert consultations were provided to assist in selecting the ideal panel screens.",
@@ -260,8 +275,9 @@ content:"MacBook's latest innovation lineup, the MacBook CORE i7 laptop (12th Ge
     type: "rental",
     title: "Cables & Wires",
     desc: "All Types & Sizes",
-    content:"Discover the connectivity you need with our extensive range of cables. From high-speed Ethernet cables to versatile HDMI and fiber optic cables, we have you covered for all your networking and audiovisual needs. Ensure seamless data transmission with our reliable CAT 6 cables, while our micro USB and USB extension cables offer convenient device connectivity. For superior signal quality, trust our coaxial cables to deliver optimal performance. Whether you're setting up a home office or a multimedia entertainment system, our cables provide the reliability and performance you can count on. Experience seamless connectivity with our range of high-quality cables today.",
-     properties: [
+    content: "Discover the connectivity you need with our extensive range of cables. From high-speed Ethernet cables to versatile HDMI and fiber optic cables, we have you covered for all your networking and audiovisual needs. Ensure seamless data transmission with our reliable CAT 6 cables, while our micro USB and USB extension cables offer convenient device connectivity. For superior signal quality, trust our coaxial cables to deliver optimal performance. Whether you're setting up a home office or a multimedia entertainment system, our cables provide the reliability and performance you can count on. Experience seamless connectivity with our range of high-quality cables today.",
+    keywords:"cables, HDMI cable, USB cable, Ethernet cable, audio cable, rental, Bhagirath Technologies",
+    properties: [
       "Custom cable assembly services tailored to your specific requirements.",
       "Extensive inventory of cables, including Ethernet, HDMI, fiber optic, CAT 6, micro USB, USB extension, and coaxial cables.",
       "Eco-friendly cable recycling and disposal services for sustainable practices.",
@@ -277,8 +293,9 @@ content:"MacBook's latest innovation lineup, the MacBook CORE i7 laptop (12th Ge
     type: "rental",
     title: "Processors",
     desc: "All Generation",
-    content:"Experience unparalleled performance with our range of processors. From Intel processors to powerful microprocessors, we offer solutions to suit every computing need. Harness the power of Intel Xeon processors for demanding workloads and server applications. Elevate your computing experience with the lightning-fast i9 processor, delivering unmatched speed and responsiveness. Whether you're a professional user or a gaming enthusiast, our processors provide the horsepower you need to tackle any task. Choose reliability and performance with our lineup of Intel processors and Xeon processors. Explore our range today and unleash the full potential of your system.",
-     properties: [
+    content: "Experience unparalleled performance with our range of processors. From Intel processors to powerful microprocessors, we offer solutions to suit every computing need. Harness the power of Intel Xeon processors for demanding workloads and server applications. Elevate your computing experience with the lightning-fast i9 processor, delivering unmatched speed and responsiveness. Whether you're a professional user or a gaming enthusiast, our processors provide the horsepower you need to tackle any task. Choose reliability and performance with our lineup of Intel processors and Xeon processors. Explore our range today and unleash the full potential of your system.",
+    keywords:"processors, CPUs, CPU rental, processor rental, Bhagirath Technologies",
+    properties: [
       "Processor services crafted to match your unique computing and performance expectations precisely.",
       "Services offered to aid in selecting the ideal processor to your specific application or workload demands.",
       "Rigorous quality assurance protocols executed to ensure the dependability, solidity, and interoperability of all processors.",
@@ -294,8 +311,9 @@ content:"MacBook's latest innovation lineup, the MacBook CORE i7 laptop (12th Ge
     type: "rental",
     title: "Pen Drives & Cards",
     desc: "All Types(GB & TB)",
-    content:"Discover the ultimate portable storage solution with our range of pen drives. Available in various capacities, including 64GB, 128GB, and even 256GB, our pen drives offer ample space for all your digital needs. Choose from trusted brands like SanDisk for reliable performance and durability. With competitive pen drive prices, you'll find the perfect storage solution for your budget. Enjoy high-speed data transfer with USB 3.0 connectivity, ensuring quick and efficient file transfers. Whether you need a compact 64GB pen drive or a massive 1TB pendrive, we have you covered. Upgrade your storage capabilities today with our versatile and dependable pen drives.",
-     properties: [
+    content: "Discover the ultimate portable storage solution with our range of pen drives. Available in various capacities, including 64GB, 128GB, and even 256GB, our pen drives offer ample space for all your digital needs. Choose from trusted brands like SanDisk for reliable performance and durability. With competitive pen drive prices, you'll find the perfect storage solution for your budget. Enjoy high-speed data transfer with USB 3.0 connectivity, ensuring quick and efficient file transfers. Whether you need a compact 64GB pen drive or a massive 1TB pendrive, we have you covered. Upgrade your storage capabilities today with our versatile and dependable pen drives.",
+    keywords:"pendrive rental, USB drive rental, flash drive rental, storage rental, Bhagirath Technologies",
+    properties: [
       "Enhanced security features, including robust data encryption, safeguarding sensitive information stored on the pendrive.",
       "Commitment to sustainability through eco-friendly packaging materials and sustainable manufacturing practices in Pendrive.",
       "Sleek and lightweight pendrive designs, offering portability and convenience for on-the-go usage.",
@@ -311,8 +329,9 @@ content:"MacBook's latest innovation lineup, the MacBook CORE i7 laptop (12th Ge
     type: "rental",
     title: "SSD & HDDs",
     desc: "All Variants",
-    content:"Elevate your storage experience with SSDs and HDDs, catering to diverse needs. SSDs, including SSD drives and M.2 SSDs, offer lightning-fast performance ideal for speed-intensive tasks. Meanwhile, HDDs provide ample storage, perfect for large files and backups. Whether you need a high-speed SSD drive or an external hard drive for expanded storage, we have you covered. With options like SSD 1TB and M.2 SSDs, you can enjoy fast and reliable storage solutions tailored to your requirements. Upgrade your system with the best of both worlds – SSDs for speed and HDDs for storage.",
-     properties: [
+    content: "Elevate your storage experience with SSDs and HDDs, catering to diverse needs. SSDs, including SSD drives and M.2 SSDs, offer lightning-fast performance ideal for speed-intensive tasks. Meanwhile, HDDs provide ample storage, perfect for large files and backups. Whether you need a high-speed SSD drive or an external hard drive for expanded storage, we have you covered. With options like SSD 1TB and M.2 SSDs, you can enjoy fast and reliable storage solutions tailored to your requirements. Upgrade your system with the best of both worlds – SSDs for speed and HDDs for storage.",
+    keywords:"SSD rental, HDD rental, solid state drive rental, hard disk drive rental, storage rental, Bhagirath Technologies",
+    properties: [
       "Services designed to meet your unique needs, with a range of SSD and HDD options available to cater to diverse requirements.",
       "Effortless integration services for the smooth installation of SSDs, HDDs, and external hard drives, ensuring seamless compatibility",
       "Optimization techniques employed to maximize the performance and efficiency of your SSDs and HDDs.",
@@ -328,8 +347,9 @@ content:"MacBook's latest innovation lineup, the MacBook CORE i7 laptop (12th Ge
     type: "rental",
     title: "Modem",
     desc: "All Types",
-    content:"Upgrade your connectivity with our advanced modem options. Whether you need a WiFi modem for seamless wireless access or a 5G modem for lightning-fast speeds, we have you covered. Our selection includes internet, cable, and portable WiFi modems, ensuring reliable and high-speed connections. Discover the best modem for your needs, offering both wired and wireless options for versatile connectivity solutions. Experience the convenience of a portable WiFi modem for on-the-go internet access. Trust us to provide top-quality modems that deliver optimal performance and reliability for all your internet needs.",
-     properties: [
+    content: "Upgrade your connectivity with our advanced modem options. Whether you need a WiFi modem for seamless wireless access or a 5G modem for lightning-fast speeds, we have you covered. Our selection includes internet, cable, and portable WiFi modems, ensuring reliable and high-speed connections. Discover the best modem for your needs, offering both wired and wireless options for versatile connectivity solutions. Experience the convenience of a portable WiFi modem for on-the-go internet access. Trust us to provide top-quality modems that deliver optimal performance and reliability for all your internet needs.",
+    keywords:"Bhagirath Technologies, Modem Rental, high-speed modem, internet connectivity, affordable rates.",
+    properties: [
       "Solutions tailored to your specific connectivity needs and preferences.",
       "Expert consultation to help you choose the ideal modem based on your internet requirements.",
       "Seamless integration services for effortless setup and installation of your modem.",
@@ -345,8 +365,9 @@ content:"MacBook's latest innovation lineup, the MacBook CORE i7 laptop (12th Ge
     type: "rental",
     title: "Routers",
     desc: "All Types",
-    content:"Enhance your connectivity with our cutting-edge modem-router solutions. Whether you need a WiFi router for seamless wireless access or a 5G router for lightning-fast speeds, we offer the best options. Our range includes top brands like Netgear and TP-Link, ensuring reliable and high-speed internet access. Experience the future of connectivity with WiFi 6 routers, delivering unparalleled performance. Extend your network coverage with Netgear WiFi extenders and mesh routers. Trust us to provide the best modem-router combination for your internet needs, ensuring optimal speed and reliability.",
-     properties: [
+    content: "Enhance your connectivity with our cutting-edge modem-router solutions. Whether you need a WiFi router for seamless wireless access or a 5G router for lightning-fast speeds, we offer the best options. Our range includes top brands like Netgear and TP-Link, ensuring reliable and high-speed internet access. Experience the future of connectivity with WiFi 6 routers, delivering unparalleled performance. Extend your network coverage with Netgear WiFi extenders and mesh routers. Trust us to provide the best modem-router combination for your internet needs, ensuring optimal speed and reliability.",
+    keywords:"Bhagirath Technologies, Router Rental, high-performance router, internet connectivity, competitive rates.",
+    properties: [
       "Convenient remote management options empowering you to effortlessly oversee and control your router settings and monitor network",
       "Services designed to keep your network infrastructure operating at peak efficiency levels.",
       "Continuous technical support and troubleshooting services available to swiftly address any router-related issues that may arise.",
@@ -388,8 +409,8 @@ export const rentalItems = [
     title: "Peripherals",
     desc: "Enhance your workflow with our wide range of peripherals, designed to optimize efficiency and streamline your tasks seamlessly. ",
     hashlinks: "service_detail",
-    properties: ["CPUs", "Keyboards", "Mouse","IP Cameras",],
-    links: ["/rental/8","/rental/9", "/rental/10", "/rental/11"],
+    properties: ["CPUs", "Keyboards", "Mouse", "IP Cameras",],
+    links: ["/rental/8", "/rental/9", "/rental/10", "/rental/11"],
     data_aos_delay: "900",
   },
 
@@ -410,7 +431,7 @@ export const rentalItems = [
     desc: "Complete your setup with our diverse range of accessories, designed to enhance functionality and streamline your workflow. ",
     hashlinks: "service_detail",
     properties: ["Cables", "Processors", "Pendrives", "SSD/HDD"],
-    links: ["/rental/16","/rental/17","/rental/18", "/rental/19",],
+    links: ["/rental/16", "/rental/17", "/rental/18", "/rental/19",],
     data_aos_delay: "900",
   },
   {

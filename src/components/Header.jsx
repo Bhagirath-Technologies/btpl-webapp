@@ -681,7 +681,7 @@ const Header = () => {
                                   to="/services/10"
                                   onClick={handleMenuClick}
                                 >
-                                  Social Media Handeling
+                                  Social Media Marketing
                                 </HashLink>{" "}
                               </li>
                               <li>
@@ -726,7 +726,7 @@ const Header = () => {
                                   to="/services/14"
                                   onClick={handleMenuClick}
                                 >
-                                  Art Direction
+                                  Mockup Design
                                 </HashLink>{" "}
                               </li>
                               <li>

@@ -86,6 +86,7 @@ import { serviceItems } from '../../data/WebServicedata';
 import CommonCard from '../../components/CommonCard';
 import AnimatedFigures from '../../components/AnimatedFigures';
 import ServiceItem from '../../components/ServiceItem';
+import { Helmet } from 'react-helmet';
 
 
 const WebDevelopment = () => {
@@ -103,6 +104,12 @@ const WebDevelopment = () => {
 
   return (
     <>
+      <Helmet>
+        <title>Bhagirath Technologies | Services</title>
+        <meta name="description"
+          content="Explore our range of professional services at Bhagirath Technologies. We offer website design, web development, digital marketing, branding, SEO, and more to help businesses succeed online. Contact us today to learn more!" />
+        <meta name="keywords" content="services, software development, graphic designing, IT asset leasing, digital marketing, IT services, Bhagirath Technologies" />
+      </Helmet>
       {/* Your existing code */}
 
       <section className='position-relative pattern-overlay-7'>

@@ -1,8 +1,15 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { Link } from 'react-router-dom';
 const Cookies = () => {
     return (
         <>
+            <Helmet>
+                <title>Bhagirath Technologies | Cookies</title>
+                <meta name="description"
+                    content="Learn about the use of cookies on Bhagirath Technologies' website, how we use them, and how you can manage your cookie preferences." />
+                <meta name="keywords" content="Bhagirath Technologies, Cookies Policy, cookies, cookie management, website cookies." />
+            </Helmet>
             <section className="bg-dark pattern-overlay-1 position-relative text-center">
                 <div className="container">
                     <div className="row">
@@ -190,79 +197,79 @@ const Cookies = () => {
                             </div>
                             {/* <!-- Left END --> */}
 
-                           
+
                         </div>
-                         {/* <!-- Right START --> */}
-                         <div className="col-md-4">
-                                <h4 className="mb-5">Needed more help and support? Check these</h4>
-                                {/* <!-- Call --> */}
-                                <div className="mb-4 d-flex">
-                                    <div className="text-primary display-8 me-3">
-                                        <i className="bi bi-headset fa-fw"></i>
-                                    </div>
-                                    <div>
-                                        <h6>
-                                            <Link to="tel:+918982301484">+918982301484</Link>
-                                        </h6>
-                                        <p>
-                                            Call us on above number to get quick solution.{" "}
-                                            <small className="d-block">
-                                                <span className="text-danger">*</span> Additional charges may
-                                                apply
-                                            </small>
-                                        </p>
-                                    </div>
+                        {/* <!-- Right START --> */}
+                        <div className="col-md-4">
+                            <h4 className="mb-5">Needed more help and support? Check these</h4>
+                            {/* <!-- Call --> */}
+                            <div className="mb-4 d-flex">
+                                <div className="text-primary display-8 me-3">
+                                    <i className="bi bi-headset fa-fw"></i>
                                 </div>
-
-                                {/* <!-- Skype --> */}
-                                <div className="mb-4 d-flex">
-                                    <div className="text-primary display-8 me-3">
-                                        <i className="bi bi-chat-left-text fa-fw"></i>
-                                    </div>
-                                    <div>
-                                        <h6>
-                                            <Link to="#">Raise Ticket</Link>
-                                        </h6>
-                                        <p>
-                                            If you have technical questions, chat live with developers
-                                            in our Skype chat
-                                        </p>
-                                    </div>
-                                </div>
-
-                                {/* <!-- Email --> */}
-                                <div className="mb-4 d-flex">
-                                    <div className="text-primary display-8 me-3">
-                                        <i className="bi bi-envelope fa-fw"></i>
-                                    </div>
-                                    <div>
-                                        <h6>
-                                            <Link to="mailto:info@bhagirathtechnologies.com">info@bhagirathtechnologies.com</Link>
-                                        </h6>
-                                        <p>
-                                            For general queries and questions including partnership
-                                            opportunities
-                                        </p>
-                                    </div>
-                                </div>
-
-                                {/* <!-- Live chat --> */}
-                                <div className="mb-4 d-flex">
-                                    <div className="text-primary display-8 me-3">
-                                        <i className="bi bi-person-plus fa-fw"></i>
-                                    </div>
-                                    <div>
-                                        <h6>
-                                            <Link to="/">bhagirathtechnologies.com</Link>
-                                        </h6>
-                                        <p>
-                                            Careers &amp; Press related queries please email us at above
-                                            address
-                                        </p>
-                                    </div>
+                                <div>
+                                    <h6>
+                                        <Link to="tel:+918982301484">+918982301484</Link>
+                                    </h6>
+                                    <p>
+                                        Call us on above number to get quick solution.{" "}
+                                        <small className="d-block">
+                                            <span className="text-danger">*</span> Additional charges may
+                                            apply
+                                        </small>
+                                    </p>
                                 </div>
                             </div>
-                            {/* <!-- Right END --> */}
+
+                            {/* <!-- Skype --> */}
+                            <div className="mb-4 d-flex">
+                                <div className="text-primary display-8 me-3">
+                                    <i className="bi bi-chat-left-text fa-fw"></i>
+                                </div>
+                                <div>
+                                    <h6>
+                                        <Link to="#">Raise Ticket</Link>
+                                    </h6>
+                                    <p>
+                                        If you have technical questions, chat live with developers
+                                        in our Skype chat
+                                    </p>
+                                </div>
+                            </div>
+
+                            {/* <!-- Email --> */}
+                            <div className="mb-4 d-flex">
+                                <div className="text-primary display-8 me-3">
+                                    <i className="bi bi-envelope fa-fw"></i>
+                                </div>
+                                <div>
+                                    <h6>
+                                        <Link to="mailto:info@bhagirathtechnologies.com">info@bhagirathtechnologies.com</Link>
+                                    </h6>
+                                    <p>
+                                        For general queries and questions including partnership
+                                        opportunities
+                                    </p>
+                                </div>
+                            </div>
+
+                            {/* <!-- Live chat --> */}
+                            <div className="mb-4 d-flex">
+                                <div className="text-primary display-8 me-3">
+                                    <i className="bi bi-person-plus fa-fw"></i>
+                                </div>
+                                <div>
+                                    <h6>
+                                        <Link to="/">bhagirathtechnologies.com</Link>
+                                    </h6>
+                                    <p>
+                                        Careers &amp; Press related queries please email us at above
+                                        address
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        {/* <!-- Right END --> */}
                     </div>
                 </div>
             </section>

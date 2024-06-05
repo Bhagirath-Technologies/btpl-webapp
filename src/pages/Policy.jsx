@@ -1,8 +1,15 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { Link } from 'react-router-dom';
 const Policy = () => {
   return (
     <>
+      <Helmet>
+        <title>Bhagirath Technologies | Privacy Policy</title>
+        <meta name="description"
+          content="Explore Bhagirath Technologies Privacy Policy to understand how we collect, use, and protect your personal information." />
+        <meta name="keywords" content="Bhagirath Technologies, Privacy Policy, personal information, data protection, online privacy" />
+      </Helmet>
       <section className="bg-dark pattern-overlay-1 position-relative text-center">
         <div className="container">
           <div className="row">
@@ -10,8 +17,8 @@ const Policy = () => {
               {/* <!-- Title --> */}
               <h1 className="text-white-stroke display-5">Privacy and Policy</h1>
               <p className="lead">
-              Bhagirath Technology Private Limited (BTPL) is an IT services, consulting, and business solutions organization. We offer a comprehensive range of consulting-led, cognitive-powered services and solutions through our unique Location Independent Agile™ delivery model. As part of our operations, BTPL handles sensitive information, including personal data, which is vital to our business interests and those of our clients.
-Our Security Vision is to ensure the reliability, resilience, and immunity of BTPL in the face of constant changes, accidents, attacks, and failures. This Security Policy reaffirms our commitment to safeguard all the information and assets entrusted to us, fostering an efficient, safe, and secure working environment for BTPL and its clients.
+                Bhagirath Technology Private Limited (BTPL) is an IT services, consulting, and business solutions organization. We offer a comprehensive range of consulting-led, cognitive-powered services and solutions through our unique Location Independent Agile™ delivery model. As part of our operations, BTPL handles sensitive information, including personal data, which is vital to our business interests and those of our clients.
+                Our Security Vision is to ensure the reliability, resilience, and immunity of BTPL in the face of constant changes, accidents, attacks, and failures. This Security Policy reaffirms our commitment to safeguard all the information and assets entrusted to us, fostering an efficient, safe, and secure working environment for BTPL and its clients.
 
               </p>
               {/* <!-- Breadcrumb --> */}
@@ -57,7 +64,7 @@ Our Security Vision is to ensure the reliability, resilience, and immunity of BT
                     style={{}}
                   >
                     <div className="accordion-body">
-                    Protect information and assets against unauthorized access by implementing robust security controls covering physical, logical, and personnel security.                    </div>
+                      Protect information and assets against unauthorized access by implementing robust security controls covering physical, logical, and personnel security.                    </div>
                   </div>
                 </div>
                 <div className="accordion-item">
@@ -70,7 +77,7 @@ Our Security Vision is to ensure the reliability, resilience, and immunity of BT
                       aria-expanded="false"
                       aria-controls="collapse-2"
                     >
-                       Ensure compliance with legal...
+                      Ensure compliance with legal...
                     </button>
                   </h5>
                   <div
@@ -80,7 +87,7 @@ Our Security Vision is to ensure the reliability, resilience, and immunity of BT
                     data-bs-parent="#accordiongeneralfaq"
                   >
                     <div className="accordion-body">
-                    Ensure compliance with legal, statutory, and regulatory requirements across our global operations.                    </div>
+                      Ensure compliance with legal, statutory, and regulatory requirements across our global operations.                    </div>
                   </div>
                 </div>
                 <div className="accordion-item">
@@ -103,7 +110,7 @@ Our Security Vision is to ensure the reliability, resilience, and immunity of BT
                     data-bs-parent="#accordiongeneralfaq"
                   >
                     <div className="accordion-body">
-                    Maintain business continuity aligned with our stakeholders' requirements and obligations.                    </div>
+                      Maintain business continuity aligned with our stakeholders' requirements and obligations.                    </div>
                   </div>
                 </div>
                 <div className="accordion-item">
@@ -126,7 +133,7 @@ Our Security Vision is to ensure the reliability, resilience, and immunity of BT
                     data-bs-parent="#accordiongeneralfaq"
                   >
                     <div className="accordion-body">
-                    Embed security responsibilities across various departments and individuals to uphold this Policy.                    </div>
+                      Embed security responsibilities across various departments and individuals to uphold this Policy.                    </div>
                   </div>
                 </div>
                 <div className="accordion-item">
@@ -149,7 +156,7 @@ Our Security Vision is to ensure the reliability, resilience, and immunity of BT
                     data-bs-parent="#accordiongeneralfaq"
                   >
                     <div className="accordion-body">
-                    Foster security awareness and competence among all associates to fulfill their responsibilities effectively.                    </div>
+                      Foster security awareness and competence among all associates to fulfill their responsibilities effectively.                    </div>
                   </div>
                 </div>
                 <div className="accordion-item">
@@ -172,7 +179,7 @@ Our Security Vision is to ensure the reliability, resilience, and immunity of BT
                     data-bs-parent="#accordiongeneralfaq"
                   >
                     <div className="accordion-body">
-                    Establish channels for associates and stakeholders to report security weaknesses, violations, or service disruptions.                    </div>
+                      Establish channels for associates and stakeholders to report security weaknesses, violations, or service disruptions.                    </div>
                   </div>
                 </div>
               </div>
@@ -201,7 +208,7 @@ Our Security Vision is to ensure the reliability, resilience, and immunity of BT
                     data-bs-parent="#accordionmemberfaq"
                   >
                     <div className="accordion-body">
-                    Implement a robust response framework to address security incidents promptly and effectively.                    </div>
+                      Implement a robust response framework to address security incidents promptly and effectively.                    </div>
                   </div>
                 </div>
                 <div className="accordion-item">
@@ -225,8 +232,8 @@ Our Security Vision is to ensure the reliability, resilience, and immunity of BT
                   >
                     <div className="accordion-body">
                       <p>
-                      Govern security performance against defined targets and objectives, facilitating continuous improvements.                      </p>
-                     
+                        Govern security performance against defined targets and objectives, facilitating continuous improvements.                      </p>
+
                     </div>
                   </div>
                 </div>
@@ -250,7 +257,7 @@ Our Security Vision is to ensure the reliability, resilience, and immunity of BT
                     data-bs-parent="#accordionmemberfaq"
                   >
                     <div className="accordion-body">
-                    This Policy will be supported by Standards, Procedures, and Guidelines constituting our Security Management System. It will be accessible to all stakeholders contributing to the implementation and enforcement of these security norms. The Security Management System will undergo periodic reviews to ensure its ongoing relevance and applicability to our operations and evolving stakeholder expectations.                    </div>
+                      This Policy will be supported by Standards, Procedures, and Guidelines constituting our Security Management System. It will be accessible to all stakeholders contributing to the implementation and enforcement of these security norms. The Security Management System will undergo periodic reviews to ensure its ongoing relevance and applicability to our operations and evolving stakeholder expectations.                    </div>
                   </div>
                 </div>
                 <div className="accordion-item">
@@ -273,7 +280,7 @@ Our Security Vision is to ensure the reliability, resilience, and immunity of BT
                     data-bs-parent="#accordionmemberfaq"
                   >
                     <div className="accordion-body">
-                    This Policy extends to BTPL globally and its wholly-owned subsidiaries across all regions. It applies to all our associates, business partners, and external parties with access to our infrastructure, IT systems, and information resources. Consequences for violations or contraventions of this Policy will apply equally to all BTPL associates, subsidiaries, and external parties.                    </div>
+                      This Policy extends to BTPL globally and its wholly-owned subsidiaries across all regions. It applies to all our associates, business partners, and external parties with access to our infrastructure, IT systems, and information resources. Consequences for violations or contraventions of this Policy will apply equally to all BTPL associates, subsidiaries, and external parties.                    </div>
                   </div>
                 </div>
               </div>

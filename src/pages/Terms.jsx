@@ -1,8 +1,15 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { Link } from 'react-router-dom';
 const Terms = () => {
   return (
     <>
+      <Helmet>
+        <title>Bhagirath Technologies | Terms and Conditions </title>
+        <meta name="description"
+          content="Read Bhagirath Technologies' Terms and Conditions to understand the guidelines, policies, and rules governing the use of our website." />
+        <meta name="keywords" content="Bhagirath Technologies, Terms and Conditions, website policies, guidelines, rules." />
+      </Helmet>
       <section className="bg-dark pattern-overlay-1 position-relative text-center">
         <div className="container">
           <div className="row">
@@ -56,7 +63,7 @@ const Terms = () => {
                     style={{}}
                   >
                     <div className="accordion-body">
-                    All content on this site, including text and images, is the property of Bhagirath Technology Private Limited (BTPL), unless otherwise stated.
+                      All content on this site, including text and images, is the property of Bhagirath Technology Private Limited (BTPL), unless otherwise stated.
                     </div>
                   </div>
                 </div>
@@ -70,7 +77,7 @@ const Terms = () => {
                       aria-expanded="false"
                       aria-controls="collapse-2"
                     >
-                       No part of this site may be copied...
+                      No part of this site may be copied...
                     </button>
                   </h5>
                   <div
@@ -80,7 +87,7 @@ const Terms = () => {
                     data-bs-parent="#accordiongeneralfaq"
                   >
                     <div className="accordion-body">
-                    No part of this site may be copied, reproduced, republished, uploaded, posted, transmitted, or distributed without prior written consent from BTPL.
+                      No part of this site may be copied, reproduced, republished, uploaded, posted, transmitted, or distributed without prior written consent from BTPL.
                     </div>
                   </div>
                 </div>
@@ -104,7 +111,7 @@ const Terms = () => {
                     data-bs-parent="#accordiongeneralfaq"
                   >
                     <div className="accordion-body">
-                    The information provided on this site is for informational purposes only and does not create a business relationship between you and BTPL.
+                      The information provided on this site is for informational purposes only and does not create a business relationship between you and BTPL.
                     </div>
                   </div>
                 </div>
@@ -128,7 +135,7 @@ const Terms = () => {
                     data-bs-parent="#accordiongeneralfaq"
                   >
                     <div className="accordion-body">
-                    Links on this site may lead to services or sites not operated by BTPL, and we take no responsibility for such sites or services.
+                      Links on this site may lead to services or sites not operated by BTPL, and we take no responsibility for such sites or services.
                     </div>
                   </div>
                 </div>
@@ -152,7 +159,7 @@ const Terms = () => {
                     data-bs-parent="#accordiongeneralfaq"
                   >
                     <div className="accordion-body">
-                    This site and its contents are provided "as is," and BTPL makes no representation or warranty of any kind.
+                      This site and its contents are provided "as is," and BTPL makes no representation or warranty of any kind.
                     </div>
                   </div>
                 </div>
@@ -176,7 +183,7 @@ const Terms = () => {
                     data-bs-parent="#accordiongeneralfaq"
                   >
                     <div className="accordion-body">
-                    BTPL disclaims all express and implied warranties, including merchantability, fitness for a particular purpose, and non-infringement.
+                      BTPL disclaims all express and implied warranties, including merchantability, fitness for a particular purpose, and non-infringement.
                     </div>
                   </div>
                 </div>
@@ -206,7 +213,7 @@ const Terms = () => {
                     data-bs-parent="#accordionmemberfaq"
                   >
                     <div className="accordion-body">
-                    In no event will BTPL or its third-party service providers be liable for any damages arising out of or in connection with this site.
+                      In no event will BTPL or its third-party service providers be liable for any damages arising out of or in connection with this site.
                     </div>
                   </div>
                 </div>
@@ -231,9 +238,9 @@ const Terms = () => {
                   >
                     <div className="accordion-body">
                       <p>
-                      This site is governed by the laws of the State of Illinois, USA, and any legal action or proceeding relating to this site shall be subject to these laws.
+                        This site is governed by the laws of India, and any legal action or proceeding relating to this site shall be subject to these laws.
                       </p>
-                     
+
                     </div>
                   </div>
                 </div>
@@ -257,7 +264,7 @@ const Terms = () => {
                     data-bs-parent="#accordionmemberfaq"
                   >
                     <div className="accordion-body">
-                    You are responsible for complying with the laws of the jurisdiction from which you access this site.
+                      You are responsible for complying with the laws of the jurisdiction from which you access this site.
                     </div>
                   </div>
                 </div>
@@ -281,7 +288,7 @@ const Terms = () => {
                     data-bs-parent="#accordionmemberfaq"
                   >
                     <div className="accordion-body">
-                    Any information submitted through this site is deemed non-confidential and non-proprietary, and you agree that BTPL may use such information freely.
+                      Any information submitted through this site is deemed non-confidential and non-proprietary, and you agree that BTPL may use such information freely.
                     </div>
                   </div>
                 </div>

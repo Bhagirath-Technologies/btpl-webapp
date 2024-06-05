@@ -1,5 +1,6 @@
 // ServiceDetail.jsx
 import React from "react";
+import { Helmet } from "react-helmet";
 import { Link, useParams } from "react-router-dom";
 
 const ServiceDetail = ({ data }) => {
@@ -15,6 +16,12 @@ const ServiceDetail = ({ data }) => {
 
   return (
     <>
+     <Helmet>
+        <title>Bhagirath Technologies | {service.title}</title>
+        <meta name="description"
+          content={service.content} />
+        <meta name="keywords" content={service.keywords} />
+      </Helmet>
       <section>
         <div className="container">
           <div className="row ">

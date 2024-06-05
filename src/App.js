@@ -39,12 +39,13 @@
 
 // App.js
 import './App.css';
-import { lazy,Suspense } from "react";
+import { lazy, Suspense } from "react";
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 // import Header from './components/Header';
 // import Footer from './components/Footer';
 import rentalData from "./data/RentalServicedata"; // Imported  data
 import webData from "./data/WebServicedata"; // Imported data
+import { Helmet } from 'react-helmet';
 
 const Header = lazy(() => import("./components/Header"));
 const Footer = lazy(() => import("./components/Footer"));
@@ -72,6 +73,13 @@ function App() {
   return (
     <BrowserRouter>
       <Suspense>
+        <Helmet>
+          <title>Bhagirath Technologies | Home</title>
+          <meta name="description"
+            content="Welcome to Bhagirath Technologies. We specialize in providing professional services in website design, web application development, digital marketing, graphic design and IT assets leasing. Contact us today to bring your ideas to life!" />
+          <meta name="keywords" content="software development | digital marketing | graphic designing | IT Assets Leasing,
+    Bhagirath Technologies" />
+        </Helmet>
         <Header isHome={window.location.pathname === '/'} />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -87,7 +95,7 @@ function App() {
         </Routes>
       </Suspense>
       <Footer />
-      <BottomtoTop/>
+      <BottomtoTop />
       {/* <Ticket/> */}
 
     </BrowserRouter>

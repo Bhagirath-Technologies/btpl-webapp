@@ -1,3 +1,13 @@
-# https://www.robotstxt.org/robotstxt.html
+Sitemap: 
+
 User-agent: *
-Disallow:
+disallow: 
+Allow: 
+
+User-Agent: Googlebot
+User-Agent: Googlebot-Mobile
+User-Agent: msnbot
+User-Agent: Bingbot
+User-Agent: Slurp
+User-Agent: DuckDuckBot
+User-agent: AhrefsSiteAudit
