@@ -32,20 +32,15 @@
 // }
 // export default App;
 
-
-
-
-
-
 // App.js
-import './App.css';
+import "./App.css";
 import { lazy, Suspense } from "react";
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 // import Header from './components/Header';
 // import Footer from './components/Footer';
 import rentalData from "./data/RentalServicedata"; // Imported  data
 import webData from "./data/WebServicedata"; // Imported data
-import { Helmet } from 'react-helmet';
+import { Helmet } from "react-helmet";
 
 const Header = lazy(() => import("./components/Header"));
 const Footer = lazy(() => import("./components/Footer"));
@@ -59,6 +54,7 @@ const Terms = lazy(() => import("./pages/Terms"));
 const Policy = lazy(() => import("./pages/Policy"));
 const Cookies = lazy(() => import("./pages/Cookies"));
 const ServiceDetail = lazy(() => import("./components/ServiceDetail"));
+const Blog = lazy(() => import("./pages/Blog"));
 const BottomtoTop = lazy(() => import("./components/BottomtoTop"));
 // const Ticket = lazy(() => import("./components/Ticket"));
 
@@ -75,32 +71,42 @@ function App() {
       <Suspense>
         <Helmet>
           <title>Bhagirath Technologies | Home</title>
-          <meta name="description"
-            content="Welcome to Bhagirath Technologies. We specialize in providing professional services in website design, web application development, digital marketing, graphic design and IT assets leasing. Contact us today to bring your ideas to life!" />
-          <meta name="keywords" content="software development | digital marketing | graphic designing | IT Assets Leasing,
-    Bhagirath Technologies" />
+          <meta
+            name="description"
+            content="Welcome to Bhagirath Technologies. We specialize in providing professional services in website design, web application development, digital marketing, graphic design and IT assets leasing. Contact us today to bring your ideas to life!"
+          />
+          <meta
+            name="keywords"
+            content="software development | digital marketing | graphic designing | IT Assets Leasing,
+    Bhagirath Technologies"
+          />
         </Helmet>
-        <Header isHome={window.location.pathname === '/'} />
+        <Header isHome={window.location.pathname === "/"} />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/rental" element={<Rental data={rentalData} />} />
           <Route path="/services" element={<WebDevelopment />} />
-          <Route path="/rental/:id" element={<ServiceDetail data={rentalData} />} />
-          <Route path="/services/:id" element={<ServiceDetail data={webData} />} />
+          <Route
+            path="/rental/:id"
+            element={<ServiceDetail data={rentalData} />}
+          />
+          <Route
+            path="/services/:id"
+            element={<ServiceDetail data={webData} />}
+          />
           <Route path="/contact" element={<Contact />} />
           <Route path="/terms" element={<Terms />} />
           <Route path="/policy" element={<Policy />} />
           <Route path="/cookies" element={<Cookies />} />
+          <Route path="/blog" element={<Blog />} />
         </Routes>
       </Suspense>
       <Footer />
       <BottomtoTop />
       {/* <Ticket/> */}
-
     </BrowserRouter>
   );
 }
 
 export default App;
-

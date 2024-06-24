@@ -6,9 +6,14 @@ const About = () => {
     <>
       <Helmet>
         <title>Bhagirath Technologies | Contact Us</title>
-        <meta name="description"
-          content="Contact Bhagirath Technologies for all your IT needs. Reach out to us for software development, graphic design, digital marketing, and IT asset leasing services. Let's discuss your project!" />
-        <meta name="keywords" content="contact us, Bhagirath Technologies, software development, graphic design, digital marketing, IT asset leasing,  IT services, get in touch, contact information" />
+        <meta
+          name="description"
+          content="Contact Bhagirath Technologies for all your IT needs. Reach out to us for software development, graphic design, digital marketing, and IT asset leasing services. Let's discuss your project!"
+        />
+        <meta
+          name="keywords"
+          content="contact us, Bhagirath Technologies, software development, graphic design, digital marketing, IT asset leasing,  IT services, get in touch, contact information"
+        />
       </Helmet>
       <section className="bg-dark pattern-overlay-1 position-relative text-center">
         <div className="container">
@@ -30,31 +35,36 @@ const About = () => {
           </div>
         </div>
       </section>
-
+      <section>
+        <div className="col-12">
+          <iframe
+            className="w-100 h-400"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3753682.8893104414!2d74.88266227051317!3d23.253785200000017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x25fcea9c85591dad%3A0x8073a63bd087c91!2sBhagirath%20Technologies!5e0!3m2!1sen!2sin!4v1719231448387!5m2!1sen!2sin"
+            width="600"
+            height="500"
+            style={{ border: 0 }}
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            aria-hidden="false"
+            tabindex="0"
+          ></iframe>
+        </div>
+      </section>
       <section>
         <div className="container">
           <div className="row justify-content-lg-between">
-            <div className="col-md-5">
-              {/* <iframe className="w-100 h-400 grayscale" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.9663095343008!2d-74.00425878428698!3d40.74076684379132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259bf5c1654f3%3A0xc80f9cfce5383d5d!2sGoogle!5e0!3m2!1sen!2sin!4v1586000412513!5m2!1sen!2sin" height="500" style="border:0;" aria-hidden="false" tabindex="0"></iframe>	 */}
-              <iframe
-                className="w-100 h-400 grayscale"
-                title="company address"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117299.66199485942!2d77.3782504026026!3d23.25711350420762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x25fcea9c85591dad%3A0x8073a63bd087c91!2sBhagirath%20Technologies!5e0!3m2!1sen!2sin!4v1711706280189!5m2!1sen!2sin"
-                width="600"
-                height="500"
-                style={{ border: 0 }}
-                allowfullscreen=""
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
-                aria-hidden="false" tabindex="0"
-              ></iframe>
+            <div class="col-xl-5 col-lg-6 mt-lg-auto d-none d-lg-block">
+              <img src="assets/images/contact/handsome_boy.png" alt="" />
             </div>
             {/* <!-- Title --> */}
             <div className="col-md-6 mt-5 mt-md-0">
+              <h1 class="display-5">
+                Say hi by filling the form out below
+                <span class="text-primary">.</span>
+              </h1>
               <h3>Contact us</h3>
-              <p>
-                Get in touch with us
-              </p>
+              <p>Get in touch with us</p>
               {/* <!-- Form START --> */}
               <form
                 className="contact-form form-line"
