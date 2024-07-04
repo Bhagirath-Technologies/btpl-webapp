@@ -11700,6 +11700,10 @@ fieldset:disabled .btn {
 }
 
 /* rtl:end:remove */
+.text-blue {
+  /* --bs-text-opacity: 1; */
+  color: var(--bs-primary) !important;
+}
 .text-primary {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
@@ -22343,7 +22347,7 @@ img.img-grayscale {
 .nav-tabs.nav-tabs-line .nav-link.active {
   background: transparent;
   color: #1d3b6a;
-  border-bottom: 2px solid #1d3b6a;
+  border-bottom: 2px solid #ffffff;
 }
 
 .nav-tabs.nav-tabs-line .nav-item {
@@ -23635,7 +23639,7 @@ small,
   font-size: 8rem;
   line-height: 0.8em;
   font-weight: 700;
-  color: var(--bs-primary);
+  color: var(--text-muted);
 }
 
 .blockquote.blockquote-primary {
