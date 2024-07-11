@@ -1,6 +1,10 @@
-import React from "react";
+import React, { useRef, useState } from "react";
+import { Swiper, SwiperSlide } from 'swiper/react';
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
+import 'swiper/css';
+import 'swiper/css/pagination';
+import { Pagination } from 'swiper/modules';
 const About = () => {
   return (
     <>
@@ -15,6 +19,8 @@ const About = () => {
           content="Bhagirath Technologies, About Us, Our Story, Software Development, Digital Marketing, Graphic Design."
         />
       </Helmet>
+
+      {/* About Hero Starts  */}
       <section className="bg-dark pattern-overlay-1 position-relative text-center">
         <figure class="position-absolute end-0 bottom-0 mb-n10 me-8 d-none d-lg-block">
           <svg
@@ -287,7 +293,8 @@ const About = () => {
           </div>
         </div>
       </section>
-      {/* About Starts  */}
+      {/* About Hero Starts  */}
+      {/* About Detail Starts  */}
       <section>
         <div class="container">
           <div class="row d-flex justify-content-lg-between align-items-center">
@@ -379,13 +386,216 @@ const About = () => {
           </div>
         </div>
       </section>
-      {/* About Ends  */}
+      {/* About Detail Ends  */}
 
+      {/* About services with icons section starts */}
+      <section>
+        <div class="container">
+          <div class="row justify-content-lg-between">
+            {/* <!-- About Title --> */}
+            <div class="col-md-4 col-xl-5">
+              <span class="font-alt fw-normal display-8">Our interesting insights</span>
+              <h2 class="display-6">A complete technology solution provider</h2>
+              <p class="lead">Partnering with <b>500+ Fortune companies</b> and mid-sized firms across enterprises, uniquely customized and scalable workforce solutions.</p>
+              <a href="#" class="btn btn-primary btn-line mt-4">Check success stories</a>
+            </div>
+
+            {/* <!-- Our services --> */}
+            <div class="col-md-8 col-xl-6 mt-5 mt-md-0">
+              <div class="row">
+                {/* <!-- Item --> */}
+                <div class="col-sm-6 mb-4">
+                  <i class="display-7 text-primary bi bi-sliders"></i>
+                  <h4 class="my-3">Enterprise digital asset management</h4>
+                  <p>Smart use of data &amp; technology for the automation of your business. Two before narrow not relied how except moment myself Dejection assurance</p>
+                </div>
+                {/* <!-- Item --> */}
+                <div class="col-sm-6 mb-4">
+                  <i class="display-7 text-primary bi bi-droplet-half"></i>
+                  <h4 class="my-3">UI/UX app design &amp; graphics design</h4>
+                  <p>The right mix of resources for achieving your online goals. Mrs led certainly So gate at no only none open Betrayed at properly it of graceful</p>
+                </div>
+                {/* <!-- Item --> */}
+                <div class="col-sm-6 mb-4">
+                  <i class="display-7 text-primary bi bi-graph-up"></i>
+                  <h4 class="my-3">Google Analytics Measurement Protocol</h4>
+                  <p>Achieving your online goals for the automation of your business Dinner abroad am depart ye turned hearts as me wished Therefore allowance</p>
+                </div>
+                {/* <!-- Item --> */}
+                <div class="col-sm-6 mb-4">
+                  <i class="display-7 text-primary bi bi-bar-chart-line"></i>
+                  <h4 class="my-3">Digital marketing &amp; content creation</h4>
+                  <p>Data &amp; technology supposing man his now Families goodness all eat out bed steepest servants Explained the incommode sir improving </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* <!-- Row END --> */}
+        </div>
+      </section>
+      {/* About services with icons section ends */}
+
+      {/* Our Team Section Starts */}
+      <section class="pt-5">
+        <div class="container">
+          {/* <!-- Title --> */}
+          <div class="row d-flex justify-content-between align-items-center">
+            <div class="col-sm-8 mb-3">
+              <h2 class="display-6 mb-0 mb-sm-4 text-dark">Our Team</h2>
+            </div>
+            <div class="col-sm-4 mb-5 text-start text-sm-end">
+              <a href="#" class="btn btn-line text-primary mt-3">We're hiring</a>
+            </div>
+          </div>
+          {/* <!-- Team --> */}
+          <div class="row">
+            <div class="col-12">
+              <div class="tiny-slider dots-bordered mb-5">
+
+
+
+                {/* swiper starts  */}
+                <Swiper
+                  slidesPerView={3}
+                  spaceBetween={30}
+                  pagination={{
+                    clickable: true,
+                  }}
+                  modules={[Pagination]}
+                  className="mySwiper"
+                >
+                  <SwiperSlide>
+                    {/* <!-- Card item START --> */}
+                    <div class="item tns-item tns-slide-active" id="tns1-item0">
+                      <a href="#" class="card card-metro">
+                        {/* <!-- Card Image --> */}
+                        <div class="card-image">
+                          <img src="https://ca.slack-edge.com/T061U5D9280-U060YH1MRJS-00a013ccec7b-512" alt="card image" />
+                        </div>
+                        {/* <!-- Card Overlay --> */}
+                        <div class="card-img-overlay d-flex flex-column">
+                          <div class="mt-auto card-text">
+                            <h5 class="text-white">Mr. Vivek Suryawanshi</h5>
+                            <p class="small text-white mb-0">Software Engineer</p>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    {/* <!-- Card item END --> */}
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    {/* <!-- Card item START --> */}
+                    <div class="item tns-item tns-slide-active" id="tns1-item0">
+                      <a href="#" class="card card-metro">
+                        {/* <!-- Card Image --> */}
+                        <div class="card-image">
+                          <img src="https://ca.slack-edge.com/T061U5D9280-U06ACKT4MT6-2c1ff5178673-512" alt="card image" />
+                        </div>
+                        {/* <!-- Card Overlay --> */}
+                        <div class="card-img-overlay d-flex flex-column">
+                          <div class="mt-auto card-text">
+                            <h5 class="text-white">Pradhuman Agrawal</h5>
+                            <p class="small text-white mb-0">Frontend Developer</p>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    {/* <!-- Card item END --> */}
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    {/* <!-- Card item START --> */}
+                    <div class="item tns-item tns-slide-active" id="tns1-item0">
+                      <a href="#" class="card card-metro">
+                        {/* <!-- Card Image --> */}
+                        <div class="card-image">
+                          <img src="https://ca.slack-edge.com/T061U5D9280-U06G7AZHL1H-2dc535637d2a-512" alt="card image" />
+                        </div>
+                        {/* <!-- Card Overlay --> */}
+                        <div class="card-img-overlay d-flex flex-column">
+                          <div class="mt-auto card-text">
+                            <h5 class="text-white">Prachi Pare</h5>
+                            <p class="small text-white mb-0">Digital Marketer</p>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    {/* <!-- Card item END --> */}
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    {/* <!-- Card item START --> */}
+                    <div class="item tns-item tns-slide-active" id="tns1-item0">
+                      <a href="#" class="card card-metro">
+                        {/* <!-- Card Image --> */}
+                        <div class="card-image">
+                          <img src="https://ca.slack-edge.com/T061U5D9280-U077Q0PDRJA-ed5c30263539-512" alt="card image" />
+                        </div>
+                        {/* <!-- Card Overlay --> */}
+                        <div class="card-img-overlay d-flex flex-column">
+                          <div class="mt-auto card-text">
+                            <h5 class="text-white">Shayaan Khan</h5>
+                            <p class="small text-white mb-0">Frontend Developer</p>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    {/* <!-- Card item END --> */}
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    {/* <!-- Card item START --> */}
+                    <div class="item tns-item tns-slide-active" id="tns1-item0">
+                      <a href="#" class="card card-metro">
+                        {/* <!-- Card Image --> */}
+                        <div class="card-image">
+                          <img src="https://ca.slack-edge.com/T061U5D9280-U06FHQWCT0S-f78293dc9ef9-512" alt="card image" />
+                        </div>
+                        {/* <!-- Card Overlay --> */}
+                        <div class="card-img-overlay d-flex flex-column">
+                          <div class="mt-auto card-text">
+                            <h5 class="text-white">Meenakshi Savasiya</h5>
+                            <p class="small text-white mb-0">Graphics designer</p>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    {/* <!-- Card item END --> */}
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    {/* <!-- Card item START --> */}
+                    <div class="item tns-item tns-slide-active" id="tns1-item0">
+                      <a href="#" class="card card-metro">
+                        {/* <!-- Card Image --> */}
+                        <div class="card-image">
+                          <img src="https://ca.slack-edge.com/T061U5D9280-U077WMQTU7L-53d9567b2eb9-512" alt="card image" />
+                        </div>
+                        {/* <!-- Card Overlay --> */}
+                        <div class="card-img-overlay d-flex flex-column">
+                          <div class="mt-auto card-text">
+                            <h5 class="text-white">Abhishek Ahirwar</h5>
+                            <p class="small text-white mb-0">Backend Developer</p>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    {/* <!-- Card item END --> */}
+                  </SwiperSlide>
+                </Swiper>
+              </div>
+            </div>
+          </div>
+          {/* <!-- Row END --> */}
+        </div>
+      </section>
+      {/* Our Team Section Ends */}
+
+      {/* Google reviews by elfsight starts */}
+      <div class="elfsight-app-1a00f060-a650-431c-925a-a5d0d5dd2f35 elfsight" data-elfsight-app-lazy></div>
+      {/* Google reviews by elfsight ends */}
+
+      {/* Mission, Vision and Values Starts */}
       <section className="pt-5">
-        {/* mission and vision heading starts  */}
         <div class="container">
           <div class="row">
-            {/* <!-- Inner intro title --> */}
+            {/* <!--Mission, Vision and Values Inner intro title --> */}
             <div class="col-xl-8 mx-auto text-center">
               <h1>Mission, Vision and Values</h1>
               <blockquote class="mt-4">
@@ -401,8 +611,6 @@ const About = () => {
           </div>
           {/* <!-- Row END --> */}
         </div>
-        {/* mission and vision heading ends  */}
-
         <section>
           <div class="container">
             <div class="row g-0">
@@ -578,7 +786,7 @@ const About = () => {
             </div>
           </div>
         </section>
-
+        {/* Mission, Vision and Values Detailed section */}
         <div className="container">
           <p>
             Welcome into the zone of Bhagirath Technologies Private Limited –
@@ -665,6 +873,7 @@ const About = () => {
           </div>
         </div>
       </section>
+      {/* Mission, Vision and Values Ends */}
     </>
   );
 };

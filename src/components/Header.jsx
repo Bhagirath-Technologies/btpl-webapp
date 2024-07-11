@@ -568,7 +568,18 @@ const Header = () => {
                         <div class="row g-0 flex-fill">
                           <div class="col-sm-6 col-lg-3">
                             <ul class="list-unstyled mb-4 mb-lg-0">
-                              <li class="dropdown-header">Web Development</li>
+                              
+                              {/* <li class="dropdown-header">Web Development</li> */}
+                              <li>
+                                {" "}
+                                <HashLink
+                                  class="dropdown-header"
+                                  to="/services/Web Development"
+                                  onClick={handleMenuClick}
+                                >
+                                  Web Development
+                                </HashLink>{" "}
+                              </li>
                               <li>
                                 {" "}
                                 <HashLink
@@ -613,8 +624,18 @@ const Header = () => {
                           </div>
                           <div class="col-sm-6 col-lg-3">
                             <ul class="list-unstyled mb-4 mb-lg-0">
-                              <li class="dropdown-header">
+                              {/* <li class="dropdown-header">
                                 Graphics & E-commerce
+                              </li> */}
+                              <li>
+                                {" "}
+                                <HashLink
+                                  class="dropdown-header"
+                                  to="/services/Graphics & E-commerce"
+                                  onClick={handleMenuClick}
+                                >
+                                  Graphics & E-commerce
+                                </HashLink>{" "}
                               </li>
                               <li>
                                 {" "}
@@ -663,7 +684,17 @@ const Header = () => {
                           </div>
                           <div class="col-sm-6 col-lg-3">
                             <ul class="list-unstyled mb-4 mb-lg-0">
-                              <li class="dropdown-header">Online Marketing</li>
+                              {/* <li class="dropdown-header">Online Marketing</li> */}
+                              <li>
+                                {" "}
+                                <HashLink
+                                  class="dropdown-header"
+                                  to="/services/Online Marketing"
+                                  onClick={handleMenuClick}
+                                >
+                                  Online Marketing
+                                </HashLink>{" "}
+                              </li>
                               <li>
                                 {" "}
                                 <HashLink
@@ -708,7 +739,17 @@ const Header = () => {
                           </div>
                           <div class="col-sm-6 col-lg-3">
                             <ul class="list-unstyled">
-                              <li class="dropdown-header">Branding</li>
+                              {/* <li class="dropdown-header">Branding</li> */}
+                              <li>
+                                {" "}
+                                <HashLink
+                                  class="dropdown-header"
+                                  to="/services/Branding"
+                                  onClick={handleMenuClick}
+                                >
+                                  Branding
+                                </HashLink>{" "}
+                              </li>
                               <li>
                                 {" "}
                                 <HashLink

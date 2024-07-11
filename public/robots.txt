@@ -1,4 +1,4 @@
-Sitemap: 
+Sitemap: https://bhagirathtechnologies.com/sitemap.xml
 
 User-agent: *
 disallow: 

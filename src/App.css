@@ -26111,3 +26111,14 @@ button.text-primary-hover:hover {
 .rbt-badge-3::before {
   background: url("./images/icons/badge.svg") !important;
 }
+
+ /* Google review by elfsight custom css starts */
+  .elfsight{
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 600;
+    line-height: 1.4;
+    color: var(--bs-gray-800);
+  }
+  /* Google review by elfsight custom css ends */
