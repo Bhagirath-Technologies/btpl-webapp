@@ -387,7 +387,7 @@ const Blog = () => {
               <div class="card h-100 overflow-hidden">
                 {/* <!-- Card image --> */}
                 <div class="card-img-top rounded overflow-hidden position-relative hover-overlay-top">
-                  <img src="assets/images/blog/grid/04.jpg" alt="blog image" />
+                  <img src="https://img.freepik.com/free-vector/ai-technology-microchip-background-vector-digital-transformation-concept_53876-117808.jpg?t=st=1721130832~exp=1721134432~hmac=b89471cac4a687630a345a14f33dc536ece3ca7fec53c3ce8e1cb69b376b2296&w=1380" alt="blog image" />
                   <div class="position-absolute top-0 m-4 d-flex card-element-hover">
                     {/* <!-- Avatar --> */}
                     <div class="avatar">

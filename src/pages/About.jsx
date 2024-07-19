@@ -489,13 +489,32 @@ const About = () => {
                       <a href="#" class="card card-metro">
                         {/* <!-- Card Image --> */}
                         <div class="card-image">
-                          <img src="https://ca.slack-edge.com/T061U5D9280-U06ACKT4MT6-2c1ff5178673-512" alt="card image" />
+                          <img src="https://ca.slack-edge.com/T061U5D9280-U077WMQTU7L-53d9567b2eb9-512" alt="card image" />
                         </div>
                         {/* <!-- Card Overlay --> */}
                         <div class="card-img-overlay d-flex flex-column">
                           <div class="mt-auto card-text">
-                            <h5 class="text-white">Pradhuman Agrawal</h5>
-                            <p class="small text-white mb-0">Frontend Developer</p>
+                            <h5 class="text-white">Abhishek Ahirwar</h5>
+                            <p class="small text-white mb-0">Backend Developer</p>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    {/* <!-- Card item END --> */}
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    {/* <!-- Card item START --> */}
+                    <div class="item tns-item tns-slide-active" id="tns1-item0">
+                      <a href="#" class="card card-metro">
+                        {/* <!-- Card Image --> */}
+                        <div class="card-image">
+                          <img src="https://ca.slack-edge.com/T061U5D9280-U06FHQWCT0S-f78293dc9ef9-512" alt="card image" />
+                        </div>
+                        {/* <!-- Card Overlay --> */}
+                        <div class="card-img-overlay d-flex flex-column">
+                          <div class="mt-auto card-text">
+                            <h5 class="text-white">Meenakshi Savasiya</h5>
+                            <p class="small text-white mb-0">Graphics designer</p>
                           </div>
                         </div>
                       </a>
@@ -534,44 +553,6 @@ const About = () => {
                           <div class="mt-auto card-text">
                             <h5 class="text-white">Shayaan Khan</h5>
                             <p class="small text-white mb-0">Frontend Developer</p>
-                          </div>
-                        </div>
-                      </a>
-                    </div>
-                    {/* <!-- Card item END --> */}
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    {/* <!-- Card item START --> */}
-                    <div class="item tns-item tns-slide-active" id="tns1-item0">
-                      <a href="#" class="card card-metro">
-                        {/* <!-- Card Image --> */}
-                        <div class="card-image">
-                          <img src="https://ca.slack-edge.com/T061U5D9280-U06FHQWCT0S-f78293dc9ef9-512" alt="card image" />
-                        </div>
-                        {/* <!-- Card Overlay --> */}
-                        <div class="card-img-overlay d-flex flex-column">
-                          <div class="mt-auto card-text">
-                            <h5 class="text-white">Meenakshi Savasiya</h5>
-                            <p class="small text-white mb-0">Graphics designer</p>
-                          </div>
-                        </div>
-                      </a>
-                    </div>
-                    {/* <!-- Card item END --> */}
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    {/* <!-- Card item START --> */}
-                    <div class="item tns-item tns-slide-active" id="tns1-item0">
-                      <a href="#" class="card card-metro">
-                        {/* <!-- Card Image --> */}
-                        <div class="card-image">
-                          <img src="https://ca.slack-edge.com/T061U5D9280-U077WMQTU7L-53d9567b2eb9-512" alt="card image" />
-                        </div>
-                        {/* <!-- Card Overlay --> */}
-                        <div class="card-img-overlay d-flex flex-column">
-                          <div class="mt-auto card-text">
-                            <h5 class="text-white">Abhishek Ahirwar</h5>
-                            <p class="small text-white mb-0">Backend Developer</p>
                           </div>
                         </div>
                       </a>

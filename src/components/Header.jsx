@@ -17,6 +17,7 @@ const Header = () => {
     position: isHome ? "absolute" : "relative",
     // add other styles as needed
   };
+
   const handleMenuClick = () => {
     setOpenMenu2(false);
     const dropdownMenu = document.querySelector(
@@ -27,27 +28,10 @@ const Header = () => {
     }
   };
 
-  // const [servicesDropdownVisible, setServicesDropdownVisible] = useState(false);
-  // const [rentalsDropdownVisible, setRentalsDropdownVisible] = useState(false);
-
-  // Function to show dropdown menu for the services link and hide the rentals link's dropdown menu
-  // const handleServicesMouseOver = () => {
-  //   console.log('Mouse over Services');
-  //   setServicesDropdownVisible(true);
-  //   setRentalsDropdownVisible(false);
-  // };
-
-  // Function to show dropdown menu for the rentals link and hide the services link's dropdown menu
-  // const handleRentalsMouseOver = () => {
-  //   console.log('Mouse over Rentals');
-  //   setServicesDropdownVisible(false);
-  //   setRentalsDropdownVisible(true);
-  // };
   return (
     <>
       {/* <!-- Offcanvas end START --> */}
       <div
-        // class="offcanvas offcanvas-end bg-dark"
         className={
           openMenu
             ? "offcanvas offcanvas-end bg-dark show"
@@ -103,20 +87,6 @@ const Header = () => {
                   About
                 </Link>
               </li>
-              {/* <li class="nav-item display-6 h5">
-                <Link
-                  class="nav-link text-white-stroke"
-                  to="#"
-                  onClick={() => {
-                    setOpenMenu(false);
-                    document
-                      .querySelector(".offcanvas-backdrop")
-                      .classList.remove("show");
-                  }}
-                >
-                  Work
-                </Link>
-              </li> */}
               <li class="nav-item display-6 h5">
                 <Link
                   class="nav-link text-white-stroke"
@@ -240,86 +210,6 @@ const Header = () => {
       </div>
       {/* <!-- Search END --> */}
 
-      {/* <!-- Login Popup START --> */}
-      {/* <div class="modal fade" id="topbarlogin">
-        <div class="modal-dialog modal-dialog-centered">
-          <div class="modal-content">
-            <div class="modal-header bg-primary pattern-overlay-7">
-              <div class="modal-title p-3 text-white-force">
-                <h5 class="mb-0">Sign in to your account!</h5>
-                <p class="mb-0">
-                  Nice to see you! Please log in with your account.
-                </p>
-              </div>
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="modal"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div class="modal-body">
-              <div class="w-100 p-3">
-                
-                <form>
-                  
-                  <div class="mb-3">
-                    <label class="form-label" for="exampleInputEmail1">
-                      Email address
-                    </label>
-                    <input
-                      type="email"
-                      class="form-control"
-                      id="exampleInputEmail1"
-                      placeholder="E-mail"
-                    />
-                  </div>
-                  
-                  <div class="mb-3">
-                    <label class="form-label" for="exampleInputPassword1">
-                      Password
-                    </label>
-                    <input
-                      type="password"
-                      class="form-control"
-                      id="exampleInputPassword1"
-                      placeholder="*********"
-                    />
-                  </div>
-                  
-                  <div class="mb-3 form-check">
-                    <input
-                      type="checkbox"
-                      class="form-check-input"
-                      id="exampleCheck1"
-                    />
-                    <label class="form-check-label" for="exampleCheck1">
-                      keep me signed in
-                    </label>
-                  </div>
-                 
-                  <div class="row align-items-center">
-                    <div class="col-sm-4">
-                      <button type="submit" class="btn btn-dark btn-line">
-                        Login
-                      </button>
-                    </div>
-                    <div class="col-sm-8 text-sm-end">
-                      <span class="text-muted">
-                        Don't have an account?{" "}
-                        <Link to="sign-up.html">Signup here</Link>
-                      </span>
-                    </div>
-                  </div>
-                </form>
-               
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> */}
-      {/* <!-- Login Popup END --> */}
-
       {/* <!-- Header START --> */}
       <header
         style={headerStyle}
@@ -359,7 +249,7 @@ const Header = () => {
 
               {/* <!-- Navbar top Right--> */}
               <div class="d-flex align-items-center justify-content-center">
-                {/* <!-- Language --> */}
+                {/* <!-- Languages --> */}
                 <div class="dropdown ms-3">
                   <Link
                     class="dropdown-toggle text-white text-primary-hover"
@@ -372,7 +262,7 @@ const Header = () => {
                   >
                     {" "}
                     <img
-                      class="fa-fw me-2"
+                      class="fa-fw me-1"
                       src="assets/images/flags/uk.svg"
                       alt=""
                     />{" "}
@@ -384,33 +274,55 @@ const Header = () => {
                   >
                     <span class="dropdown-item-text">Select language</span>
                     <div class="dropdown-divider"></div>
-                    {/* <Link class="dropdown-item" to="#">
-                      <img
-                        class="fa-fw me-2"
-                        src="assets/images/flags/sp.svg"
-                        alt=""
-                      />{" "}
-                      Español
-                    </Link>
-                    <Link class="dropdown-item" to="#">
-                      <img
-                        class="fa-fw me-2"
-                        src="assets/images/flags/fr.svg"
-                        alt=""
-                      />{" "}
-                      Français
-                    </Link>
-                    <Link class="dropdown-item" to="#">
-                      <img
-                        class="fa-fw me-2"
-                        src="assets/images/flags/gr.svg"
-                        alt=""
-                      />{" "}
-                      Deutsch
-                    </Link> */}
                   </div>
                 </div>
-
+                {/* <!-- Employee Section (useful links) --> */}
+                <div class="dropdown ms-3">
+                  <Link
+                    class="dropdown-toggle text-white text-primary-hover"
+                    to="#"
+                    role="button"
+                    id="dropdownLanguage"
+                    data-bs-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    {" "}
+                    <i class="bi bi-people-fill fa-fw me-1"></i>
+                    Employee Section
+                  </Link>
+                  <div
+                    class="dropdown-menu mt-2 shadow"
+                    aria-labelledby="dropdownLanguage"
+                  >
+                    <span class="dropdown-item-text">Select Option</span>
+                    <div class="dropdown-divider"></div>
+                    <Link class="dropdown-item" to="https://meeting.bhagirathtechnologies.com/" target="_blank">
+                      <img
+                        class="fa-fw me-2"
+                        src="assets/images/flags/Zoho_meet.png"
+                        alt=""
+                      />{" "}
+                      Zoho Meet
+                    </Link>
+                    <Link class="dropdown-item" to="https://people.bhagirathtechnologies.com/" target="_blank">
+                      <img
+                        class="fa-fw me-2"
+                        src="assets/images/flags/Zoho-people.png"
+                        alt=""
+                      />{" "}
+                      Zoho People
+                    </Link>
+                    <Link class="dropdown-item" to="https://careers.bhagirathtechnologies.com/" target="_blank">
+                      <img
+                        class="fa-fw me-2"
+                        src="assets/images/flags/Zoho-career.png"
+                        alt=""
+                      />{" "}
+                      Zoho Careers
+                    </Link>
+                  </div>
+                </div>
                 {/* <!-- Top link --> */}
                 <ul class="nav ms-3">
                   <li class="nav-item">
@@ -421,16 +333,6 @@ const Header = () => {
                       Contact
                     </Link>
                   </li>
-                  {/* <li class="nav-item">
-                    <Link
-                      to="#"
-                      class="nav-link text-white text-primary-hover"
-                      data-bs-toggle="modal"
-                      data-bs-target="#topbarlogin"
-                    >
-                      <i class="far fa-user me-2"></i>Login
-                    </Link>
-                  </li> */}
                 </ul>
 
                 {/* <!-- Top social --> */}
@@ -447,12 +349,6 @@ const Header = () => {
                       <i class="fab fa-instagram"></i>
                     </Link>{" "}
                   </li>
-                  {/* <li>
-                    {" "}
-                    <Link class="text-white text-primary-hover ps-2" to="#">
-                      <i class="fab fa-twitter"></i>
-                    </Link>{" "}
-                  </li> */}
                 </ul>
               </div>
             </div>
@@ -499,54 +395,14 @@ const Header = () => {
               id="navbarCollapse"
             >
               <ul class="navbar-nav navbar-nav-scroll navbar-nav-scroll mx-auto">
-                {/* <!-- Menu item 1 Demos --> */}
+                {/* <!-- Menu item 1 Home --> */}
                 <li class="nav-item dropdown">
                   <Link class="nav-link" to="/">
                     Home
                   </Link>
                 </li>
 
-                {/* <!-- Menu item 2 Pages --> */}
-                {/* <li class="nav-item dropdown">
-                  <Link
-                    class="nav-link dropdown-toggle"
-                    to="#"
-                    id="pagesMenu"
-                    data-bs-toggle="dropdown"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                  >
-                    About Us
-                  </Link>
-                  <ul class="dropdown-menu" aria-labelledby="pagesMenu">
-                    <li class="dropdown-submenu dropend">
-                      <Link class="dropdown-item" to="#">
-                        Blog
-                        <span class="badge bg-success ms-2">2 new post</span>
-                      </Link>
-                    </li>
-
-                    <li>
-                      {" "}
-                      <Link class="dropdown-item" to="#">
-                        Portfolio
-                      </Link>
-                    </li>
-                    <li class="dropdown-submenu dropend">
-                      <Link class="dropdown-item" to="#">
-                        Pricing<span class="badge bg-danger ms-2">New</span>
-                      </Link>
-                    </li>
-                    <li>
-                      {" "}
-                      <Link class="dropdown-item" to="faq.html">
-                        faqs
-                      </Link>
-                    </li>
-                  </ul>
-                </li> */}
-
-                {/* <!-- Menu item 3 Portfolio --> */}
+                {/* <!-- Menu item 2 Services --> */}
                 <li class="nav-item dropdown dropdown-fullwidth">
                   <Link
                     class="nav-link dropdown-toggle"
@@ -558,269 +414,269 @@ const Header = () => {
                     onMouseOver={() => {
                       document.querySelector('.navbar-expand-lg .navbar-nav .dropdown:hover>.dropdown-menu').style.visibility = "visible";
                     }}
-                    // onMouseOver={handleServicesMouseOver}
+                  // onMouseOver={handleServicesMouseOver}
                   >
                     Services
                   </Link>
                   {/* {servicesDropdownVisible && ( */}
-                    <div class="dropdown-menu" aria-labelledby="portfolioMenu">
-                      <div class="container">
-                        <div class="row g-0 flex-fill">
-                          <div class="col-sm-6 col-lg-3">
-                            <ul class="list-unstyled mb-4 mb-lg-0">
-                              
-                              {/* <li class="dropdown-header">Web Development</li> */}
-                              <li>
-                                {" "}
-                                <HashLink
-                                  class="dropdown-header"
-                                  to="/services/Web Development"
-                                  onClick={handleMenuClick}
-                                >
-                                  Web Development
-                                </HashLink>{" "}
-                              </li>
-                              <li>
-                                {" "}
-                                <HashLink
-                                  class="dropdown-item"
-                                  to="/services/1"
-                                  onClick={handleMenuClick}
-                                >
-                                  Website Design
-                                </HashLink>{" "}
-                              </li>
-                              <li>
-                                {" "}
-                                <HashLink
-                                  class="dropdown-item"
-                                  to="/services/2"
-                                  onClick={handleMenuClick}
-                                >
-                                  Web Applications
-                                </HashLink>{" "}
-                              </li>
-                              <li>
-                                {" "}
-                                <HashLink
-                                  class="dropdown-item"
-                                  to="/services/3"
-                                  onClick={handleMenuClick}
-                                >
-                                  Custom Software Development
-                                </HashLink>{" "}
-                              </li>
-                              <li>
-                                {" "}
-                                <HashLink
-                                  class="dropdown-item"
-                                  to="/services/4"
-                                  onClick={handleMenuClick}
-                                >
-                                  E-Commerce Application
-                                </HashLink>{" "}
-                              </li>
-                            </ul>
-                          </div>
-                          <div class="col-sm-6 col-lg-3">
-                            <ul class="list-unstyled mb-4 mb-lg-0">
-                              {/* <li class="dropdown-header">
+                  <div class="dropdown-menu" aria-labelledby="portfolioMenu">
+                    <div class="container">
+                      <div class="row g-0 flex-fill">
+                        <div class="col-sm-6 col-lg-3">
+                          <ul class="list-unstyled mb-4 mb-lg-0">
+
+                            {/* <li class="dropdown-header">Web Development</li> */}
+                            <li>
+                              {" "}
+                              <HashLink
+                                class="dropdown-header"
+                                to="/services/Web Development"
+                                onClick={handleMenuClick}
+                              >
+                                Web Development
+                              </HashLink>{" "}
+                            </li>
+                            <li>
+                              {" "}
+                              <HashLink
+                                class="dropdown-item"
+                                to="/services/1"
+                                onClick={handleMenuClick}
+                              >
+                                Website Design
+                              </HashLink>{" "}
+                            </li>
+                            <li>
+                              {" "}
+                              <HashLink
+                                class="dropdown-item"
+                                to="/services/2"
+                                onClick={handleMenuClick}
+                              >
+                                Web Applications
+                              </HashLink>{" "}
+                            </li>
+                            <li>
+                              {" "}
+                              <HashLink
+                                class="dropdown-item"
+                                to="/services/3"
+                                onClick={handleMenuClick}
+                              >
+                                Custom Software Development
+                              </HashLink>{" "}
+                            </li>
+                            <li>
+                              {" "}
+                              <HashLink
+                                class="dropdown-item"
+                                to="/services/4"
+                                onClick={handleMenuClick}
+                              >
+                                E-Commerce Application
+                              </HashLink>{" "}
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="col-sm-6 col-lg-3">
+                          <ul class="list-unstyled mb-4 mb-lg-0">
+                            {/* <li class="dropdown-header">
                                 Graphics & E-commerce
                               </li> */}
-                              <li>
-                                {" "}
-                                <HashLink
-                                  class="dropdown-header"
-                                  to="/services/Graphics & E-commerce"
-                                  onClick={handleMenuClick}
-                                >
-                                  Graphics & E-commerce
-                                </HashLink>{" "}
-                              </li>
-                              <li>
-                                {" "}
-                                <HashLink
-                                  class="dropdown-item"
-                                  to="/services/5"
-                                  onClick={handleMenuClick}
-                                >
-                                  Logo Designing
-                                </HashLink>{" "}
-                              </li>
-                              <li>
-                                {" "}
-                                <HashLink
-                                  class="dropdown-item"
-                                  to="/services/6"
-                                  onClick={handleMenuClick}
-                                >
-                                  Banner Poster Designs
-                                </HashLink>{" "}
-                              </li>
-                              <li>
-                                {" "}
-                                <HashLink
-                                  class="dropdown-item"
-                                  to="/services/7"
-                                  onClick={handleMenuClick}
-                                >
-                                  Print Media
-                                  <span class="badge bg-danger ms-2">
-                                    Trendy
-                                  </span>
-                                </HashLink>{" "}
-                              </li>
-                              <li>
-                                {" "}
-                                <HashLink
-                                  class="dropdown-item"
-                                  to="/services/8"
-                                  onClick={handleMenuClick}
-                                >
-                                  Figma Designs
-                                </HashLink>{" "}
-                              </li>
-                            </ul>
-                          </div>
-                          <div class="col-sm-6 col-lg-3">
-                            <ul class="list-unstyled mb-4 mb-lg-0">
-                              {/* <li class="dropdown-header">Online Marketing</li> */}
-                              <li>
-                                {" "}
-                                <HashLink
-                                  class="dropdown-header"
-                                  to="/services/Online Marketing"
-                                  onClick={handleMenuClick}
-                                >
-                                  Online Marketing
-                                </HashLink>{" "}
-                              </li>
-                              <li>
-                                {" "}
-                                <HashLink
-                                  class="dropdown-item"
-                                  to="/services/9"
-                                  onClick={handleMenuClick}
-                                >
-                                  Digital Marketing
-                                </HashLink>{" "}
-                              </li>
-                              <li>
-                                {" "}
-                                <HashLink
-                                  class="dropdown-item"
-                                  to="/services/10"
-                                  onClick={handleMenuClick}
-                                >
-                                  Social Media Marketing
-                                </HashLink>{" "}
-                              </li>
-                              <li>
-                                {" "}
-                                <HashLink
-                                  class="dropdown-item"
-                                  to="/services/11"
-                                  onClick={handleMenuClick}
-                                >
-                                  Google Ads Campaign
-                                </HashLink>{" "}
-                              </li>
-                              <li>
-                                {" "}
-                                <HashLink
-                                  class="dropdown-item"
-                                  to="/services/12"
-                                  onClick={handleMenuClick}
-                                >
-                                  Content Writing
-                                </HashLink>{" "}
-                              </li>
-                            </ul>
-                          </div>
-                          <div class="col-sm-6 col-lg-3">
-                            <ul class="list-unstyled">
-                              {/* <li class="dropdown-header">Branding</li> */}
-                              <li>
-                                {" "}
-                                <HashLink
-                                  class="dropdown-header"
-                                  to="/services/Branding"
-                                  onClick={handleMenuClick}
-                                >
-                                  Branding
-                                </HashLink>{" "}
-                              </li>
-                              <li>
-                                {" "}
-                                <HashLink
-                                  class="dropdown-item"
-                                  to="/services/13"
-                                  onClick={handleMenuClick}
-                                >
-                                  Brand Identity
-                                </HashLink>{" "}
-                              </li>
-                              <li>
-                                {" "}
-                                <HashLink
-                                  class="dropdown-item"
-                                  to="/services/14"
-                                  onClick={handleMenuClick}
-                                >
-                                  Mockup Design
-                                </HashLink>{" "}
-                              </li>
-                              <li>
-                                {" "}
-                                <HashLink
-                                  class="dropdown-item"
-                                  to="/services/15"
-                                  onClick={handleMenuClick}
-                                >
-                                  Visual Design
-                                </HashLink>{" "}
-                              </li>
-                              <li>
-                                {" "}
-                                <HashLink
-                                  class="dropdown-item"
-                                  to="/services/16"
-                                  onClick={handleMenuClick}
-                                >
-                                  Illustration & Iconography
-                                </HashLink>{" "}
-                              </li>
-                            </ul>
-                          </div>
+                            <li>
+                              {" "}
+                              <HashLink
+                                class="dropdown-header"
+                                to="/services/Graphics & E-commerce"
+                                onClick={handleMenuClick}
+                              >
+                                Graphics & E-commerce
+                              </HashLink>{" "}
+                            </li>
+                            <li>
+                              {" "}
+                              <HashLink
+                                class="dropdown-item"
+                                to="/services/5"
+                                onClick={handleMenuClick}
+                              >
+                                Logo Designing
+                              </HashLink>{" "}
+                            </li>
+                            <li>
+                              {" "}
+                              <HashLink
+                                class="dropdown-item"
+                                to="/services/6"
+                                onClick={handleMenuClick}
+                              >
+                                Banner Poster Designs
+                              </HashLink>{" "}
+                            </li>
+                            <li>
+                              {" "}
+                              <HashLink
+                                class="dropdown-item"
+                                to="/services/7"
+                                onClick={handleMenuClick}
+                              >
+                                Print Media
+                                <span class="badge bg-danger ms-2">
+                                  Trendy
+                                </span>
+                              </HashLink>{" "}
+                            </li>
+                            <li>
+                              {" "}
+                              <HashLink
+                                class="dropdown-item"
+                                to="/services/8"
+                                onClick={handleMenuClick}
+                              >
+                                Figma Designs
+                              </HashLink>{" "}
+                            </li>
+                          </ul>
                         </div>
-                        <div class="col-12 mt-3">
-                          <div class="bg-dark p-5 pb-4 w-100 pattern-overlay-2">
-                            <div class="row d-md-flex justify-content-center">
-                              <h5 class="col-md-4 text-white mb-4">
-                                Explore our Digital Era
-                              </h5>
-                              <p class="col-md-3 text-white">
-                                Embark on the journey to your dream website
-                                hassle-free. Explore our offerings today!
-                              </p>
-                              <div class="col-md-3 text-md-end">
-                                <HashLink
-                                  class="btn btn-line btn-success"
-                                  to="/services"
-                                  onClick={handleMenuClick}
-                                >
-                                  View All
-                                </HashLink>
-                              </div>
+                        <div class="col-sm-6 col-lg-3">
+                          <ul class="list-unstyled mb-4 mb-lg-0">
+                            {/* <li class="dropdown-header">Online Marketing</li> */}
+                            <li>
+                              {" "}
+                              <HashLink
+                                class="dropdown-header"
+                                to="/services/Online Marketing"
+                                onClick={handleMenuClick}
+                              >
+                                Online Marketing
+                              </HashLink>{" "}
+                            </li>
+                            <li>
+                              {" "}
+                              <HashLink
+                                class="dropdown-item"
+                                to="/services/9"
+                                onClick={handleMenuClick}
+                              >
+                                Digital Marketing
+                              </HashLink>{" "}
+                            </li>
+                            <li>
+                              {" "}
+                              <HashLink
+                                class="dropdown-item"
+                                to="/services/10"
+                                onClick={handleMenuClick}
+                              >
+                                Social Media Marketing
+                              </HashLink>{" "}
+                            </li>
+                            <li>
+                              {" "}
+                              <HashLink
+                                class="dropdown-item"
+                                to="/services/11"
+                                onClick={handleMenuClick}
+                              >
+                                Google Ads Campaign
+                              </HashLink>{" "}
+                            </li>
+                            <li>
+                              {" "}
+                              <HashLink
+                                class="dropdown-item"
+                                to="/services/12"
+                                onClick={handleMenuClick}
+                              >
+                                Content Writing
+                              </HashLink>{" "}
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="col-sm-6 col-lg-3">
+                          <ul class="list-unstyled">
+                            {/* <li class="dropdown-header">Branding</li> */}
+                            <li>
+                              {" "}
+                              <HashLink
+                                class="dropdown-header"
+                                to="/services/Branding"
+                                onClick={handleMenuClick}
+                              >
+                                Branding
+                              </HashLink>{" "}
+                            </li>
+                            <li>
+                              {" "}
+                              <HashLink
+                                class="dropdown-item"
+                                to="/services/13"
+                                onClick={handleMenuClick}
+                              >
+                                Brand Identity
+                              </HashLink>{" "}
+                            </li>
+                            <li>
+                              {" "}
+                              <HashLink
+                                class="dropdown-item"
+                                to="/services/14"
+                                onClick={handleMenuClick}
+                              >
+                                Mockup Design
+                              </HashLink>{" "}
+                            </li>
+                            <li>
+                              {" "}
+                              <HashLink
+                                class="dropdown-item"
+                                to="/services/15"
+                                onClick={handleMenuClick}
+                              >
+                                Visual Design
+                              </HashLink>{" "}
+                            </li>
+                            <li>
+                              {" "}
+                              <HashLink
+                                class="dropdown-item"
+                                to="/services/16"
+                                onClick={handleMenuClick}
+                              >
+                                Illustration & Iconography
+                              </HashLink>{" "}
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col-12 mt-3">
+                        <div class="bg-dark p-5 pb-4 w-100 pattern-overlay-2">
+                          <div class="row d-md-flex justify-content-center">
+                            <h5 class="col-md-4 text-white mb-4">
+                              Explore our Digital Era
+                            </h5>
+                            <p class="col-md-3 text-white">
+                              Embark on the journey to your dream website
+                              hassle-free. Explore our offerings today!
+                            </p>
+                            <div class="col-md-3 text-md-end">
+                              <HashLink
+                                class="btn btn-line btn-success"
+                                to="/services"
+                                onClick={handleMenuClick}
+                              >
+                                View All
+                              </HashLink>
                             </div>
                           </div>
                         </div>
                       </div>
                     </div>
+                  </div>
                   {/* )} */}
                 </li>
 
-                {/* <!-- Menu item 4 Elements --> */}
+                {/* <!-- Menu item 3 Rentals --> */}
                 <li class="nav-item dropdown dropdown-fullwidth">
                   <Link
                     class="nav-link dropdown-toggle"
@@ -832,228 +688,267 @@ const Header = () => {
                     onMouseOver={() => {
                       document.querySelector('.navbar-expand-lg .navbar-nav .dropdown:hover>.dropdown-menu').style.visibility = "visible";
                     }}
-                    // onMouseOver={handleRentalsMouseOver}
+                  // onMouseOver={handleRentalsMouseOver}
                   >
                     Rental <span class="badge bg-danger">New</span>
                   </Link>
                   {/* {rentalsDropdownVisible && ( */}
-                    <div class="dropdown-menu" aria-labelledby="elementsMenu">
-                      <div class="container">
-                        <div class="row g-0 flex-fill">
-                          <div class="col-sm-6 col-lg-3">
-                            <ul class="list-unstyled">
-                              <li class="dropdown-header">Laptops</li>
-                              <li>
-                                {" "}
-                                <Link
-                                  class="dropdown-item"
-                                  to="/rental/1"
-                                  onClick={handleMenuClick}
-                                >
-                                  <i class="bi bi-laptop fa-fw me-2"></i>MacBook
-                                </Link>{" "}
-                              </li>
-                              <li>
-                                {" "}
-                                <Link
-                                  class="dropdown-item"
-                                  to="/rental/2"
-                                  onClick={handleMenuClick}
-                                >
-                                  <i class="fas fa-laptop fa-fw me-2"></i>
-                                  MacBook Air
-                                </Link>{" "}
-                              </li>
-                              <li>
-                                {" "}
-                                <Link
-                                  class="dropdown-item"
-                                  to="/rental/3"
-                                  onClick={handleMenuClick}
-                                >
-                                  <i class="bi bi-laptop-fill fa-fw me-2"></i>Hp
-                                  Laptops
-                                </Link>{" "}
-                              </li>
-                              <li>
-                                {" "}
-                                <Link
-                                  class="dropdown-item"
-                                  to="/rental/4"
-                                  onClick={handleMenuClick}
-                                >
-                                  <i class="fas fa-laptop-code blink-animation fa-fw me-2"></i>
-                                  Other Laptops
-                                </Link>{" "}
-                              </li>
-                            </ul>
-                          </div>
-                          <div class="col-sm-6 col-lg-3">
-                            <ul class="list-unstyled">
-                              <li class="dropdown-header">Desktops</li>
-                              <li>
-                                {" "}
-                                <Link
-                                  class="dropdown-item"
-                                  to="/rental/5"
-                                  onClick={handleMenuClick}
-                                >
-                                  <i class="fas fa-desktop fa-fw me-2"></i>
-                                  Computers
-                                </Link>{" "}
-                              </li>
-                              <li>
-                                {" "}
-                                <Link
-                                  class="dropdown-item"
-                                  to="/rental/6"
-                                  onClick={handleMenuClick}
-                                >
-                                  <i class="bi bi-pc-display-horizontal fa-fw me-2"></i>
-                                  Desktop
-                                </Link>{" "}
-                              </li>
-                              <li>
-                                {" "}
-                                <Link
-                                  class="dropdown-item"
-                                  to="/rental/7"
-                                  onClick={handleMenuClick}
-                                >
-                                  <i class="bi bi-pc-display fa-fw me-2"></i>
-                                  Gaming Computers
-                                </Link>{" "}
-                              </li>
-                            </ul>
-                          </div>
-                          <div class="col-sm-6 col-lg-3">
-                            <ul class="list-unstyled">
-                              <li class="dropdown-header">Peripherals</li>
-                              <li>
-                                {" "}
-                                <Link
-                                  class="dropdown-item"
-                                  to="/rental/8"
-                                  onClick={handleMenuClick}
-                                >
-                                  <i class="fas fa-hdd fa-fw me-2"></i>CPUs
-                                </Link>{" "}
-                              </li>
-                              <li>
-                                {" "}
-                                <Link
-                                  class="dropdown-item"
-                                  to="/rental/9"
-                                  onClick={handleMenuClick}
-                                >
-                                  <i class="fas fa-keyboard fa-fw me-2"></i>
-                                  Keyboard
-                                </Link>{" "}
-                              </li>
-                              <li>
-                                {" "}
-                                <Link
-                                  class="dropdown-item"
-                                  to="/rental/10"
-                                  onClick={handleMenuClick}
-                                >
-                                  <i class="fas fa-mouse fa-fw me-2"></i>Mouse
-                                </Link>{" "}
-                              </li>
-                              <li>
-                                {" "}
-                                <Link
-                                  class="dropdown-item"
-                                  to="/rental/11"
-                                  onClick={handleMenuClick}
-                                >
-                                  <i class="bi bi-webcam-fill fa-fw me-2"></i>IP
-                                  Cameras
-                                </Link>{" "}
-                              </li>
-                            </ul>
-                          </div>
-                          <div class="col-sm-6 col-lg-3">
-                            <ul class="list-unstyled">
-                              <li class="dropdown-header">
+                  <div class="dropdown-menu" aria-labelledby="elementsMenu">
+                    <div class="container">
+                      <div class="row g-0 flex-fill">
+                        <div class="col-sm-6 col-lg-3">
+                          <ul class="list-unstyled">
+                            <li>
+                              {" "}
+                              <Link
+                                class="dropdown-header"
+                                to="/rental/Laptops"
+                                onClick={handleMenuClick}
+                              >
+                                <i class="bi bi-laptop fa-fw me-2"></i>Laptops
+                              </Link>{" "}
+                            </li>
+                            <li>
+
+                              {" "}
+                              <Link
+                                class="dropdown-item"
+                                to="/rental/1"
+                                onClick={handleMenuClick}
+                              >
+                                <i class="bi bi-laptop fa-fw me-2"></i>MacBook
+                              </Link>{" "}
+                            </li>
+                            <li>
+                              {" "}
+                              <Link
+                                class="dropdown-item"
+                                to="/rental/2"
+                                onClick={handleMenuClick}
+                              >
+                                <i class="fas fa-laptop fa-fw me-2"></i>
+                                MacBook Air
+                              </Link>{" "}
+                            </li>
+                            <li>
+                              {" "}
+                              <Link
+                                class="dropdown-item"
+                                to="/rental/3"
+                                onClick={handleMenuClick}
+                              >
+                                <i class="bi bi-laptop-fill fa-fw me-2"></i>Hp
+                                Laptops
+                              </Link>{" "}
+                            </li>
+                            <li>
+                              {" "}
+                              <Link
+                                class="dropdown-item"
+                                to="/rental/4"
+                                onClick={handleMenuClick}
+                              >
+                                <i class="fas fa-laptop-code blink-animation fa-fw me-2"></i>
+                                Other Laptops
+                              </Link>{" "}
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="col-sm-6 col-lg-3">
+                          <ul class="list-unstyled">
+
+                            <li>
+                              {" "}
+                              <Link
+                                class="dropdown-header"
+                                to="/rental/Desktops"
+                                onClick={handleMenuClick}
+                              >
+                                <i class="fas fa-desktop fa-fw me-2"></i>
+                                Desktops
+                              </Link>{" "}
+                            </li>
+                            <li>
+                              {" "}
+                              <Link
+                                class="dropdown-item"
+                                to="/rental/5"
+                                onClick={handleMenuClick}
+                              >
+                                <i class="fas fa-desktop fa-fw me-2"></i>
+                                Computers
+                              </Link>{" "}
+                            </li>
+                            <li>
+                              {" "}
+                              <Link
+                                class="dropdown-item"
+                                to="/rental/6"
+                                onClick={handleMenuClick}
+                              >
+                                <i class="bi bi-pc-display-horizontal fa-fw me-2"></i>
+                                Desktop
+                              </Link>{" "}
+                            </li>
+                            <li>
+                              {" "}
+                              <Link
+                                class="dropdown-item"
+                                to="/rental/7"
+                                onClick={handleMenuClick}
+                              >
+                                <i class="bi bi-pc-display fa-fw me-2"></i>
+                                Gaming Computers
+                              </Link>{" "}
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="col-sm-6 col-lg-3">
+                          <ul class="list-unstyled">
+                            <li>
+                              {" "}
+                              <Link
+                                class="dropdown-header"
+                                to="/rental/Peripherals"
+                                onClick={handleMenuClick}
+                              >
+                                <i class="bi bi-laptop fa-fw me-2"></i>Peripherals
+                              </Link>{" "}
+                            </li>
+                            <li>
+                              {" "}
+                              <Link
+                                class="dropdown-item"
+                                to="/rental/8"
+                                onClick={handleMenuClick}
+                              >
+                                <i class="fas fa-hdd fa-fw me-2"></i>CPUs
+                              </Link>{" "}
+                            </li>
+                            <li>
+                              {" "}
+                              <Link
+                                class="dropdown-item"
+                                to="/rental/9"
+                                onClick={handleMenuClick}
+                              >
+                                <i class="fas fa-keyboard fa-fw me-2"></i>
+                                Keyboard
+                              </Link>{" "}
+                            </li>
+                            <li>
+                              {" "}
+                              <Link
+                                class="dropdown-item"
+                                to="/rental/10"
+                                onClick={handleMenuClick}
+                              >
+                                <i class="fas fa-mouse fa-fw me-2"></i>Mouse
+                              </Link>{" "}
+                            </li>
+                            <li>
+                              {" "}
+                              <Link
+                                class="dropdown-item"
+                                to="/rental/11"
+                                onClick={handleMenuClick}
+                              >
+                                <i class="bi bi-webcam-fill fa-fw me-2"></i>IP
+                                Cameras
+                              </Link>{" "}
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="col-sm-6 col-lg-3">
+                          <ul class="list-unstyled">
+
+                            <li>
+                              {" "}
+                              <Link
+                                class="dropdown-header"
+                                to="/rental/Printers & Screens"
+                                onClick={handleMenuClick}
+                              >
+                                <i class="fas fa-print fa-fw me-2"></i>
                                 Printers & Screens
-                              </li>
-                              <li>
-                                {" "}
-                                <Link
-                                  class="dropdown-item"
-                                  to="/rental/12"
+                              </Link>{" "}
+                            </li>
+                            <li>
+                              {" "}
+                              <Link
+                                class="dropdown-item"
+                                to="/rental/12"
+                                onClick={handleMenuClick}
+                              >
+                                <i class="fas fa-print fa-fw me-2"></i>
+                                Printers
+                              </Link>{" "}
+                            </li>
+                            <li>
+                              {" "}
+                              <Link
+                                class="dropdown-item"
+                                to="/rental/13"
+                                onClick={handleMenuClick}
+                              >
+                                <i class="bi bi-printer-fill fa-fw me-2"></i>
+                                Scanners
+                              </Link>{" "}
+                            </li>
+                            <li>
+                              {" "}
+                              <Link
+                                class="dropdown-item"
+                                to="/rental/14"
+                                onClick={handleMenuClick}
+                              >
+                                <i class="fas fa-tv fa-fw me-2"></i>LED
+                                Screens
+                              </Link>{" "}
+                            </li>
+                            <li>
+                              {" "}
+                              <Link
+                                class="dropdown-item"
+                                to="/rental/15"
+                                onClick={handleMenuClick}
+                              >
+                                <i class="bi bi-tv-fill fa-fw me-2"></i>Panel
+                                Screens
+                              </Link>{" "}
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="col-12 mt-3">
+                          <div class="bg-dark p-5 pb-4 w-100 pattern-overlay-1">
+                            <div class="row d-md-flex justify-content-center">
+                              <h5 class="col-md-4 text-white mb-4">
+                                Innovate and Create with TechHub
+                              </h5>
+                              <p class="col-md-3 text-white">
+                                Initiate your creative potential with TechHub.
+                                Secure your dream today and build
+                                effortlessly!
+                              </p>
+                              <div class="col-md-3 text-md-end">
+                                <HashLink
+                                  class="btn btn-line btn-success"
+                                  to="/rental"
                                   onClick={handleMenuClick}
                                 >
-                                  <i class="fas fa-print fa-fw me-2"></i>
-                                  Printers
-                                </Link>{" "}
-                              </li>
-                              <li>
-                                {" "}
-                                <Link
-                                  class="dropdown-item"
-                                  to="/rental/13"
-                                  onClick={handleMenuClick}
-                                >
-                                  <i class="bi bi-printer-fill fa-fw me-2"></i>
-                                  Scanners
-                                </Link>{" "}
-                              </li>
-                              <li>
-                                {" "}
-                                <Link
-                                  class="dropdown-item"
-                                  to="/rental/14"
-                                  onClick={handleMenuClick}
-                                >
-                                  <i class="fas fa-tv fa-fw me-2"></i>LED
-                                  Screens
-                                </Link>{" "}
-                              </li>
-                              <li>
-                                {" "}
-                                <Link
-                                  class="dropdown-item"
-                                  to="/rental/15"
-                                  onClick={handleMenuClick}
-                                >
-                                  <i class="bi bi-tv-fill fa-fw me-2"></i>Panel
-                                  Screens
-                                </Link>{" "}
-                              </li>
-                            </ul>
-                          </div>
-                          <div class="col-12 mt-3">
-                            <div class="bg-dark p-5 pb-4 w-100 pattern-overlay-1">
-                              <div class="row d-md-flex justify-content-center">
-                                <h5 class="col-md-4 text-white mb-4">
-                                  Innovate and Create with TechHub
-                                </h5>
-                                <p class="col-md-3 text-white">
-                                  Initiate your creative potential with TechHub.
-                                  Secure your dream today and build
-                                  effortlessly!
-                                </p>
-                                <div class="col-md-3 text-md-end">
-                                  <HashLink
-                                    class="btn btn-line btn-success"
-                                    to="/rental"
-                                    onClick={handleMenuClick}
-                                  >
-                                    View All
-                                  </HashLink>
-                                </div>
+                                  View All
+                                </HashLink>
                               </div>
                             </div>
                           </div>
                         </div>
                       </div>
                     </div>
+                  </div>
                   {/* )} */}
                 </li>
 
-                {/* <!-- Menu item 5 Docs--> */}
+                {/* <!-- Menu item 4 Help--> */}
                 <li class="nav-item dropdown">
                   <Link
                     class="nav-link dropdown-toggle"
@@ -1071,23 +966,6 @@ const Header = () => {
                     data-bs-popper="none"
                     aria-labelledby="docMenu"
                   >
-                    {/* <li>
-                      <Link class="dropdown-item ps-4" to="#" target="_blank">
-                        <div class="d-flex">
-                          <i class="display-8 mt-n1 me-3 text-primary fa-fw bi bi-chat-right-text"></i>
-                          <div>
-                            <h6 class="my-0">
-                              Support
-                              <i class="fas fa-external-link-square-alt text-body ms-2"></i>
-                            </h6>
-                            <p class="small text-body d-none d-md-block mb-0">
-                              Contact us through our Support portal
-                            </p>
-                          </div>
-                        </div>
-                      </Link>
-                    </li>
-                    <li class="dropdown-divider"></li> */}
                     <li>
                       <div class="dropdown-item ps-4">
                         <div class="d-flex mb-2">
@@ -1104,40 +982,22 @@ const Header = () => {
                               Privacy & Policy
                             </Link>
                             <Link class="dropdown-item px-0" to="/cookies">
-                            Cookies
+                              Cookies
                             </Link>
-                            {/* <Link
-                              class="dropdown-item px-0"
-                              to="docs/gulp.html"
-                            >
-                              Gulp
-                            </Link> */}
-                            {/* <Link
-                              class="dropdown-item px-0"
-                              to="docs/customization.html"
-                            >
-                              Customization
-                            </Link> */}
-                            {/* <Link
-                              class="dropdown-item px-0"
-                              to="docs/color-scheme.html"
-                            >
-                              Color Scheme
-                            </Link> */}
-                            {/* <Link
-                              class="dropdown-item px-0"
-                              to="docs/changelog.html"
-                            >
-                              changelog
-                            </Link> */}
                           </div>
                         </div>
                       </div>
                     </li>
                   </ul>
                 </li>
-
-                {/* <!-- Menu item 6 link--> */}
+                {/* <!-- Menu item 5 Blog--> */}
+                <li class="nav-item">
+                  {" "}
+                  <Link class="nav-link" to="/blog">
+                    Blog
+                  </Link>
+                </li>
+                {/* <!-- Menu item 6 Contact--> */}
                 <li class="nav-item">
                   {" "}
                   <Link class="nav-link" to="/contact">
@@ -1150,18 +1010,6 @@ const Header = () => {
 
             {/* <!-- Nav right START --> */}
             <div class="nav flex-nowrap align-items-center">
-              {/* <!-- Nav Search Opener--> */}
-              {/* <div class="nav-item">
-                <Link
-                  class="nav-link ms-2"
-                  data-bs-toggle="collapse"
-                  to="#"
-                  data-bs-target="#search-open"
-                >
-                  <i class="bi bi-search display-9 "> </i>
-                </Link>
-              </div> */}
-              {/* <!-- Nav Button --> */}
               <div class="nav-item d-none d-xl-block">
                 <a href="assets/broucher/BTPL_Booklet.pdf" download="BTPL_Booklet.pdf" class="btn btn-sm btn-primary mb-0 mx-2">
                   Get Booklet!

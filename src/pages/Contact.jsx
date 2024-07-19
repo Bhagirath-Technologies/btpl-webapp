@@ -35,6 +35,27 @@ const About = () => {
           </div>
         </div>
       </section>
+      <section class="pb-0">
+        <div class="container">
+          <div class="row d-flex justify-content-lg-between">
+            <div class="col-12">
+              {/* <!-- Typing text --> */}
+              <h1 class="display-3 caret-primary">
+                <span class="typed" data-type-text="Hello&amp;&amp;Bonjour&amp;&amp;Asalaam alaikum&amp;&amp;Guten Tag&amp;&amp;Hola&amp;&amp;Zdravstvuyte">H</span><span class="ityped-cursor">|</span>
+              </h1>
+              <a href="#" class="display-8 text-dark"><u>general@folio.com</u></a><br/>
+                <a href="#" class="display-8 text-dark">+(251) 854-6308</a>
+                {/* <!-- Social links --> */}
+                <ul class="list-unstyled list-group-inline lead">
+                  <li> <a class="text-facebook me-4" href="#">Facebook</a> </li>
+                  <li> <a class="text-instagram-gradient me-4" href="#">Instagram </a> </li>
+                  <li> <a class="text-twitter me-4" href="#">Twitter </a> </li>
+                  <li> <a class="text-linkedin me-4" href="#">LinkedIn </a> </li>
+                </ul>
+            </div>
+          </div>
+        </div>
+      </section>
       <section>
         <div className="col-12">
           <iframe
