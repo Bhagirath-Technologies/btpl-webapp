@@ -365,7 +365,7 @@ const Footer = () => {
                         target="_blank"
                         to="https://bhagirathtechnologies.zohorecruit.in/careers"
                       >
-                        Career <span class="badge bg-danger ms-2">5 Job</span>
+                        Career <span class="badge bg-danger ms-2">3 Jobs</span>
                       </Link>
                     </li>
                     <li class="nav-item">

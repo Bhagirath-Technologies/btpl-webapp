@@ -451,9 +451,6 @@ const About = () => {
           <div class="row">
             <div class="col-12">
               <div class="tiny-slider dots-bordered mb-5">
-
-
-
                 {/* swiper starts  */}
                 <Swiper
                   slidesPerView={3}
@@ -571,7 +568,8 @@ const About = () => {
       {/* Google reviews by elfsight starts */}
       <div class="elfsight-app-1a00f060-a650-431c-925a-a5d0d5dd2f35 elfsight" data-elfsight-app-lazy></div>
       {/* Google reviews by elfsight ends */}
-
+      <div id="JdBadge" data-s1="b1" data-s2="Y3RyY3QlNDAlNDAlNDAwNzU1UFg3NTUlMkJYNzU1JTJCMjQwMjEyMTQwODE1JTJCSTRONQ=="></div>
+      <div id="JdBadgeDest"></div>
       {/* Mission, Vision and Values Starts */}
       <section className="pt-5">
         <div class="container">
