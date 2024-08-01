@@ -792,5 +792,33 @@ var e = {
         }
     }
     // END: Isotope
+
+
+    
 };
 e.init();
+
+//======================================================
+//-----------FORM SUBMIT (Google Apps Script)-----------
+//======================================================
+
+// Contact Us form
+// let formContactUs = document.getElementById("contactForm");
+// formContactUs.addEventListener('submit', (e) => {
+//     e.preventDefault();
+//     document.querySelector("#submitButtonContactUs").value = "Submitting...";
+//     let data = new FormData(formContactUs);
+//     data.append('formType', 'Contact Us'); // Add formType to identify the form
+//     fetch('https://script.google.com/macros/s/AKfycbyBQy_Xul9gUmR1bPXK8YV5F0BG11j6ePqSVccT8TEh_iRMyHVZUWbAvCawwO0BMmEc5g/exec', {
+//         method: "POST",
+//         body: data,
+//     })
+//         .then(res => res.text())
+//         .then(data => {
+//             // document.querySelector("#message-top").innerHTML = data; // It will show success
+//             document.querySelector("#submitButtonContactUs").value = "Your Form is Submitted Successfully";
+//             if (data.includes('Success')) { // Adjust this condition if needed
+//                 window.location.href = '../thanks.html'; // Redirect to thanks.html
+//             }
+//         })
+// })
