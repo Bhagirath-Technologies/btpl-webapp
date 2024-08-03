@@ -38,7 +38,6 @@ const Contact = () => {
     if (formContactUs) {
       formContactUs.addEventListener('submit', handleSubmit);
     }
-
     // Cleanup function to remove the event listener
     return () => {
       if (formContactUs) {
@@ -82,24 +81,6 @@ const Contact = () => {
       </section>
       <AutoTypingText />
       <AddressWithMap />
-      {/* Large map BTPL starts */}
-      {/* <section>
-        <div className="col-12">
-          <iframe
-            className="w-100 h-400"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3753682.8893104414!2d74.88266227051317!3d23.253785200000017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x25fcea9c85591dad%3A0x8073a63bd087c91!2sBhagirath%20Technologies!5e0!3m2!1sen!2sin!4v1719231448387!5m2!1sen!2sin"
-            width="600"
-            height="500"
-            style={{ border: 0 }}
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-            aria-hidden="false"
-            tabindex="0"
-          ></iframe>
-        </div>
-      </section> */}
-      {/* Large map BTPL ends */}
       <section>
         <div className="container">
           <div className="row justify-content-lg-between">
@@ -190,14 +171,10 @@ const Contact = () => {
                 </div>
               </form> */}
               {/* <!-- Form END Of Formspree --> */}
-
               {/* <!-- Form START Of App Script --> */}
               <form
                 className="contact-form form-line"
                 id="contactForm"
-              // name="contactform"
-              // method="POST"
-              // action="https://formspree.io/f/xayrljqr"
               >
                 {/* <!-- Main form --> */}
                 <div className="row">
@@ -298,6 +275,7 @@ const Contact = () => {
         referrerpolicy="no-referrer-when-downgrade"
         aria-hidden="false"
         tabindex="0"
+        title="Company Map Location"
       ></iframe>
       {/* </div> */}
       {/* Large map BTPL ends */}

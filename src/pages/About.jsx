@@ -1,10 +1,10 @@
 import React, { useRef, useState } from "react";
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { Swiper, SwiperSlide } from "swiper/react";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
-import 'swiper/css';
-import 'swiper/css/pagination';
-import { Pagination } from 'swiper/modules';
+import "swiper/css";
+import "swiper/css/pagination";
+import { Pagination } from "swiper/modules";
 const About = () => {
   return (
     <>
@@ -296,28 +296,28 @@ const About = () => {
       {/* About Hero Starts  */}
       {/* About Detail Starts  */}
       <section>
-        <div class="container">
-          <div class="row d-flex justify-content-lg-between align-items-center">
+        <div className="container">
+          <div className="row d-flex justify-content-lg-between align-items-center">
             {/* <!-- About left --> */}
-            <div class="col-lg-5">
+            <div className="col-lg-5">
               {/* <!-- Since text --> */}
-              <div class="mb-n6 ms-3 position-relative z-index-9">
+              <div className="mb-n6 ms-3 position-relative z-index-9">
                 <h5>Making minds since</h5>
-                <h2 class="display-4 text-dark-stroke text-primary-shadow">
+                <h2 className="display-4 text-dark-stroke text-primary-shadow">
                   2023
                 </h2>
               </div>
               {/* <!-- Image --> */}
               <div
-                class="reveal-item bg-light rounded aos-init aos-animate"
+                className="reveal-item bg-light rounded aos-init aos-animate"
                 data-aos="reveal-item"
               >
                 <div
-                  class="reveal-animation reveal-end reveal-primary aos aos-init aos-animate"
+                  className="reveal-animation reveal-end reveal-primary aos aos-init aos-animate"
                   data-aos="reveal-end"
                 ></div>
                 <img
-                  class="w-100"
+                  className="w-100"
                   src="https://images.pexels.com/photos/3182811/pexels-photo-3182811.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                   alt="Portfolio image"
                 />
@@ -325,46 +325,46 @@ const About = () => {
               {/* <!-- Label --> */}
               <span
                 style={{ backgroundColor: "var(--bs-primary) !important" }}
-                class="font-alt fw-normal display-8 text-white float-end d-inline-block mt-n5 me-lg-n5 px-3 rotate-10"
+                className="font-alt fw-normal display-8 text-white float-end d-inline-block mt-n5 me-lg-n5 px-3 rotate-10"
               >
                 Passion, dedication &amp; a lot of coffee 🤘
               </span>
             </div>
 
             {/* <!-- About Right --> */}
-            <div class="col-lg-6 mt-5 mt-lg-0 mt-xl-5">
+            <div className="col-lg-6 mt-5 mt-lg-0 mt-xl-5">
               {/* <!-- Title --> */}
-              <span class="font-alt fw-normal display-8 d-block mb-3">
+              <span className="font-alt fw-normal display-8 d-block mb-3">
                 We are creating smart websites.
               </span>
-              <h3 class="mb-5">
+              <h3 className="mb-5">
                 A Full package Digital Creative Agency Specializing in: Video
                 Production, Web Design &amp; Branding.
               </h3>
               {/* <!-- Features --> */}
-              <div class="row">
-                <div class="col-sm-6 mb-4">
-                  <i class="display-6 text-primary bi bi-bullseye"></i>
-                  <h5 class="my-3">Our primary goal</h5>
+              <div className="row">
+                <div className="col-sm-6 mb-4">
+                  <i className="display-6 text-primary bi bi-bullseye"></i>
+                  <h5 className="my-3">Our primary goal</h5>
                   <p>
                     Smart use of data &amp; technology for the automation of
                     your business.
                   </p>
                 </div>
-                <div class="col-sm-6 mb-4">
-                  <i class="display-6 text-primary bi bi-bookmark-star"></i>
-                  <h5 class="my-3">2+ year experience</h5>
+                <div className="col-sm-6 mb-4">
+                  <i className="display-6 text-primary bi bi-bookmark-star"></i>
+                  <h5 className="my-3">2+ year experience</h5>
                   <p>
                     The right mix of resources for achieving your online goals.
                   </p>
                 </div>
               </div>
               {/* <!-- Progress bar --> */}
-              <div class="overflow-hidden mt-3">
-                <p class="mb-1 text-dark">Project delivered on time</p>
-                <div class="progress progress-lg progress-percent-bg">
+              <div className="overflow-hidden mt-3">
+                <p className="mb-1 text-dark">Project delivered on time</p>
+                <div className="progress progress-lg progress-percent-bg">
                   <div
-                    class="progress-bar progress-bar-striped progress-bar-animated bg-primary aos aos-init aos-animate"
+                    className="progress-bar progress-bar-striped progress-bar-animated bg-primary aos aos-init aos-animate"
                     data-aos="slide-right"
                     data-aos-delay="200"
                     data-aos-duration="1000"
@@ -378,7 +378,7 @@ const About = () => {
                     aria-valuemin="0"
                     aria-valuemax="100"
                   >
-                    <span class="progress-percent">95%</span>
+                    <span className="progress-percent">95%</span>
                   </div>
                 </div>
               </div>
@@ -390,42 +390,74 @@ const About = () => {
 
       {/* About services with icons section starts */}
       <section>
-        <div class="container">
-          <div class="row justify-content-lg-between">
+        <div className="container">
+          <div className="row justify-content-lg-between">
             {/* <!-- About Title --> */}
-            <div class="col-md-4 col-xl-5">
-              <span class="font-alt fw-normal display-8">Our interesting insights</span>
-              <h2 class="display-6">A complete technology solution provider</h2>
-              <p class="lead">Partnering with <b>500+ Fortune companies</b> and mid-sized firms across enterprises, uniquely customized and scalable workforce solutions.</p>
-              <a href="#" class="btn btn-primary btn-line mt-4">Check success stories</a>
+            <div className="col-md-4 col-xl-5">
+              <span className="font-alt fw-normal display-8">
+                Our interesting insights
+              </span>
+              <h2 className="display-6">
+                A complete technology solution provider
+              </h2>
+              <p className="lead">
+                Partnering with <b>500+ Fortune companies</b> and mid-sized
+                firms across enterprises, uniquely customized and scalable
+                workforce solutions.
+              </p>
+              <Link to="#" className="btn btn-primary btn-line mt-4">
+                Check success stories
+              </Link>
             </div>
 
             {/* <!-- Our services --> */}
-            <div class="col-md-8 col-xl-6 mt-5 mt-md-0">
-              <div class="row">
+            <div className="col-md-8 col-xl-6 mt-5 mt-md-0">
+              <div className="row">
                 {/* <!-- Item --> */}
-                <div class="col-sm-6 mb-4">
-                  <i class="display-7 text-primary bi bi-sliders"></i>
-                  <h4 class="my-3">Enterprise digital asset management</h4>
-                  <p>Smart use of data &amp; technology for the automation of your business. Two before narrow not relied how except moment myself Dejection assurance</p>
+                <div className="col-sm-6 mb-4">
+                  <i className="display-7 text-primary bi bi-sliders"></i>
+                  <h4 className="my-3">Enterprise digital asset management</h4>
+                  <p>
+                    Smart use of data &amp; technology for the automation of
+                    your business. Two before narrow not relied how except
+                    moment myself Dejection assurance
+                  </p>
                 </div>
                 {/* <!-- Item --> */}
-                <div class="col-sm-6 mb-4">
-                  <i class="display-7 text-primary bi bi-droplet-half"></i>
-                  <h4 class="my-3">UI/UX app design &amp; graphics design</h4>
-                  <p>The right mix of resources for achieving your online goals. Mrs led certainly So gate at no only none open Betrayed at properly it of graceful</p>
+                <div className="col-sm-6 mb-4">
+                  <i className="display-7 text-primary bi bi-droplet-half"></i>
+                  <h4 className="my-3">
+                    UI/UX app design &amp; graphics design
+                  </h4>
+                  <p>
+                    The right mix of resources for achieving your online goals.
+                    Mrs led certainly So gate at no only none open Betrayed at
+                    properly it of graceful
+                  </p>
                 </div>
                 {/* <!-- Item --> */}
-                <div class="col-sm-6 mb-4">
-                  <i class="display-7 text-primary bi bi-graph-up"></i>
-                  <h4 class="my-3">Google Analytics Measurement Protocol</h4>
-                  <p>Achieving your online goals for the automation of your business Dinner abroad am depart ye turned hearts as me wished Therefore allowance</p>
+                <div className="col-sm-6 mb-4">
+                  <i className="display-7 text-primary bi bi-graph-up"></i>
+                  <h4 className="my-3">
+                    Google Analytics Measurement Protocol
+                  </h4>
+                  <p>
+                    Achieving your online goals for the automation of your
+                    business Dinner abroad am depart ye turned hearts as me
+                    wished Therefore allowance
+                  </p>
                 </div>
                 {/* <!-- Item --> */}
-                <div class="col-sm-6 mb-4">
-                  <i class="display-7 text-primary bi bi-bar-chart-line"></i>
-                  <h4 class="my-3">Digital marketing &amp; content creation</h4>
-                  <p>Data &amp; technology supposing man his now Families goodness all eat out bed steepest servants Explained the incommode sir improving </p>
+                <div className="col-sm-6 mb-4">
+                  <i className="display-7 text-primary bi bi-bar-chart-line"></i>
+                  <h4 className="my-3">
+                    Digital marketing &amp; content creation
+                  </h4>
+                  <p>
+                    Data &amp; technology supposing man his now Families
+                    goodness all eat out bed steepest servants Explained the
+                    incommode sir improving{" "}
+                  </p>
                 </div>
               </div>
             </div>
@@ -436,21 +468,23 @@ const About = () => {
       {/* About services with icons section ends */}
 
       {/* Our Team Section Starts */}
-      <section class="pt-5">
-        <div class="container">
+      <section className="pt-5">
+        <div className="container">
           {/* <!-- Title --> */}
-          <div class="row d-flex justify-content-between align-items-center">
-            <div class="col-sm-8 mb-3">
-              <h2 class="display-6 mb-0 mb-sm-4 text-dark">Our Team</h2>
+          <div className="row d-flex justify-content-between align-items-center">
+            <div className="col-sm-8 mb-3">
+              <h2 className="display-6 mb-0 mb-sm-4 text-dark">Our Team</h2>
             </div>
-            <div class="col-sm-4 mb-5 text-start text-sm-end">
-              <a href="#" class="btn btn-line text-primary mt-3">We're hiring</a>
+            <div className="col-sm-4 mb-5 text-start text-sm-end">
+              <Link to="#" className="btn btn-line text-primary mt-3">
+                We're hiring
+              </Link>
             </div>
           </div>
           {/* <!-- Team --> */}
-          <div class="row">
-            <div class="col-12">
-              <div class="tiny-slider dots-bordered mb-5">
+          <div className="row">
+            <div className="col-12">
+              <div className="tiny-slider dots-bordered mb-5">
                 {/* swiper starts  */}
                 <Swiper
                   slidesPerView={3}
@@ -463,96 +497,138 @@ const About = () => {
                 >
                   <SwiperSlide>
                     {/* <!-- Card item START --> */}
-                    <div class="item tns-item tns-slide-active" id="tns1-item0">
-                      <a href="#" class="card card-metro">
+                    <div
+                      className="item tns-item tns-slide-active"
+                      id="tns1-item0"
+                    >
+                      <Link to="#" className="card card-metro">
                         {/* <!-- Card Image --> */}
-                        <div class="card-image">
-                          <img src="https://ca.slack-edge.com/T061U5D9280-U060YH1MRJS-00a013ccec7b-512" alt="card image" />
+                        <div className="card-image">
+                          <img
+                            src="https://ca.slack-edge.com/T061U5D9280-U060YH1MRJS-00a013ccec7b-512"
+                            alt="card image"
+                          />
                         </div>
                         {/* <!-- Card Overlay --> */}
-                        <div class="card-img-overlay d-flex flex-column">
-                          <div class="mt-auto card-text">
-                            <h5 class="text-white">Mr. Vivek Suryawanshi</h5>
-                            <p class="small text-white mb-0">Software Engineer</p>
+                        <div className="card-img-overlay d-flex flex-column">
+                          <div className="mt-auto card-text">
+                            <h5 className="text-white">
+                              Mr. Vivek Suryawanshi
+                            </h5>
+                            <p className="small text-white mb-0">
+                              Software Engineer
+                            </p>
                           </div>
                         </div>
-                      </a>
+                      </Link>
                     </div>
                     {/* <!-- Card item END --> */}
                   </SwiperSlide>
                   <SwiperSlide>
                     {/* <!-- Card item START --> */}
-                    <div class="item tns-item tns-slide-active" id="tns1-item0">
-                      <a href="#" class="card card-metro">
+                    <div
+                      className="item tns-item tns-slide-active"
+                      id="tns1-item0"
+                    >
+                      <Link to="#" className="card card-metro">
                         {/* <!-- Card Image --> */}
-                        <div class="card-image">
-                          <img src="https://ca.slack-edge.com/T061U5D9280-U077WMQTU7L-53d9567b2eb9-512" alt="card image" />
+                        <div className="card-image">
+                          <img
+                            src="https://ca.slack-edge.com/T061U5D9280-U077WMQTU7L-53d9567b2eb9-512"
+                            alt="card image"
+                          />
                         </div>
                         {/* <!-- Card Overlay --> */}
-                        <div class="card-img-overlay d-flex flex-column">
-                          <div class="mt-auto card-text">
-                            <h5 class="text-white">Abhishek Ahirwar</h5>
-                            <p class="small text-white mb-0">Backend Developer</p>
+                        <div className="card-img-overlay d-flex flex-column">
+                          <div className="mt-auto card-text">
+                            <h5 className="text-white">Abhishek Ahirwar</h5>
+                            <p className="small text-white mb-0">
+                              Backend Developer
+                            </p>
                           </div>
                         </div>
-                      </a>
+                      </Link>
                     </div>
                     {/* <!-- Card item END --> */}
                   </SwiperSlide>
                   <SwiperSlide>
                     {/* <!-- Card item START --> */}
-                    <div class="item tns-item tns-slide-active" id="tns1-item0">
-                      <a href="#" class="card card-metro">
+                    <div
+                      className="item tns-item tns-slide-active"
+                      id="tns1-item0"
+                    >
+                      <Link to="#" className="card card-metro">
                         {/* <!-- Card Image --> */}
-                        <div class="card-image">
-                          <img src="https://ca.slack-edge.com/T061U5D9280-U06FHQWCT0S-f78293dc9ef9-512" alt="card image" />
+                        <div className="card-image">
+                          <img
+                            src="https://ca.slack-edge.com/T061U5D9280-U06FHQWCT0S-f78293dc9ef9-512"
+                            alt="card image"
+                          />
                         </div>
                         {/* <!-- Card Overlay --> */}
-                        <div class="card-img-overlay d-flex flex-column">
-                          <div class="mt-auto card-text">
-                            <h5 class="text-white">Meenakshi Savasiya</h5>
-                            <p class="small text-white mb-0">Graphics designer</p>
+                        <div className="card-img-overlay d-flex flex-column">
+                          <div className="mt-auto card-text">
+                            <h5 className="text-white">Meenakshi Savasiya</h5>
+                            <p className="small text-white mb-0">
+                              Graphics designer
+                            </p>
                           </div>
                         </div>
-                      </a>
+                      </Link>
                     </div>
                     {/* <!-- Card item END --> */}
                   </SwiperSlide>
                   <SwiperSlide>
                     {/* <!-- Card item START --> */}
-                    <div class="item tns-item tns-slide-active" id="tns1-item0">
-                      <a href="#" class="card card-metro">
+                    <div
+                      className="item tns-item tns-slide-active"
+                      id="tns1-item0"
+                    >
+                      <Link to="#" className="card card-metro">
                         {/* <!-- Card Image --> */}
-                        <div class="card-image">
-                          <img src="https://ca.slack-edge.com/T061U5D9280-U06G7AZHL1H-2dc535637d2a-512" alt="card image" />
+                        <div className="card-image">
+                          <img
+                            src="https://ca.slack-edge.com/T061U5D9280-U06G7AZHL1H-2dc535637d2a-512"
+                            alt="card image"
+                          />
                         </div>
                         {/* <!-- Card Overlay --> */}
-                        <div class="card-img-overlay d-flex flex-column">
-                          <div class="mt-auto card-text">
-                            <h5 class="text-white">Prachi Pare</h5>
-                            <p class="small text-white mb-0">Digital Marketer</p>
+                        <div className="card-img-overlay d-flex flex-column">
+                          <div className="mt-auto card-text">
+                            <h5 className="text-white">Prachi Pare</h5>
+                            <p className="small text-white mb-0">
+                              Digital Marketer
+                            </p>
                           </div>
                         </div>
-                      </a>
+                      </Link>
                     </div>
                     {/* <!-- Card item END --> */}
                   </SwiperSlide>
                   <SwiperSlide>
                     {/* <!-- Card item START --> */}
-                    <div class="item tns-item tns-slide-active" id="tns1-item0">
-                      <a href="#" class="card card-metro">
+                    <div
+                      className="item tns-item tns-slide-active"
+                      id="tns1-item0"
+                    >
+                      <Link to="#" className="card card-metro">
                         {/* <!-- Card Image --> */}
-                        <div class="card-image">
-                          <img src="https://ca.slack-edge.com/T061U5D9280-U077Q0PDRJA-ed5c30263539-512" alt="card image" />
+                        <div className="card-image">
+                          <img
+                            src="https://ca.slack-edge.com/T061U5D9280-U077Q0PDRJA-ed5c30263539-512"
+                            alt="card image"
+                          />
                         </div>
                         {/* <!-- Card Overlay --> */}
-                        <div class="card-img-overlay d-flex flex-column">
-                          <div class="mt-auto card-text">
-                            <h5 class="text-white">Shayaan Khan</h5>
-                            <p class="small text-white mb-0">Frontend Developer</p>
+                        <div className="card-img-overlay d-flex flex-column">
+                          <div className="mt-auto card-text">
+                            <h5 className="text-white">Shayaan Khan</h5>
+                            <p className="small text-white mb-0">
+                              Frontend Developer
+                            </p>
                           </div>
                         </div>
-                      </a>
+                      </Link>
                     </div>
                     {/* <!-- Card item END --> */}
                   </SwiperSlide>
@@ -566,22 +642,29 @@ const About = () => {
       {/* Our Team Section Ends */}
 
       {/* Google reviews by elfsight starts */}
-      <div class="elfsight-app-1a00f060-a650-431c-925a-a5d0d5dd2f35 elfsight" data-elfsight-app-lazy></div>
+      <div
+        className="elfsight-app-1a00f060-a650-431c-925a-a5d0d5dd2f35 elfsight"
+        data-elfsight-app-lazy
+      ></div>
       {/* Google reviews by elfsight ends */}
-      <div id="JdBadge" data-s1="b1" data-s2="Y3RyY3QlNDAlNDAlNDAwNzU1UFg3NTUlMkJYNzU1JTJCMjQwMjEyMTQwODE1JTJCSTRONQ=="></div>
+      <div
+        id="JdBadge"
+        data-s1="b1"
+        data-s2="Y3RyY3QlNDAlNDAlNDAwNzU1UFg3NTUlMkJYNzU1JTJCMjQwMjEyMTQwODE1JTJCSTRONQ=="
+      ></div>
       <div id="JdBadgeDest"></div>
       {/* Mission, Vision and Values Starts */}
       <section className="pt-5">
-        <div class="container">
-          <div class="row">
+        <div className="container">
+          <div className="row">
             {/* <!--Mission, Vision and Values Inner intro title --> */}
-            <div class="col-xl-8 mx-auto text-center">
+            <div className="col-xl-8 mx-auto text-center">
               <h1>Mission, Vision and Values</h1>
-              <blockquote class="mt-4">
-                <p class="mb-0 lead font-alt fw-normal display-8 fw-normal">
+              <blockquote className="mt-4">
+                <p className="mb-0 lead font-alt fw-normal display-8 fw-normal">
                   "Where there is no vision, there is no hope."
                 </p>
-                <footer class="mt-2 pb-4">
+                <footer className="mt-2 pb-4">
                   {" "}
                   <cite title="Source Title">- George Washington Carver</cite>
                 </footer>
@@ -591,117 +674,119 @@ const About = () => {
           {/* <!-- Row END --> */}
         </div>
         <section>
-          <div class="container">
-            <div class="row g-0">
-              <div class="col-lg-6 border border-2">
-                <div class="h-100 bg-primary p-4 p-sm-5">
+          <div className="container">
+            <div className="row g-0">
+              <div className="col-lg-6 border border-2">
+                <div className="h-100 bg-primary p-4 p-sm-5">
                   {/* <!-- Title --> */}
-                  <h3 class="text-blue">What you can expect?</h3>
-                  <p class="text-blue">
+                  <h3 className="text-blue">What you can expect?</h3>
+                  <p className="text-blue">
                     Benefits are the rewards that go beyond the paycheck. We
                     offer a selection of benefits that meet our employees’ needs
                     and expectations at different life stages.
                   </p>
                   {/* <!-- Benefits list --> */}
-                  <div class="d-md-flex flex-md-row my-4">
-                    <ul class="list-group list-group-borderless list-group-icon-primary-bg me-md-6">
-                      <li class="list-group-item text-blue">
-                        <span class="text-dark">1</span> Friendly, talented
+                  <div className="d-md-flex flex-md-row my-4">
+                    <ul className="list-group list-group-borderless list-group-icon-primary-bg me-md-6">
+                      <li className="list-group-item text-blue">
+                        <span className="text-dark">1</span> Friendly, talented
                         colleagues
                       </li>
-                      <li class="list-group-item text-blue">
-                        <span class="text-dark">2</span> 2pm Fridays
+                      <li className="list-group-item text-blue">
+                        <span className="text-dark">2</span> 2pm Fridays
                       </li>
-                      <li class="list-group-item text-blue">
-                        <span class="text-dark">3</span> Professional
+                      <li className="list-group-item text-blue">
+                        <span className="text-dark">3</span> Professional
                         development funds
                       </li>
-                      <li class="list-group-item text-blue">
-                        <span class="text-dark">4</span> Career Development
+                      <li className="list-group-item text-blue">
+                        <span className="text-dark">4</span> Career Development
                       </li>
-                      <li class="list-group-item text-blue">
-                        <span class="text-dark">2</span> Future Provision
+                      <li className="list-group-item text-blue">
+                        <span className="text-dark">2</span> Future Provision
                       </li>
                     </ul>
-                    <ul class="list-group list-group-borderless list-group-icon-primary-bg">
-                      <li class="list-group-item text-blue">
-                        <span class="text-dark">6</span> Flexible Working Hours{" "}
+                    <ul className="list-group list-group-borderless list-group-icon-primary-bg">
+                      <li className="list-group-item text-blue">
+                        <span className="text-dark">6</span> Flexible Working
+                        Hours{" "}
                       </li>
-                      <li class="list-group-item text-blue">
-                        <span class="text-dark">7</span> Health &amp; Fitness{" "}
+                      <li className="list-group-item text-blue">
+                        <span className="text-dark">7</span> Health &amp;
+                        Fitness{" "}
                       </li>
-                      <li class="list-group-item text-blue">
-                        <span class="text-dark">8</span> Employee Gifts{" "}
+                      <li className="list-group-item text-blue">
+                        <span className="text-dark">8</span> Employee Gifts{" "}
                       </li>
-                      <li class="list-group-item text-blue">
-                        <span class="text-dark">9</span> Welcome Aboard{" "}
+                      <li className="list-group-item text-blue">
+                        <span className="text-dark">9</span> Welcome Aboard{" "}
                       </li>
                     </ul>
                   </div>
                   {/* <!-- Button --> */}
-                  <a href="#" class="btn btn-dark">
+                  <Link to="https://www.instagram.com/bhagirath_media/?igsh=MzB0b2VjeHNqMXQ4" className="btn btn-dark">
                     Our daily life on Instagram{" "}
-                    <i class="fab fa-instagram ms-2"></i>
-                  </a>
+                    <i className="fab fa-instagram ms-2"></i>
+                  </Link>
                 </div>
               </div>
-              <div class="col-lg-6">
-                <div class="h-100 bg-dark p-4 p-sm-5">
+              <div className="col-lg-6">
+                <div className="h-100 bg-dark p-4 p-sm-5">
                   {/* <!-- Title --> */}
-                  <h3 class="text-white">At Our Core.</h3>
-                  <p class="text-white">
+                  <h3 className="text-white">At Our Core.</h3>
+                  <p className="text-white">
                     Our core values make us who we are. A Full package Digital
                     Creative Agency Specializing in: Video Production, Web
                     Design &amp; Branding.
                   </p>
                   {/* <!-- Tab START --> */}
-                  <div class="mt-5 mt-md-0">
+                  <div className="mt-5 mt-md-0">
                     <ul
-                      class="nav nav-tabs nav-tabs-line border-0"
+                      className="nav nav-tabs nav-tabs-line border-0"
                       role="tablist"
                     >
-                      <li class="nav-item mt-3" role="presentation">
+                      <li className="nav-item mt-3" role="presentation">
                         {" "}
                         <a
-                          class="nav-link text-white active"
+                          className="nav-link text-white active"
                           data-bs-toggle="tab"
                           href="#tab-7-1"
                           aria-selected="true"
                           role="tab"
                         >
-                          <i class="far fa-edit me-2"></i>Originality
+                          <i className="far fa-edit me-2"></i>Originality
                         </a>{" "}
                       </li>
-                      <li class="nav-item mt-3" role="presentation">
+                      <li className="nav-item mt-3" role="presentation">
                         {" "}
                         <a
-                          class="nav-link text-white"
+                          className="nav-link text-white"
                           data-bs-toggle="tab"
                           href="#tab-7-2"
                           aria-selected="false"
                           tabindex="-1"
                           role="tab"
                         >
-                          <i class="far fa-folder-open me-2"></i>Integrity
+                          <i className="far fa-folder-open me-2"></i>Integrity
                         </a>{" "}
                       </li>
-                      <li class="nav-item mt-3" role="presentation">
+                      <li className="nav-item mt-3" role="presentation">
                         {" "}
                         <a
-                          class="nav-link text-white"
+                          className="nav-link text-white"
                           data-bs-toggle="tab"
                           href="#tab-7-3"
                           aria-selected="false"
                           tabindex="-1"
                           role="tab"
                         >
-                          <i class="far fa-sun me-2"></i>Co-creation
+                          <i className="far fa-sun me-2"></i>Co-creation
                         </a>{" "}
                       </li>
                     </ul>
-                    <div class="tab-content mb-0 pb-0">
+                    <div className="tab-content mb-0 pb-0">
                       <div
-                        class="tab-pane show active"
+                        className="tab-pane show active"
                         id="tab-7-1"
                         role="tabpanel"
                       >
@@ -712,36 +797,36 @@ const About = () => {
                           of the most promising private talent sourcing and
                           management firms in the world.
                         </p>
-                        <div class="d-flex">
-                          <i class="display-5 text-primary bi bi-bullseye"></i>
-                          <div class="mt-3 ms-4">
-                            <p class="lead">
+                        <div className="d-flex">
+                          <i className="display-5 text-primary bi bi-bullseye"></i>
+                          <div className="mt-3 ms-4">
+                            <p className="lead">
                               "Transform your enterprise with resolutions
                               tailored to your requirements &amp; goals."
                             </p>
                           </div>
                         </div>
                       </div>
-                      <div class="tab-pane" id="tab-7-2" role="tabpanel">
+                      <div className="tab-pane" id="tab-7-2" role="tabpanel">
                         <p>
                           {" "}
                           Tried law yet style child. The bore of true of no be
                           deal. Frequently sufficient to be unaffected. The
                           furnished she concluded depending procuring concealed.{" "}
                         </p>
-                        <blockquote class="blockquote mb-0 mt-4">
-                          <p class="mb-0">
+                        <blockquote className="blockquote mb-0 mt-4">
+                          <p className="mb-0">
                             Sometimes when you innovate, you make mistakes. It
                             is best to admit them quickly, and get on with
                             improving your other innovation
                           </p>
-                          <footer class="blockquote-footer">
+                          <footer className="blockquote-footer">
                             Steve Jobs @{" "}
                             <cite title="Source Title">Apple Inc</cite>
                           </footer>
                         </blockquote>
                       </div>
-                      <div class="tab-pane" id="tab-7-3" role="tabpanel">
+                      <div className="tab-pane" id="tab-7-3" role="tabpanel">
                         <p>
                           Our friendly team members are always willing to help
                           you understand your present technology requirements

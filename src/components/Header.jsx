@@ -27,6 +27,18 @@ const Header = () => {
       dropdownMenu.style.cssText = "visibility: hidden;";
     }
   };
+  const ShowMeAgain = () => {
+    // Check if the screen width is greater than 991px
+    if (window.innerWidth > 991) {
+      setOpenMenu2(false);
+      const dropdownMenu = document.querySelector(
+        ".navbar-expand-lg .navbar-nav .dropdown:hover > .dropdown-menu"
+      );
+      if (dropdownMenu) {
+        dropdownMenu.style.cssText = "visibility: visible;";
+      }
+    }
+  };
 
   return (
     <>
@@ -158,57 +170,6 @@ const Header = () => {
         </div>
       </div>
       {/* <!-- Offcanvas end END --> */}
-
-      {/* <!-- Search START --> */}
-      <div class="search-full collapse bg-dark p-3 pb-lg-0" id="search-open">
-        <div class="container position-relative">
-          <h2 class="position-absolute start-0 bottom-0 mb-n5 display-1 text-white-stroke opacity-1">
-            <span class="d-block">Search</span>
-          </h2>
-          <div class="row vh-100">
-            <div class="d-flex flex-column my-auto py-5 w-100">
-              {/* <!-- Search form START --> */}
-              <form class="form-dark form-line position-relative w-100">
-                <div class="mb-3 input-group-lg input-text-white-stroke mb-0">
-                  {/* <!-- Search input --> */}
-                  <input
-                    class="form-control font-heading caret-primary mb-0 pe-6"
-                    type="text"
-                    name="search"
-                    placeholder="What are you looking for?"
-                  />
-                  <span class="focus-border"></span>
-                </div>
-                {/* <!-- Search button --> */}
-                <button
-                  type="button"
-                  class="position-absolute end-0 top-0 btn pb-3 text-primary-hover h-100"
-                >
-                  <i class="bi bi-search display-8"></i>
-                </button>
-              </form>
-              {/* <!-- Search form END --> */}
-              <p class="small mt-2 mb-0">
-                e.g. Websites , Web-Apps , Digital Marketing ,Graphic Designing
-                services{" "}
-              </p>
-            </div>
-
-            {/* <!-- Search button close START --> */}
-            <Link
-              class="position-fixed top-0 end-0 m-3 m-md-5 btn btn-white btn-round zoom-hover"
-              data-bs-toggle="collapse"
-              to="#"
-              data-bs-target="#search-open"
-              aria-expanded="true"
-            >
-              <i class="fas fa-times p-0"></i>
-            </Link>
-            {/* <!-- Search button close END --> */}
-          </div>
-        </div>
-      </div>
-      {/* <!-- Search END --> */}
 
       {/* <!-- Header START --> */}
       <header
@@ -401,8 +362,13 @@ const Header = () => {
                     Home
                   </Link>
                 </li>
-
-                {/* <!-- Menu item 2 Services --> */}
+                  {/* <!-- Menu item 2 About --> */}
+                  <li class="nav-item dropdown">
+                  <Link class="nav-link" to="/about">
+                    About Us
+                  </Link>
+                </li>
+                {/* <!-- Menu item 3 Services --> */}
                 <li class="nav-item dropdown dropdown-fullwidth">
                   <Link
                     class="nav-link dropdown-toggle"
@@ -411,9 +377,10 @@ const Header = () => {
                     data-bs-toggle="dropdown"
                     aria-haspopup="true"
                     aria-expanded="false"
-                    onMouseOver={() => {
-                      document.querySelector('.navbar-expand-lg .navbar-nav .dropdown:hover>.dropdown-menu').style.visibility = "visible";
-                    }}
+                    onClick={ShowMeAgain}
+                    // onMouseOver={() => {
+                    //   document.querySelector('.navbar-expand-lg .navbar-nav .dropdown:hover>.dropdown-menu').style.visibility = "visible";
+                    // }}
                   // onMouseOver={handleServicesMouseOver}
                   >
                     Services
@@ -676,7 +643,7 @@ const Header = () => {
                   {/* )} */}
                 </li>
 
-                {/* <!-- Menu item 3 Rentals --> */}
+                {/* <!-- Menu item 4 Rentals --> */}
                 <li class="nav-item dropdown dropdown-fullwidth">
                   <Link
                     class="nav-link dropdown-toggle"
@@ -685,9 +652,10 @@ const Header = () => {
                     data-bs-toggle="dropdown"
                     aria-haspopup="true"
                     aria-expanded="false"
-                    onMouseOver={() => {
-                      document.querySelector('.navbar-expand-lg .navbar-nav .dropdown:hover>.dropdown-menu').style.visibility = "visible";
-                    }}
+                    onClick={ShowMeAgain}
+                    // onMouseOver={() => {
+                    //   document.querySelector('.navbar-expand-lg .navbar-nav .dropdown:hover>.dropdown-menu').style.visibility = "visible";
+                    // }}
                   // onMouseOver={handleRentalsMouseOver}
                   >
                     Rental <span class="badge bg-danger">New</span>
@@ -948,7 +916,7 @@ const Header = () => {
                   {/* )} */}
                 </li>
 
-                {/* <!-- Menu item 4 Help--> */}
+                {/* <!-- Menu item 5 Help--> */}
                 <li class="nav-item dropdown">
                   <Link
                     class="nav-link dropdown-toggle"
@@ -990,14 +958,14 @@ const Header = () => {
                     </li>
                   </ul>
                 </li>
-                {/* <!-- Menu item 5 Blog--> */}
+                {/* <!-- Menu item 6 Blog--> */}
                 <li class="nav-item">
                   {" "}
                   <Link class="nav-link" to="/blog">
                     Blog
                   </Link>
                 </li>
-                {/* <!-- Menu item 6 Contact--> */}
+                {/* <!-- Menu item 7 Contact--> */}
                 <li class="nav-item">
                   {" "}
                   <Link class="nav-link" to="/contact">
