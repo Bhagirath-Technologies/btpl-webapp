@@ -1,40 +1,42 @@
-import {React,useEffect} from "react";
+import { React, useEffect, useState } from "react";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
 import AutoTypingText from "../components/Typo";
 import AddressWithMap from "../components/AddressWithMap";
 const Contact = () => {
-
+  // State to track submission status
+  const [isSubmitted, setIsSubmitted] = useState(false);
+  const [submitButtonText, setSubmitButtonText] = useState('Send Message');
   useEffect(() => {
     // Ensure the form exists before attaching the listener
     const formContactUs = document.getElementById('contactForm');
-
     // Define a submit handler
     const handleSubmit = (e) => {
       e.preventDefault();
-      const submitButton = document.querySelector('#submitButtonContactUs');
-      submitButton.value = 'Submitting...';
-
+      setSubmitButtonText('Submitting...');
       const data = new FormData(formContactUs);
       data.append('formType', 'Contact Us');
-
       fetch('https://script.google.com/macros/s/AKfycbyBQy_Xul9gUmR1bPXK8YV5F0BG11j6ePqSVccT8TEh_iRMyHVZUWbAvCawwO0BMmEc5g/exec', {
         method: 'POST',
         body: data,
       })
         .then((res) => res.text())
         .then((responseData) => {
-          submitButton.value = 'Your Form is Submitted Successfully';
           if (responseData.includes('Success')) {
-            window.location.href = '/thanks.html';
+            setSubmitButtonText('Your Form is Submitted Successfully');
+            // Set the state to true to disable the button
+            setIsSubmitted(true);
+            // Redirect to the thank you page
+            // window.location.href = '/thanks.html';
+          } else {
+            setSubmitButtonText('Submission Failed');
           }
         })
         .catch((error) => {
           console.error('Error submitting form:', error);
-          submitButton.value = 'Submission Failed';
+          setSubmitButtonText('Submission Failed');
         });
     };
-
     if (formContactUs) {
       formContactUs.addEventListener('submit', handleSubmit);
     }
@@ -251,7 +253,7 @@ const Contact = () => {
                   </div>
                   {/* <!-- submit button --> */}
                   <div className="col-md-12 text-start">
-                    <input type="submit" id="submitButtonContactUs" className="btn btn-primary btn-line" value="Send Message"/>
+                    <input type="submit" id="submitButtonContactUs" className="btn btn-primary btn-line" value={submitButtonText} disabled={isSubmitted} />
                   </div>
                 </div>
               </form>

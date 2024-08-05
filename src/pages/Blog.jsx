@@ -39,14 +39,14 @@ const Blog = () => {
                     <div class="avatar">
                       <img
                         class="avatar-img rounded-circle"
-                        src="assets/images/avatar/01.jpg"
+                        src="assets/images/avatar/01.webp"
                         alt="author image"
                       />
                     </div>
                     {/* <!-- Body --> */}
                     <div class="ms-3 my-2 text-start text-white-force">
-                      <p class="mb-0">by Allen Maxwell</p>
-                      <p class="small mt-n1 mb-0">May 03, 2021</p>
+                      <p class="mb-0">by Gunjan Sinha</p>
+                      <p class="small mt-n1 mb-0">May 03, 2024</p>
                     </div>
                   </div>
                 </div>
@@ -66,7 +66,7 @@ const Blog = () => {
                       <span>8 min read</span>
                     </div>
                     <h5>
-                      <a href="#">Reliable sources to learn about folio</a>
+                      <a href="#">Reliable sources to learn</a>
                     </h5>
                     <p>
                       He moonlights difficult engrossed it, sportsmen.
@@ -101,8 +101,8 @@ const Blog = () => {
                     </div>
                     {/* <!-- Body --> */}
                     <div class="ms-3 my-2 text-start text-white-force">
-                      <p class="mb-0">by Bryan Knight</p>
-                      <p class="small mt-n1 mb-0">June 12, 2021</p>
+                      <p class="mb-0">by Vivek Suryvanshi</p>
+                      <p class="small mt-n1 mb-0">June 12, 2024</p>
                     </div>
                   </div>
                 </div>
@@ -122,7 +122,7 @@ const Blog = () => {
                       <span>6 min read</span>
                     </div>
                     <h5>
-                      <a href="#">Never underestimate the influence of folio</a>
+                      <a href="#">Never underestimate the influence</a>
                     </h5>
                     <p>
                       See resolved goodness felicity shy civility domestic had
@@ -210,14 +210,14 @@ const Blog = () => {
                     <div class="avatar">
                       <img
                         class="avatar-img rounded-circle"
-                        src="assets/images/avatar/01.jpg"
+                        src="assets/images/avatar/02.webp"
                         alt="author image"
                       />
                     </div>
                     {/* <!-- Body --> */}
                     <div class="ms-3 my-2 text-start text-white-force">
-                      <p class="mb-0">by Jessica Mores</p>
-                      <p class="small mt-n1 mb-0">June 22, 2020</p>
+                      <p class="mb-0">by Ramesh Sahu</p>
+                      <p class="small mt-n1 mb-0">June 22, 2024</p>
                     </div>
                   </div>
                 </div>
@@ -272,14 +272,14 @@ const Blog = () => {
                     <div class="avatar">
                       <img
                         class="avatar-img rounded-circle"
-                        src="assets/images/avatar/04.jpg"
+                        src="assets/images/avatar/02.jpg"
                         alt="author image"
                       />
                     </div>
                     {/* <!-- Body --> */}
                     <div class="ms-3 my-2 text-start text-white-force">
-                      <p class="mb-0">by Jessica Mores</p>
-                      <p class="small mt-n1 mb-0">June 22, 2020</p>
+                      <p class="mb-0">by Vivek Suryvanshi</p>
+                      <p class="small mt-n1 mb-0">June 22, 2024</p>
                     </div>
                   </div>
                 </div>
@@ -302,7 +302,7 @@ const Blog = () => {
                       <span>2 min read</span>
                     </div>
                     <h5>
-                      <a href="#">5 things you need to know about folio</a>
+                      <a href="#">5 things you need to know</a>
                     </h5>
                     <p>
                       Returned outweigh. Luckily cheered colonel I do we attack
@@ -338,14 +338,14 @@ const Blog = () => {
                     <div class="avatar">
                       <img
                         class="avatar-img rounded-circle"
-                        src="assets/images/avatar/03.jpg"
+                        src="assets/images/avatar/02.jpg"
                         alt="author image"
                       />
                     </div>
                     {/* <!-- Body --> */}
                     <div class="ms-3 my-2 text-start text-white-force">
-                      <p class="mb-0">by Jessica Mores</p>
-                      <p class="small mt-n1 mb-0">June 22, 2020</p>
+                      <p class="mb-0">by Vivek Suryvanshi</p>
+                      <p class="small mt-n1 mb-0">June 22, 2024</p>
                     </div>
                   </div>
                 </div>
@@ -365,7 +365,7 @@ const Blog = () => {
                       <span>6 min read</span>
                     </div>
                     <h5>
-                      <a href="#">Never underestimate the influence of folio</a>
+                      <a href="#">Never underestimate the influence</a>
                     </h5>
                     <p>
                       The bore of true of no be deal. Frequently sufficient to
@@ -393,14 +393,14 @@ const Blog = () => {
                     <div class="avatar">
                       <img
                         class="avatar-img rounded-circle"
-                        src="assets/images/avatar/04.jpg"
+                        src="assets/images/avatar/02.jpg"
                         alt="author image"
                       />
                     </div>
                     {/* <!-- Body --> */}
                     <div class="ms-3 my-2 text-start text-white-force">
-                      <p class="mb-0">by Bryan Knight</p>
-                      <p class="small mt-n1 mb-0">June 12, 2020</p>
+                      <p class="mb-0">by Vivek Suryvanshi</p>
+                      <p class="small mt-n1 mb-0">June 12, 2024</p>
                     </div>
                   </div>
                 </div>
@@ -420,7 +420,7 @@ const Blog = () => {
                       <span>5 min read</span>
                     </div>
                     <h5>
-                      <a href="#">The 3 greatest moments in folio history</a>
+                      <a href="#">The 3 greatest moments in history</a>
                     </h5>
                     <p>
                       Perceived end knowledge certainly day sweetness why
