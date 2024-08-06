@@ -6,6 +6,8 @@ import ServiceCard from '../../components/Hero_Section/ServiceCards';
 import OurPortlio from '../../components/Hero_Section/Ourportfolio';
 import serviceData from '../../data/ServiceCarddata';
 import ToptoBottom from '../../components/ToptoBottom';
+import IndustryList from '../../data/Industrydata';
+import ListItem from '../../components/ListItem';
 // import OurPortfolioData from '../../data/OurPortfoliodata'; 
 
 import './home.css';
@@ -13,8 +15,12 @@ import AnimatedFigures from '../../components/AnimatedFigures';
 const Home = () => {
     const [serviceDetail] = useState(serviceData);
     const scrollToTop = () => {
-		window.scrollTo(0, 0); // Scroll to top of the page
-	};
+        window.scrollTo(0, 0); // Scroll to top of the page
+    };
+    // Split the list into two equal parts
+    const halfIndex = Math.ceil(IndustryList.length / 2);
+    const firstHalf = IndustryList.slice(0, halfIndex);
+    const secondHalf = IndustryList.slice(halfIndex);
     // const [portfolioDetail] = useState(OurPortfolioData);
     return (
         <>
@@ -35,7 +41,7 @@ const Home = () => {
                         </div>
                     </div>
                     {/* <!-- Scoll Down --> */}
-                    <ToptoBottom/>
+                    <ToptoBottom />
                     {/* <div className="scroll-down scroll-down-light m-5 d-none d-md-block">
                         <div className="scroll-line"></div>
                         <span className="scoll-text">Scroll Down</span>
@@ -108,6 +114,23 @@ const Home = () => {
                     </div>
                 </section>
                 {/* <!-- =======================Service END====================== --> */}
+                {/* Industries List Section Starts  */}
+                <div className="container">
+                    <div className="row">
+                        {/* Each div takes 6 columns on large screens and 12 columns on small screens */}
+                        <div className="col-lg-6 col-md-12 mb-5">
+                            <ul className="list-group list-group-borderless" >
+                                <ListItem IndustryList={firstHalf} />
+                            </ul>
+                        </div>
+                        <div className="col-lg-6 col-md-12 mb-5">
+                            <ul className="list-group list-group-borderless" >
+                                <ListItem IndustryList={secondHalf} />
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                {/* Industries List Section Ends  */}
                 {/* <!-- ================Features START============== --> */}
                 <section className="bg-dark position-relative pattern-overlay-5 mx-xl-3 mx-xxxl-9 rounded">
                     <div className="container">

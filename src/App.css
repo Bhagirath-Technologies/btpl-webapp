@@ -26070,6 +26070,10 @@ button.text-primary-hover:hover {
   right: -110px;
   width: 150px;
 }
+/* custom css added  */
+.cursor_pointer{
+  cursor: pointer;
+}
 
 .rtlswitcher i {
   font-size: 16px;
