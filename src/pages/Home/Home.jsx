@@ -176,6 +176,126 @@ const Home = () => {
                 {/* <!-- ================Features END =============== --> */}
                 <Clientportfolio />
                 <OurPortlio />
+                <section class="bg-light position-relative pattern-overlay-5 mx-xl-3 mx-xxxl-9 rounded">
+                    <div className="container">
+                        <h4 class="mb-4">Services</h4>
+                        <h2 class="mb-6">Transform your business with advanced technologies</h2>
+                        <div className="row">
+                            <div class="col-md-6 col-lg-3 mb-6">
+                                <a href="#" class="card card-metro">
+                                    {/* <!-- Card Image --> */}
+                                    <div class="card-image">
+                                        <img src="assets/images/home/services_cards/01.webp" alt="card image" />
+                                    </div>
+                                    {/* <!-- Card Overlay --> */}
+                                    <div class="card-img-overlay d-flex flex-column">
+                                        <img class="w-40" src="assets/images/clients/light/01.svg" alt="" />
+                                        <div class="mt-auto card-text">
+                                            <h5 class="text-white">The missing link in e-Mobility</h5>
+                                            <p class="small text-white mb-0 text-truncate">What hasn’t been a great fit in e-mobility until now.</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-6 col-lg-3 mb-6">
+                                <a href="#" class="card card-metro">
+                                    {/* <!-- Card Image --> */}
+                                    <div class="card-image">
+                                        <img src="assets/images/home/services_cards/02.webp" alt="card image" />
+                                    </div>
+                                    {/* <!-- Card Overlay --> */}
+                                    <div class="card-img-overlay d-flex flex-column">
+                                        <img class="w-40" src="assets/images/clients/light/01.svg" alt="" />
+                                        <div class="mt-auto card-text">
+                                            <h5 class="text-white">The missing link in e-Mobility</h5>
+                                            <p class="small text-white mb-0 text-truncate">What hasn’t been a great fit in e-mobility until now.</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-6 col-lg-3 mb-6">
+                                <a href="#" class="card card-metro">
+                                    {/* <!-- Card Image --> */}
+                                    <div class="card-image">
+                                        <img src="assets/images/home/services_cards/03.webp" alt="card image" />
+                                    </div>
+                                    {/* <!-- Card Overlay --> */}
+                                    <div class="card-img-overlay d-flex flex-column">
+                                        <img class="w-40" src="assets/images/clients/light/01.svg" alt="" />
+                                        <div class="mt-auto card-text">
+                                            <h5 class="text-white">The missing link in e-Mobility</h5>
+                                            <p class="small text-white mb-0 text-truncate">What hasn’t been a great fit in e-mobility until now.</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-6 col-lg-3 mb-6">
+                                <a href="#" class="card card-metro">
+                                    {/* <!-- Card Image --> */}
+                                    <div class="card-image">
+                                        <img src="assets/images/home/services_cards/04.webp" alt="card image" />
+                                    </div>
+                                    {/* <!-- Card Overlay --> */}
+                                    <div class="card-img-overlay d-flex flex-column">
+                                        <img class="w-40" src="assets/images/clients/light/01.svg" alt="" />
+                                        <div class="mt-auto card-text">
+                                            <h5 class="text-white">The missing link in e-Mobility</h5>
+                                            <p class="small text-white mb-0 text-truncate">What hasn’t been a great fit in e-mobility until now.</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-6 col-lg-3 mb-6">
+                                <a href="#" class="card card-metro">
+                                    {/* <!-- Card Image --> */}
+                                    <div class="card-image">
+                                        <img src="assets/images/home/services_cards/05.webp" alt="card image" />
+                                    </div>
+                                    {/* <!-- Card Overlay --> */}
+                                    <div class="card-img-overlay d-flex flex-column">
+                                        <img class="w-40" src="assets/images/clients/light/01.svg" alt="" />
+                                        <div class="mt-auto card-text">
+                                            <h5 class="text-white">The missing link in e-Mobility</h5>
+                                            <p class="small text-white mb-0 text-truncate">What hasn’t been a great fit in e-mobility until now.</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-6 col-lg-3 mb-6">
+                                <a href="#" class="card card-metro">
+                                    {/* <!-- Card Image --> */}
+                                    <div class="card-image">
+                                        <img src="assets/images/home/services_cards/06.webp" alt="card image" />
+                                    </div>
+                                    {/* <!-- Card Overlay --> */}
+                                    <div class="card-img-overlay d-flex flex-column">
+                                        <img class="w-40" src="assets/images/clients/light/01.svg" alt="" />
+                                        <div class="mt-auto card-text">
+                                            <h5 class="text-white">The missing link in e-Mobility</h5>
+                                            <p class="small text-white mb-0 text-truncate">What hasn’t been a great fit in e-mobility until now.</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-6 col-lg-3 mb-6">
+                                <a href="#" class="card card-metro">
+                                    {/* <!-- Card Image --> */}
+                                    <div class="card-image">
+                                        <img src="assets/images/home/services_cards/07.webp" alt="card image" />
+                                    </div>
+                                    {/* <!-- Card Overlay --> */}
+                                    <div class="card-img-overlay d-flex flex-column">
+                                        <img class="w-40" src="assets/images/clients/light/01.svg" alt="" />
+                                        <div class="mt-auto card-text">
+                                            <h5 class="text-white">The missing link in e-Mobility</h5>
+                                            <p class="small text-white mb-0 text-truncate">What hasn’t been a great fit in e-mobility until now.</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
                 <section>
                     <div className="container">
                         <div className="row">

@@ -39,12 +39,12 @@ const IndustryList = [
     {
         id: "8",
         title: "Consumer Goods and Distribution",
-        style: "fa-fw me-2 far ",
+        style: "fa-fw me-2 far fas fa-shopping-cart text-dark ",
     },
     {
         id: "9",
         title: "Energy, Resources, and Utilities",
-        style: "fa-fw me-2 far ",
+        style: "fa-fw me-2 far fas fa-solar-panel text-info",
     },
 ];
 
