@@ -19,6 +19,8 @@ const Header = () => {
   };
 
   const handleMenuClick = () => {
+    //added if condition to show mobile menu 
+    if (window.innerWidth > 991) {
     setOpenMenu2(false);
     const dropdownMenu = document.querySelector(
       ".navbar-expand-lg .navbar-nav .dropdown:hover > .dropdown-menu"
@@ -26,6 +28,7 @@ const Header = () => {
     if (dropdownMenu) {
       dropdownMenu.style.cssText = "visibility: hidden;";
     }
+  }
   };
   const ShowMeAgain = () => {
     // Check if the screen width is greater than 991px

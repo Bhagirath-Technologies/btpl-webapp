@@ -55,6 +55,7 @@ const Policy = lazy(() => import("./pages/Policy"));
 const Cookies = lazy(() => import("./pages/Cookies"));
 const ServiceDetail = lazy(() => import("./components/ServiceDetail"));
 const Blog = lazy(() => import("./pages/Blog"));
+const Portfolio = lazy(() => import("./pages/Portfolio"));
 const BottomtoTop = lazy(() => import("./components/BottomtoTop"));
 // const Ticket = lazy(() => import("./components/Ticket"));
 
@@ -100,6 +101,7 @@ function App() {
           <Route path="/policy" element={<Policy />} />
           <Route path="/cookies" element={<Cookies />} />
           <Route path="/blog" element={<Blog />} />
+          <Route path="/portfolio" element={<Portfolio />} />
         </Routes>
       </Suspense>
       <Footer />

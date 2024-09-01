@@ -114,8 +114,10 @@ const Home = () => {
                     </div>
                 </section>
                 {/* <!-- =======================Service END====================== --> */}
+                <div class="bg-dark-overlay-dotted py-2 my-3"></div>
                 {/* Industries List Section Starts  */}
                 <div className="container">
+                    <h2>Select your industry. Discover our impact.</h2>
                     <div className="row">
                         {/* Each div takes 6 columns on large screens and 12 columns on small screens */}
                         <div className="col-lg-6 col-md-12 mb-5">
@@ -131,6 +133,7 @@ const Home = () => {
                     </div>
                 </div>
                 {/* Industries List Section Ends  */}
+                
                 {/* <!-- ================Features START============== --> */}
                 <section className="bg-dark position-relative pattern-overlay-5 mx-xl-3 mx-xxxl-9 rounded">
                     <div className="container">
@@ -176,7 +179,7 @@ const Home = () => {
                 {/* <!-- ================Features END =============== --> */}
                 <Clientportfolio />
                 <OurPortlio />
-                <section class="bg-light position-relative pattern-overlay-5 mx-xl-3 mx-xxxl-9 rounded">
+                <section class="bg-light position-relative pattern-overlay-7 mx-xl-3 mx-xxxl-9 rounded">
                     <div className="container">
                         <h4 class="mb-4">Services</h4>
                         <h2 class="mb-6">Transform your business with advanced technologies</h2>

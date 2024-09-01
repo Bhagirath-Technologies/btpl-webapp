@@ -24,7 +24,7 @@ export default function App() {
               </h2>
             </div>
             <div className="col-sm-4 mb-4 text-start text-sm-end">
-              <Link to="#" className="btn btn-line text-dark mt-3">
+              <Link to="/portfolio" className="btn btn-line text-dark mt-3">
                 View our work
               </Link>
             </div>
@@ -71,7 +71,7 @@ export default function App() {
                     <SwiperSlide>
                       {/* <!-- Card item START --> */}
                       <div className="item">
-                        <Link to="#" className="card card-metro">
+                        <Link to="/portfolio" className="card card-metro">
                           {/* <!-- Card Image --> */}
                           <div className="card-image">
                             <img src="assets/images/portfolio/01.webp" alt="" />
