@@ -194,8 +194,8 @@ const Home = () => {
                                     <div class="card-img-overlay d-flex flex-column">
                                         <img class="w-40" src="assets/images/clients/light/01.svg" alt="" />
                                         <div class="mt-auto card-text">
-                                            <h5 class="text-white">The missing link in e-Mobility</h5>
-                                            <p class="small text-white mb-0 text-truncate">What hasn’t been a great fit in e-mobility until now.</p>
+                                            <h5 class="text-white">Artificial Intelligence</h5>
+                                            <p class="small text-white mb-0 text-truncate">Artificial Intelligence (AI) is transforming industries</p>
                                         </div>
                                     </div>
                                 </a>
@@ -210,8 +210,8 @@ const Home = () => {
                                     <div class="card-img-overlay d-flex flex-column">
                                         <img class="w-40" src="assets/images/clients/light/01.svg" alt="" />
                                         <div class="mt-auto card-text">
-                                            <h5 class="text-white">The missing link in e-Mobility</h5>
-                                            <p class="small text-white mb-0 text-truncate">What hasn’t been a great fit in e-mobility until now.</p>
+                                            <h5 class="text-white">IoT Digital Engineering</h5>
+                                            <p class="small text-white mb-0 text-truncate">IoT Digital Engineering bridges the gap between the physical and digital worlds, creating seamless interactions between devices and systems. Our IoT solutions empower businesses to automate processes, optimize performance, and make data-driven decisions in real-time. By connecting smart devices, we enable efficient monitoring and control, enhancing productivity and reducing operational costs. The handshake between human intelligence and IoT-driven automation symbolizes the future of collaboration. Embrace IoT with us to unlock new levels of innovation and efficiency in your operations.</p>
                                         </div>
                                     </div>
                                 </a>
@@ -226,8 +226,8 @@ const Home = () => {
                                     <div class="card-img-overlay d-flex flex-column">
                                         <img class="w-40" src="assets/images/clients/light/01.svg" alt="" />
                                         <div class="mt-auto card-text">
-                                            <h5 class="text-white">The missing link in e-Mobility</h5>
-                                            <p class="small text-white mb-0 text-truncate">What hasn’t been a great fit in e-mobility until now.</p>
+                                            <h5 class="text-white">Data and Analytics</h5>
+                                            <p class="small text-white mb-0 text-truncate">In the data-driven world, leveraging insights from data is key to generating better leads and improving client conversion rates. Our data and analytics services empower businesses with actionable intelligence, enabling smarter decision-making and precise targeting. We use advanced analytics to uncover patterns, optimize marketing strategies, and drive measurable results. In today’s competitive landscape, harnessing data effectively is crucial for staying ahead. Let us transform your raw data into valuable insights that boost performance and maximize business growth.</p>
                                         </div>
                                     </div>
                                 </a>
@@ -242,8 +242,8 @@ const Home = () => {
                                     <div class="card-img-overlay d-flex flex-column">
                                         <img class="w-40" src="assets/images/clients/light/01.svg" alt="" />
                                         <div class="mt-auto card-text">
-                                            <h5 class="text-white">The missing link in e-Mobility</h5>
-                                            <p class="small text-white mb-0 text-truncate">What hasn’t been a great fit in e-mobility until now.</p>
+                                            <h5 class="text-white">Cloud</h5>
+                                            <p class="small text-white mb-0 text-truncate">Cloud computing revolutionizes how businesses store, access, and manage data. With scalable infrastructure and on-demand resources, the cloud enables greater flexibility and cost-efficiency. It enhances collaboration by allowing teams to work from anywhere with real-time access to critical information. Our cloud solutions provide secure, reliable, and scalable platforms tailored to your business needs. Empower your operations with the cloud and stay agile in an ever-evolving digital landscape.</p>
                                         </div>
                                     </div>
                                 </a>
@@ -258,8 +258,8 @@ const Home = () => {
                                     <div class="card-img-overlay d-flex flex-column">
                                         <img class="w-40" src="assets/images/clients/light/01.svg" alt="" />
                                         <div class="mt-auto card-text">
-                                            <h5 class="text-white">The missing link in e-Mobility</h5>
-                                            <p class="small text-white mb-0 text-truncate">What hasn’t been a great fit in e-mobility until now.</p>
+                                            <h5 class="text-white">Cybersecurity</h5>
+                                            <p class="small text-white mb-0 text-truncate">In today's digital landscape, robust cybersecurity is essential to safeguard your business from evolving threats. Our comprehensive cybersecurity solutions protect your data, systems, and networks with cutting-edge technologies and proactive measures. From threat detection and response to compliance and risk management, we ensure your business stays secure. Our team of experts works relentlessly to defend against cyber attacks, ensuring business continuity and resilience. Trust us to protect your digital assets and keep your operations secure 24/7</p>
                                         </div>
                                     </div>
                                 </a>
@@ -274,8 +274,8 @@ const Home = () => {
                                     <div class="card-img-overlay d-flex flex-column">
                                         <img class="w-40" src="assets/images/clients/light/01.svg" alt="" />
                                         <div class="mt-auto card-text">
-                                            <h5 class="text-white">The missing link in e-Mobility</h5>
-                                            <p class="small text-white mb-0 text-truncate">What hasn’t been a great fit in e-mobility until now.</p>
+                                            <h5 class="text-white">Cognitive business operations</h5>
+                                            <p class="small text-white mb-0 text-truncate">Cognitive Business Operations combine AI, automation, and advanced analytics to streamline and enhance business processes.</p>
                                         </div>
                                     </div>
                                 </a>
@@ -290,8 +290,72 @@ const Home = () => {
                                     <div class="card-img-overlay d-flex flex-column">
                                         <img class="w-40" src="assets/images/clients/light/01.svg" alt="" />
                                         <div class="mt-auto card-text">
-                                            <h5 class="text-white">The missing link in e-Mobility</h5>
-                                            <p class="small text-white mb-0 text-truncate">What hasn’t been a great fit in e-mobility until now.</p>
+                                            <h5 class="text-white">Consulting</h5>
+                                            <p class="small text-white mb-0 text-truncate">Our consulting services provide expert guidance to help businesses navigate complex challenges and drive strategic growth.</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-6 col-lg-3 mb-6">
+                                <a href="#" class="card card-metro">
+                                    {/* <!-- Card Image --> */}
+                                    <div class="card-image">
+                                        <img src="assets/images/home/services_cards/08.webp" alt="card image" />
+                                    </div>
+                                    {/* <!-- Card Overlay --> */}
+                                    <div class="card-img-overlay d-flex flex-column">
+                                        <img class="w-40" src="assets/images/clients/light/01.svg" alt="" />
+                                        <div class="mt-auto card-text">
+                                            <h5 class="text-white">Sustainability Services</h5>
+                                            <p class="small text-white mb-0 text-truncate">Our Sustainability Services help businesses integrate eco-friendly practices into their operations while driving long-term growth. We provide strategic solutions that reduce environmental impact, improve resource efficiency, and promote responsible consumption. By leveraging data, technology, and industry insights, we help you meet sustainability goals without compromising business performance. Sustainability is no longer just an option—it’s a necessity in today’s market. Partner with us to build a resilient, sustainable future while enhancing your brand’s reputation and value.</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-6 col-lg-3 mb-6">
+                                <a href="#" class="card card-metro">
+                                    {/* <!-- Card Image --> */}
+                                    <div class="card-image">
+                                        <img src="assets/images/home/services_cards/09.webp" alt="card image" />
+                                    </div>
+                                    {/* <!-- Card Overlay --> */}
+                                    <div class="card-img-overlay d-flex flex-column">
+                                        <img class="w-40" src="assets/images/clients/light/01.svg" alt="" />
+                                        <div class="mt-auto card-text">
+                                            <h5 class="text-white">Enterprise Solutions</h5>
+                                            <p class="small text-white mb-0 text-truncate">Our Enterprise Solutions are designed to optimize and scale your business operations with agility and precision. We offer tailored technology and software solutions that streamline processes, enhance collaboration, and improve efficiency across your organization. Whether it's integrating advanced systems, automating workflows, or managing large-scale infrastructure, we help you stay competitive in a rapidly evolving marketplace. Our expert team works with you to deliver scalable solutions that align with your business objectives. Empower your enterprise with cutting-edge technology for sustained success and growth.</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-6 col-lg-3 mb-6">
+                                <a href="#" class="card card-metro">
+                                    {/* <!-- Card Image --> */}
+                                    <div class="card-image">
+                                        <img src="assets/images/home/services_cards/10.webp" alt="card image" />
+                                    </div>
+                                    {/* <!-- Card Overlay --> */}
+                                    <div class="card-img-overlay d-flex flex-column">
+                                        <img class="w-40" src="assets/images/clients/light/01.svg" alt="" />
+                                        <div class="mt-auto card-text">
+                                            <h5 class="text-white">BTPL Interactive</h5>
+                                            <p class="small text-white mb-0 text-truncate">BTPL Interactive, a division of Bhagirath Technologies Private Limited, specializes in delivering innovative digital experiences that drive engagement and growth. We design and implement interactive solutions that blend cutting-edge technology with user-centric design, ensuring seamless interactions across platforms. Our expertise spans web development, mobile apps, and immersive experiences, helping businesses connect with their audiences in meaningful ways. At BTPL Interactive, we create digital ecosystems that not only engage but also inspire and convert. Partner with us to elevate your brand’s digital presence and transform customer experiences.</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-6 col-lg-3 mb-6">
+                                <a href="#" class="card card-metro">
+                                    {/* <!-- Card Image --> */}
+                                    <div class="card-image">
+                                        <img src="assets/images/home/services_cards/11.webp" alt="card image" />
+                                    </div>
+                                    {/* <!-- Card Overlay --> */}
+                                    <div class="card-img-overlay d-flex flex-column">
+                                        <img class="w-40" src="assets/images/clients/light/01.svg" alt="" />
+                                        <div class="mt-auto card-text">
+                                            <h5 class="text-white">Network Solutions and Services</h5>
+                                            <p class="small text-white mb-0 text-truncate">Our Network Solutions and Services provide businesses with reliable, scalable, and secure connectivity to power their digital operations. From designing robust network infrastructures to optimizing performance and ensuring seamless communication, we deliver end-to-end solutions tailored to your needs. Whether it's cloud integration, enterprise networking, or cybersecurity, we ensure that your network remains resilient and future-proof. Our expert team ensures uninterrupted connectivity, minimizing downtime and maximizing efficiency. Trust us to keep your business connected, secure, and ready for growth in today’s fast-paced digital world.</p>
                                         </div>
                                     </div>
                                 </a>
