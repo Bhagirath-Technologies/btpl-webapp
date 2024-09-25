@@ -318,7 +318,8 @@ const About = () => {
                 ></div>
                 <img
                   className="w-100"
-                  src="https://images.pexels.com/photos/3182811/pexels-photo-3182811.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                  src="assets/images/about/01.webp"
+                  // src="https://images.pexels.com/photos/3182811/pexels-photo-3182811.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                   alt="Portfolio image"
                 />
               </div>

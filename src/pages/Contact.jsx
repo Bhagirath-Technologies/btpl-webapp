@@ -3,6 +3,8 @@ import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
 import AutoTypingText from "../components/Typo";
 import AddressWithMap from "../components/AddressWithMap";
+import { ReactTyped } from 'react-typed';
+
 const Contact = () => {
   // State to track submission status
   const [isSubmitted, setIsSubmitted] = useState(false);
@@ -92,10 +94,19 @@ const Contact = () => {
             {/* <!-- Title --> */}
             <div className="col-md-6 mt-5 mt-md-0">
               <h1 class="display-5">
-                Say hi by filling the form out below
+                Say hi by filling the form below
                 <span class="text-primary">.</span>
               </h1>
-              <h3>Contact us</h3>
+              <h3>Contact us     
+                <span class="display-8 mb-0 mt-2 font-alt fw-normal rounded px-2 py-1 ms-3 mb-3">for</span>
+                <ReactTyped
+                  strings={['Web Development', 'Digital Marketing', 'App Development', 'Custom Software Development', 'Google Ads Campaigns', 'Brand Marketing', 'Consulting']}
+                  typeSpeed={100}
+                  backSpeed={50}
+                  loop
+                  className="display-8 mb-0 mt-2 font-alt fw-normal bg-success rounded text-white px-2 py-1 ms-3 mb-3 d-inline-block"
+                />
+              </h3>
               <p>Get in touch with us</p>
               {/* <!-- Form START Of Formspree --> */}
               {/* <form

@@ -84,7 +84,8 @@ const Portfolio = () => {
                   <div className="card-image rounded ms-5 ms-sm-8 overflow-hidden position-relative z-index-9">
                     <img
                       className="w-100"
-                      src="https://img.freepik.com/free-vector/tea-ad-with-watercolor-decoration_52683-30455.jpg?t=st=1724239036~exp=1724242636~hmac=5d4d156fec9b4523627072d78c1c0b9de7ab3b75c37efd95b0e37f78428b3bce&w=740"
+                      src="assets/images/portfolio/02.webp"
+                      // src="https://img.freepik.com/free-vector/tea-ad-with-watercolor-decoration_52683-30455.jpg?t=st=1724239036~exp=1724242636~hmac=5d4d156fec9b4523627072d78c1c0b9de7ab3b75c37efd95b0e37f78428b3bce&w=740"
                       alt="Portfolio image"
                     />
                     {/* <!-- Card Overlay duplicate--> */}
@@ -128,7 +129,8 @@ const Portfolio = () => {
                   <div className="card-image rounded ms-5 ms-sm-8 overflow-hidden position-relative z-index-9">
                     <img
                       className="w-100"
-                      src="https://img.freepik.com/free-vector/tea-ad-with-watercolor-decoration_52683-30453.jpg?t=st=1724239370~exp=1724242970~hmac=ce4cba37bc3979df16aa9509e00b60dfe5ca0ce0c7a7a514d632232d97169d05&w=740"
+                      src="assets/images/portfolio/03.webp"
+                      // src="https://img.freepik.com/free-vector/tea-ad-with-watercolor-decoration_52683-30453.jpg?t=st=1724239370~exp=1724242970~hmac=ce4cba37bc3979df16aa9509e00b60dfe5ca0ce0c7a7a514d632232d97169d05&w=740"
                       alt="Portfolio image"
                     />
                     {/* <!-- Card Overlay duplicate--> */}
@@ -172,7 +174,8 @@ const Portfolio = () => {
                   <div className="card-image rounded ms-5 ms-sm-8 overflow-hidden position-relative z-index-9">
                     <img
                       className="w-100"
-                      src="https://img.freepik.com/free-vector/hand-drawn-coffee-label-template_52683-99652.jpg?t=st=1724239402~exp=1724243002~hmac=5dabef3c91d190050d73f62e8c99cf3b346b1b38e8ebeb33e425e6741d172b96&w=900"
+                      src="assets/images/portfolio/06.webp"
+                      // src="https://img.freepik.com/free-vector/hand-drawn-coffee-label-template_52683-99652.jpg?t=st=1724239402~exp=1724243002~hmac=5dabef3c91d190050d73f62e8c99cf3b346b1b38e8ebeb33e425e6741d172b96&w=900"
                       alt="Portfolio image"
                     />
                     {/* <!-- Card Overlay duplicate--> */}
@@ -216,7 +219,8 @@ const Portfolio = () => {
                   <div className="card-image rounded ms-5 ms-sm-8 overflow-hidden position-relative z-index-9">
                     <img
                       className="w-100"
-                      src="https://img.freepik.com/free-vector/chocolate-mint-colorful-packing_23-2148411395.jpg?t=st=1724240058~exp=1724243658~hmac=2ba23f9225cf52479e76a3f74b93c8d92800397864776271440432067b0e5cce&w=740"
+                      src="assets/images/portfolio/08.webp"
+                      // src="https://img.freepik.com/free-vector/chocolate-mint-colorful-packing_23-2148411395.jpg?t=st=1724240058~exp=1724243658~hmac=2ba23f9225cf52479e76a3f74b93c8d92800397864776271440432067b0e5cce&w=740"
                       alt="Portfolio image"
                     />
                     {/* <!-- Card Overlay duplicate--> */}
@@ -260,7 +264,8 @@ const Portfolio = () => {
                   <div className="card-image rounded ms-5 ms-sm-8 overflow-hidden position-relative z-index-9">
                     <img
                       className="w-100"
-                      src="https://img.freepik.com/free-vector/tea-ad-with-drawing-decoration_23-2148384118.jpg?t=st=1724240296~exp=1724243896~hmac=b4728432661fa8b39834926b73a736f107f39ab3d33f20a8e1a993e8adc0e9de&w=740"
+                      src="assets/images/portfolio/09.webp"
+                      // src="https://img.freepik.com/free-vector/tea-ad-with-drawing-decoration_23-2148384118.jpg?t=st=1724240296~exp=1724243896~hmac=b4728432661fa8b39834926b73a736f107f39ab3d33f20a8e1a993e8adc0e9de&w=740"
                       alt="Portfolio image"
                     />
                     {/* <!-- Card Overlay duplicate--> */}
@@ -304,7 +309,8 @@ const Portfolio = () => {
                   <div className="card-image rounded ms-5 ms-sm-8 overflow-hidden position-relative z-index-9">
                     <img
                       className="w-100"
-                      src="https://img.freepik.com/free-vector/colorful-minimal-business-card-template_23-2148378656.jpg?t=st=1724239940~exp=1724243540~hmac=4871e6b95630aa0f950458bd1496dc7d7e1aa3386271d7c63f8dfbbc86298af8&w=740"
+                      src="assets/images/portfolio/10.webp"
+                      // src="https://img.freepik.com/free-vector/colorful-minimal-business-card-template_23-2148378656.jpg?t=st=1724239940~exp=1724243540~hmac=4871e6b95630aa0f950458bd1496dc7d7e1aa3386271d7c63f8dfbbc86298af8&w=740"
                       alt="Portfolio image"
                     />
                     {/* <!-- Card Overlay duplicate--> */}

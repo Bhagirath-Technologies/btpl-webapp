@@ -45,7 +45,7 @@ export default function App() {
                                             <div className="slider-content text-start">
                                                 <h3 className="pt-xsm-6 animate__animated animate__fadeInUp animate__delay-3s text-white mb-1 mb-md-4" data-aos="fade-up" data-aos-duration="1000">Global IT Solutions</h3>
                                                 {/* <h2 className="display-1 text-white-stroke text-primary-shadow d-block animate__animated animate__fadeInUp animate__delay-2s" data-aos="fade-up" data-aos-duration="2000" >Agency</h2> */}
-                                                <h2 className="animate__animated animate__fadeInUp animate__delay-3s display-3 text-white-stroke text-primary-shadow" data-aos="fade-up" data-aos-duration="2000">
+                                                <h1 className="animate__animated animate__fadeInUp animate__delay-3s display-3 text-white-stroke text-primary-shadow" data-aos="fade-up" data-aos-duration="2000">
                                                     <span className="text-white-stroke text-primary-shadow">B</span><span className="text-white">eyond</span>
                                                     <span className="text-white-stroke text-primary-shadow"> T</span>
                                                     <span className="text-white">he</span>
@@ -53,7 +53,7 @@ export default function App() {
                                                     <span className="text-white">ossible</span>
                                                     <span className="text-white-stroke text-primary-shadow"> L</span>
                                                     <span className="text-white">imits</span>
-                                                </h2>
+                                                </h1>
                                                 <p className="animate__animated animate__fadeInUp animate__delay-3s lead text-white" data-aos="fade-up" data-aos-duration="3000">In the world of technology, artificial intelligence, business, and beyond. BTPL serves as a guiding principle for those who dare to dream big and strive for greatness.</p>
                                                 <div className="animate__animated animate__fadeInUp mt-4 animate__delay-4s" data-aos="fade-up" data-aos-duration="3500"><Link to="/about" className="btn btn-line text-white">How we works</Link></div>
                                             </div>
@@ -75,7 +75,7 @@ export default function App() {
                                         <div className="col-md-8 justify-content-center align-self-center align-items-start">
                                             <div className="slider-content text-start">
                                                 <h5 className="pt-xsm-4 animate__animated animate__fadeInUp animate__delay-1s text-white mt-2 my-md-4" data-aos="fade-up" data-aos-duration="5000">Optimize, Innovate & Thrive</h5>
-                                                <h2 className="animate__animated animate__fadeInUp animate__delay-2s display-4 text-white" data-aos="fade-up" data-aos-duration="6000"><span className="text-white-stroke text-primary-shadow d-block">Empower Business</span>Through Technology</h2>
+                                                <h1 className="animate__animated animate__fadeInUp animate__delay-2s display-4 text-white" data-aos="fade-up" data-aos-duration="6000"><span className="text-white-stroke text-primary-shadow d-block">Empower Business</span>Through Technology</h1>
                                                 <p className="animate__animated animate__fadeInUp animate__delay-3s lead text-white d-none d-sm-block" data-aos="fade-up" data-aos-duration="7000">Maximize business potential through technology solutions, optimizing assets, and driving growth with business-focused services.</p>
                                                 <div className="animate__animated animate__fadeInUp animate__delay-4s mt-3" data-aos="fade-up" data-aos-duration="8000"><Link to="/contact" className="btn btn-primary">Discuss a Project</Link></div>
                                             </div>
