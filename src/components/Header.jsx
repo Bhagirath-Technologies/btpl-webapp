@@ -267,7 +267,7 @@ const Header = () => {
                         src="assets/images/flags/Zoho_meet.png"
                         alt=""
                       />{" "}
-                      Zoho Meet
+                      Btpl Meet
                     </Link>
                     <Link class="dropdown-item" to="https://people.bhagirathtechnologies.com/" target="_blank">
                       <img
@@ -275,7 +275,7 @@ const Header = () => {
                         src="assets/images/flags/Zoho-people.png"
                         alt=""
                       />{" "}
-                      Zoho People
+                      Btpl People
                     </Link>
                     <Link class="dropdown-item" to="https://careers.bhagirathtechnologies.com/" target="_blank">
                       <img
@@ -283,7 +283,7 @@ const Header = () => {
                         src="assets/images/flags/Zoho-career.png"
                         alt=""
                       />{" "}
-                      Zoho Careers
+                      Btpl Careers
                     </Link>
                   </div>
                 </div>
@@ -311,6 +311,12 @@ const Header = () => {
                     {" "}
                     <Link class="text-white text-primary-hover px-2" to="https://www.instagram.com/bhagirath_technologies/" target="_blank">
                       <i class="fab fa-instagram"></i>
+                    </Link>{" "}
+                  </li>
+                  <li>
+                    {" "}
+                    <Link class="text-white text-primary-hover px-2" to="https://in.linkedin.com/company/bhagirath-technologies" target="_blank">
+                      <i class="fab fa-linkedin"></i>
                     </Link>{" "}
                   </li>
                 </ul>

@@ -26419,3 +26419,112 @@ button.text-primary-hover:hover {
   color: var(--bs-gray-800);
 }
 /* Google review by elfsight custom css ends */
+
+/* css for portfolio detail page masonary gallery */
+.Portfolio {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Portfolio_Ul {
+  margin: 10px;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.Portfolio_Container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.Portfolio_Item {
+  width: 340px;
+  height: 260px;
+  /* border-radius: 20px; */
+  border: 1px solid rgb(234, 233, 233);
+  margin: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  transition: all .2s ease-in-out;
+  cursor: pointer;
+}
+
+.Portfolio_Item_Content {
+  position: absolute;
+  text-align: center;
+}
+
+.Portfolio_Img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.Portfolio_Text{
+  text-align: justify;
+  padding: 30px 10px;
+  font-size: 18px;
+}
+
+@media only screen and (min-width: 768px) {
+  .Portfolio_Item:hover{
+      .portfolio_img{
+          opacity: 0.2;
+          z-index: 0;
+      }
+      background-color: #5ca595;
+      color: white;
+  }
+ 
+}
+@media screen and (max-width:768px){
+  .Portfolio_Item {
+     flex-direction: column;
+  }
+  .Portfolio_Img {
+    padding-bottom: 10px;
+  }
+  .Portfolio_Text{
+      padding: 15px 22px;
+  }
+  .Portfolio_Item_Content {
+      position: static;
+      padding-bottom: 7px;
+  }
+}
+/* .portfolio_img:hover{
+  opacity: 0.2;
+  z-index: 0;
+} */
+/* css for portfolio lists */
+.PortfolioList{
+  font-size: 16px;
+  font-weight: 500;
+  margin-right: 30px;
+  padding: 7px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.active_item {
+  background-color: #5ca595;
+  color: white;
+}
+
+@media only screen and (min-width:320px) and (max-width:768px){
+  .PortfolioList{
+      font-size: 15px;
+      margin-right: 5px;
+      font-weight: 700;
+  }
+}
