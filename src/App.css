@@ -673,7 +673,11 @@ progress {
   font-weight: 700;
   line-height: 1.4;
 }
-
+.display-11 {
+  font-size: 0.8rem;
+  font-weight: 700;
+  line-height: 1.4;
+}
 .list-unstyled {
   padding-left: 0;
   list-style: none;

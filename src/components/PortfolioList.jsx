@@ -2,7 +2,7 @@ import React from "react";
 
 function PortfolioList({id, title, active, setSelected }) {
   return (
-    <li className={active ? "portfolioList active_item" : "portfolioList"} onClick={()=> setSelected(id)}>
+    <li className={active ? "PortfolioList active_item" : "PortfolioList"} onClick={()=> setSelected(id)}>
       {title}
     </li>
   );
