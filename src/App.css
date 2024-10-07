@@ -11987,7 +11987,10 @@ fieldset:disabled .btn {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-white-rgb), var(--bs-bg-opacity)) !important;
 }
-
+.bg-muted {
+  --bs-bg-opacity: 1;
+  background-color: #6c757d !important;
+}
 .bg-body {
   --bs-bg-opacity: 1;
   background-color: rgba(
@@ -16451,7 +16454,9 @@ fieldset:disabled .btn {
     text-align: center !important;
   }
 }
-
+.text-lg-justify {
+  text-align: justify !important;
+}
 @media (min-width: 1200px) {
   .float-xl-start {
     float: left !important;
@@ -26512,7 +26517,7 @@ button.text-primary-hover:hover {
 } */
 /* css for portfolio lists */
 .PortfolioList{
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 500;
   margin-right: 30px;
   padding: 7px;
@@ -26521,7 +26526,7 @@ button.text-primary-hover:hover {
 }
 
 .active_item {
-  background-color: #5ca595;
+  background-color: #1d3b6a;
   color: white;
 }
 

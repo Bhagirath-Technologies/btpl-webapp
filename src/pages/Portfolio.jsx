@@ -130,14 +130,17 @@ const Portfolio = () => {
                         <p className="display-8 mb-0 text-body font-alt fw-normal">
                         {d.title}
                         </p>
-                        <p className="col-4 display-11 mb-0 text-dark font-heading fw-normal">
-                        Bhagirath BVM Grand, your trusted global merchant trader specialising in commodities and raw food supply. With a commitment to excellence and a vast network spanning the globe, we bring unparalleled expertise to the world of international trade.
+                        <p className="text-lg-justify col-4 display-11 mb-0 text-dark font-heading fw-normal">
+                        {d.desc}
                         </p>
+                        <h5 className="mb-0 display-9 display-lg-9 text-dark-stroke">
+                          {d.client}
+                        </h5>
                         <h5 className="display-9 display-lg-9 text-dark-stroke">
-                          Bhagirath<br/>BVM Grand (HK)
+                          {d.clientsuffix}
                         </h5>
                         <Link
-                          to="https://bbvmg.com/"
+                          to={d.projectlink}
                           target="_blank"
                           className="btn btn-primary btn-line btn-sm position-relative z-index-9 card-element-hover"
                         >
