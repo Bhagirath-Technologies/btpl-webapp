@@ -74,7 +74,7 @@ export default function App() {
                         <Link to="/portfolio" className="card card-metro">
                           {/* <!-- Card Image --> */}
                           <div className="card-image">
-                            <img src="assets/images/portfolio/01.webp" alt="" />
+                            <img src="assets/images/portfolio/01.webp" alt="" loading="lazy" />
                           </div>
                           {/* <!-- Card Overlay --> */}
                           <div className="card-img-overlay d-flex flex-column">
@@ -84,8 +84,8 @@ export default function App() {
                               alt=""
                             />
                             <div className="mt-auto card-text">
-                              <h5 className="text-white">
-                                Bhagirath BVM Grand (HK)
+                              <h5 >
+                                <Link className="text-white" to="http://localhost:3000/portfolio">Bhagirath BVM Grand (HK)</Link>
                               </h5>
                               <p className="small text-white mb-0 text-truncate">
                                 At Bhagirath BVM Grand (HK) Limited, we are the
@@ -105,21 +105,22 @@ export default function App() {
                         <Link to="#" className="card card-metro">
                           {/* <!-- Card Image --> */}
                           <div className="card-image">
-                            <img src="assets/images/portfolio/02.webp" alt="" />
+                            <img src="assets/images/portfolio/02.webp" alt="" loading="lazy" />
                           </div>
                           {/* <!-- Card Overlay --> */}
                           <div className="card-img-overlay d-flex flex-column">
                             <img
                               className="w-40"
                               src="assets/images/clients/light/02.svg"
-                              alt=""
+                              alt="brel india"
                             />
                             <div className="mt-auto card-text">
-                              <h5 className="text-white">
-                              Bhagirath Renewable Energy
+                              <h5 >
+                                <Link className="text-white" to="http://localhost:3000/portfolio"> Bhagirath Renewable Energy</Link>
+
                               </h5>
                               <p className="small text-white mb-0 text-truncate">
-                              Welcome to Bhagirath Renewable Energy Private Limited (BREL), where innovation meets sustainability.
+                                Welcome to Bhagirath Renewable Energy Private Limited (BREL), where innovation meets sustainability.
                               </p>
                             </div>
                           </div>
@@ -133,7 +134,7 @@ export default function App() {
                         <Link to="#" className="card card-metro">
                           {/* <!-- Card Image --> */}
                           <div className="card-image">
-                            <img src="assets/images/portfolio/03.webp" alt="" />
+                            <img src="assets/images/portfolio/03.webp" alt="gardening website" loading="lazy" />
                           </div>
                           {/* <!-- Card Overlay --> */}
                           <div className="card-img-overlay d-flex flex-column">
@@ -143,11 +144,11 @@ export default function App() {
                               alt=""
                             />
                             <div className="mt-auto card-text">
-                              <h5 className="text-white">
-                              Home Gardners
+                              <h5 >
+                                <Link className="text-white" to="http://localhost:3000/portfolio"> Home Gardeners</Link>
                               </h5>
                               <p className="small text-white mb-0 text-truncate">
-                              We've created with passionate home gardeners stunning websites that showcase their green thumb expertise. From plant profiles to gardening tips, our designs cultivate a vibrant online community. Let us bring your gardening journey to life with a website that blooms.                              </p>
+                                We've created with passionate home gardeners stunning websites that showcase their green thumb expertise. From plant profiles to gardening tips, our designs cultivate a vibrant online community. Let us bring your gardening journey to life with a website that blooms.                              </p>
                             </div>
                           </div>
                         </Link>
@@ -160,7 +161,7 @@ export default function App() {
                         <Link to="#" className="card card-metro">
                           {/* <!-- Card Image --> */}
                           <div className="card-image">
-                            <img src="assets/images/portfolio/04.webp" alt="" />
+                            <img src="assets/images/portfolio/04.webp" alt="" loading="lazy" />
                           </div>
                           {/* <!-- Card Overlay --> */}
                           <div className="card-img-overlay d-flex flex-column">
@@ -170,12 +171,11 @@ export default function App() {
                               alt=""
                             />
                             <div className="mt-auto card-text">
-                              <h5 className="text-white">
-                              Figma Web Design 
-                            
+                              <h5 >
+                                <Link className="text-white" to="http://localhost:3000/portfolio">Bhagirath Technologies</Link>
                               </h5>
                               <p className="small text-white mb-0 text-truncate">
-                              We made this Figma web designs for our client with unique needs and exceed your expectations. Elevate your online presence with a design that reflects your brand identity and captivates your audience. Get in touch to elevate your digital presence today.
+                                We made this Figma web designs for our client with unique needs and exceed your expectations. Elevate your online presence with a design that reflects your brand identity and captivates your audience. Get in touch to elevate your digital presence today.
                               </p>
                             </div>
                           </div>
@@ -189,7 +189,7 @@ export default function App() {
                         <Link to="#" className="card card-metro">
                           {/* <!-- Card Image --> */}
                           <div className="card-image">
-                            <img src="assets/images/portfolio/05.webp" alt="" />
+                            <img src="assets/images/portfolio/05.webp" alt="" loading="lazy" />
                           </div>
                           {/* <!-- Card Overlay --> */}
                           <div className="card-img-overlay d-flex flex-column">
@@ -199,9 +199,10 @@ export default function App() {
                               alt=""
                             />
                             <div className="mt-auto card-text">
-                              <h5 className="text-white">  Brochure and Logo Designs</h5>
+                              <h5>
+                                <Link className="text-white" to="http://localhost:3000/portfolio">Graphics and Designs</Link></h5>
                               <p className="small text-white mb-0 text-truncate">
-                              We created eye-catching brochures and logo designs for our client that embody brand's essence to captivating brochures that communicate your message effectively, we bring your vision to life. Let us design the perfect visuals to make your brand shine.
+                                We created eye-catching brochures and logo designs for our client that embody brand's essence to captivating brochures that communicate your message effectively, we bring your vision to life. Let us design the perfect visuals to make your brand shine.
                               </p>
                             </div>
                           </div>
@@ -216,7 +217,7 @@ export default function App() {
                         <Link to="#" className="card card-metro">
                           {/* <!-- Card Image --> */}
                           <div className="card-image">
-                            <img src="assets/images/portfolio/06.webp" alt="" />
+                            <img src="assets/images/portfolio/06.webp" alt="" loading="lazy" />
                           </div>
                           {/* <!-- Card Overlay --> */}
                           <div className="card-img-overlay d-flex flex-column">
@@ -226,11 +227,11 @@ export default function App() {
                               alt=""
                             />
                             <div className="mt-auto card-text">
-                              <h5 className="text-white">
-                              Web Design Development
+                              <h5>
+                                <Link className="text-white" to="http://localhost:3000/portfolio">Application Development</Link>
                               </h5>
                               <p className="small text-white mb-0 text-truncate">
-                              We craft stunning website designs tailored specifically to your needs.
+                                We craft stunning website designs tailored specifically to your needs.
                               </p>
                             </div>
                           </div>
@@ -244,7 +245,7 @@ export default function App() {
                         <Link to="#" className="card card-metro">
                           {/* <!-- Card Image --> */}
                           <div className="card-image">
-                            <img src="assets/images/portfolio/07.webp" alt="" />
+                            <img src="assets/images/portfolio/07.webp" alt="" loading="lazy" />
                           </div>
                           {/* <!-- Card Overlay --> */}
                           <div className="card-img-overlay d-flex flex-column">
@@ -254,11 +255,11 @@ export default function App() {
                               alt=""
                             />
                             <div className="mt-auto card-text">
-                              <h5 className="text-white">
-                              Custom Software Development
+                              <h5>
+                                <Link className="text-white" to="http://localhost:3000/portfolio">Customised Website Development</Link>
                               </h5>
                               <p className="small text-white mb-0 text-truncate">
-                              We undertake your Custom Software Development project
+                                We undertake your Custom Software Development project
                               </p>
                             </div>
                           </div>

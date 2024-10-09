@@ -247,7 +247,7 @@ const webData = [
     data_aos_delay: "1200",
   },
   {
-    id: "5",
+    id: "Logo Designing",
     type: "services",
     title: "Logo Designs",
     desc: "Guranted Digital Presence",
