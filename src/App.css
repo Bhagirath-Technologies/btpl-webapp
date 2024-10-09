@@ -26517,8 +26517,8 @@ button.text-primary-hover:hover {
 } */
 /* css for portfolio lists */
 .PortfolioList{
-  font-size: 18px;
-  font-weight: 500;
+  font-size: 26px;
+  font-weight: 600 !important;
   margin-right: 30px;
   padding: 7px;
   border-radius: 15px;
@@ -26535,5 +26535,19 @@ button.text-primary-hover:hover {
       font-size: 15px;
       margin-right: 5px;
       font-weight: 700;
+  }
+}
+@media only screen and (min-width:769px) and (max-width:991px){
+  .PortfolioList{
+      font-size: 18px;
+      margin-right: 5px;
+      font-weight: 700;
+  }
+}
+@media only screen and (min-width:992px) and (max-width:1440px){
+  .PortfolioList{
+      font-size: 19px;
+      margin-right: 5px;
+      font-weight: 600 !important;
   }
 }
