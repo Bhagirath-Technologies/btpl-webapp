@@ -97,7 +97,7 @@ const Portfolio = () => {
                 <Tilt>
                   <div className="card border-0 rounded-0 bg-transparent">
                     {/* <!-- Card Image --> */}
-                    <div className="card-image rounded ms-5 ms-sm-10 overflow-hidden position-relative z-index-9">
+                    <div className="card-image rounded margin_left ms-sm-10 overflow-hidden position-relative z-index-9">
                       <img
                         className="w-100 "
                         src={d.img}
@@ -111,7 +111,7 @@ const Portfolio = () => {
                         <p className="display-8 mb-0 text-body font-alt fw-normal">
                         {d.title}
                         </p>
-                        <p className="text-lg-justify col-4 display-11 mb-0 text-dark font-heading fw-normal pe-xxl-3">
+                        <p className="text-lg-justify col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-12 display-11 mb-0 text-dark font-heading fw-normal pe-xxl-3">
                         {d.desc}
                         </p>
                         <h5 className="mb-0 display-9 display-lg-9 text-dark-stroke">

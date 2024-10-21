@@ -6275,17 +6275,29 @@ fieldset:disabled .btn {
   margin-right: calc(-0.5 * var(--bs-card-cap-padding-x));
   margin-left: calc(-0.5 * var(--bs-card-cap-padding-x));
 }
-
-.card-img-overlay {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: var(--bs-card-img-overlay-padding);
-  border-radius: var(--bs-card-inner-border-radius);
+/* adding breakpoints for making the portfolio cards responsive in small screen devices */
+@media only screen and (min-width:991px ){
+  .card-img-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: var(--bs-card-img-overlay-padding);
+    border-radius: var(--bs-card-inner-border-radius);
+  }
+ 
 }
-
+@media only screen and (min-width:320px ) and (max-width:990px ){
+  .margin_left{
+    margin-left: 0 !important;
+  }
+}
+@media only screen and (min-width:991px ){
+  .margin_left{
+    margin-left: 3 !important;
+  }
+}
 .card-img,
 .card-img-top,
 .card-img-bottom {
@@ -21920,16 +21932,17 @@ fieldset:disabled .btn {
   -webkit-transform: scale(1.08);
   transform: scale(1.08);
 }
-
-.card .card-element-hover {
-  visibility: hidden;
-  margin-top: 30px;
-  opacity: 0;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  z-index: 9;
+/* adding custom css for portfolio for small screen devices */
+@media only screen and (min-width:991px){
+  .card .card-element-hover {
+    visibility: hidden;
+    margin-top: 30px;
+    opacity: 0;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    z-index: 9;
+  }
 }
-
 .card:hover .card-element-hover {
   visibility: visible;
   margin-top: 0px;

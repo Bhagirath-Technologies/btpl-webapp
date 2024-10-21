@@ -79,7 +79,7 @@ export const webDevelopmentPortfoilio = [
       clientprefix:"by Bhagirath",
       clientsuffix:"Technologies",
       projectlink:"",
-      desc: "We offer comprehensive e-commerce solutions, delivering custom-built platforms for all types of businesses. From small startups to large enterprises, our tailored applications support seamless online shopping experiences, secure transactions, and scalable growth across multiple platforms.",
+      desc: "We offer comprehensive e-commerce solutions, delivering custom-built platforms for all types of businesses. From small startups to large enterprises, our tailored applications support seamless online shopping experiences, secure transactions.",
       img: "assets/images/portfolio/09.webp",
     },
   ];
@@ -156,7 +156,7 @@ export const webDevelopmentPortfoilio = [
         projectlink:"",
         clientsuffix:"",
         desc: "",
-        img: "https://img.freepik.com/free-photo/medium-shot-smiley-man-wearing-helmet_23-2149426484.jpg?size=626&ext=jpg&uid=R115557865&ga=GA1.2.1388915471.1694001144&semt=ais",
+        img: "assets/images/portfolio/17.webp",
       },
       {
         id: 2,
@@ -165,7 +165,7 @@ export const webDevelopmentPortfoilio = [
         projectlink:"",
         clientsuffix:"",
         desc: "",
-        img: "https://img.freepik.com/free-photo/man-safety-equipment-his-workplace_23-2148976363.jpg?size=626&ext=jpg&uid=R115557865&ga=GA1.2.1388915471.1694001144&semt=ais",
+        img: "assets/images/portfolio/18.webp",
       },
       {
         id: 3,
@@ -174,7 +174,7 @@ export const webDevelopmentPortfoilio = [
         projectlink:"",
         clientsuffix:"",
         desc: "",
-        img: "https://img.freepik.com/free-photo/medium-shot-men-with-neon-vests_23-2149426473.jpg?size=626&ext=jpg&uid=R115557865&ga=GA1.2.1388915471.1694001144&semt=ais",
+        img: "assets/images/portfolio/19.webp",
       },
       {
         id: 4,
@@ -183,47 +183,19 @@ export const webDevelopmentPortfoilio = [
         projectlink:"",
         clientsuffix:"",
         desc: "",
-        img: "https://img.freepik.com/free-photo/petroleum-engineer-controlling-work-oil-well-pump-jack_651396-3343.jpg?size=626&ext=jpg&uid=R115557865&ga=GA1.2.1388915471.1694001144&semt=ais",
+        img: "assets/images/portfolio/20.webp",
+      },
+      {
+        id: 5,
+        title: "Marketing",
+        clientprefix:"",
+        projectlink:"",
+        clientsuffix:"",
+        desc: "",
+        img: "assets/images/portfolio/21.webp",
       },
     ];
-    export const marketingPortfolio = [
-      {
-        id: 1,
-        title: "Branding",
-        clientprefix:"",
-        projectlink:"",
-        clientsuffix:"",
-        desc: "",
-        img: "assets/images/portfolio/22.webp",
-      },
-      {
-        id: 2,
-        title: "Middle Distillates",
-        clientprefix:"",
-        projectlink:"",
-        clientsuffix:"",
-        desc: "",
-        img: "assets/images/portfolio/23.webp",
-      },
-      {
-        id: 3,
-        title: "Middle Distillates",
-        clientprefix:"",
-        projectlink:"",
-        clientsuffix:"",
-        desc: "",
-        img: "assets/images/portfolio/24.webp",
-      },
-      {
-        id: 4,
-        title: "Middle Distillates",
-        clientprefix:"",
-        projectlink:"",
-        clientsuffix:"",
-        desc: "",
-        img: "assets/images/portfolio/25.webp",
-      },
-    ];
+
     export const brandingPortfolio = [
       {
         id: 1,

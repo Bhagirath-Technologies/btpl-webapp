@@ -488,10 +488,27 @@ const About = () => {
               <div className="tiny-slider dots-bordered mb-5">
                 {/* swiper starts  */}
                 <Swiper
-                  slidesPerView={3}
+                  // slidesPerView={3}
                   spaceBetween={30}
                   pagination={{
                     clickable: true,
+                  }}
+                  breakpoints={{
+                    // when window width is >= 320px (mobile)
+                    320: {
+                      slidesPerView: 1,
+                      spaceBetween: 20,
+                    },
+                    // when window width is >= 768px (tablet)
+                    768: {
+                      slidesPerView: 2,
+                      spaceBetween: 30,
+                    },
+                    // when window width is >= 1024px (large devices like laptops)
+                    1024: {
+                      slidesPerView: 3,
+                      spaceBetween: 30,
+                    },
                   }}
                   modules={[Pagination]}
                   className="mySwiper"
@@ -579,60 +596,7 @@ const About = () => {
                     </div>
                     {/* <!-- Card item END --> */}
                   </SwiperSlide>
-                  <SwiperSlide>
-                    {/* <!-- Card item START --> */}
-                    <div
-                      className="item tns-item tns-slide-active"
-                      id="tns1-item0"
-                    >
-                      <Link to="#" className="card card-metro">
-                        {/* <!-- Card Image --> */}
-                        <div className="card-image">
-                          <img
-                            src="https://ca.slack-edge.com/T061U5D9280-U06G7AZHL1H-2dc535637d2a-512"
-                            alt="card image"
-                          />
-                        </div>
-                        {/* <!-- Card Overlay --> */}
-                        <div className="card-img-overlay d-flex flex-column">
-                          <div className="mt-auto card-text">
-                            <h5 className="text-white">Prachi Pare</h5>
-                            <p className="small text-white mb-0">
-                              Digital Marketer
-                            </p>
-                          </div>
-                        </div>
-                      </Link>
-                    </div>
-                    {/* <!-- Card item END --> */}
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    {/* <!-- Card item START --> */}
-                    <div
-                      className="item tns-item tns-slide-active"
-                      id="tns1-item0"
-                    >
-                      <Link to="#" className="card card-metro">
-                        {/* <!-- Card Image --> */}
-                        <div className="card-image">
-                          <img
-                            src="https://ca.slack-edge.com/T061U5D9280-U077Q0PDRJA-ed5c30263539-512"
-                            alt="card image"
-                          />
-                        </div>
-                        {/* <!-- Card Overlay --> */}
-                        <div className="card-img-overlay d-flex flex-column">
-                          <div className="mt-auto card-text">
-                            <h5 className="text-white">Shayaan Khan</h5>
-                            <p className="small text-white mb-0">
-                              Frontend Developer
-                            </p>
-                          </div>
-                        </div>
-                      </Link>
-                    </div>
-                    {/* <!-- Card item END --> */}
-                  </SwiperSlide>
+                 z
                 </Swiper>
               </div>
             </div>
@@ -870,7 +834,8 @@ const About = () => {
           {/* <!-- Our Mission --> */}
           <div className="row mb-5">
             <div className="col-lg-4">
-              <h3 className="mb-4">Our Mission</h3>
+              <h3 className="">Our Mission</h3>
+              <img src="assets/images/icons/mission.png" alt="" width="250px"/>
             </div>
             <div className="col-lg-8">
               <p>
@@ -897,7 +862,8 @@ const About = () => {
           {/* <!-- Our Vision --> */}
           <div className="row mb-5">
             <div className="col-lg-4">
-              <h3 className="mb-4">Our Vision</h3>
+              <h3 className="">Our Vision</h3>
+               <img src="assets/images/icons/vision.png" alt="" width="250px"/>
             </div>
             <div className="col-lg-8">
               <p>
@@ -924,7 +890,8 @@ const About = () => {
           {/* <!-- Our Values --> */}
           <div className="row">
             <div className="col-lg-4">
-              <h3 className="mb-4">Our Values</h3>
+              <h3 className="">Our Values</h3>
+                <img src="assets/images/icons/value.png" alt="" width="250px"/>
             </div>
             <div className="col-lg-8">
               <p>
