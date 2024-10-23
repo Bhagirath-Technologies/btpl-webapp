@@ -596,7 +596,6 @@ const About = () => {
                     </div>
                     {/* <!-- Card item END --> */}
                   </SwiperSlide>
-                 z
                 </Swiper>
               </div>
             </div>
