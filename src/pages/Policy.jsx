@@ -303,8 +303,7 @@ const Policy = () => {
                   <p>
                     Call us on above number to get quick solution.{" "}
                     <small className="d-block">
-                      <span className="text-danger">*</span> Additional charges may
-                      apply
+                      {/* <span className="text-danger">*</span> Feel free to contact us */}
                     </small>
                   </p>
                 </div>
@@ -320,8 +319,7 @@ const Policy = () => {
                     <Link to="#">Raise Ticket</Link>
                   </h6>
                   <p>
-                    If you have technical questions, chat live with developers
-                    in our Skype chat
+                  If you have technical issues and queries you can raise a ticket by clicking on the icon given below in the bottom right corner of the website.
                   </p>
                 </div>
               </div>

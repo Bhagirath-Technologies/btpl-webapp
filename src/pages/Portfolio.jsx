@@ -63,12 +63,7 @@ const Portfolio = () => {
                 Portfolio
               </h1>
               <p className="lead">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
-                minus vel quas ducimus aspernatur velit quaerat ab aliquid
-                ratione deleniti! Vel perferendis ex maiores amet, rem vero
-                earum facere odit, aliquam cupiditate quidem praesentium nobis
-                quas quam temporibus pariatur aperiam minima! Totam accusamus
-                itaque, porro provident accusantium tenetur expedita illum?
+                At Bhagirath Technologies, we excel in web and app development, custom software solutions, and innovative graphics and branding. Our services include Google Ads management and comprehensive digital marketing strategies, helping businesses achieve impactful online presence and targeted audience engagement.
               </p>
             </div>
           </div>
@@ -120,13 +115,14 @@ const Portfolio = () => {
                         <h5 className="display-9 display-lg-9 text-dark-stroke">
                           {d.clientsuffix}
                         </h5>
-                        <Link
-                          to={d.projectlink}
-                          target="_blank"
+                        <a
+                          href={d.boucherlink}
+                          // target="_blank"
+                          download={d.boucherfile}
                           className="btn btn-primary btn-line btn-sm position-relative z-index-9 card-element-hover"
                         >
-                          View Project
-                        </Link>
+                          Get Samples
+                        </a>
                       </div>
                     </div>
                   </div>

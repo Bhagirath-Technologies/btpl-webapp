@@ -41,6 +41,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import rentalData from "./data/RentalServicedata"; // Imported  data
 import webData from "./data/WebServicedata"; // Imported data
 import { Helmet } from "react-helmet";
+import PreLoader from "./components/PreLoader/Preloader";
 
 const Header = lazy(() => import("./components/Header"));
 const Footer = lazy(() => import("./components/Footer"));
@@ -82,6 +83,7 @@ function App() {
     Bhagirath Technologies"
           />
         </Helmet>
+        <PreLoader/>
         <Header isHome={window.location.pathname === "/"} />
         <Routes>
           <Route path="/" element={<Home />} />

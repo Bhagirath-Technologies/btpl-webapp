@@ -18,7 +18,7 @@ const Contact = () => {
       setSubmitButtonText('Submitting...');
       const data = new FormData(formContactUs);
       data.append('formType', 'Contact Us');
-      fetch('https://script.google.com/macros/s/AKfycbyBQy_Xul9gUmR1bPXK8YV5F0BG11j6ePqSVccT8TEh_iRMyHVZUWbAvCawwO0BMmEc5g/exec', {
+      fetch('https://script.google.com/macros/s/AKfycbwPZn9qmywqygUhlrVCrxPnWX8eMreHidQo1N-37J6sBA1zCVPGty3HKAVmVpkqcCng/exec', {
         method: 'POST',
         body: data,
       })
