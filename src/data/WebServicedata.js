@@ -1,6 +1,6 @@
 const webData = [
   {
-    id: "Web Development",
+    id: "web-development",
     type: "services",
     title: "Web Development",
     desc: "Guranted Digital Presence",
@@ -31,7 +31,7 @@ const webData = [
     data_aos_delay: "300",
   },
   {
-    id: "Graphics & E-commerce",
+    id: "graphics-Ecommerce",
     type: "services",
     title: "Graphics & E-commerce",
     desc: "Guranted Digital Presence",
@@ -62,7 +62,7 @@ const webData = [
     data_aos_delay: "300",
   },
   {
-    id: "Online Marketing",
+    id: "online-marketing",
     type: "services",
     title: "Online Marketing",
     desc: "Guranted Digital Presence",
@@ -93,7 +93,7 @@ const webData = [
     data_aos_delay: "300",
   },
   {
-    id: "Branding",
+    id: "branding",
     type: "services",
     title: "Branding",
     desc: "Guranted Digital Presence",
@@ -122,7 +122,7 @@ const webData = [
     data_aos_delay: "300",
   },
   {
-    id: "1",
+    id: "website-design",
     type: "services",
     title: "Website Design and Development",
     desc: "Guranted Digital Presence",
@@ -153,7 +153,7 @@ const webData = [
     data_aos_delay: "300",
   },
   {
-    id: "2",
+    id: "web-applications",
     type: "services",
     title: "Web Applications Design",
     desc: "Guranted Digital Presence",
@@ -184,7 +184,7 @@ const webData = [
     data_aos_delay: "600",
   },
   {
-    id: "3",
+    id: "custom-software-development",
     type: "services",
     title: "Custom Software Development",
     desc: "Guranted Digital Presence",
@@ -215,7 +215,7 @@ const webData = [
     data_aos_delay: "900",
   },
   {
-    id: "4",
+    id: "e-commerce-application",
     type: "services",
     title: "E-Commerce Solutions",
     desc: "Guranted Digital Presence",
@@ -247,7 +247,7 @@ const webData = [
     data_aos_delay: "1200",
   },
   {
-    id: "Logo Designing",
+    id: "logo-designing",
     type: "services",
     title: "Logo Designs",
     desc: "Guranted Digital Presence",
@@ -278,7 +278,7 @@ const webData = [
     data_aos_delay: "300",
   },
   {
-    id: "6",
+    id: "banner-poster-designs",
     type: "services",
     title: "Banner & Poster Design",
     desc: "Guranted Digital Presence",
@@ -309,7 +309,7 @@ const webData = [
     data_aos_delay: "600",
   },
   {
-    id: "7",
+    id: "print-media",
     type: "services",
     title: "Print Media",
     desc: "Guranted Digital Presence",
@@ -340,9 +340,9 @@ const webData = [
     data_aos_delay: "900",
   },
   {
-    id: "8",
+    id: "figma-designs",
     type: "services",
-    title: "Figma Design",
+    title: "Figma Designs",
     desc: "Guranted Digital Presence",
     content:
       "Explore the power of Figma Design, the ultimate platform for seamless web and app design. From crafting stunning websites with Figma's intuitive interface to creating pixel-perfect UI designs, our expertise spans Figma UI Design and beyond. Convert your designs effortlessly with Figma to HTML and CSS integration. Elevate your projects with the industry's leading design tool – Figma",
@@ -367,7 +367,7 @@ const webData = [
     data_aos_delay: "1200",
   },
   {
-    id: "9",
+    id: "digital-marketing",
     type: "services",
     title: "Digital Marketing",
     desc: "Guranted Digital Presence",
@@ -397,7 +397,7 @@ const webData = [
     data_aos_delay: "300",
   },
   {
-    id: "10",
+    id: "social-media-marketing",
     type: "services",
     title: "Social Media Marketing",
     desc: "Guranted Digital Presence",
@@ -428,7 +428,7 @@ const webData = [
     data_aos_delay: "600",
   },
   {
-    id: "11",
+    id: "google-ads-campaign",
     type: "services",
     title: "Google Ads Campaigns",
     desc: "Guranted Digital Presence",
@@ -454,7 +454,7 @@ const webData = [
     data_aos_delay: "900",
   },
   {
-    id: "12",
+    id: "content-writing",
     type: "services",
     title: "Content Marketing",
     desc: "Guranted Digital Presence",
@@ -485,7 +485,7 @@ const webData = [
     data_aos_delay: "1200",
   },
   {
-    id: "13",
+    id: "brand-identity",
     type: "services",
     title: "Brand Identity",
     desc: "Guranted Digital Presence",
@@ -513,7 +513,7 @@ const webData = [
     data_aos_delay: "300",
   },
   {
-    id: "14",
+    id: "mockup-designs",
     type: "services",
     title: "Mockup Design",
     desc: "Guranted Digital Presence",
@@ -541,7 +541,7 @@ const webData = [
     data_aos_delay: "600",
   },
   {
-    id: "15",
+    id: "visual-designs",
     type: "services",
     title: "Visual Design",
     desc: "Guranted Digital Presence",
@@ -570,7 +570,7 @@ const webData = [
     data_aos_delay: "900",
   },
   {
-    id: "16",
+    id: "illustration-iconography",
     type: "services",
     title: "Illustration & Iconography",
     desc: "Guranted Digital Presence",
@@ -616,7 +616,7 @@ export const serviceItems = [
       "Custom Software Development",
       "E-Commerce Solution",
     ],
-    links: ["/services/1", "/services/2", "/services/3", "/services/4"],
+    links: ["/services/website-design", "/services/web-applications", "/services/custom-software-development", "/services/e-commerce-application"],
     data_aos_delay: "300",
   },
   {
@@ -626,7 +626,7 @@ export const serviceItems = [
     desc: "Elevate your brand's visual identity with our creative graphic design solutions, tailored to leave a lasting impression and drive engagement. Let us bring your ideas to life with captivating visuals that resonate with your audience.",
     hashlinks: "service_detail",
     properties: ["Logo Designing", "Banner Poster Designs", "Figma Designs"],
-    links: ["/services/5", "/services/6", "/services/8"],
+    links: ["/services/logo-designing", "/services/banner-poster-designs", "/services/figma-designs"],
     data_aos_delay: "600",
   },
   {
@@ -636,7 +636,7 @@ export const serviceItems = [
     desc: "Uplift your marketing efforts with our print media services, designed to captivate audiences and leave a lasting impression. Let us transform your message into tangible, materials that drive results.",
     hashlinks: "service_detail",
     properties: ["Print Media (Trending)"],
-    links: ["/services/7"],
+    links: ["/services/print-media"],
     data_aos_delay: "900",
   },
 
@@ -651,7 +651,7 @@ export const serviceItems = [
       "Social Media Marketing",
       "Content Marketing",
     ],
-    links: ["/services/9", "/services/10", "/services/12"],
+    links: ["/services/digital-marketing", "/services/social-media-marketing", "/services/content-writing"],
     data_aos_delay: "900",
   },
   {
@@ -661,7 +661,7 @@ export const serviceItems = [
     desc: "Reach your target audience effectively with Google Ads, the powerful advertising platform that maximizes your online visibility and drives conversions. Let us optimize your campaigns for maximum ROI and business growth.",
     hashlinks: "service_detail",
     properties: ["Google Ads Campaign"],
-    links: ["/services/11"],
+    links: ["/services/google-ads-campaign"],
     data_aos_delay: "900",
   },
   {
@@ -676,7 +676,7 @@ export const serviceItems = [
       "Visual Design",
       "Illustration & Iconography",
     ],
-    links: ["/services/13", "/services/14", "/services/15", "/services/16"],
+    links: ["/services/brand-identity", "/services/mockup-designs", "/services/visual-designs", "/services/illustration-iconography"],
     data_aos_delay: "900",
   },
 ];

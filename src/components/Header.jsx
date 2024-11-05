@@ -406,7 +406,7 @@ const Header = () => {
                               {" "}
                               <HashLink
                                 class="dropdown-header"
-                                to="/services/Web Development"
+                                to="/services/web-development"
                                 onClick={handleMenuClick}
                               >
                                 Web Development
@@ -416,7 +416,7 @@ const Header = () => {
                               {" "}
                               <HashLink
                                 class="dropdown-item"
-                                to="/services/1"
+                                to="/services/website-design"
                                 onClick={handleMenuClick}
                               >
                                 Website Design
@@ -426,7 +426,7 @@ const Header = () => {
                               {" "}
                               <HashLink
                                 class="dropdown-item"
-                                to="/services/2"
+                                to="/services/web-applications"
                                 onClick={handleMenuClick}
                               >
                                 Web Applications
@@ -436,7 +436,7 @@ const Header = () => {
                               {" "}
                               <HashLink
                                 class="dropdown-item"
-                                to="/services/3"
+                                to="/services/custom-software-development"
                                 onClick={handleMenuClick}
                               >
                                 Custom Software Development
@@ -446,7 +446,7 @@ const Header = () => {
                               {" "}
                               <HashLink
                                 class="dropdown-item"
-                                to="/services/4"
+                                to="/services/e-commerce-application"
                                 onClick={handleMenuClick}
                               >
                                 E-Commerce Application
@@ -463,7 +463,7 @@ const Header = () => {
                               {" "}
                               <HashLink
                                 class="dropdown-header"
-                                to="/services/Graphics & E-commerce"
+                                to="/services/graphics-Ecommerce"
                                 onClick={handleMenuClick}
                               >
                                 Graphics & E-commerce
@@ -473,7 +473,7 @@ const Header = () => {
                               {" "}
                               <HashLink
                                 class="dropdown-item"
-                                to="/services/Logo Designing"
+                                to="/services/logo-designing"
                                 onClick={handleMenuClick}
                               >
                                 Logo Designing
@@ -483,7 +483,7 @@ const Header = () => {
                               {" "}
                               <HashLink
                                 class="dropdown-item"
-                                to="/services/6"
+                                to="/services/banner-poster-designs"
                                 onClick={handleMenuClick}
                               >
                                 Banner Poster Designs
@@ -493,7 +493,7 @@ const Header = () => {
                               {" "}
                               <HashLink
                                 class="dropdown-item"
-                                to="/services/7"
+                                to="/services/print-media"
                                 onClick={handleMenuClick}
                               >
                                 Print Media
@@ -506,7 +506,7 @@ const Header = () => {
                               {" "}
                               <HashLink
                                 class="dropdown-item"
-                                to="/services/8"
+                                to="/services/figma-designs"
                                 onClick={handleMenuClick}
                               >
                                 Figma Designs
@@ -521,7 +521,7 @@ const Header = () => {
                               {" "}
                               <HashLink
                                 class="dropdown-header"
-                                to="/services/Online Marketing"
+                                to="/services/online-marketing"
                                 onClick={handleMenuClick}
                               >
                                 Online Marketing
@@ -531,7 +531,7 @@ const Header = () => {
                               {" "}
                               <HashLink
                                 class="dropdown-item"
-                                to="/services/9"
+                                to="/services/digital-marketing"
                                 onClick={handleMenuClick}
                               >
                                 Digital Marketing
@@ -541,7 +541,7 @@ const Header = () => {
                               {" "}
                               <HashLink
                                 class="dropdown-item"
-                                to="/services/10"
+                                to="/services/social-media-marketing"
                                 onClick={handleMenuClick}
                               >
                                 Social Media Marketing
@@ -551,7 +551,7 @@ const Header = () => {
                               {" "}
                               <HashLink
                                 class="dropdown-item"
-                                to="/services/11"
+                                to="/services/google-ads-campaign"
                                 onClick={handleMenuClick}
                               >
                                 Google Ads Campaign
@@ -561,7 +561,7 @@ const Header = () => {
                               {" "}
                               <HashLink
                                 class="dropdown-item"
-                                to="/services/12"
+                                to="/services/content-writing"
                                 onClick={handleMenuClick}
                               >
                                 Content Writing
@@ -576,7 +576,7 @@ const Header = () => {
                               {" "}
                               <HashLink
                                 class="dropdown-header"
-                                to="/services/Branding"
+                                to="/services/branding"
                                 onClick={handleMenuClick}
                               >
                                 Branding
@@ -586,7 +586,7 @@ const Header = () => {
                               {" "}
                               <HashLink
                                 class="dropdown-item"
-                                to="/services/13"
+                                to="/services/brand-identity"
                                 onClick={handleMenuClick}
                               >
                                 Brand Identity
@@ -596,27 +596,27 @@ const Header = () => {
                               {" "}
                               <HashLink
                                 class="dropdown-item"
-                                to="/services/14"
+                                to="/services/mockup-designs"
                                 onClick={handleMenuClick}
                               >
-                                Mockup Design
+                                Mockup Designs
                               </HashLink>{" "}
                             </li>
                             <li>
                               {" "}
                               <HashLink
                                 class="dropdown-item"
-                                to="/services/15"
+                                to="/services/visual-designs"
                                 onClick={handleMenuClick}
                               >
-                                Visual Design
+                                Visual Designs
                               </HashLink>{" "}
                             </li>
                             <li>
                               {" "}
                               <HashLink
                                 class="dropdown-item"
-                                to="/services/16"
+                                to="/services/illustration-iconography"
                                 onClick={handleMenuClick}
                               >
                                 Illustration & Iconography

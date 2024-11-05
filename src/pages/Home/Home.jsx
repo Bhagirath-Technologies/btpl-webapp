@@ -72,7 +72,7 @@ const Home = () => {
                                     <h2 className="display-1 text-dark-stroke text-hover-fill text-primary-shadow">W</h2>
                                     <h5 className="mb-4">Web Development</h5>
                                     <div className="list-group list-group-borderless list-unstyled">
-                                        <Link to="services/1" className="list-group-item bg-transparent" onClick={() => scrollToTop()}>Web Development Services</Link>
+                                        <Link to="services/web-development" className="list-group-item bg-transparent" onClick={() => scrollToTop()}>Web Development Services</Link>
                                         <Link to="services/1" className="list-group-item bg-transparent" onClick={() => scrollToTop()}>Front-end Services</Link>
                                         <Link to="services/3" className="list-group-item bg-transparent" onClick={() => scrollToTop()}>Game Development Design</Link>
                                         <Link to="services/1" className="list-group-item bg-transparent" onClick={() => scrollToTop()}>Back-end Solutions</Link>
