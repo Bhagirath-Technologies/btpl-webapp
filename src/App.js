@@ -58,6 +58,7 @@ const ServiceDetail = lazy(() => import("./components/ServiceDetail"));
 const Blog = lazy(() => import("./pages/Blog"));
 const Portfolio = lazy(() => import("./pages/Portfolio"));
 const BottomtoTop = lazy(() => import("./components/BottomtoTop"));
+const NotFound = lazy(() => import("./pages/Notfound"));
 // const Ticket = lazy(() => import("./components/Ticket"));
 
 // import ServiceDetail from './components/ServiceDetail';
@@ -104,6 +105,7 @@ function App() {
           <Route path="/cookies" element={<Cookies />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </Suspense>
       <Footer />

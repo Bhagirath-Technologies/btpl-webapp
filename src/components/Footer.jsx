@@ -435,7 +435,7 @@ const Footer = () => {
                 </div>
                 {/* <!-- Google map --> */}
 
-                <iframe
+                {/* <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3587630.158726972!2d77.3126674!3d28.583420399999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce573bd20e27b%3A0xa871182d29864c06!2sBhagirath%20Technologies!5e0!3m2!1sen!2sin!4v1719254949145!5m2!1sen!2sin"
                   class="grayscale"
                   height="150"
@@ -446,7 +446,7 @@ const Footer = () => {
                   aria-hidden="false"
                   referrerpolicy="no-referrer-when-downgrade"
                   tabindex="0"
-                ></iframe>
+                ></iframe> */}
               </div>
             </div>
           </div>
