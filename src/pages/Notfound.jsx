@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 
 const Notfound = () => {
@@ -38,8 +39,8 @@ const Notfound = () => {
           <div className="row d-flex justify-content-center">
             {/* <!-- item --> */}
             <div className="col-md-4 col-lg-3">
-              <a
-                href="index.html"
+              <Link
+                to="/"
                 className="bg-white d-block text-center p-3 mb-30 line-draw-animation"
               >
                 <div className="line-draw-inner">
@@ -48,12 +49,12 @@ const Notfound = () => {
                   </span>
                   <h5 className="my-2">Back to home</h5>
                 </div>
-              </a>
+              </Link>
             </div>
             {/* <!-- item --> */}
             <div className="col-md-4 col-lg-3">
-              <a
-                href="portfolio-classic-grid-3-col.html"
+              <Link
+                to="/portfolio"
                 className="bg-white d-block text-center p-3 mb-30 line-draw-animation"
               >
                 <div className="line-draw-inner">
@@ -62,12 +63,12 @@ const Notfound = () => {
                   </span>
                   <h5 className="my-2">View our work</h5>
                 </div>
-              </a>
+              </Link>
             </div>
             {/* <!-- item --> */}
             <div className="col-md-4 col-lg-3">
-              <a
-                href="contact.html"
+              <Link
+                to="/contact"
                 className="bg-white d-block text-center p-3 mb-30 line-draw-animation"
               >
                 <div className="line-draw-inner">
@@ -76,7 +77,7 @@ const Notfound = () => {
                   </span>
                   <h5 className="my-2">Contact us</h5>
                 </div>
-              </a>
+              </Link>
             </div>
           </div>
         </div>

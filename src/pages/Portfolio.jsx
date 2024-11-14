@@ -10,6 +10,7 @@ import {
   marketingPortfoilio,
   brandingPortfolio,
 } from "../data/Portfoliodata";
+import { Helmet } from "react-helmet";
 const Portfolio = () => {
   // adding code for fortfolio starts
   const [selected, setSelected] = useState("web development");
@@ -54,6 +55,17 @@ const Portfolio = () => {
   // adding code for fortfolio ends
   return (
     <>
+     <Helmet>
+        <title>Bhagirath Technologies | Portfolio</title>
+        <meta
+          name="description"
+          content="our work"
+        />
+        <meta
+          name="keywords"
+          content="our work, Bhagirath Technologies, software development, graphic design, digital marketing, IT asset leasing,  IT services, get in touch, contact information"
+        />
+      </Helmet>
       {/* Heading section starts */}
       <section>
         <div className="container">

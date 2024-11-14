@@ -1,7 +1,19 @@
 import { React } from "react";
+import { Helmet } from "react-helmet";
 const Blog = () => {
   return (
     <>
+       <Helmet>
+        <title>Bhagirath Technologies | Blogs</title>
+        <meta
+          name="description"
+          content="latest blogs"
+        />
+        <meta
+          name="keywords"
+          content="latest blogs, Bhagirath Technologies, software development, graphic design, digital marketing, IT asset leasing,  IT services, get in touch, contact information"
+        />
+      </Helmet>
       <section>
         <div className="container">
           <div className="row d-flex justify-content-lg-between">
@@ -142,8 +154,7 @@ const Blog = () => {
               <div className="card h-100 overflow-hidden">
                 {/* <!-- Card image --> */}
                 <div className="card-img-top rounded overflow-hidden position-relative hover-overlay-top">
-                  <img src="assets/images/blog/06.webp"
-                    alt="blog image" />
+                  <img src="assets/images/blog/06.webp" alt="blog image" />
                   {/* <img src="https://img.freepik.com/free-vector/ai-technology-microchip-background-vector-digital-transformation-concept_53876-117808.jpg?t=st=1721130832~exp=1721134432~hmac=b89471cac4a687630a345a14f33dc536ece3ca7fec53c3ce8e1cb69b376b2296&w=1380" alt="blog image" /> */}
                   <div className="position-absolute top-0 m-4 d-flex card-element-hover">
                     {/* <!-- Avatar --> */}
@@ -196,21 +207,49 @@ const Blog = () => {
             {/* <!-- Card item slider START --> */}
             <div className="col-md-6 col-lg-4">
               <div className="card h-100">
-                <div id="carouselExampleRide" className="carousel slide" data-bs-ride="true">
+                <div
+                  id="carouselExampleRide"
+                  className="carousel slide"
+                  data-bs-ride="true"
+                >
                   <div className="carousel-inner">
                     <div className="carousel-item active">
-                      <img src="assets/images/blog/04.webp" className="d-block w-100" alt="..." />
+                      <img
+                        src="assets/images/blog/04.webp"
+                        className="d-block w-100"
+                        alt="..."
+                      />
                     </div>
                     <div className="carousel-item">
-                      <img src="assets/images/blog/03.webp" className="d-block w-100" alt="..." />
+                      <img
+                        src="assets/images/blog/03.webp"
+                        className="d-block w-100"
+                        alt="..."
+                      />
                     </div>
                   </div>
-                  <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
-                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <button
+                    className="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselExampleRide"
+                    data-bs-slide="prev"
+                  >
+                    <span
+                      className="carousel-control-prev-icon"
+                      aria-hidden="true"
+                    ></span>
                     <span className="visually-hidden">Previous</span>
                   </button>
-                  <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
-                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                  <button
+                    className="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselExampleRide"
+                    data-bs-slide="next"
+                  >
+                    <span
+                      className="carousel-control-next-icon"
+                      aria-hidden="true"
+                    ></span>
                     <span className="visually-hidden">Next</span>
                   </button>
                 </div>
@@ -253,8 +292,8 @@ const Blog = () => {
                       <a href="#">Skills that you can learn from business</a>
                     </h5>
                     <p>
-                      Rooms oh fully taken by worse do. Points afraid but may end law
-                      lasted. Was out laughter raptures
+                      Rooms oh fully taken by worse do. Points afraid but may
+                      end law lasted. Was out laughter raptures
                     </p>
                   </div>
                   <div className="mt-auto">
