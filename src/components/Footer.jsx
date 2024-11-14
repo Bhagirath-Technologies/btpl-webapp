@@ -381,7 +381,7 @@ const Footer = () => {
                 </div>
               </div>
               {/* <!-- Google map --> */}
-              <iframe
+              {/* <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3753682.8893104414!2d73.23845410000001!3d23.253785200000017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x25fcea9c85591dad%3A0x8073a63bd087c91!2sBhagirath%20Technologies!5e0!3m2!1sen!2sin!4v1719255214307!5m2!1sen!2sin"
                 class="grayscale pt-4"
                 height="173"
@@ -392,7 +392,7 @@ const Footer = () => {
                 aria-hidden="false"
                 referrerpolicy="no-referrer-when-downgrade"
                 tabindex="0"
-              ></iframe>
+              ></iframe> */}
             </div>
 
             {/* <!-- Footer Widget 4 --> */}

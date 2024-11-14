@@ -73,10 +73,10 @@ const Home = () => {
                                     <h5 className="mb-4">Web Development</h5>
                                     <div className="list-group list-group-borderless list-unstyled">
                                         <Link to="services/web-development" className="list-group-item bg-transparent" onClick={() => scrollToTop()}>Web Development Services</Link>
-                                        <Link to="services/1" className="list-group-item bg-transparent" onClick={() => scrollToTop()}>Front-end Services</Link>
-                                        <Link to="services/3" className="list-group-item bg-transparent" onClick={() => scrollToTop()}>Game Development Design</Link>
-                                        <Link to="services/1" className="list-group-item bg-transparent" onClick={() => scrollToTop()}>Back-end Solutions</Link>
-                                        <Link to="services/2" className="list-group-item bg-transparent" onClick={() => scrollToTop()}>App Development</Link>
+                                        <Link to="services/website-design" className="list-group-item bg-transparent" onClick={() => scrollToTop()}>Front-end Services</Link>
+                                        <Link to="services/custom-software-development" className="list-group-item bg-transparent" onClick={() => scrollToTop()}>Game Development Design</Link>
+                                        <Link to="services/website-design" className="list-group-item bg-transparent" onClick={() => scrollToTop()}>Back-end Solutions</Link>
+                                        <Link to="services/web-applications" className="list-group-item bg-transparent" onClick={() => scrollToTop()}>App Development</Link>
                                     </div>
                                 </div>
                                 {/* <!-- Service Item 2--> */}
@@ -84,11 +84,11 @@ const Home = () => {
                                     <h2 className="display-1 text-dark-stroke text-hover-fill text-primary-shadow">E</h2>
                                     <h5 className="mb-4">E-commerce & Graphics</h5>
                                     <div className="list-group list-group-borderless list-unstyled">
-                                        <Link to="services/4" className="list-group-item bg-transparent" onClick={() => scrollToTop()}>Online Platforms</Link>
-                                        <Link to="services/3" className="list-group-item bg-transparent" onClick={() => scrollToTop()}>Mobile App Development</Link>
-                                        <Link to="services/8" className="list-group-item bg-transparent" onClick={() => scrollToTop()}>UX/UI Solution</Link>
-                                        <Link to="services/14" className="list-group-item bg-transparent" onClick={() => scrollToTop()}>Animated User Interface</Link>
-                                        <Link to="services/8" className="list-group-item bg-transparent" onClick={() => scrollToTop()}>Interactive Motion Graphic</Link>
+                                        <Link to="services/graphics-Ecommerce" className="list-group-item bg-transparent" onClick={() => scrollToTop()}>Online Platforms</Link>
+                                        <Link to="services/custom-software-development" className="list-group-item bg-transparent" onClick={() => scrollToTop()}>Mobile App Development</Link>
+                                        <Link to="services/website-design" className="list-group-item bg-transparent" onClick={() => scrollToTop()}>UX/UI Solution</Link>
+                                        <Link to="services/graphics-Ecommerce" className="list-group-item bg-transparent" onClick={() => scrollToTop()}>Animated User Interface</Link>
+                                        <Link to="services/graphics-Ecommerce" className="list-group-item bg-transparent" onClick={() => scrollToTop()}>Interactive Motion Graphic</Link>
                                     </div>
                                 </div>
                                 {/* <!-- Service Item 3--> */}
@@ -96,11 +96,11 @@ const Home = () => {
                                     <h2 className="display-1 text-dark-stroke text-hover-fill text-primary-shadow">B</h2>
                                     <h5 className="mb-4">Branding</h5>
                                     <div className="list-group list-group-borderless list-unstyled">
-                                        <Link to="services/13" className="list-group-item bg-transparent" onClick={() => scrollToTop()}>Branding Identity</Link>
-                                        <Link to="services/7" className="list-group-item bg-transparent" onClick={() => scrollToTop()}>Mockup Design</Link>
-                                        <Link to="services/15" className="list-group-item bg-transparent" onClick={() => scrollToTop()}>Visual Design</Link>
-                                        <Link to="services/15" className="list-group-item bg-transparent" onClick={() => scrollToTop()}>Illustration and Icons Design</Link>
-                                        <Link to="services/12" className="list-group-item bg-transparent" onClick={() => scrollToTop()}>Content and Video Editing</Link>
+                                        <Link to="services/branding" className="list-group-item bg-transparent" onClick={() => scrollToTop()}>Branding Identity</Link>
+                                        <Link to="services/mockup-designs" className="list-group-item bg-transparent" onClick={() => scrollToTop()}>Mockup Design</Link>
+                                        <Link to="services/visual-designs" className="list-group-item bg-transparent" onClick={() => scrollToTop()}>Visual Design</Link>
+                                        <Link to="services/illustration-iconography" className="list-group-item bg-transparent" onClick={() => scrollToTop()}>Illustration and Icons Design</Link>
+                                        <Link to="services/content-writing" className="list-group-item bg-transparent" onClick={() => scrollToTop()}>Content and Video Editing</Link>
                                     </div>
                                 </div>
                             </div>
