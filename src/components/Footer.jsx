@@ -456,7 +456,7 @@ const Footer = () => {
           <div class="row align-items-center justify-content-md-between py-2">
             <div class="col-md-6">
               <div class="text-center text-md-start fs-7">
-                ©2024{" "}
+                ©{new Date().getFullYear()}{" "}
                 <Link to="#" target="_blank">
                   <b className="text-white">Bhagirath Technologies Pvt Lmt.</b>
                 </Link>

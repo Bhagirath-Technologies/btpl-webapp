@@ -21358,7 +21358,7 @@ fieldset:disabled .btn {
 }
 
 .breadcrumb.breadcrumb-dark .breadcrumb-item a:hover {
-  color: var(--bs-primary);
+  color: #ffffff; /* ensure breadcrumb links remain visible on dark backgrounds */
 }
 
 .btn {

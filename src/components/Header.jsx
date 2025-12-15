@@ -1,12 +1,14 @@
 import React, { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
+import GetQuoteModal from "./GetQuoteModal";
 
 const Header = () => {
   const location = useLocation();
   const [isHome, setIsHome] = useState(location.pathname === "/");
   const [openMenu, setOpenMenu] = useState(false);
   const [openMenu2, setOpenMenu2] = useState(false);
+  const [isQuoteModalOpen, setIsQuoteModalOpen] = useState(false);
 
   useEffect(() => {
     setIsHome(location.pathname === "/");
@@ -988,9 +990,13 @@ const Header = () => {
             {/* <!-- Nav right START --> */}
             <div class="nav flex-nowrap align-items-center">
               <div class="nav-item d-none d-xl-block">
-                <a href="assets/broucher/BTPL_Booklet.pdf" download="BTPL_Booklet.pdf" class="btn btn-sm btn-primary mb-0 mx-2">
-                  Get Booklet!
-                </a>
+                <button
+                  onClick={() => setIsQuoteModalOpen(true)}
+                  class="btn btn-sm btn-primary mb-0 mx-2"
+                  style={{ border: "none", cursor: "pointer" }}
+                >
+                  Get Quote
+                </button>
               </div>
               {/* <!-- Nav side Opener --> */}
               <div class="nav-item">
@@ -1015,6 +1021,12 @@ const Header = () => {
         {/* <!-- Logo Nav END --> */}
       </header>
       {/* <!-- =======================Header END====================== --> */}
+      
+      {/* Quote Modal */}
+      <GetQuoteModal
+        isOpen={isQuoteModalOpen}
+        onClose={() => setIsQuoteModalOpen(false)}
+      />
     </>
   );
 };

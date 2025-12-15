@@ -9,46 +9,119 @@ const Contact = () => {
   // State to track submission status
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [submitButtonText, setSubmitButtonText] = useState('Send Message');
-  useEffect(() => {
-    // Ensure the form exists before attaching the listener
-    const formContactUs = document.getElementById('contactForm');
-    // Define a submit handler
-    const handleSubmit = (e) => {
-      e.preventDefault();
-      setSubmitButtonText('Submitting...');
-      const data = new FormData(formContactUs);
-      data.append('formType', 'Contact Us');
-      fetch('https://script.google.com/macros/s/AKfycbwPZn9qmywqygUhlrVCrxPnWX8eMreHidQo1N-37J6sBA1zCVPGty3HKAVmVpkqcCng/exec', {
-        method: 'POST',
-        body: data,
-      })
-        .then((res) => res.text())
-        .then((responseData) => {
-          if (responseData.includes('Success')) {
-            setSubmitButtonText('Your Form is Submitted Successfully');
-            // Set the state to true to disable the button
-            setIsSubmitted(true);
-            // Redirect to the thank you page
-            // window.location.href = '/thanks.html';
-          } else {
-            setSubmitButtonText('Submission Failed');
-          }
-        })
-        .catch((error) => {
-          console.error('Error submitting form:', error);
-          setSubmitButtonText('Submission Failed');
-        });
-    };
-    if (formContactUs) {
-      formContactUs.addEventListener('submit', handleSubmit);
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    phone: '',
+    subject: '',
+    message: ''
+  });
+  const [errors, setErrors] = useState({});
+
+  // Validation rules
+  const validateForm = (data) => {
+    const newErrors = {};
+
+    // Name validation
+    if (!data.name || data.name.trim() === '') {
+      newErrors.name = 'Name is required';
+    } else if (data.name.trim().length < 2) {
+      newErrors.name = 'Name must be at least 2 characters';
+    } else if (data.name.trim().length > 50) {
+      newErrors.name = 'Name cannot exceed 50 characters';
     }
-    // Cleanup function to remove the event listener
-    return () => {
-      if (formContactUs) {
-        formContactUs.removeEventListener('submit', handleSubmit);
-      }
-    };
-  }, []);
+
+    // Email validation
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!data.email || data.email.trim() === '') {
+      newErrors.email = 'Email is required';
+    } else if (!emailRegex.test(data.email)) {
+      newErrors.email = 'Please enter a valid email address';
+    }
+
+    // Phone validation
+    const phoneRegex = /^[0-9\-\+\(\)\s]{10,}$/;
+    if (!data.phone || data.phone.trim() === '') {
+      newErrors.phone = 'Phone number is required';
+    } else if (!phoneRegex.test(data.phone.replace(/\s/g, ''))) {
+      newErrors.phone = 'Please enter a valid phone number (at least 10 digits)';
+    }
+
+    // Subject validation
+    if (!data.subject || data.subject.trim() === '') {
+      newErrors.subject = 'Subject is required';
+    } else if (data.subject.trim().length < 3) {
+      newErrors.subject = 'Subject must be at least 3 characters';
+    } else if (data.subject.trim().length > 100) {
+      newErrors.subject = 'Subject cannot exceed 100 characters';
+    }
+
+    // Message validation
+    if (!data.message || data.message.trim() === '') {
+      newErrors.message = 'Message is required';
+    } else if (data.message.trim().length < 10) {
+      newErrors.message = 'Message must be at least 10 characters';
+    } else if (data.message.trim().length > 5000) {
+      newErrors.message = 'Message cannot exceed 5000 characters';
+    }
+
+    return newErrors;
+  };
+
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setFormData(prev => ({
+      ...prev,
+      [name]: value
+    }));
+    // Clear error for this field when user starts typing
+    if (errors[name]) {
+      setErrors(prev => ({
+        ...prev,
+        [name]: ''
+      }));
+    }
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    
+    // Validate form
+    const newErrors = validateForm(formData);
+    setErrors(newErrors);
+    
+    // If there are errors, don't submit
+    if (Object.keys(newErrors).length > 0) {
+      return;
+    }
+    
+    setSubmitButtonText('Submitting...');
+    const formElement = document.getElementById('contactForm');
+    const data = new FormData(formElement);
+    data.append('formType', 'Contact Us');
+    fetch('https://script.google.com/macros/s/AKfycbwPZn9qmywqygUhlrVCrxPnWX8eMreHidQo1N-37J6sBA1zCVPGty3HKAVmVpkqcCng/exec', {
+      method: 'POST',
+      body: data,
+    })
+      .then((res) => res.text())
+      .then((responseData) => {
+        if (responseData.includes('Success')) {
+          setSubmitButtonText('Your Form is Submitted Successfully');
+          // Set the state to true to disable the button
+          setIsSubmitted(true);
+          // Reset form
+          setFormData({ name: '', email: '', phone: '', subject: '', message: '' });
+          // Redirect to the thank you page
+          // window.location.href = '/thanks.html';
+        } else {
+          setSubmitButtonText('Submission Failed');
+        }
+      })
+      .catch((error) => {
+        console.error('Error submitting form:', error);
+        setSubmitButtonText('Submission Failed');
+      });
+  };
 
   return (
     <>
@@ -188,6 +261,7 @@ const Contact = () => {
               <form
                 className="contact-form form-line"
                 id="contactForm"
+                onSubmit={handleSubmit}
               >
                 {/* <!-- Main form --> */}
                 <div className="row">
@@ -195,13 +269,15 @@ const Contact = () => {
                     {/* <!-- name --> */}
                     <div className="mb-3 position-relative">
                       <input
-                        required=""
                         id="con-name"
                         name="name"
                         type="text"
-                        className="form-control"
+                        className={`form-control ${errors.name ? 'is-invalid' : ''}`}
                         placeholder="Name"
+                        value={formData.name}
+                        onChange={handleInputChange}
                       />
+                      {errors.name && <div className="invalid-feedback d-block">{errors.name}</div>}
                       <span className="focus-border"></span>
                     </div>
                   </div>
@@ -209,13 +285,15 @@ const Contact = () => {
                     {/* <!-- email --> */}
                     <div className="mb-3 position-relative">
                       <input
-                        required=""
                         id="con-email"
                         name="email"
                         type="email"
-                        className="form-control"
+                        className={`form-control ${errors.email ? 'is-invalid' : ''}`}
                         placeholder="E-mail"
+                        value={formData.email}
+                        onChange={handleInputChange}
                       />
+                      {errors.email && <div className="invalid-feedback d-block">{errors.email}</div>}
                       <span className="focus-border"></span>
                     </div>
                   </div>
@@ -223,13 +301,15 @@ const Contact = () => {
                     {/* <!-- phone --> */}
                     <div className="mb-3 position-relative">
                       <input
-                        required=""
                         id="con-phone"
                         name="phone"
                         type="tel"
-                        className="form-control"
+                        className={`form-control ${errors.phone ? 'is-invalid' : ''}`}
                         placeholder="Phone"
+                        value={formData.phone}
+                        onChange={handleInputChange}
                       />
+                      {errors.phone && <div className="invalid-feedback d-block">{errors.phone}</div>}
                       <span className="focus-border"></span>
                     </div>
                   </div>
@@ -237,13 +317,15 @@ const Contact = () => {
                     {/* <!-- Subject --> */}
                     <div className="mb-3 position-relative">
                       <input
-                        required=""
                         id="con-subject"
                         name="subject"
                         type="text"
-                        className="form-control"
+                        className={`form-control ${errors.subject ? 'is-invalid' : ''}`}
                         placeholder="Subject"
+                        value={formData.subject}
+                        onChange={handleInputChange}
                       />
+                      {errors.subject && <div className="invalid-feedback d-block">{errors.subject}</div>}
                       <span className="focus-border"></span>
                     </div>
                   </div>
@@ -251,14 +333,16 @@ const Contact = () => {
                     {/* <!-- Message --> */}
                     <div className="mb-3 position-relative">
                       <textarea
-                        required=""
                         id="con-message"
                         name="message"
                         cols="40"
                         rows="6"
-                        className="form-control"
+                        className={`form-control ${errors.message ? 'is-invalid' : ''}`}
                         placeholder="Message"
+                        value={formData.message}
+                        onChange={handleInputChange}
                       ></textarea>
+                      {errors.message && <div className="invalid-feedback d-block">{errors.message}</div>}
                       <span className="focus-border"></span>
                     </div>
                   </div>

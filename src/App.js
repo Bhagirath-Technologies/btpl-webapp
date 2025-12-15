@@ -34,7 +34,7 @@
 
 // App.js
 import "./App.css";
-import { lazy, Suspense } from "react";
+import { lazy, Suspense, useState } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 // import Header from './components/Header';
 // import Footer from './components/Footer';
@@ -42,6 +42,11 @@ import rentalData from "./data/RentalServicedata"; // Imported  data
 import webData from "./data/WebServicedata"; // Imported data
 import { Helmet } from "react-helmet";
 import PreLoader from "./components/PreLoader/Preloader";
+import GetQuoteModal from "./components/GetQuoteModal";
+import useExitIntent from "./hooks/useExitIntent";
+import useTimedPopup from "./hooks/useTimedPopup";
+import StickyMobileBar from "./components/StickyMobileBar";
+import useScrollTriggerPopup from "./hooks/useScrollTriggerPopup";
 
 const Header = lazy(() => import("./components/Header"));
 const Footer = lazy(() => import("./components/Footer"));
@@ -68,9 +73,26 @@ const NotFound = lazy(() => import("./pages/Notfound"));
 // import Terms from './pages/Terms';
 // import Policy from './pages/Policy';
 
-function App() {
+function AppContent() {
+  const [isExitModalOpen, setIsExitModalOpen] = useState(false);
+
+  // Trigger modal when user intends to leave
+  useExitIntent(() => {
+    setIsExitModalOpen(true);
+  }, 60000); // 60 second cooldown between popups
+
+  // Trigger modal after 30 seconds on page
+  useTimedPopup(() => {
+    setIsExitModalOpen(true);
+  }, 30000, 24); // 30 second delay, show again after 24 hours
+
+  // Trigger modal when user scrolls 40% down on mobile
+  useScrollTriggerPopup(() => {
+    setIsExitModalOpen(true);
+  }, 40, true, 60000); // 40% scroll, mobile only, 60s cooldown
+
   return (
-    <BrowserRouter>
+    <>
       <Suspense>
         <Helmet>
           <title>Bhagirath Technologies | Home</title>
@@ -111,6 +133,23 @@ function App() {
       <Footer />
       <BottomtoTop />
       {/* <Ticket/> */}
+
+      {/* Sticky Mobile Bar - visible only on mobile */}
+      <StickyMobileBar onGetQuoteClick={() => setIsExitModalOpen(true)} />
+
+      {/* Exit Intent Modal */}
+      <GetQuoteModal
+        isOpen={isExitModalOpen}
+        onClose={() => setIsExitModalOpen(false)}
+      />
+    </>
+  );
+}
+
+function App() {
+  return (
+    <BrowserRouter>
+      <AppContent />
     </BrowserRouter>
   );
 }
